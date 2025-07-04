@@ -1,0 +1,23 @@
+{
+  "id": "unit_1_lesson_1_2_card_010",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1_2",
+  "type": "worked_example",
+  "title": "Step-by-Step Example",
+  "duration": 150,
+  "content": {
+    "problem": "Factor: x⁴ - 5x² + 4",
+    "steps": [
+      "Let u = x²",
+      "Rewrite as u² - 5u + 4",
+      "Factor this simpler expression: (u - 1)(u - 4)",
+      "Substitute back: (x² - 1)(x² - 4)",
+      "Further factor if possible: (x² - 1)(x² - 4) = (x + 1)(x - 1)(x + 2)(x - 2)"
+    ],
+    "explanation": []
+  },
+  "interactive": {
+    "type": "step_practice",
+    "prompt": "Try the next step yourself"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_1_2_card_004",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1_2",
+  "type": "concept_intro",
+  "title": "Practice Problems",
+  "duration": 90,
+  "content": {
+    "explanation": "1. Factor: 6x² + 13x + 6\n2. Factor: 12x² - 11x + 2\n3. Factor: x³ - 27\n4. Factor: x³ + 64\n5. Factor: 3x⁴ - 48\n6. Factor: 2(x - 3)² + 5(x - 3) - 3\n7. Factor completely: 4x⁴ - 4x²\n8. Factor completely: 2x³ + 54x",
+    "example": "Real-world application example",
+    "key_point": "Key concept to remember"
+  },
+  "interactive": {
+    "question": "What is the main concept of Practice Problems?",
+    "options": [
+      "Concept A",
+      "Concept B",
+      "Concept C"
+    ],
+    "correct": 0
+  }
+}

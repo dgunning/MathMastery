@@ -1,0 +1,17 @@
+{
+  "unit_id": "unit_1",
+  "lessons": {
+    "lesson_1_2": {
+      "lesson_name": "Advanced Factoring Methods",
+      "total_cards": 18,
+      "estimated_duration": 2280,
+      "card_types": {
+        "worked_example": 11,
+        "concept_intro": 7
+      }
+    }
+  },
+  "total_lessons": 1,
+  "total_cards": 18,
+  "total_duration": 2280
+}

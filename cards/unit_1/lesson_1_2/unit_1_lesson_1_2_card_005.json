@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_1_2_card_005",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1_2",
+  "type": "concept_intro",
+  "title": "Tips for Teaching Success",
+  "duration": 90,
+  "content": {
+    "explanation": "1. **Start simple:** Begin with problems your teen can handle confidently before moving to harder ones.\n2. **Use patterns:** Point out recurring patterns in factoring to build intuition.\n3. **Encourage checking:** Always multiply factors back together as a verification step.\n4. **Connect to applications:** Mention that factoring is essential for solving equations, simplifying fractions, and finding intercepts of graphs.\n5. **Create a reference sheet:** Try to make a \"cheat sheet\" with factoring formulas and strategies.",
+    "example": "Real-world application example",
+    "key_point": "Key concept to remember"
+  },
+  "interactive": {
+    "question": "What is the main concept of Tips for Teaching Success?",
+    "options": [
+      "Concept A",
+      "Concept B",
+      "Concept C"
+    ],
+    "correct": 0
+  }
+}

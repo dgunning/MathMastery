@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_1_2_card_006",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1_2",
+  "type": "concept_intro",
+  "title": "Online Resources",
+  "duration": 90,
+  "content": {
+    "explanation": "- **Khan Academy**: Search for \"Factoring advanced polynomials\" for step-by-step video tutorials\n- **Desmos.com**: Use the graphing calculator to check factorizations by comparing graphs\n- **Symbolab.com**: Step-by-step factoring calculator that shows all the work (good for checking)\n- **PurpleMath**: Clear written explanations of advanced factoring techniques",
+    "example": "Real-world application example",
+    "key_point": "Key concept to remember"
+  },
+  "interactive": {
+    "question": "What is the main concept of Online Resources?",
+    "options": [
+      "Concept A",
+      "Concept B",
+      "Concept C"
+    ],
+    "correct": 0
+  }
+}

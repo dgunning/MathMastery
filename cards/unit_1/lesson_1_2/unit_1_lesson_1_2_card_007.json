@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_1_2_card_007",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1_2",
+  "type": "concept_intro",
+  "title": "Next Steps",
+  "duration": 90,
+  "content": {
+    "explanation": "Once your teen is comfortable with these factoring techniques, you can move on to:\n1. Solving quadratic equations and higher-degree polynomial equations using factoring\n2. Applications of factoring in rational expressions and functions\n3. Connecting factoring to finding x-intercepts of polynomial graphs",
+    "example": "Real-world application example",
+    "key_point": "Key concept to remember"
+  },
+  "interactive": {
+    "question": "What is the main concept of Next Steps?",
+    "options": [
+      "Concept A",
+      "Concept B",
+      "Concept C"
+    ],
+    "correct": 0
+  }
+}

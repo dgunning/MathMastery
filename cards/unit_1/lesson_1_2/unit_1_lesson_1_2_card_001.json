@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_1_2_card_001",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1_2",
+  "type": "concept_intro",
+  "title": "What You're Teaching",
+  "duration": 90,
+  "content": {
+    "explanation": "This guide provides everything you need to teach You about advanced factoring techniques in a way that's engaging and practical. Each section includes:\n- Clear explanations with everyday language\n- Real-world applications where possible\n- Step-by-step instructions for different factoring methods\n- Practice problems with solutions to check understanding",
+    "example": "Real-world application example",
+    "key_point": "Key concept to remember"
+  },
+  "interactive": {
+    "question": "What is the main concept of What You're Teaching?",
+    "options": [
+      "Concept A",
+      "Concept B",
+      "Concept C"
+    ],
+    "correct": 0
+  }
+}

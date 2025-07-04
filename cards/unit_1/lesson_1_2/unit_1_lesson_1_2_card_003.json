@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_1_2_card_003",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1_2",
+  "type": "concept_intro",
+  "title": "Check for Understanding",
+  "duration": 90,
+  "content": {
+    "explanation": "1. \"What's the first thing you should check for when factoring any expression?\"\n2. \"How do you factor a trinomial where the coefficient of x² is not 1?\"\n3. \"What's the difference between factoring a sum of cubes and a difference of cubes?\"\n4. \"How do you know when to use substitution?\"\n5. \"Can you factor x⁴ - 81 completely?\"",
+    "example": "Real-world application example",
+    "key_point": "Key concept to remember"
+  },
+  "interactive": {
+    "question": "What is the main concept of Check for Understanding?",
+    "options": [
+      "Concept A",
+      "Concept B",
+      "Concept C"
+    ],
+    "correct": 0
+  }
+}

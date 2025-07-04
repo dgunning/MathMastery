@@ -1,0 +1,20 @@
+{
+  "id": "unit_1_lesson_1_2_card_016",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1_2",
+  "type": "worked_example",
+  "title": "Step-by-Step Example",
+  "duration": 150,
+  "content": {
+    "problem": "Factor: x³ + 27",
+    "steps": [
+      "Identify as sum of cubes: x³ + 3³",
+      "Apply the formula: (x + 3)(x² - 3x + 9)"
+    ],
+    "explanation": []
+  },
+  "interactive": {
+    "type": "step_practice",
+    "prompt": "Try the next step yourself"
+  }
+}

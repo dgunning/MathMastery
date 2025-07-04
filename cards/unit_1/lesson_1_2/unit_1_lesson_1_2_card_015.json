@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_1_2_card_015",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1_2",
+  "type": "worked_example",
+  "title": "Step-by-Step Example",
+  "duration": 150,
+  "content": {
+    "problem": "Factor: 3x² - 10x + 8",
+    "steps": [
+      "Multiply a × c = 3 × 8 = 24",
+      "Find factors of 24 that add up to -10\n        Those factors are -4 and -6",
+      "Rewrite the middle term: 3x² - 4x - 6x + 8",
+      "Group and factor:\n        (3x² - 4x) + (-6x + 8)\n        x(3x - 4) - 2(3x - 4)\n        (3x - 4)(x - 2)"
+    ],
+    "explanation": []
+  },
+  "interactive": {
+    "type": "step_practice",
+    "prompt": "Try the next step yourself"
+  }
+}

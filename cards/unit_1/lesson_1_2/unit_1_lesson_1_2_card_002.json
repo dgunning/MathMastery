@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_1_2_card_002",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1_2",
+  "type": "concept_intro",
+  "title": "Key Concepts to Cover",
+  "duration": 90,
+  "content": {
+    "explanation": "Key concept explanation",
+    "example": "Real-world application example",
+    "key_point": "Key concept to remember"
+  },
+  "interactive": {
+    "question": "What is the main concept of Key Concepts to Cover?",
+    "options": [
+      "Concept A",
+      "Concept B",
+      "Concept C"
+    ],
+    "correct": 0
+  }
+}

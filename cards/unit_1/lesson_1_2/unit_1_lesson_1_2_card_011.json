@@ -1,0 +1,23 @@
+{
+  "id": "unit_1_lesson_1_2_card_011",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1_2",
+  "type": "worked_example",
+  "title": "Step-by-Step Example",
+  "duration": 150,
+  "content": {
+    "problem": "Factor: 2(x + 3)² - 7(x + 3) + 3",
+    "steps": [
+      "Let u = (x + 3)",
+      "Rewrite as 2u² - 7u + 3",
+      "Factor this simpler expression: (2u - 1)(u - 3)",
+      "Substitute back: (2(x + 3) - 1)((x + 3) - 3)",
+      "Simplify: (2x + 6 - 1)(x + 3 - 3) = (2x + 5)(x)"
+    ],
+    "explanation": []
+  },
+  "interactive": {
+    "type": "step_practice",
+    "prompt": "Try the next step yourself"
+  }
+}

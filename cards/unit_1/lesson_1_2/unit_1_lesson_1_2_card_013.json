@@ -1,0 +1,20 @@
+{
+  "id": "unit_1_lesson_1_2_card_013",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1_2",
+  "type": "worked_example",
+  "title": "Step-by-Step Example",
+  "duration": 150,
+  "content": {
+    "problem": "Factor completely: 2x⁵ - 32x³",
+    "steps": [
+      "Factor out common term: 2x³(x² - 16)",
+      "Factor the difference of squares: 2x³(x + 4)(x - 4)"
+    ],
+    "explanation": []
+  },
+  "interactive": {
+    "type": "step_practice",
+    "prompt": "Try the next step yourself"
+  }
+}
