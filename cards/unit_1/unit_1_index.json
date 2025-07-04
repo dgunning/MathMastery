@@ -1,17 +1,35 @@
 {
   "unit_id": "unit_1",
   "lessons": {
+    "lesson_1_1": {
+      "lesson_name": "Introduction to Functions",
+      "total_cards": 10,
+      "estimated_duration": 1590,
+      "card_types": {
+        "concept_intro": 8,
+        "worked_example": 2
+      }
+    },
     "lesson_1_2": {
-      "lesson_name": "Advanced Factoring Methods",
+      "lesson_name": "Advanced Factoring Methods", 
       "total_cards": 18,
       "estimated_duration": 2280,
       "card_types": {
         "worked_example": 11,
         "concept_intro": 7
       }
+    },
+    "lesson_4": {
+      "lesson_name": "Functions and Function Notation",
+      "total_cards": 12,
+      "estimated_duration": 1440,
+      "card_types": {
+        "worked_example": 9,
+        "concept_intro": 6
+      }
     }
   },
-  "total_lessons": 1,
-  "total_cards": 18,
-  "total_duration": 2280
+  "total_lessons": 3,
+  "total_cards": 40,
+  "total_duration": 5310
 }

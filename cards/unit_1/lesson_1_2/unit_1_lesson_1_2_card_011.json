@@ -3,21 +3,27 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_1_2",
   "type": "worked_example",
-  "title": "Step-by-Step Example",
-  "duration": 150,
+  "title": "Substitution with Binomial Expressions",
+  "duration": 200,
   "content": {
     "problem": "Factor: 2(x + 3)² - 7(x + 3) + 3",
     "steps": [
-      "Let u = (x + 3)",
-      "Rewrite as 2u² - 7u + 3",
-      "Factor this simpler expression: (2u - 1)(u - 3)",
-      "Substitute back: (2(x + 3) - 1)((x + 3) - 3)",
-      "Simplify: (2x + 6 - 1)(x + 3 - 3) = (2x + 5)(x)"
+      "Step 1: Identify the repeating pattern\nNotice that (x + 3) appears twice",
+      "Step 2: Make the substitution\nLet u = (x + 3)",
+      "Step 3: Rewrite in terms of u\n2(x + 3)² - 7(x + 3) + 3 = 2u² - 7u + 3",
+      "Step 4: Factor using AC method\nac = 2 × 3 = 6, need factors that multiply to 6 and add to -7\nFactors: -6 and -1\n2u² - 6u - u + 3 = 2u(u - 3) - 1(u - 3) = (2u - 1)(u - 3)",
+      "Step 5: Substitute back\n(2u - 1)(u - 3) = (2(x + 3) - 1)((x + 3) - 3)",
+      "Step 6: Simplify\n= (2x + 6 - 1)(x + 3 - 3) = (2x + 5)(x) = x(2x + 5)"
     ],
-    "explanation": []
+    "explanation": "When you see the same binomial expression repeated, substitution can simplify the problem dramatically."
   },
   "interactive": {
-    "type": "step_practice",
-    "prompt": "Try the next step yourself"
+    "question": "What would be a good substitution for 3(2x - 1)² + 5(2x - 1) - 2?",
+    "options": [
+      "u = (2x - 1)",
+      "u = 2x",
+      "u = x - 1"
+    ],
+    "correct": 0
   }
 }

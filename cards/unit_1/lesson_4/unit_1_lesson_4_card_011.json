@@ -1,0 +1,26 @@
+{
+  "id": "unit_1_lesson_4_card_011",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_4",
+  "type": "worked_example",
+  "title": "Real-World Application: Cost Functions",
+  "duration": 120,
+  "content": {
+    "problem": "A company manufactures custom t-shirts. The cost function C(x) = 500 + 8x gives the total cost (in dollars) to produce x t-shirts. Find: a) C(100), b) C(250), c) The number of t-shirts that can be produced for $2,500.",
+    "steps": [
+      "Step 1: Find C(100), the cost of producing 100 t-shirts\nC(100) = 500 + 8(100) = 500 + 800 = $1,300",
+      "Step 2: Find C(250), the cost of producing 250 t-shirts\nC(250) = 500 + 8(250) = 500 + 2,000 = $2,500",
+      "Step 3: Find the number of t-shirts for a cost of $2,500\nSet up the equation: 500 + 8x = 2,500\nSubtract 500 from both sides: 8x = 2,000\nDivide both sides by 8: x = 250\nSo 250 t-shirts can be produced for $2,500"
+    ],
+    "explanation": "In this cost function, the $500 represents the fixed costs (costs that don't depend on the number of items produced), while the $8x represents the variable costs (costs that increase with each additional item). This is a common structure for many real-world cost functions."
+  },
+  "interactive": {
+    "question": "If R(x) = 15x represents the revenue from selling x items, and C(x) = 600 + 9x represents the cost of producing x items, how many items must be sold to break even (where revenue equals cost)?",
+    "options": [
+      "100 items",
+      "60 items",
+      "150 items"
+    ],
+    "correct": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_1_1_card_005",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1_1",
+  "type": "concept_intro",
+  "title": "Domain: All Possible Inputs",
+  "duration": 150,
+  "content": {
+    "explanation": "The DOMAIN is the complete set of all possible input values (x-values) that a function can accept.\n\nThink of domain like a restaurant menu:\n🍽️ The menu shows everything you CAN order (domain)\n🚫 You can't order items not on the menu\n\nSome functions accept any number as input, while others have restrictions. For example, you can't take the square root of a negative number (in real numbers), so √x has domain restrictions.",
+    "example": "📱 Real-world domains:\n• Phone battery level function: 0% to 100%\n• Age-based ticket prices: 0 to 120+ years\n• Video game score: 0 to unlimited points\n• Temperature in Kelvin: 0 K to unlimited",
+    "key_point": "Domain = all x-values the function can handle without breaking."
+  },
+  "interactive": {
+    "question": "What's the most reasonable domain for a function that calculates movie ticket price based on age?",
+    "options": [
+      "All real numbers",
+      "0 to 150 years",
+      "Negative infinity to positive infinity"
+    ],
+    "correct": 1
+  }
+}

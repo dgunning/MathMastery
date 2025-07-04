@@ -2,21 +2,28 @@
   "id": "unit_1_lesson_1_2_card_005",
   "unit_id": "unit_1",
   "lesson_id": "lesson_1_2",
-  "type": "concept_intro",
-  "title": "Tips for Teaching Success",
-  "duration": 90,
+  "type": "worked_example",
+  "title": "Splitting the Middle Term",
+  "duration": 200,
   "content": {
-    "explanation": "1. **Start simple:** Begin with problems your teen can handle confidently before moving to harder ones.\n2. **Use patterns:** Point out recurring patterns in factoring to build intuition.\n3. **Encourage checking:** Always multiply factors back together as a verification step.\n4. **Connect to applications:** Mention that factoring is essential for solving equations, simplifying fractions, and finding intercepts of graphs.\n5. **Create a reference sheet:** Try to make a \"cheat sheet\" with factoring formulas and strategies.",
-    "example": "Real-world application example",
-    "key_point": "Key concept to remember"
+    "problem": "Factor: 3x² + 14x + 8",
+    "steps": [
+      "Step 1: Calculate ac = 3 × 8 = 24",
+      "Step 2: Find factors of 24 that add to 14\nFactors: 2 and 12 (since 2 × 12 = 24 and 2 + 12 = 14)",
+      "Step 3: Split the middle term using these numbers\n3x² + 14x + 8 = 3x² + 2x + 12x + 8",
+      "Step 4: Group the terms in pairs\n= (3x² + 2x) + (12x + 8)",
+      "Step 5: Factor out common factors from each group\n= x(3x + 2) + 4(3x + 2)",
+      "Step 6: Factor out the common binomial\n= (3x + 2)(x + 4)"
+    ],
+    "explanation": "The key insight is that we deliberately split 14x into 2x + 12x so that we could create groups with common factors."
   },
   "interactive": {
-    "question": "What is the main concept of Tips for Teaching Success?",
+    "question": "In step 5, what is the common binomial factor?",
     "options": [
-      "Concept A",
-      "Concept B",
-      "Concept C"
+      "(x + 4)",
+      "(3x + 2)",
+      "(x + 2)"
     ],
-    "correct": 0
+    "correct": 1
   }
 }

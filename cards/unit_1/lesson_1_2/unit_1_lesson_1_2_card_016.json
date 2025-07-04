@@ -3,18 +3,25 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_1_2",
   "type": "worked_example",
-  "title": "Step-by-Step Example",
-  "duration": 150,
+  "title": "Complex Factoring Strategy",
+  "duration": 240,
   "content": {
-    "problem": "Factor: x³ + 27",
+    "problem": "Factor completely: 2x⁵ - 32x³",
     "steps": [
-      "Identify as sum of cubes: x³ + 3³",
-      "Apply the formula: (x + 3)(x² - 3x + 9)"
+      "Step 1: Look for common factors first\n2x⁵ - 32x³ = 2x³(x² - 16)",
+      "Step 2: Check if remaining factor can be factored\nx² - 16 is a difference of squares",
+      "Step 3: Factor the difference of squares\nx² - 16 = (x + 4)(x - 4)",
+      "Step 4: Write the complete factorization\n2x⁵ - 32x³ = 2x³(x + 4)(x - 4)"
     ],
-    "explanation": []
+    "explanation": "Always factor out common terms first, then look for special patterns in what remains."
   },
   "interactive": {
-    "type": "step_practice",
-    "prompt": "Try the next step yourself"
+    "question": "What should you always check for first when factoring?",
+    "options": [
+      "Special patterns like difference of squares",
+      "Common factors",
+      "Whether it's a perfect square"
+    ],
+    "correct": 1
   }
 }

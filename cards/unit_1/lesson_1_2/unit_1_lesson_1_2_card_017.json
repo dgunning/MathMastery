@@ -2,22 +2,21 @@
   "id": "unit_1_lesson_1_2_card_017",
   "unit_id": "unit_1",
   "lesson_id": "lesson_1_2",
-  "type": "worked_example",
-  "title": "Step-by-Step Example",
-  "duration": 150,
+  "type": "quick_check",
+  "title": "Challenge Problem",
+  "duration": 180,
   "content": {
-    "problem": "Factor: x⁴ - 5x² + 4",
-    "steps": [
-      "Let u = x²",
-      "Rewrite as u² - 5u + 4",
-      "Factor this simpler expression: (u - 1)(u - 4)",
-      "Substitute back: (x² - 1)(x² - 4)",
-      "Further factor if possible: (x² - 1)(x² - 4) = (x + 1)(x - 1)(x + 2)(x - 2)"
-    ],
-    "explanation": []
+    "problem": "Factor completely: 6x² + 13x + 6",
+    "explanation": "This combines everything you've learned:\n• Leading coefficient ≠ 1 (use AC method)\n• All positive terms\n• Need to work systematically through the steps\n\nTake your time and show each step!",
+    "key_point": "Remember to check your answer by expanding back to the original expression."
   },
   "interactive": {
-    "type": "step_practice",
-    "prompt": "Try the next step yourself"
+    "question": "What is the completely factored form of 6x² + 13x + 6?",
+    "options": [
+      "(2x + 3)(3x + 2)",
+      "(6x + 2)(x + 3)",
+      "(2x + 2)(3x + 3)"
+    ],
+    "correct": 0
   }
 }

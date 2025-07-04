@@ -2,20 +2,20 @@
   "id": "unit_1_lesson_1_2_card_003",
   "unit_id": "unit_1",
   "lesson_id": "lesson_1_2",
-  "type": "concept_intro",
-  "title": "Check for Understanding",
-  "duration": 90,
+  "type": "practice",
+  "title": "Practice: Finding AC Values",
+  "duration": 120,
   "content": {
-    "explanation": "1. \"What's the first thing you should check for when factoring any expression?\"\n2. \"How do you factor a trinomial where the coefficient of x² is not 1?\"\n3. \"What's the difference between factoring a sum of cubes and a difference of cubes?\"\n4. \"How do you know when to use substitution?\"\n5. \"Can you factor x⁴ - 81 completely?\"",
-    "example": "Real-world application example",
-    "key_point": "Key concept to remember"
+    "explanation": "Let's practice calculating the ac value, which is the first step in the AC method. Remember: multiply the coefficient of x² by the constant term.",
+    "problem": "For each trinomial, find the value of ac:\n\n1) 3x² + 10x + 8\n2) 4x² - 12x + 9\n3) 6x² + 7x - 3",
+    "key_point": "Getting the ac value correct is crucial - it determines which factor pairs you'll look for in the next step."
   },
   "interactive": {
-    "question": "What is the main concept of Check for Understanding?",
+    "question": "What is the ac value for 3x² + 10x + 8?",
     "options": [
-      "Concept A",
-      "Concept B",
-      "Concept C"
+      "24",
+      "13", 
+      "18"
     ],
     "correct": 0
   }

@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_1_2",
   "type": "concept_intro",
-  "title": "Next Steps",
-  "duration": 90,
+  "title": "Introduction to Factoring by Substitution",
+  "duration": 180,
   "content": {
-    "explanation": "Once your teen is comfortable with these factoring techniques, you can move on to:\n1. Solving quadratic equations and higher-degree polynomial equations using factoring\n2. Applications of factoring in rational expressions and functions\n3. Connecting factoring to finding x-intercepts of polynomial graphs",
-    "example": "Real-world application example",
-    "key_point": "Key concept to remember"
+    "explanation": "Sometimes expressions look complex, but we can make them simpler by treating certain parts as a single variable. This is called substitution.\n\nFor example, x⁴ - 5x² + 4 looks complicated, but if we let u = x², it becomes:\nu² - 5u + 4\n\nThis is much easier to factor!",
+    "example": "Think of substitution like using a nickname for a long name - it makes everything simpler to work with.",
+    "key_point": "Substitution transforms complex-looking problems into familiar ones we already know how to solve."
   },
   "interactive": {
-    "question": "What is the main concept of Next Steps?",
+    "question": "If we substitute u = x² in the expression x⁴ + 3x² - 10, what do we get?",
     "options": [
-      "Concept A",
-      "Concept B",
-      "Concept C"
+      "u² + 3u - 10",
+      "u⁴ + 3u² - 10",
+      "x² + 3x - 10"
     ],
     "correct": 0
   }

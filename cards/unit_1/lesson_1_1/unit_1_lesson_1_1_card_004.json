@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_1_1_card_004",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1_1",
+  "type": "concept_intro",
+  "title": "The Vertical Line Test",
+  "duration": 160,
+  "content": {
+    "explanation": "The vertical line test is like having a superpower to instantly tell if a graph shows a function!\n\n🔍 THE TEST: Draw (or imagine) a vertical line anywhere on the graph\n✅ If the line touches the graph at ONLY ONE point → It's a function\n❌ If the line touches the graph at MORE THAN ONE point → Not a function\n\nWhy does this work? A vertical line represents the same x-value (input). If it hits the graph twice, that means one input gives two outputs - breaking the function rule!",
+    "example": "🎯 Quick examples:\n• Parabola (y = x²): Passes test ✅\n• Circle: Fails test ❌ (vertical line through middle hits twice)\n• Straight line: Passes test ✅",
+    "key_point": "Vertical line test checks the 'one input → one output' rule visually."
+  },
+  "interactive": {
+    "question": "A graph looks like the letter 'U'. Does it pass the vertical line test?",
+    "options": [
+      "Yes, it passes (it's a function)",
+      "No, it fails (not a function)",
+      "Need more information"
+    ],
+    "correct": 0
+  }
+}

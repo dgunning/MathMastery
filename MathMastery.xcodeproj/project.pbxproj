@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B4273E812E17257A0052BBCC /* cards in Resources */ = {isa = PBXBuildFile; fileRef = B4273E802E17257A0052BBCC /* cards */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B4273C162E170AEE0052BBCC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +31,132 @@
 		B4273C072E170AED0052BBCC /* MathMastery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathMastery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4273C152E170AEE0052BBCC /* MathMasteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathMasteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4273C1F2E170AEE0052BBCC /* MathMasteryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathMasteryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4273E802E17257A0052BBCC /* cards */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cards; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B4273E7E2E17252C0052BBCC /* Exceptions for "cards" folder in "MathMastery" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				unit_1/lesson_1_2/lesson_1_2_sequence.json,
+				unit_1/lesson_1_2/unit_1_lesson_1_2_card_001.json,
+				unit_1/lesson_1_2/unit_1_lesson_1_2_card_002.json,
+				unit_1/lesson_1_2/unit_1_lesson_1_2_card_003.json,
+				unit_1/lesson_1_2/unit_1_lesson_1_2_card_004.json,
+				unit_1/lesson_1_2/unit_1_lesson_1_2_card_005.json,
+				unit_1/lesson_1_2/unit_1_lesson_1_2_card_006.json,
+				unit_1/lesson_1_2/unit_1_lesson_1_2_card_007.json,
+				unit_1/lesson_1_2/unit_1_lesson_1_2_card_008.json,
+				unit_1/lesson_1_2/unit_1_lesson_1_2_card_009.json,
+				unit_1/lesson_1_2/unit_1_lesson_1_2_card_010.json,
+				unit_1/lesson_1_2/unit_1_lesson_1_2_card_011.json,
+				unit_1/lesson_1_2/unit_1_lesson_1_2_card_012.json,
+				unit_1/lesson_1_2/unit_1_lesson_1_2_card_013.json,
+				unit_1/lesson_1_2/unit_1_lesson_1_2_card_014.json,
+				unit_1/lesson_1_2/unit_1_lesson_1_2_card_015.json,
+				unit_1/lesson_1_2/unit_1_lesson_1_2_card_016.json,
+				unit_1/lesson_1_2/unit_1_lesson_1_2_card_017.json,
+				unit_1/lesson_1_2/unit_1_lesson_1_2_card_018.json,
+				unit_1/unit_1_index.json,
+			);
+			target = B4273C062E170AED0052BBCC /* MathMastery */;
+		};
+		B4273E7F2E17252C0052BBCC /* Exceptions for "MathMastery" folder in "MathMastery" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+			);
+			target = B4273C062E170AED0052BBCC /* MathMastery */;
+		};
+		B4273F6C2E1751900052BBCC /* Exceptions for "docs" folder in "MathMastery" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				design/app_design.md,
+				design/content_conversion_strategy.md,
+				design/learning_system_design.md,
+				learning_plans/unit1/activities/quadratic_game_station.md,
+				learning_plans/unit1/gamification_ideas/function_quest.md,
+				learning_plans/unit1/lesson_content/lesson1_guide.md,
+				learning_plans/unit1/lesson_content/lesson2_advanced_factoring.md,
+				learning_plans/unit1/lesson_content/lesson3_functions_domain_range.md,
+				learning_plans/unit1/lesson_content/lesson4_function_notation.md,
+				learning_plans/unit1/lesson_content/lesson5_vertex_of_parabola.md,
+				learning_plans/unit1/lesson_content/lesson6_maximum_minimum_values.md,
+				learning_plans/unit1/lesson_content/lesson7_completing_the_square.md,
+				learning_plans/unit1/lesson_content/lesson8_working_with_radicals.md,
+				learning_plans/unit1/lesson_content/lesson9_solving_quadratics.md,
+				learning_plans/unit1/lesson_content/lesson10_discriminant.md,
+				learning_plans/unit1/lesson_content/lesson11_determining_quadratics_from_roots.md,
+				learning_plans/unit1/lesson_content/lesson12_linear_quadratic_systems.md,
+				learning_plans/unit1/lesson_content/lesson13_unit_review_part1.md,
+				learning_plans/unit1/lesson_content/lesson13_unit_review_part2.md,
+				learning_plans/unit1/lesson_plans/lesson1_functions_intro.md,
+				learning_plans/unit1/quizzes/unit1_final_quiz.md,
+				learning_plans/unit1/quizzes/unit1_mid_unit_quiz.md,
+				learning_plans/unit1/README.md,
+				learning_plans/unit1/Unit1_Lesson_Index.md,
+				learning_plans/unit1/worksheets/lesson1_factoring_worksheet.md,
+				learning_plans/unit1/worksheets/lesson3_functions_domain_range_worksheet.md,
+				learning_plans/unit1/worksheets/lesson7_completing_square_worksheet.md,
+				learning_plans/unit1/worksheets/lesson9_solving_quadratics_worksheet.md,
+				learning_plans/unit2/lesson_content/lesson1_intro_to_exponential.md,
+				learning_plans/unit2/lesson_content/lesson1_zero_negative_exponents.md,
+				learning_plans/unit2/lesson_content/lesson2_rational_exponents.md,
+				learning_plans/unit2/lesson_content/lesson3_simplifying_core.md,
+				learning_plans/unit2/lesson_content/lesson4_solving_exponential_equations.md,
+				learning_plans/unit2/lesson_content/lesson5_properties_of_exponential_graphs.md,
+				learning_plans/unit2/lesson_content/lesson6_transformations_of_exponential_functions.md,
+				learning_plans/unit2/lesson_content/lesson7_determining_equations_core.md,
+				learning_plans/unit2/lesson_content/lesson8_doubling_halflife_core.md,
+				learning_plans/unit2/lesson_content/lesson9_appreciation_depreciation_core.md,
+				learning_plans/unit2/lesson_content/lesson10_growth_decay_applications_core.md,
+				learning_plans/unit3/lesson_content/lesson1_intro_to_discrete.md,
+				learning_plans/unit3/lesson_content/lesson1_sequences_core.md,
+				learning_plans/unit3/lesson_content/lesson2_series_core.md,
+				learning_plans/unit3/lesson_content/lesson3_more_sequences.md,
+				learning_plans/unit3/lesson_content/lesson4_more_series_core.md,
+				learning_plans/unit3/lesson_content/lesson5_recursive_functions_core.md,
+				learning_plans/unit3/lesson_content/lesson6_pascals_triangle_core.md,
+				learning_plans/unit4/lesson_content/lesson1_primary_reciprocal_trig_ratios.md,
+				learning_plans/unit4/lesson_content/lesson2_special_triangles.md,
+				learning_plans/unit4/lesson_content/lesson3_angles_0_to_90_core.md,
+				learning_plans/unit4/lesson_content/lesson4_angles_90_to_360_core.md,
+				learning_plans/unit4/lesson_content/lesson5_graphing_trig_functions_core.md,
+				learning_plans/unit4/lesson_content/lesson6_solving_trig_equations_core.md,
+				learning_plans/unit4/lesson_content/lesson7_sine_law_core.md,
+				learning_plans/unit4/lesson_content/lesson8_cosine_law_core.md,
+				learning_plans/unit4/lesson_content/lesson9_2d_applications_core.md,
+				learning_plans/unit4/lesson_content/lesson10_3d_problems_review_core.md,
+				learning_plans/unit4/quizzes/unit4_final_quiz.md,
+				learning_plans/unit4/quizzes/unit4_mid_unit_quiz.md,
+				learning_plans/unit4/worksheets/lesson1_primary_reciprocal_trig_ratios_worksheet.md,
+				learning_plans/unit4/worksheets/lesson2_special_triangles_worksheet.md,
+				learning_plans/unit4/worksheets/lesson3_angles_0_to_90_worksheet.md,
+				learning_plans/unit4/worksheets/lesson4_angles_90_to_360_worksheet.md,
+				learning_plans/unit4/worksheets/lesson5_graphing_trig_functions_worksheet.md,
+				learning_plans/unit4/worksheets/lesson6_solving_trig_equations_worksheet.md,
+				learning_plans/unit4/worksheets/lesson7_sine_law_worksheet.md,
+				learning_plans/unit4/worksheets/lesson8_cosine_law_worksheet.md,
+				learning_plans/unit4/worksheets/unit4_practice_worksheet.md,
+				MCR3U_Outline.md,
+				original/FunctionsCourseOutlineFeb2025.pdf,
+				original/MathCurriculum.pdf,
+				Teaching_Strategy.md,
+				Unit1_Characteristics_of_Functions.md,
+				Unit2_Exponential_Functions.md,
+				Unit3_Discrete_Functions.md,
+				Unit4_Trigonometric_Functions.md,
+			);
+			target = B4273C062E170AED0052BBCC /* MathMastery */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B4273C092E170AED0052BBCC /* MathMastery */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B4273E7F2E17252C0052BBCC /* Exceptions for "MathMastery" folder in "MathMastery" target */,
+			);
 			path = MathMastery;
 			sourceTree = "<group>";
 		};
@@ -43,6 +168,22 @@
 		B4273C222E170AEE0052BBCC /* MathMasteryUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MathMasteryUITests;
+			sourceTree = "<group>";
+		};
+		B4273E672E1724CC0052BBCC /* cards */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B4273E7E2E17252C0052BBCC /* Exceptions for "cards" folder in "MathMastery" target */,
+			);
+			path = cards;
+			sourceTree = "<group>";
+		};
+		B4273F202E1751580052BBCC /* docs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B4273F6C2E1751900052BBCC /* Exceptions for "docs" folder in "MathMastery" target */,
+			);
+			path = docs;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +216,9 @@
 		B4273BFE2E170AED0052BBCC = {
 			isa = PBXGroup;
 			children = (
+				B4273F202E1751580052BBCC /* docs */,
+				B4273E672E1724CC0052BBCC /* cards */,
+				B4273E802E17257A0052BBCC /* cards */,
 				B4273C092E170AED0052BBCC /* MathMastery */,
 				B4273C182E170AEE0052BBCC /* MathMasteryTests */,
 				B4273C222E170AEE0052BBCC /* MathMasteryUITests */,
@@ -101,7 +245,7 @@
 			buildPhases = (
 				B4273C032E170AED0052BBCC /* Sources */,
 				B4273C042E170AED0052BBCC /* Frameworks */,
-				B4273C052E170AED0052BBCC /* Resources */,
+				B4273E7D2E17252C0052BBCC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -109,6 +253,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				B4273C092E170AED0052BBCC /* MathMastery */,
+				B4273E672E1724CC0052BBCC /* cards */,
+				B4273F202E1751580052BBCC /* docs */,
 			);
 			name = MathMastery;
 			packageProductDependencies = (
@@ -208,13 +354,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B4273C052E170AED0052BBCC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B4273C132E170AEE0052BBCC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -226,6 +365,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4273E7D2E17252C0052BBCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4273E812E17257A0052BBCC /* cards in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

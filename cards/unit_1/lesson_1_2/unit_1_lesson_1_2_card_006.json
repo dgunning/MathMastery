@@ -2,20 +2,20 @@
   "id": "unit_1_lesson_1_2_card_006",
   "unit_id": "unit_1",
   "lesson_id": "lesson_1_2",
-  "type": "concept_intro",
-  "title": "Online Resources",
-  "duration": 90,
+  "type": "quick_check",
+  "title": "Quick Check: Your Turn",
+  "duration": 150,
   "content": {
-    "explanation": "- **Khan Academy**: Search for \"Factoring advanced polynomials\" for step-by-step video tutorials\n- **Desmos.com**: Use the graphing calculator to check factorizations by comparing graphs\n- **Symbolab.com**: Step-by-step factoring calculator that shows all the work (good for checking)\n- **PurpleMath**: Clear written explanations of advanced factoring techniques",
-    "example": "Real-world application example",
-    "key_point": "Key concept to remember"
+    "problem": "Now try one yourself! Factor: 4x² + 12x + 9",
+    "explanation": "Use the AC method:\n1. Find ac\n2. Find the factor pair that adds to the middle coefficient\n3. Split the middle term\n4. Factor by grouping\n\nTake your time and work through each step systematically.",
+    "key_point": "This is a perfect square trinomial - you might notice a pattern once you factor it!"
   },
   "interactive": {
-    "question": "What is the main concept of Online Resources?",
+    "question": "What is the factored form of 4x² + 12x + 9?",
     "options": [
-      "Concept A",
-      "Concept B",
-      "Concept C"
+      "(2x + 3)(2x + 3)",
+      "(4x + 3)(x + 3)", 
+      "(2x + 9)(2x + 1)"
     ],
     "correct": 0
   }

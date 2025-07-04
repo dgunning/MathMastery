@@ -3,20 +3,27 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_1_2",
   "type": "worked_example",
-  "title": "Step-by-Step Example",
-  "duration": 150,
+  "title": "AC Method: Complete Example",
+  "duration": 240,
   "content": {
     "problem": "Factor: 2x² + 7x + 3",
     "steps": [
-      "Multiply a × c = 2 × 3 = 6",
-      "Find two numbers that multiply to 6 and add to 7\n        Those numbers are 1 and 6",
-      "Split the middle term: 2x² + x + 6x + 3",
-      "Factor by grouping:\n        (2x² + x) + (6x + 3)\n        x(2x + 1) + 3(2x + 1)\n        (2x + 1)(x + 3)"
+      "Step 1: Identify a, b, and c\na = 2, b = 7, c = 3",
+      "Step 2: Calculate ac\nac = 2 × 3 = 6",
+      "Step 3: Find two numbers that multiply to 6 and add to 7\nFactors of 6: 1×6, 2×3\nCheck: 1 + 6 = 7 ✓\nSo we use 1 and 6",
+      "Step 4: Split the middle term using these numbers\n2x² + 7x + 3 = 2x² + 1x + 6x + 3",
+      "Step 5: Factor by grouping\n= (2x² + 1x) + (6x + 3)\n= x(2x + 1) + 3(2x + 1)\n= (2x + 1)(x + 3)",
+      "Step 6: Check by expanding\n(2x + 1)(x + 3) = 2x² + 6x + x + 3 = 2x² + 7x + 3 ✓"
     ],
-    "explanation": []
+    "explanation": "Notice how we systematically broke down the problem. The key insight is that splitting 7x into 1x + 6x allows us to group terms that share common factors."
   },
   "interactive": {
-    "type": "step_practice",
-    "prompt": "Try the next step yourself"
+    "question": "What should we do after finding that the two numbers are 1 and 6?",
+    "options": [
+      "Multiply them together",
+      "Use them to split the middle term", 
+      "Add them to the constant term"
+    ],
+    "correct": 1
   }
 }

@@ -2,21 +2,21 @@
   "id": "unit_1_lesson_1_2_card_015",
   "unit_id": "unit_1",
   "lesson_id": "lesson_1_2",
-  "type": "worked_example",
-  "title": "Step-by-Step Example",
-  "duration": 150,
+  "type": "practice",
+  "title": "Practice: Cubes Recognition",
+  "duration": 120,
   "content": {
-    "problem": "Factor: 3x² - 10x + 8",
-    "steps": [
-      "Multiply a × c = 3 × 8 = 24",
-      "Find factors of 24 that add up to -10\n        Those factors are -4 and -6",
-      "Rewrite the middle term: 3x² - 4x - 6x + 8",
-      "Group and factor:\n        (3x² - 4x) + (-6x + 8)\n        x(3x - 4) - 2(3x - 4)\n        (3x - 4)(x - 2)"
-    ],
-    "explanation": []
+    "explanation": "Before applying cube formulas, you need to recognize perfect cubes. Let's practice identifying them.",
+    "problem": "Which of these are perfect cubes?\n\n1) 27\n2) 64\n3) 100\n4) 125\n5) 216",
+    "key_point": "Perfect cubes: 1, 8, 27, 64, 125, 216, 343, 512, 729, 1000..."
   },
   "interactive": {
-    "type": "step_practice",
-    "prompt": "Try the next step yourself"
+    "question": "What is the cube root of 216?",
+    "options": [
+      "6",
+      "8",
+      "9"
+    ],
+    "correct": 0
   }
 }

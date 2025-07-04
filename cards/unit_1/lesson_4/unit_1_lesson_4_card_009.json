@@ -1,0 +1,25 @@
+{
+  "id": "unit_1_lesson_4_card_009",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_4",
+  "type": "worked_example",
+  "title": "Finding Input Values from Output Values",
+  "duration": 120,
+  "content": {
+    "problem": "For the function f(x) = 2x - 5, find all values of x such that f(x) = 7.",
+    "steps": [
+      "Step 1: Set up an equation using the given information\nf(x) = 7\n2x - 5 = 7",
+      "Step 2: Solve for x\n2x - 5 = 7\n2x = 12\nx = 6"
+    ],
+    "explanation": "When we're asked to find x such that f(x) equals a specific value, we're essentially solving for the input that produces a given output. This is the inverse process of evaluating a function."
+  },
+  "interactive": {
+    "question": "For g(x) = x² + 3, what value(s) of x give g(x) = 12?",
+    "options": [
+      "x = 3 or x = -3",
+      "x = 3 only",
+      "x = 9"
+    ],
+    "correct": 0
+  }
+}

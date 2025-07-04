@@ -2,21 +2,21 @@
   "id": "unit_1_lesson_1_2_card_004",
   "unit_id": "unit_1",
   "lesson_id": "lesson_1_2",
-  "type": "concept_intro",
-  "title": "Practice Problems",
-  "duration": 90,
+  "type": "practice",
+  "title": "Finding Factor Pairs",
+  "duration": 180,
   "content": {
-    "explanation": "1. Factor: 6x² + 13x + 6\n2. Factor: 12x² - 11x + 2\n3. Factor: x³ - 27\n4. Factor: x³ + 64\n5. Factor: 3x⁴ - 48\n6. Factor: 2(x - 3)² + 5(x - 3) - 3\n7. Factor completely: 4x⁴ - 4x²\n8. Factor completely: 2x³ + 54x",
-    "example": "Real-world application example",
-    "key_point": "Key concept to remember"
+    "explanation": "Once you have the ac value, you need to find two numbers that multiply to give ac AND add to give the middle coefficient (b).\n\nThis is often the trickiest step, so let's practice systematically listing factor pairs.",
+    "problem": "For 3x² + 14x + 8:\n• ac = 24\n• We need factors of 24 that add to 14\n\nFactor pairs of 24:\n1 × 24 → 1 + 24 = 25\n2 × 12 → 2 + 12 = 14 ✓\n3 × 8 → 3 + 8 = 11\n4 × 6 → 4 + 6 = 10",
+    "key_point": "Be systematic! List all factor pairs until you find the one that adds to the middle coefficient."
   },
   "interactive": {
-    "question": "What is the main concept of Practice Problems?",
+    "question": "For 2x² + 9x + 10 (where ac = 20), which factor pair adds to 9?",
     "options": [
-      "Concept A",
-      "Concept B",
-      "Concept C"
+      "1 and 20",
+      "4 and 5",
+      "2 and 10"
     ],
-    "correct": 0
+    "correct": 1
   }
 }
