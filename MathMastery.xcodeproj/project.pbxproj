@@ -54,7 +54,6 @@
 			membershipExceptions = (
 				design/app_design.md,
 				design/content_conversion_strategy.md,
-				design/learning_system_design.md,
 				learning_plans/unit1/activities/quadratic_game_station.md,
 				learning_plans/unit1/gamification_ideas/function_quest.md,
 				learning_plans/unit1/lesson_content/lesson1_guide.md,
