@@ -1,0 +1,26 @@
+{
+  "id": "unit_1_lesson_4_card_007",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_4",
+  "type": "worked_example",
+  "title": "Evaluating Piecewise Functions",
+  "duration": 120,
+  "content": {
+    "problem": "Evaluate the function f(x) = {\n  x² - 4 if x ≤ 1\n  3x - 2 if x > 1\n}\nat x = -2, x = 1, and x = 3.",
+    "steps": [
+      "Step 1: Evaluate f(-2)\nSince -2 ≤ 1, we use the first piece: f(x) = x² - 4\nf(-2) = (-2)² - 4 = 4 - 4 = 0",
+      "Step 2: Evaluate f(1)\nSince 1 ≤ 1, we use the first piece: f(x) = x² - 4\nf(1) = 1² - 4 = 1 - 4 = -3",
+      "Step 3: Evaluate f(3)\nSince 3 > 1, we use the second piece: f(x) = 3x - 2\nf(3) = 3(3) - 2 = 9 - 2 = 7"
+    ],
+    "explanation": "When evaluating piecewise functions, the key is to carefully check which condition applies to your input value. Pay special attention to boundary points and whether inequalities are strict (< or >) or inclusive (≤ or ≥)."
+  },
+  "interactive": {
+    "question": "For h(x) = {\n  |x| if x < 0\n  x² if 0 ≤ x ≤ 2\n  4 if x > 2\n}\nWhat is h(0)?",
+    "options": [
+      "0",
+      "4",
+      "undefined"
+    ],
+    "correct": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "unit_1_lesson_11_card_003",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_11",
+  "type": "worked_example",
+  "title": "Finding a Quadratic Equation from Complex Roots",
+  "duration": 120,
+  "content": {
+    "problem": "Find the quadratic equation in standard form (ax² + bx + c = 0) with the given complex roots:\n\n1. Roots: 2 + 3i and 2 - 3i, with a = 1\n2. Roots: -1 + i and -1 - i, with a = 2\n3. Roots: 4 + 5i and 4 - 5i, with a = 3",
+    "steps": [
+      "Step 1: For a quadratic equation with roots r and s, we can write it in factored form as a(x - r)(x - s) = 0. When the roots are complex conjugates, the resulting equation will have real coefficients.",
+      "Step 2: For problem 1, with roots 2 + 3i and 2 - 3i and a = 1, the factored form is (x - (2 + 3i))(x - (2 - 3i)) = 0.",
+      "Step 3: Let's expand this expression: (x - (2 + 3i))(x - (2 - 3i)) = (x - 2 - 3i)(x - 2 + 3i).",
+      "Step 4: Multiply these binomials: (x - 2 - 3i)(x - 2 + 3i) = (x - 2)² - (3i)².",
+      "Step 5: Simplify: (x - 2)² - (3i)² = (x - 2)² - (3)²(-1) = (x - 2)² + 9 = x² - 4x + 4 + 9 = x² - 4x + 13.",
+      "Step 6: Therefore, the quadratic equation is x² - 4x + 13 = 0.",
+      "Step 7: For problem 2, with roots -1 + i and -1 - i and a = 2, the factored form is 2(x - (-1 + i))(x - (-1 - i)) = 2(x + 1 - i)(x + 1 + i).",
+      "Step 8: Using the same pattern as before: 2(x + 1 - i)(x + 1 + i) = 2((x + 1)² - i²) = 2((x + 1)² + 1) = 2(x² + 2x + 1 + 1) = 2(x² + 2x + 2).",
+      "Step 9: Therefore, the quadratic equation is 2x² + 4x + 4 = 0, which can be simplified to x² + 2x + 2 = 0.",
+      "Step 10: For problem 3, with roots 4 + 5i and 4 - 5i and a = 3, the factored form is 3(x - (4 + 5i))(x - (4 - 5i)) = 3(x - 4 - 5i)(x - 4 + 5i).",
+      "Step 11: Expand: 3(x - 4 - 5i)(x - 4 + 5i) = 3((x - 4)² - (5i)²) = 3((x - 4)² + 25) = 3(x² - 8x + 16 + 25) = 3(x² - 8x + 41).",
+      "Step 12: Therefore, the quadratic equation is 3x² - 24x + 123 = 0."
+    ],
+    "explanation": "When finding a quadratic equation from complex roots, there are a few important principles to remember:\n\n1. Complex roots always come in conjugate pairs (a + bi and a - bi) for quadratic equations with real coefficients.\n\n2. The product of complex conjugates (a + bi)(a - bi) follows a special pattern:\n   (a + bi)(a - bi) = a² + b²\n   This is because (a + bi)(a - bi) = a² - (bi)² = a² - b²(-1) = a² + b²\n\n3. When expanding (x - (a + bi))(x - (a - bi)), we get:\n   (x - a - bi)(x - a + bi) = (x - a)² - (bi)² = (x - a)² + b²\n\n4. The resulting quadratic equation will always have real coefficients, even though the roots are complex.\n\n5. We can verify our work by checking that the discriminant (b² - 4ac) is negative, which confirms that the equation has complex roots.\n\nAlternatively, we can use the relationships between coefficients and roots:\n- If the roots are a + bi and a - bi, then their sum is 2a and their product is a² + b²\n- For a quadratic equation ax² + bx + c = 0:\n  - b = -a(sum of roots) = -2aa\n  - c = a(product of roots) = a(a² + b²)"
+  },
+  "interactive": {
+    "question": "What is the quadratic equation with roots 1 + 2i and 1 - 2i, with a = 1?",
+    "options": [
+      "x² - 2x + 5 = 0",
+      "x² + 2x + 5 = 0",
+      "x² - 2x - 5 = 0"
+    ],
+    "correct": 0
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "source": "/Users/dwight/Projects/MathMastery/MathMastery/LearningView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Card %lld of %lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 104
+        }
+      },
+      {
+        "comment": "",
+        "key": "Need a hint?",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Example:",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 204
+        }
+      },
+      {
+        "comment": "",
+        "key": "Key Point:",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 216
+        }
+      },
+      {
+        "comment": "",
+        "key": "Problem:",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 229
+        }
+      },
+      {
+        "comment": "",
+        "key": "Solution Steps:",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 241
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld.",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 245
+        }
+      },
+      {
+        "comment": "",
+        "key": "Answer:",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 264
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your Response",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 290
+        }
+      },
+      {
+        "comment": "",
+        "key": "Previous",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 306
+        }
+      },
+      {
+        "comment": "",
+        "key": "Complete Lesson",
+        "location": {
+          "startingColumn": 41,
+          "startingLine": 312
+        }
+      },
+      {
+        "comment": "",
+        "key": "Next",
+        "location": {
+          "startingColumn": 61,
+          "startingLine": 312
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ready to continue?",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 360
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ready to continue?",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 348
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mark as Complete",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 352
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mark as Complete",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 364
+        }
+      },
+      {
+        "comment": "",
+        "key": "Correct answer: %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 426
+        }
+      },
+      {
+        "comment": "",
+        "key": "Submit Answer",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 415
+        }
+      }
+    ]
+  },
+  "version": 1
+}

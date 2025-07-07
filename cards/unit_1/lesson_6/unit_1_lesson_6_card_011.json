@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_6_card_011",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_6",
+  "type": "concept_intro",
+  "title": "Range of Quadratic Functions",
+  "duration": 120,
+  "content": {
+    "explanation": "The range of a quadratic function is directly related to its maximum or minimum value.\n\nFor a quadratic function f(x) = ax² + bx + c with maximum or minimum value k:\n\n- If a > 0 (opens upward), the range is [k, ∞), meaning the function takes on all values greater than or equal to k\n- If a < 0 (opens downward), the range is (-∞, k], meaning the function takes on all values less than or equal to k\n\nThe maximum or minimum value serves as the boundary of the range.",
+    "example": "For f(x) = 3x² - 12x + 14:\n- Since a = 3 > 0, the parabola opens upward and has a minimum value\n- The minimum value occurs at x = -b/(2a) = -(-12)/(2(3)) = 12/6 = 2\n- The minimum value is f(2) = 3(2)² - 12(2) + 14 = 12 - 24 + 14 = 2\n- Therefore, the range of f(x) is [2, ∞)",
+    "key_point": "Finding the maximum or minimum value of a quadratic function allows us to determine its range, which is an important characteristic of the function."
+  },
+  "interactive": {
+    "question": "What is the range of the quadratic function g(x) = -2x² + 8x - 3?",
+    "options": [
+      "(-∞, 5]",
+      "[5, ∞)",
+      "(-∞, -3]"
+    ],
+    "correct": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "lesson_id": "lesson_1",
+  "lesson_name": "Introduction to Functions",
+  "unit_id": "unit_1",
+  "sequence": [
+    "unit_1_lesson_1_card_001",
+    "unit_1_lesson_1_card_002", 
+    "unit_1_lesson_1_card_003",
+    "unit_1_lesson_1_card_004",
+    "unit_1_lesson_1_card_005",
+    "unit_1_lesson_1_card_006",
+    "unit_1_lesson_1_card_007",
+    "unit_1_lesson_1_card_008",
+    "unit_1_lesson_1_card_009",
+    "unit_1_lesson_1_card_010"
+  ],
+  "total_cards": 10,
+  "estimated_duration": 1590,
+  "card_types": {
+    "concept_intro": 8,
+    "worked_example": 2
+  }
+}

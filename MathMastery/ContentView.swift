@@ -4,6 +4,7 @@ struct ContentView: View {
     @Binding var selectedUnit: String?
     @Binding var selectedLesson: String?
     @Binding var showingLearningView: Bool
+    @Binding var selectedContentType: ContentType
     @EnvironmentObject var contentService: ContentService
     
     var body: some View {
@@ -13,7 +14,8 @@ struct ContentView: View {
                     unitId: unitId,
                     selectedUnit: $selectedUnit,
                     selectedLesson: $selectedLesson,
-                    showingLearningView: $showingLearningView
+                    showingLearningView: $showingLearningView,
+                    selectedContentType: $selectedContentType
                 )
             } else {
                 SelectUnitPrompt()
@@ -29,6 +31,7 @@ struct UnitOverviewView: View {
     @Binding var selectedUnit: String?
     @Binding var selectedLesson: String?
     @Binding var showingLearningView: Bool
+    @Binding var selectedContentType: ContentType
     @EnvironmentObject var contentService: ContentService
     
     var unit: UnitIndex? {
@@ -88,35 +91,63 @@ struct UnitOverviewView: View {
                     .padding(.horizontal)
                 }
                 
-                // Lessons Grid
+                // Content Type Selection or Lessons Grid
                 if let unit = unit {
-                    LazyVGrid(columns: [
-                        GridItem(.adaptive(minimum: 300), spacing: 16)
-                    ], spacing: 16) {
-                        // Show only selected lesson if one is selected, otherwise show all lessons
-                        let lessonsToShow = selectedLesson != nil ? [selectedLesson!] : Array(unit.lessons.keys.sorted())
-                        
-                        ForEach(lessonsToShow, id: \.self) { lessonId in
-                            if let lessonInfo = unit.lessons[lessonId] {
-                                LessonCard(
-                                    lessonId: lessonId,
-                                    lessonInfo: lessonInfo,
-                                    unitId: unitId,
-                                    isSelected: selectedLesson == lessonId,
-                                    selectedUnit: $selectedUnit,
-                                    selectedLesson: $selectedLesson,
-                                    showingLearningView: $showingLearningView
-                                )
+                    if let selectedLessonId = selectedLesson,
+                       let lessonInfo = unit.lessons[selectedLessonId] {
+                        // Show content type selection for the selected lesson
+                        ContentTypeSelectionView(
+                            unitId: unitId,
+                            lessonId: selectedLessonId,
+                            lessonInfo: lessonInfo,
+                            selectedUnit: $selectedUnit,
+                            selectedLesson: $selectedLesson,
+                            showingLearningView: $showingLearningView,
+                            selectedContentType: $selectedContentType
+                        )
+                        .padding(.horizontal)
+                    } else {
+                        // Show all lessons grid
+                        LazyVGrid(columns: [
+                            GridItem(.adaptive(minimum: 300), spacing: 16)
+                        ], spacing: 16) {
+                            ForEach(Array(unit.lessons.keys.sorted { lessonId1, lessonId2 in
+                                // Extract lesson numbers for proper sorting
+                                let num1 = extractLessonNumber(from: lessonId1)
+                                let num2 = extractLessonNumber(from: lessonId2)
+                                return num1 < num2
+                            }), id: \.self) { lessonId in
+                                if let lessonInfo = unit.lessons[lessonId] {
+                                    LessonCard(
+                                        lessonId: lessonId,
+                                        lessonInfo: lessonInfo,
+                                        unitId: unitId,
+                                        isSelected: selectedLesson == lessonId,
+                                        selectedUnit: $selectedUnit,
+                                        selectedLesson: $selectedLesson,
+                                        showingLearningView: $showingLearningView
+                                    )
+                                }
                             }
                         }
+                        .padding(.horizontal)
                     }
-                    .padding(.horizontal)
                 }
                 
                 Spacer()
             }
         }
         .navigationTitle("Unit Overview")
+    }
+    
+    // Helper function to extract lesson number for sorting
+    private func extractLessonNumber(from lessonId: String) -> Int {
+        // Extract number from strings like "lesson_1", "lesson_10", etc.
+        let components = lessonId.components(separatedBy: "_")
+        if let lastComponent = components.last, let number = Int(lastComponent) {
+            return number
+        }
+        return 0
     }
 }
 
@@ -255,6 +286,207 @@ struct StatusBadge: View {
         case .completed: return .green
         case .mastered: return .orange
         case .needsReview: return .red
+        }
+    }
+}
+
+struct ContentTypeSelectionView: View {
+    let unitId: String
+    let lessonId: String
+    let lessonInfo: LessonInfo
+    @Binding var selectedUnit: String?
+    @Binding var selectedLesson: String?
+    @Binding var showingLearningView: Bool
+    @Binding var selectedContentType: ContentType
+    @EnvironmentObject var contentService: ContentService
+    @State private var localSelectedContentType: ContentType?
+    
+    var availableContentTypes: [ContentType] {
+        lessonInfo.contentTypes?.availableTypes ?? [.cards]
+    }
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 24) {
+            // Lesson Header
+            VStack(alignment: .leading, spacing: 8) {
+                Text(lessonInfo.lessonName)
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                
+                Text("Choose Your Learning Path")
+                    .font(.title2)
+                    .foregroundColor(.secondary)
+            }
+            
+            // Primary Learning Options
+            LazyVGrid(columns: [
+                GridItem(.adaptive(minimum: 280), spacing: 16)
+            ], spacing: 16) {
+                ForEach(availableContentTypes.filter { isPrimaryType($0) }, id: \.self) { contentType in
+                    ContentTypeCard(
+                        contentType: contentType,
+                        lessonInfo: lessonInfo,
+                        isSelected: localSelectedContentType == contentType,
+                        action: {
+                            localSelectedContentType = contentType
+                            startContent(type: contentType)
+                        }
+                    )
+                }
+            }
+            
+            // Secondary Options (Practice & Assessment)
+            if availableContentTypes.contains(where: { isSecondaryType($0) }) {
+                VStack(alignment: .leading, spacing: 12) {
+                    Text("Practice & Assessment")
+                        .font(.headline)
+                        .foregroundColor(.secondary)
+                    
+                    LazyVGrid(columns: [
+                        GridItem(.adaptive(minimum: 280), spacing: 16)
+                    ], spacing: 16) {
+                        ForEach(availableContentTypes.filter { isSecondaryType($0) }, id: \.self) { contentType in
+                            ContentTypeCard(
+                                contentType: contentType,
+                                lessonInfo: lessonInfo,
+                                isSelected: localSelectedContentType == contentType,
+                                action: {
+                                    localSelectedContentType = contentType
+                                    startContent(type: contentType)
+                                }
+                            )
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    private func isPrimaryType(_ type: ContentType) -> Bool {
+        [.cards, .lessonGuide, .activity].contains(type)
+    }
+    
+    private func isSecondaryType(_ type: ContentType) -> Bool {
+        [.worksheet, .quiz, .lessonPlan].contains(type)
+    }
+    
+    private func startContent(type: ContentType) {
+        selectedContentType = type
+        showingLearningView = true
+    }
+}
+
+struct ContentTypeCard: View {
+    let contentType: ContentType
+    let lessonInfo: LessonInfo
+    let isSelected: Bool
+    let action: () -> Void
+    
+    var body: some View {
+        Button(action: action) {
+            VStack(alignment: .leading, spacing: 12) {
+                // Header with icon and title
+                HStack {
+                    Image(systemName: contentType.icon)
+                        .font(.title2)
+                        .foregroundColor(.accentColor)
+                    
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(contentType.displayName)
+                            .font(.headline)
+                            .multilineTextAlignment(.leading)
+                        Text(contentType.description)
+                            .font(.caption)
+                            .foregroundColor(.secondary)
+                    }
+                    
+                    Spacer()
+                }
+                
+                // Content-specific details
+                VStack(alignment: .leading, spacing: 4) {
+                    switch contentType {
+                    case .cards:
+                        Text("\(lessonInfo.totalCards) cards")
+                        Text("~\(lessonInfo.estimatedDuration / 60) minutes")
+                    case .lessonGuide:
+                        Text("45 min comprehensive guide")
+                        Text("With examples & activities")
+                    case .worksheet:
+                        Text("15-20 practice problems")
+                        Text("Printable PDF format")
+                    case .quiz:
+                        Text("Assessment questions")
+                        Text("Progress tracking")
+                    case .lessonPlan:
+                        Text("Teaching outline")
+                        Text("For educators")
+                    case .activity:
+                        Text("Interactive learning")
+                        Text("Gamified experience")
+                    }
+                }
+                .font(.caption)
+                .foregroundColor(.secondary)
+                
+                // Best for section
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Best for:")
+                        .font(.caption)
+                        .fontWeight(.medium)
+                        .foregroundColor(.secondary)
+                    
+                    let bestForText: String = {
+                        switch contentType {
+                        case .cards: return "• Daily progress\n• Quick review\n• Mobile learning"
+                        case .lessonGuide: return "• First time learning\n• Deep understanding\n• Parent guidance"
+                        case .worksheet: return "• Skill practice\n• Homework\n• Exam prep"
+                        case .quiz: return "• Self-assessment\n• Progress check\n• Mastery verification"
+                        case .lessonPlan: return "• Teaching\n• Tutoring\n• Lesson planning"
+                        case .activity: return "• Engagement\n• Group learning\n• Making it fun"
+                        }
+                    }()
+                    
+                    Text(bestForText)
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                        .lineLimit(nil)
+                }
+                
+                Spacer()
+                
+                // Action button
+                HStack {
+                    Text(getActionText())
+                        .font(.subheadline)
+                        .fontWeight(.medium)
+                    Spacer()
+                    Image(systemName: "arrow.right")
+                        .font(.subheadline)
+                }
+                .foregroundColor(.accentColor)
+            }
+            .padding()
+            .frame(maxWidth: .infinity, minHeight: 200, alignment: .topLeading)
+            .background(isSelected ? Color.accentColor.opacity(0.1) : Color(NSColor.controlBackgroundColor))
+            .overlay(
+                RoundedRectangle(cornerRadius: 12)
+                    .stroke(isSelected ? Color.accentColor : Color.clear, lineWidth: 2)
+            )
+            .cornerRadius(12)
+            .shadow(color: .black.opacity(0.1), radius: 2, x: 0, y: 1)
+        }
+        .buttonStyle(PlainButtonStyle())
+    }
+    
+    private func getActionText() -> String {
+        switch contentType {
+        case .cards: return "Start Cards"
+        case .lessonGuide: return "Open Lesson"
+        case .worksheet: return "Download PDF"
+        case .quiz: return "Take Quiz"
+        case .lessonPlan: return "View Plan"
+        case .activity: return "Play Game"
         }
     }
 }

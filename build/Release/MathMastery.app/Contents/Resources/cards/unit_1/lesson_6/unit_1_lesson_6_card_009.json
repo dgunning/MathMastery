@@ -1,0 +1,27 @@
+{
+  "id": "unit_1_lesson_6_card_009",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_6",
+  "type": "worked_example",
+  "title": "Maximizing Height: Projectile Motion",
+  "duration": 120,
+  "content": {
+    "problem": "A basketball player shoots a ball with an initial height of 2 meters and an initial upward velocity of 14 meters per second. The height h(t) of the ball after t seconds is given by h(t) = -4.9t² + 14t + 2. Find the maximum height reached by the ball and the time at which it occurs.",
+    "steps": [
+      "Step 1: Identify that this is a quadratic function with a < 0, so it has a maximum value\nh(t) = -4.9t² + 14t + 2, where a = -4.9, b = 14, c = 2",
+      "Step 2: Find the t-coordinate of the vertex using t = -b/(2a)\nt = -(14)/(2(-4.9)) = 14/9.8 ≈ 1.43 seconds",
+      "Step 3: Calculate the maximum height by evaluating h(1.43)\nh(1.43) = -4.9(1.43)² + 14(1.43) + 2\nh(1.43) = -4.9(2.04) + 20.02 + 2\nh(1.43) = -10.00 + 20.02 + 2\nh(1.43) ≈ 12.02 meters",
+      "Step 4: State the answer\nThe ball reaches its maximum height of approximately 12.02 meters after 1.43 seconds"
+    ],
+    "explanation": "Projectile motion is a classic application of quadratic functions in physics. The negative coefficient of t² represents the effect of gravity pulling the object downward. The maximum height is found at the vertex of the parabola."
+  },
+  "interactive": {
+    "question": "A stone is thrown upward from ground level with an initial velocity of 20 meters per second. The height function is h(t) = -4.9t² + 20t. What is the maximum height reached by the stone?",
+    "options": [
+      "20.4 meters",
+      "10.2 meters",
+      "15.0 meters"
+    ],
+    "correct": 0
+  }
+}

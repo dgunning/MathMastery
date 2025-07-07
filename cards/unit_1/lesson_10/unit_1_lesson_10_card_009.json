@@ -1,0 +1,31 @@
+{
+  "id": "unit_1_lesson_10_card_009",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_10",
+  "type": "worked_example",
+  "title": "Discriminant in Quadratic Inequalities",
+  "duration": 120,
+  "content": {
+    "problem": "Use the discriminant to help solve the following quadratic inequalities:\n\n1. x² - 4x + 5 > 0\n\n2. 2x² - 3x - 2 ≤ 0\n\n3. -x² + 6x - 9 ≥ 0",
+    "steps": [
+      "Step 1: For inequality 1, x² - 4x + 5 > 0, first calculate the discriminant to determine the nature of the roots of the corresponding equation x² - 4x + 5 = 0.\nΔ = (-4)² - 4(1)(5) = 16 - 20 = -4 < 0",
+      "Step 2: Since Δ < 0, the equation x² - 4x + 5 = 0 has no real roots. The parabola y = x² - 4x + 5 doesn't cross the x-axis and, since a = 1 > 0, the parabola opens upward. Therefore, the function value is always positive.\nSo the solution to x² - 4x + 5 > 0 is all real numbers, or (-∞, ∞).",
+      "Step 3: For inequality 2, 2x² - 3x - 2 ≤ 0, calculate the discriminant of the equation 2x² - 3x - 2 = 0.\nΔ = (-3)² - 4(2)(-2) = 9 + 16 = 25 > 0",
+      "Step 4: Since Δ > 0, the equation has two distinct real roots. Using the quadratic formula:\nx = (3 ± √25)/(2(2)) = (3 ± 5)/4\nx = 2 or x = -1/2\nThese are the x-intercepts of the parabola y = 2x² - 3x - 2.",
+      "Step 5: Since a = 2 > 0, the parabola opens upward, so the function value is negative (≤ 0) between the roots.\nSo the solution to 2x² - 3x - 2 ≤ 0 is [-1/2, 2].",
+      "Step 6: For inequality 3, -x² + 6x - 9 ≥ 0, calculate the discriminant of the equation -x² + 6x - 9 = 0.\nΔ = 6² - 4(-1)(-9) = 36 - 36 = 0",
+      "Step 7: Since Δ = 0, the equation has one repeated real root. Using x = -b/(2a):\nx = -6/(2(-1)) = 3\nThis is the x-intercept of the parabola y = -x² + 6x - 9.",
+      "Step 8: Since a = -1 < 0, the parabola opens downward, and the vertex is the highest point. Since the parabola touches the x-axis at x = 3 (the vertex), the function value is non-positive for all x except at x = 3, where it equals zero.\nSo the solution to -x² + 6x - 9 ≥ 0 is the single point {3}."
+    ],
+    "explanation": "The discriminant is a valuable tool for solving quadratic inequalities because it helps determine the nature and position of the roots, which are the boundaries of the solution intervals.\n\nThe general approach for solving a quadratic inequality ax² + bx + c ⋚ 0 is:\n\n1. Calculate the discriminant Δ = b² - 4ac to determine the number of real roots\n2. Find the roots (if any) using the quadratic formula or factoring\n3. Determine the sign of the leading coefficient a\n4. Use the roots to divide the number line into intervals\n5. Test each interval to determine where the inequality is satisfied\n\nKey patterns to remember:\n\n1. If Δ < 0 (no real roots):\n   - If a > 0, the inequality ax² + bx + c > 0 is satisfied for all real numbers\n   - If a < 0, the inequality ax² + bx + c < 0 is satisfied for all real numbers\n\n2. If Δ = 0 (one repeated root r):\n   - If a > 0, the inequality ax² + bx + c > 0 is satisfied for all x ≠ r\n   - If a < 0, the inequality ax² + bx + c < 0 is satisfied for all x ≠ r\n\n3. If Δ > 0 (two distinct roots r₁ < r₂):\n   - If a > 0, the inequality ax² + bx + c > 0 is satisfied for x < r₁ or x > r₂\n   - If a < 0, the inequality ax² + bx + c < 0 is satisfied for x < r₁ or x > r₂"
+  },
+  "interactive": {
+    "question": "What is the solution set for the inequality x² + 2x - 8 < 0?",
+    "options": [
+      "(-4, 2)",
+      "(-∞, -4) ∪ (2, ∞)",
+      "[-4, 2]"
+    ],
+    "correct": 0
+  }
+}

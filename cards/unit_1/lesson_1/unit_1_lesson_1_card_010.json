@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_1_card_010",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1",
+  "type": "worked_example",
+  "title": "Building a Function from a Real Situation",
+  "duration": 200,
+  "content": {
+    "explanation": "Let's create a function from a real scenario: A streaming service charges $12/month plus $3 for each premium movie rented.\n\nStep 1: Identify the input and output\n• Input: Number of premium movies (m)\n• Output: Total monthly cost (C)\n\nStep 2: Find the pattern\n• Base cost: $12\n• Variable cost: $3 per movie\n• Total: Base + (Rate × Movies)",
+    "example": "🎬 Building the function:\n\nC(m) = 12 + 3m\n\nTesting our function:\n• 0 movies: C(0) = 12 + 3(0) = $12\n• 2 movies: C(2) = 12 + 3(2) = $18\n• 5 movies: C(5) = 12 + 3(5) = $27\n\nDomain: 0 or more movies (can't rent negative movies)\nRange: $12 or more (minimum is base subscription)",
+    "key_point": "Real-world functions often follow the pattern: Fixed amount + (Rate × Variable)."
+  },
+  "interactive": {
+    "question": "If your monthly bill is $30, how many premium movies did you rent?",
+    "options": [
+      "4 movies",
+      "6 movies",
+      "8 movies"
+    ],
+    "correct": 1
+  }
+}

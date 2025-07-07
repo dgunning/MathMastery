@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_5_card_001",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_5",
+  "type": "concept_intro",
+  "title": "Introduction to Parabolas",
+  "duration": 120,
+  "content": {
+    "explanation": "A parabola is the graph of a quadratic function, which has the form f(x) = ax² + bx + c, where a, b, and c are constants and a ≠ 0.\n\nThe shape of a parabola is determined by the value of a:\n- If a > 0, the parabola opens upward (like a cup)\n- If a < 0, the parabola opens downward (like an inverted cup)\n\nThe absolute value of a affects how wide or narrow the parabola is. A larger |a| creates a narrower parabola.",
+    "example": "Consider these functions:\nf(x) = x² (opens upward, standard width)\ng(x) = 3x² (opens upward, narrower)\nh(x) = -0.5x² (opens downward, wider)",
+    "key_point": "Every parabola has a special point called the vertex, which is either the minimum point (if the parabola opens upward) or the maximum point (if the parabola opens downward)."
+  },
+  "interactive": {
+    "question": "Which of these quadratic functions has a parabola that opens downward?",
+    "options": [
+      "f(x) = -2x² + 4x - 1",
+      "g(x) = x² - 5x + 6",
+      "h(x) = 3x² + 2x - 7"
+    ],
+    "correct": 0
+  }
+}

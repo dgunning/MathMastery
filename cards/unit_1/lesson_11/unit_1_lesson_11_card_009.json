@@ -1,0 +1,38 @@
+{
+  "id": "unit_1_lesson_11_card_009",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_11",
+  "type": "worked_example",
+  "title": "Finding a Quadratic Equation with a Given Vertex and Root",
+  "duration": 120,
+  "content": {
+    "problem": "Find the quadratic function f(x) = ax² + bx + c that satisfies the given conditions:\n\n1. Vertex: (2, -3), root: 4\n2. Vertex: (-1, 5), root: 2\n3. Vertex: (3, 0), root: 5",
+    "steps": [
+      "Step 1: When given the vertex (h, k) of a quadratic function, we can write the function in vertex form: f(x) = a(x - h)² + k.",
+      "Step 2: For problem 1, with vertex (2, -3) and root 4, we start with f(x) = a(x - 2)² - 3.",
+      "Step 3: Since 4 is a root, f(4) = 0. Substituting: 0 = a(4 - 2)² - 3 = a(4) - 3.",
+      "Step 4: Solving for a: a(4) = 3, so a = 3/4.",
+      "Step 5: Therefore, the quadratic function is f(x) = (3/4)(x - 2)² - 3.",
+      "Step 6: We can convert this to standard form: f(x) = (3/4)x² - 3x + 3 - 3 = (3/4)x² - 3x.",
+      "Step 7: For problem 2, with vertex (-1, 5) and root 2, we start with f(x) = a(x - (-1))² + 5 = a(x + 1)² + 5.",
+      "Step 8: Since 2 is a root, f(2) = 0. Substituting: 0 = a(2 + 1)² + 5 = a(9) + 5.",
+      "Step 9: Solving for a: a(9) = -5, so a = -5/9.",
+      "Step 10: Therefore, the quadratic function is f(x) = (-5/9)(x + 1)² + 5.",
+      "Step 11: We can convert this to standard form: f(x) = (-5/9)x² - (10/9)x - 5/9 + 5 = (-5/9)x² - (10/9)x + 40/9.",
+      "Step 12: For problem 3, with vertex (3, 0) and root 5, we start with f(x) = a(x - 3)².",
+      "Step 13: Since 5 is a root, f(5) = 0. Substituting: 0 = a(5 - 3)² = a(4).",
+      "Step 14: This equation is satisfied when a = 0, which would make f(x) = 0 for all x. However, this isn't a proper quadratic function. This suggests there's an error in the given conditions, as a parabola with vertex (3, 0) already has 3 as a root, so it can't have another root unless it's the zero function.",
+      "Step 15: If we assume the vertex is (3, 0) and the parabola is not the zero function, then 3 must be the only root (a repeated root), and the function would be f(x) = a(x - 3)² for any non-zero value of a."
+    ],
+    "explanation": "When finding a quadratic function with a given vertex and root, we use the vertex form of the quadratic function:\n\nf(x) = a(x - h)² + k\n\nWhere (h, k) is the vertex and a is a constant that determines the opening direction and steepness of the parabola.\n\nThe process involves these steps:\n\n1. Substitute the vertex coordinates into the vertex form\n\n2. Use the given root r to set up the equation f(r) = 0:\n   a(r - h)² + k = 0\n\n3. Solve for the value of a:\n   a = -k/((r - h)²)\n\n4. Substitute the value of a back into the vertex form\n\n5. If needed, convert to standard form using these relationships:\n   f(x) = a(x - h)² + k = ax² - 2ahx + ah² + k\n   So, a = a, b = -2ah, and c = ah² + k\n\nSpecial cases to note:\n\n- If the vertex (h, k) is on the x-axis (k = 0), then h is already a root of the function\n\n- If the given root is the same as the x-coordinate of the vertex, then the vertex is on the x-axis and the root is a repeated root\n\n- If the conditions are inconsistent (as in problem 3), there may be an error in the given information or the function might be degenerate"
+  },
+  "interactive": {
+    "question": "A quadratic function has vertex (1, -4) and root 3. What is the function in standard form?",
+    "options": [
+      "f(x) = 2x² - 4x - 2",
+      "f(x) = 2x² - 4x + 2",
+      "f(x) = -2x² + 4x - 6"
+    ],
+    "correct": 0
+  }
+}

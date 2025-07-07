@@ -1,0 +1,28 @@
+{
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_6",
+  "lesson_name": "Maximum and Minimum Values",
+  "total_cards": 15,
+  "estimated_duration": 1800,
+  "sequence": [
+    "unit_1_lesson_6_card_001",
+    "unit_1_lesson_6_card_002",
+    "unit_1_lesson_6_card_003",
+    "unit_1_lesson_6_card_004",
+    "unit_1_lesson_6_card_005",
+    "unit_1_lesson_6_card_006",
+    "unit_1_lesson_6_card_007",
+    "unit_1_lesson_6_card_008",
+    "unit_1_lesson_6_card_009",
+    "unit_1_lesson_6_card_010",
+    "unit_1_lesson_6_card_011",
+    "unit_1_lesson_6_card_012",
+    "unit_1_lesson_6_card_013",
+    "unit_1_lesson_6_card_014",
+    "unit_1_lesson_6_card_015"
+  ],
+  "card_types": {
+    "worked_example": 9,
+    "concept_intro": 6
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "lesson_id": "lesson_11",
+  "title": "Determining a Quadratic Equation from its Roots",
+  "cards": [
+    {
+      "id": "unit_1_lesson_11_card_001",
+      "type": "concept_intro",
+      "title": "Introduction to Finding Quadratic Equations from Roots",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_11_card_002",
+      "type": "worked_example",
+      "title": "Finding a Quadratic Equation from Real Roots",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_11_card_003",
+      "type": "worked_example",
+      "title": "Finding a Quadratic Equation from Complex Roots",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_11_card_004",
+      "type": "concept_intro",
+      "title": "Vieta's Formulas",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_11_card_005",
+      "type": "worked_example",
+      "title": "Using Vieta's Formulas to Find Quadratic Equations",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_11_card_006",
+      "type": "worked_example",
+      "title": "Finding a Quadratic Equation with a Given Sum and Product of Roots",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_11_card_007",
+      "type": "concept_intro",
+      "title": "Finding a Quadratic Equation with Additional Constraints",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_11_card_008",
+      "type": "worked_example",
+      "title": "Finding a Quadratic Equation with a Specific Point",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_11_card_009",
+      "type": "worked_example",
+      "title": "Finding a Quadratic Equation with a Given Vertex and Root",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_11_card_010",
+      "type": "concept_intro",
+      "title": "Quadratic Equations with Repeated Roots",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_11_card_011",
+      "type": "worked_example",
+      "title": "Finding a Quadratic Equation with a Repeated Root",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_11_card_012",
+      "type": "worked_example",
+      "title": "Finding a Family of Quadratic Equations with Given Roots",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_11_card_013",
+      "type": "worked_example",
+      "title": "Applications: Finding Quadratic Models from Data Points",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_11_card_014",
+      "type": "worked_example",
+      "title": "Problem Solving with Quadratic Equations and Roots",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_11_card_015",
+      "type": "concept_intro",
+      "title": "Review: Determining Quadratic Equations from Roots",
+      "estimated_duration": 120
+    }
+  ]
+}

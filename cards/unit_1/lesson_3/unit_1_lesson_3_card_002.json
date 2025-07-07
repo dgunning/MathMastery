@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_3_card_002",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_3",
+  "type": "concept_intro",
+  "title": "Relations vs. Functions",
+  "duration": 120,
+  "content": {
+    "explanation": "A relation is any set of ordered pairs (x, y) that shows a relationship between inputs and outputs.\n\nA function is a special type of relation where each x-value (input) corresponds to exactly one y-value (output).\n\nIn other words, all functions are relations, but not all relations are functions.",
+    "example": "Relation 1: {(1, 2), (3, 4), (5, 6)}\nThis is a function because each input has exactly one output.\n\nRelation 2: {(1, 2), (1, 3), (2, 4)}\nThis is not a function because the input 1 has two different outputs (2 and 3).",
+    "key_point": "To determine if a relation is a function, check if any input value is paired with more than one output value. If yes, it's not a function."
+  },
+  "interactive": {
+    "question": "Which relation represents a function?",
+    "options": [
+      "{(2, 5), (3, 7), (4, 9)}",
+      "{(5, 2), (5, 3), (6, 4)}",
+      "{(1, 8), (2, 8), (3, 8)}"
+    ],
+    "correct": 0
+  }
+}

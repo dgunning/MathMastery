@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_3_card_001",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_3",
+  "type": "concept_intro",
+  "title": "What is a Function?",
+  "duration": 120,
+  "content": {
+    "explanation": "A function is a special relationship between inputs and outputs where each input has exactly one output.\n\nThink of a function as a machine: you put something in, and you get exactly one thing out. The key rule is that the same input always gives the same output.\n\nFor example, the rule 'multiply by 2' is a function because each number you put in gives exactly one result.",
+    "example": "If f is the 'multiply by 2' function, then:\nf(3) = 6\nf(0) = 0\nf(-4) = -8\n\nEach input gives exactly one output.",
+    "key_point": "The defining characteristic of a function is that each input value corresponds to exactly one output value. If an input could give multiple different outputs, it's not a function."
+  },
+  "interactive": {
+    "question": "Which of these is NOT a function?",
+    "options": [
+      "A rule that assigns each person their age",
+      "A rule that assigns each person their favorite colors",
+      "A rule that assigns each number its square"
+    ],
+    "correct": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_5_card_009",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_5",
+  "type": "concept_intro",
+  "title": "Axis of Symmetry",
+  "duration": 120,
+  "content": {
+    "explanation": "Every parabola has a line of symmetry that passes through its vertex. This line is called the axis of symmetry.\n\nFor a quadratic function f(x) = ax² + bx + c, the axis of symmetry is the vertical line:\n\nx = -b/(2a)\n\nThis is the same as the x-coordinate of the vertex. If you fold the graph along this line, the two halves of the parabola match exactly.",
+    "example": "For the function f(x) = 2x² - 8x + 7:\n- The x-coordinate of the vertex is x = -(-8)/(2(2)) = 8/4 = 2\n- The axis of symmetry is the vertical line x = 2\n- Points equidistant from this line have the same y-value, e.g., f(1) = f(3)",
+    "key_point": "The axis of symmetry helps us understand the behavior of the parabola. For any point on the parabola, there's a corresponding point on the other side of the axis with the same height."
+  },
+  "interactive": {
+    "question": "What is the axis of symmetry for the parabola y = -3x² + 12x - 7?",
+    "options": [
+      "x = 2",
+      "x = -2",
+      "x = 4"
+    ],
+    "correct": 0
+  }
+}

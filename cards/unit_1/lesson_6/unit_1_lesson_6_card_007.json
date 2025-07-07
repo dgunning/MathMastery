@@ -1,0 +1,27 @@
+{
+  "id": "unit_1_lesson_6_card_007",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_6",
+  "type": "worked_example",
+  "title": "Minimizing Cost: Manufacturing Optimization",
+  "duration": 120,
+  "content": {
+    "problem": "A company manufactures smartphones. The daily cost function (in dollars) for producing x smartphones is C(x) = 0.02x² - 8x + 1000. How many smartphones should be produced daily to minimize the cost, and what is the minimum cost?",
+    "steps": [
+      "Step 1: Identify that this is a quadratic function with a > 0, so it has a minimum value\nC(x) = 0.02x² - 8x + 1000, where a = 0.02, b = -8, c = 1000",
+      "Step 2: Find the x-coordinate of the vertex using x = -b/(2a)\nx = -(-8)/(2(0.02)) = 8/0.04 = 200 smartphones",
+      "Step 3: Calculate the minimum cost by evaluating C(200)\nC(200) = 0.02(200)² - 8(200) + 1000\nC(200) = 0.02(40,000) - 1,600 + 1,000\nC(200) = 800 - 1,600 + 1,000\nC(200) = $200",
+      "Step 4: State the answer\nThe company should produce 200 smartphones daily to minimize the cost, and the minimum cost is $200"
+    ],
+    "explanation": "In manufacturing, cost functions often follow a quadratic pattern due to economies of scale (decreasing costs as production increases) combined with capacity constraints (increasing costs at high volumes). Finding the minimum of this function helps companies optimize their production levels."
+  },
+  "interactive": {
+    "question": "A factory's daily cost function (in dollars) for producing x units is C(x) = 0.5x² - 60x + 2500. What is the minimum daily cost?",
+    "options": [
+      "$700",
+      "$2500",
+      "$1800"
+    ],
+    "correct": 0
+  }
+}

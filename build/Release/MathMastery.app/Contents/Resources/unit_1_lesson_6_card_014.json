@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_6_card_014",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_6",
+  "type": "concept_intro",
+  "title": "Technology Connections: Finding Maximum and Minimum Values",
+  "duration": 120,
+  "content": {
+    "explanation": "Graphing calculators and software can help us find maximum and minimum values of quadratic functions quickly and accurately. Most graphing calculators have built-in features to find these critical points:\n\n1. Graph the quadratic function\n2. Use the 'maximum' or 'minimum' feature (often found in the CALC or MATH menu)\n3. Specify a search range that includes the vertex\n4. The calculator will display the coordinates of the maximum or minimum point\n\nThis technology is especially useful for complex problems or when the coefficients lead to decimal values that are difficult to calculate by hand.",
+    "example": "To find the minimum value of f(x) = 2.5x² - 7.3x + 4.2 using a graphing calculator:\n\n1. Enter the function and graph it\n2. Select the minimum feature from the calculator menu\n3. Choose a search range (e.g., from x = 0 to x = 3)\n4. The calculator will show that the minimum occurs at approximately x = 1.46 with a value of about -1.13",
+    "key_point": "While it's important to understand the mathematical concepts behind finding maximum and minimum values, technology can be a powerful tool for solving complex problems efficiently. Always verify calculator results with estimation to ensure they make sense."
+  },
+  "interactive": {
+    "question": "When using a graphing calculator to find the maximum value of a quadratic function, which of the following is NOT necessary?",
+    "options": [
+      "Converting the function to vertex form first",
+      "Graphing the function",
+      "Selecting an appropriate search range"
+    ],
+    "correct": 0
+  }
+}

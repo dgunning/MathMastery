@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_3_card_005",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_3",
+  "type": "concept_intro",
+  "title": "Domain and Range of a Function",
+  "duration": 120,
+  "content": {
+    "explanation": "The domain of a function is the set of all possible input values (x-values) for which the function is defined.\n\nThe range of a function is the set of all possible output values (y-values) that result from using the inputs in the domain.\n\nIn other words, the domain is what you can put into the function, and the range is what you can get out of it.",
+    "example": "For the function f(x) = x², the domain is all real numbers (any number can be squared).\nThe range is all non-negative real numbers (y ≥ 0) because a square is always zero or positive.",
+    "key_point": "When determining the domain of a function, look for values that would make the function undefined, such as division by zero or taking the square root of a negative number."
+  },
+  "interactive": {
+    "question": "What is the domain of the function g(x) = 1/(x-2)?",
+    "options": [
+      "All real numbers except x = 2",
+      "All real numbers",
+      "All real numbers except x = 0"
+    ],
+    "correct": 0
+  }
+}

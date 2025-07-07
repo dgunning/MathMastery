@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_11_card_001",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_11",
+  "type": "concept_intro",
+  "title": "Introduction to Finding Quadratic Equations from Roots",
+  "duration": 120,
+  "content": {
+    "explanation": "In previous lessons, we learned how to find the roots (or zeros) of a quadratic equation. In this lesson, we'll explore the reverse process: determining a quadratic equation when given its roots.\n\nA quadratic equation in standard form is written as:\nax² + bx + c = 0, where a ≠ 0\n\nIf we know the roots of this equation are r and s, then we can write the equation in factored form as:\na(x - r)(x - s) = 0\n\nThis works because when x = r or x = s, one of the factors becomes zero, making the entire expression equal to zero.\n\nExpanding this factored form:\na(x - r)(x - s) = a(x² - sx - rx + rs)\n= a(x² - (r + s)x + rs)\n= ax² - a(r + s)x + ars\n\nComparing with the standard form ax² + bx + c = 0, we can see that:\nb = -a(r + s)\nc = ars\n\nThese relationships allow us to find the coefficients of a quadratic equation when we know its roots. Specifically:\n- The coefficient of x is the negative of the sum of roots multiplied by a\n- The constant term is the product of roots multiplied by a\n\nWhen a = 1, the monic quadratic equation with roots r and s is:\nx² - (r + s)x + rs = 0",
+    "example": "Suppose we want to find a quadratic equation with roots 3 and -5.\n\nUsing the factored form with a = 1:\n(x - 3)(x - (-5)) = 0\n(x - 3)(x + 5) = 0\n\nExpanding:\nx² + 5x - 3x - 15 = 0\nx² + 2x - 15 = 0\n\nWe can verify this is correct by solving the equation:\nx² + 2x - 15 = 0\n(x + 5)(x - 3) = 0\nx = -5 or x = 3\n\nIndeed, the roots are 3 and -5 as required.\n\nAlternatively, we could have used the relationships directly:\n- Sum of roots = 3 + (-5) = -2\n- Product of roots = 3 × (-5) = -15\n\nSo the equation is:\nx² - (-2)x + (-15) = 0\nx² + 2x - 15 = 0",
+    "key_point": "When finding a quadratic equation from its roots r and s, remember these key relationships:\n1. If the equation is ax² + bx + c = 0, then:\n   - b = -a(r + s)\n   - c = ars\n2. The simplest form (with a = 1) is:\n   x² - (sum of roots)x + (product of roots) = 0"
+  },
+  "interactive": {
+    "question": "What is the quadratic equation with roots 4 and -2?",
+    "options": [
+      "x² - 2x - 8 = 0",
+      "x² + 2x - 8 = 0",
+      "x² - 2x + 8 = 0"
+    ],
+    "correct": 0
+  }
+}

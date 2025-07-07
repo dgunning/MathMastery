@@ -1,0 +1,29 @@
+{
+  "id": "unit_1_lesson_7_card_011",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_7",
+  "type": "worked_example",
+  "title": "Real-World Application: Projectile Motion",
+  "duration": 120,
+  "content": {
+    "problem": "A ball is thrown upward from a height of 5 feet with an initial velocity of 32 feet per second. The height h(t) of the ball after t seconds is given by h(t) = -16t² + 32t + 5. Use completing the square to find the maximum height reached by the ball and the time at which it occurs.",
+    "steps": [
+      "Step 1: Rewrite the function in a form suitable for completing the square\nh(t) = -16t² + 32t + 5\nh(t) = -16(t² - 2t) + 5",
+      "Step 2: Complete the square inside the parentheses\nFor t² - 2t, take half of -2, which is -1, and square it: (-1)² = 1\nh(t) = -16(t² - 2t + 1 - 1) + 5\nh(t) = -16((t - 1)² - 1) + 5",
+      "Step 3: Distribute the leading coefficient\nh(t) = -16(t - 1)² + 16 + 5",
+      "Step 4: Simplify the constant terms\nh(t) = -16(t - 1)² + 21",
+      "Step 5: Identify the vertex from the vertex form\nComparing with h(t) = a(t - h)² + k, we have a = -16, h = 1, k = 21\nSo the vertex is at (1, 21)",
+      "Step 6: Interpret the result\nThe ball reaches its maximum height of 21 feet after 1 second"
+    ],
+    "explanation": "In physics, quadratic functions often model the height of projectiles under gravity. By completing the square, we can convert the height function to vertex form, which directly gives us the maximum height (the k-value) and the time at which it occurs (the h-value)."
+  },
+  "interactive": {
+    "question": "A stone is thrown upward from ground level with an initial velocity of 40 feet per second. The height function is h(t) = -16t² + 40t. What is the maximum height reached by the stone?",
+    "options": [
+      "25 feet",
+      "40 feet",
+      "20 feet"
+    ],
+    "correct": 0
+  }
+}

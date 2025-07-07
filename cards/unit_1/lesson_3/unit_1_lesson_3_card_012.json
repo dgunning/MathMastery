@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_3_card_012",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_3",
+  "type": "concept_intro",
+  "title": "Determining if a Relation is a Function",
+  "duration": 120,
+  "content": {
+    "explanation": "There are several ways to determine if a relation is a function:\n\n1. From ordered pairs: Check if any input (x-value) appears more than once with different outputs.\n\n2. From a graph: Apply the vertical line test - if any vertical line intersects the graph more than once, it's not a function.\n\n3. From a mapping diagram: Check if any input connects to more than one output.",
+    "example": "Consider the relation {(1, 2), (3, 4), (5, 6), (1, 7)}.\nThe input 1 appears twice with different outputs (2 and 7).\nTherefore, this relation is not a function.",
+    "key_point": "A function is a special relation where each input has exactly one output. The key is to check for duplicate inputs with different outputs."
+  },
+  "interactive": {
+    "question": "Which of these relations is a function?",
+    "options": [
+      "y = x²",
+      "x = y²",
+      "x² + y² = 25"
+    ],
+    "correct": 0
+  }
+}

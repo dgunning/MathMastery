@@ -1,0 +1,28 @@
+{
+  "id": "unit_1_lesson_2_card_014",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_2",
+  "type": "worked_example",
+  "title": "Difference of Cubes Example",
+  "duration": 190,
+  "content": {
+    "problem": "Factor: 8x³ - 125",
+    "steps": [
+      "Step 1: Recognize as difference of cubes\n8x³ - 125 = (2x)³ - 5³",
+      "Step 2: Identify a and b\na = 2x, b = 5",
+      "Step 3: Apply difference of cubes formula\na³ - b³ = (a - b)(a² + ab + b²)",
+      "Step 4: Substitute our values\n(2x - 5)((2x)² + (2x)(5) + 5²)",
+      "Step 5: Simplify\n(2x - 5)(4x² + 10x + 25)"
+    ],
+    "explanation": "Notice the plus sign in the middle of the second factor - this is the key difference from sum of cubes."
+  },
+  "interactive": {
+    "question": "What is the first term of the second factor in x³ - 64?",
+    "options": [
+      "x²",
+      "4x²",
+      "x⁴"
+    ],
+    "correct": 0
+  }
+}

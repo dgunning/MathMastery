@@ -1,0 +1,27 @@
+{
+  "id": "unit_1_lesson_6_card_004",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_6",
+  "type": "worked_example",
+  "title": "Converting to Vertex Form to Find Maximum/Minimum",
+  "duration": 120,
+  "content": {
+    "problem": "Find the maximum or minimum value of the quadratic function f(x) = 3x² - 12x + 14 by converting to vertex form.",
+    "steps": [
+      "Step 1: Factor out the leading coefficient from the first two terms\nf(x) = 3(x² - 4x) + 14",
+      "Step 2: Complete the square inside the parentheses\nTo complete the square for x² - 4x, take half the coefficient of x, square it, and add and subtract it\nHalf of -4 is -2, and (-2)² = 4\nf(x) = 3(x² - 4x + 4 - 4) + 14\nf(x) = 3((x - 2)² - 4) + 14",
+      "Step 3: Distribute and simplify\nf(x) = 3(x - 2)² - 12 + 14\nf(x) = 3(x - 2)² + 2",
+      "Step 4: Identify the vertex and determine the maximum or minimum value\nThe function is now in vertex form f(x) = a(x - h)² + k with a = 3, h = 2, k = 2\nSince a > 0, the function has a minimum value\nThe minimum value is 2, occurring at x = 2"
+    ],
+    "explanation": "Converting a quadratic function from standard form to vertex form by completing the square is a powerful technique for finding the maximum or minimum value. Once in vertex form, the maximum or minimum value is clearly visible as the constant term k."
+  },
+  "interactive": {
+    "question": "What is the minimum value of g(x) = 2x² + 8x + 10?",
+    "options": [
+      "2",
+      "10",
+      "8"
+    ],
+    "correct": 0
+  }
+}

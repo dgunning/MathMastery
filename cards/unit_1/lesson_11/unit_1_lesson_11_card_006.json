@@ -1,0 +1,38 @@
+{
+  "id": "unit_1_lesson_11_card_006",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_11",
+  "type": "worked_example",
+  "title": "Finding a Quadratic Equation with a Given Sum and Product of Roots",
+  "duration": 120,
+  "content": {
+    "problem": "Find the quadratic equation in standard form (ax² + bx + c = 0) for each of the following conditions:\n\n1. The sum of the roots is 6 and the product of the roots is 8, with a = 1\n2. The sum of the roots is -3 and the product of the roots is -10, with a = 2\n3. The sum of the roots is 0 and the product of the roots is 25, with a = 3",
+    "steps": [
+      "Step 1: We'll use Vieta's Formulas to solve these problems. For a quadratic equation ax² + bx + c = 0 with roots r and s:\n- r + s = -b/a (Sum of roots)\n- r × s = c/a (Product of roots)",
+      "Step 2: For problem 1, we have sum of roots = 6, product of roots = 8, and a = 1.",
+      "Step 3: Using the first formula: r + s = -b/a, so 6 = -b/1, which gives us b = -6.",
+      "Step 4: Using the second formula: r × s = c/a, so 8 = c/1, which gives us c = 8.",
+      "Step 5: Therefore, the quadratic equation is x² - 6x + 8 = 0.",
+      "Step 6: We can verify this by finding the roots using the quadratic formula:\nx = (6 ± √(36 - 32))/2 = (6 ± √4)/2 = (6 ± 2)/2 = 4 or 2\nIndeed, 4 + 2 = 6 and 4 × 2 = 8.",
+      "Step 7: For problem 2, we have sum of roots = -3, product of roots = -10, and a = 2.",
+      "Step 8: Using the first formula: r + s = -b/a, so -3 = -b/2, which gives us b = 6.",
+      "Step 9: Using the second formula: r × s = c/a, so -10 = c/2, which gives us c = -20.",
+      "Step 10: Therefore, the quadratic equation is 2x² + 6x - 20 = 0, which can be simplified to x² + 3x - 10 = 0.",
+      "Step 11: For problem 3, we have sum of roots = 0, product of roots = 25, and a = 3.",
+      "Step 12: Using the first formula: r + s = -b/a, so 0 = -b/3, which gives us b = 0.",
+      "Step 13: Using the second formula: r × s = c/a, so 25 = c/3, which gives us c = 75.",
+      "Step 14: Therefore, the quadratic equation is 3x² + 0x + 75 = 0, which can be simplified to 3x² + 75 = 0 or x² + 25 = 0.",
+      "Step 15: We can verify this by noting that the roots must be 5i and -5i (since their sum is 0 and their product is 25). These are indeed the roots of x² + 25 = 0."
+    ],
+    "explanation": "Finding a quadratic equation from the sum and product of its roots is a direct application of Vieta's Formulas. The process involves these steps:\n\n1. Identify the given information: sum of roots (r + s), product of roots (r × s), and the leading coefficient (a).\n\n2. Apply Vieta's Formulas to find the coefficients b and c:\n   - b = -a(r + s) [from r + s = -b/a]\n   - c = a(r × s) [from r × s = c/a]\n\n3. Write the quadratic equation in standard form: ax² + bx + c = 0.\n\nSpecial cases to note:\n\n- When the sum of roots is 0 (r + s = 0), the coefficient of x (b) is 0, resulting in an equation of the form ax² + c = 0.\n\n- When the product of roots is 0 (r × s = 0), the constant term (c) is 0, resulting in an equation of the form ax² + bx = 0, which has 0 as one of its roots.\n\n- When the product of roots is positive and the sum of roots is 0, the roots must be complex conjugates of the form ±bi, where b is a real number.\n\nThis method works even when you don't know the actual roots, making it a powerful tool for constructing quadratic equations with specific properties."
+  },
+  "interactive": {
+    "question": "What is the quadratic equation with sum of roots = -5 and product of roots = 6, with a = 1?",
+    "options": [
+      "x² + 5x + 6 = 0",
+      "x² - 5x + 6 = 0",
+      "x² + 5x - 6 = 0"
+    ],
+    "correct": 0
+  }
+}

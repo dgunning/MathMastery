@@ -1,0 +1,41 @@
+{
+  "id": "unit_1_lesson_11_card_011",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_11",
+  "type": "worked_example",
+  "title": "Finding a Quadratic Equation with a Specific Property",
+  "duration": 120,
+  "content": {
+    "problem": "Find a quadratic equation ax² + bx + c = 0 with the following properties:\n\n1. One root is twice the other root\n2. The sum of the roots is 3 and their product is -10\n3. The roots differ by 5 and their product is -6",
+    "steps": [
+      "Step 1: For problem 1, let's call the roots r and 2r. We'll use Vieta's formulas to find the equation.",
+      "Step 2: The sum of roots is r + 2r = 3r and the product is r × 2r = 2r².",
+      "Step 3: For a quadratic equation ax² + bx + c = 0, Vieta's formulas give us:\n- r + 2r = 3r = -b/a\n- r × 2r = 2r² = c/a",
+      "Step 4: We have freedom to choose a value for a. Let's set a = 1 for simplicity.",
+      "Step 5: With a = 1, we get b = -3r and c = 2r².",
+      "Step 6: The equation is x² - 3rx + 2r² = 0. This represents a family of equations, one for each value of r.",
+      "Step 7: If we choose r = 1, the equation becomes x² - 3x + 2 = 0, which has roots 1 and 2. We can verify: 1 + 2 = 3 and 1 × 2 = 2, and 2 is indeed twice 1.",
+      "Step 8: For problem 2, we're given that the sum of roots is 3 and their product is -10.",
+      "Step 9: Using Vieta's formulas with a = 1:\n- r + s = 3 = -b/1, so b = -3\n- r × s = -10 = c/1, so c = -10",
+      "Step 10: Therefore, the quadratic equation is x² - 3x - 10 = 0.",
+      "Step 11: We can verify by finding the roots using the quadratic formula:\nx = (3 ± √(9 + 40))/2 = (3 ± √49)/2 = (3 ± 7)/2\nSo x = 5 or x = -2\nIndeed, 5 + (-2) = 3 and 5 × (-2) = -10.",
+      "Step 12: For problem 3, let's call the roots r and r + 5. We're given that their product is -6.",
+      "Step 13: The sum of roots is r + (r + 5) = 2r + 5 and their product is r(r + 5) = r² + 5r = -6.",
+      "Step 14: From the product equation: r² + 5r = -6, which is a quadratic equation in r.",
+      "Step 15: Solving for r: r² + 5r + 6 = 0, which factors as (r + 2)(r + 3) = 0, giving r = -2 or r = -3.",
+      "Step 16: If r = -2, the other root is r + 5 = 3. If r = -3, the other root is r + 5 = 2.",
+      "Step 17: Let's use r = -2 and r + 5 = 3. Using Vieta's formulas with a = 1:\n- (-2) + 3 = 1 = -b/1, so b = -1\n- (-2) × 3 = -6 = c/1, so c = -6",
+      "Step 18: Therefore, the quadratic equation is x² - x - 6 = 0."
+    ],
+    "explanation": "When finding a quadratic equation with specific properties related to its roots, we typically follow these steps:\n\n1. Express the given properties in terms of the roots (let's call them r and s)\n\n2. Use Vieta's formulas to relate the roots to the coefficients of the quadratic equation:\n   - r + s = -b/a\n   - r × s = c/a\n\n3. Set up equations based on the given properties and solve for the roots or directly for the coefficients\n\nCommon types of properties include:\n\n- Relationships between roots (one root is a multiple of the other, roots differ by a constant, etc.)\n- Specific values for the sum and/or product of roots\n- Conditions on the nature of roots (real, rational, integer, etc.)\n\nWhen the properties lead to multiple possible solutions, we may need to make choices or use additional constraints to find a specific equation. In some cases, we might find a family of equations that all satisfy the given properties.\n\nVerifying the solution by checking that the resulting equation has roots with the required properties is an important final step."
+  },
+  "interactive": {
+    "question": "What is the quadratic equation with integer coefficients where one root is 3 more than the other and the product of the roots is 4?",
+    "options": [
+      "x² - 3x - 4 = 0",
+      "x² - 3x + 4 = 0",
+      "x² + 3x - 4 = 0"
+    ],
+    "correct": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_3_card_004",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_3",
+  "type": "concept_intro",
+  "title": "The Vertical Line Test",
+  "duration": 120,
+  "content": {
+    "explanation": "The vertical line test is a visual way to determine if a graph represents a function.\n\nIf any vertical line intersects the graph at more than one point, then the graph does not represent a function.\n\nThis is because a vertical line represents all points with the same x-value. If it intersects the graph multiple times, that means one x-value has multiple y-values, which violates the definition of a function.",
+    "example": "A straight line always passes the vertical line test because any vertical line will intersect it exactly once.\n\nA circle fails the vertical line test because a vertical line through the center intersects the circle at two points.",
+    "key_point": "The vertical line test is based on the definition of a function: each input (x-value) must have exactly one output (y-value)."
+  },
+  "interactive": {
+    "question": "Which of these graphs represents a function?",
+    "options": [
+      "A parabola opening upward (like y = x²)",
+      "A circle (like x² + y² = 25)",
+      "A horizontal figure-8 shape"
+    ],
+    "correct": 0
+  }
+}

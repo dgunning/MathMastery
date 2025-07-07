@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_4_card_002",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_4",
+  "type": "concept_intro",
+  "title": "Evaluating Functions",
+  "duration": 120,
+  "content": {
+    "explanation": "To evaluate a function at a specific value, we substitute that value for every occurrence of the variable in the function definition.\n\nFor example, if f(x) = x² - 3x + 4, to find f(2), we substitute 2 for every x in the expression:\nf(2) = 2² - 3(2) + 4 = 4 - 6 + 4 = 2",
+    "example": "If h(t) = 5t - t², then h(3) = 5(3) - 3² = 15 - 9 = 6",
+    "key_point": "When evaluating functions, be careful with the order of operations. Complete all operations within parentheses first, then exponents, followed by multiplication/division, and finally addition/subtraction."
+  },
+  "interactive": {
+    "question": "If p(x) = x³ - 2x + 5, what is p(-1)?",
+    "options": [
+      "2",
+      "4",
+      "8"
+    ],
+    "correct": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "unit_1_lesson_7_card_003",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_7",
+  "type": "worked_example",
+  "title": "Completing the Square with a Constant Term",
+  "duration": 120,
+  "content": {
+    "problem": "Rewrite the quadratic expression x² + 6x + 5 by completing the square.",
+    "steps": [
+      "Step 1: Identify the coefficient of x, which is 6",
+      "Step 2: Take half of this coefficient: 6 ÷ 2 = 3",
+      "Step 3: Square this value: 3² = 9",
+      "Step 4: Add and subtract this value to maintain equality\nx² + 6x + 5 = x² + 6x + 9 - 9 + 5",
+      "Step 5: Rewrite the first three terms as a perfect square trinomial\nx² + 6x + 9 - 9 + 5 = (x + 3)² - 9 + 5",
+      "Step 6: Simplify the constant terms\n(x + 3)² - 9 + 5 = (x + 3)² - 4",
+      "Step 7: Verify by expanding\n(x + 3)² - 4 = x² + 6x + 9 - 4 = x² + 6x + 5 ✓"
+    ],
+    "explanation": "When completing the square for an expression that includes a constant term, we follow the same process as before but must account for the original constant term in our final simplification. This allows us to rewrite any quadratic expression in the form (x + p)² + q."
+  },
+  "interactive": {
+    "question": "What is the result of completing the square for x² - 8x + 10?",
+    "options": [
+      "(x - 4)² - 6",
+      "(x - 4)² + 6",
+      "(x + 4)² - 6"
+    ],
+    "correct": 0
+  }
+}

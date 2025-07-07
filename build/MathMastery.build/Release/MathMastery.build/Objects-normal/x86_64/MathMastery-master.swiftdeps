@@ -1,0 +1,13 @@
+version: "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)"
+options: "65be259b5c548ce3426955a159aba4b0baeab92869ce899ecd7c1d0f099e5437"
+build_start_time: [1751926525, 815610000]
+build_end_time: [1751926532, 783400000]
+inputs:
+  "/Users/dwight/Projects/MathMastery/MathMastery/Card.swift": [1751925952, 114155951]
+  "/Users/dwight/Projects/MathMastery/MathMastery/ContentService.swift": [1751926029, 638639234]
+  "/Users/dwight/Projects/MathMastery/MathMastery/ContentTypeViews.swift": [1751926170, 146563537]
+  "/Users/dwight/Projects/MathMastery/MathMastery/ContentView.swift": [1751926499, 229320683]
+  "/Users/dwight/Projects/MathMastery/MathMastery/LearningView.swift": [1751576745, 623620783]
+  "/Users/dwight/Projects/MathMastery/MathMastery/MainView.swift": [1751926277, 474556452]
+  "/Users/dwight/Projects/MathMastery/MathMastery/MathMasteryApp.swift": [1751568760, 187230336]
+  "/Users/dwight/Projects/MathMastery/MathMastery/WelcomeView.swift": [1751568868, 983859982]

@@ -1,0 +1,208 @@
+{
+  "source": "/Users/dwight/Projects/MathMastery/MathMastery/ContentTypeViews.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Full Lesson",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "Loading lesson...",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "Lesson Guide Not Available",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "This lesson doesn't have a full guide available yet.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "Worksheet",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 94
+        }
+      },
+      {
+        "comment": "",
+        "key": "Loading worksheet...",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "Download PDF",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "Worksheet Not Available",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "This lesson doesn't have a worksheet available yet.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "Quiz",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 149
+        }
+      },
+      {
+        "comment": "",
+        "key": "Loading quiz...",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 113
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Quiz",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 118
+        }
+      },
+      {
+        "comment": "",
+        "key": "Quiz Not Available",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 137
+        }
+      },
+      {
+        "comment": "",
+        "key": "This quiz is not available yet.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 141
+        }
+      },
+      {
+        "comment": "",
+        "key": "Activity",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 186
+        }
+      },
+      {
+        "comment": "",
+        "key": "Interactive Activity",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Coming Soon!",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 171
+        }
+      },
+      {
+        "comment": "",
+        "key": "Interactive activities and games for this lesson are under development.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 175
+        }
+      },
+      {
+        "comment": "",
+        "key": "Back to Lesson",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 180
+        }
+      },
+      {
+        "comment": "",
+        "key": "Lesson Plan",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 219
+        }
+      },
+      {
+        "comment": "",
+        "key": "Lesson Plan",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 200
+        }
+      },
+      {
+        "comment": "",
+        "key": "For Educators",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 204
+        }
+      },
+      {
+        "comment": "",
+        "key": "Detailed lesson plans for teachers and tutors are coming soon.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 208
+        }
+      },
+      {
+        "comment": "",
+        "key": "Back to Lesson",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 213
+        }
+      },
+      {
+        "comment": "",
+        "key": "•",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 271
+        }
+      }
+    ]
+  },
+  "version": 1
+}

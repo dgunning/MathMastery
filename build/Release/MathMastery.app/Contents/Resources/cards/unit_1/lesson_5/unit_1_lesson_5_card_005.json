@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_5_card_005",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_5",
+  "type": "concept_intro",
+  "title": "Vertex Form of a Quadratic Function",
+  "duration": 120,
+  "content": {
+    "explanation": "The vertex form of a quadratic function is:\n\nf(x) = a(x - h)² + k\n\nwhere (h, k) is the vertex of the parabola and a determines whether the parabola opens upward (a > 0) or downward (a < 0).\n\nThis form is particularly useful because it immediately tells us the vertex without requiring any calculations.",
+    "example": "For the function f(x) = 2(x - 3)² + 4:\n- The vertex is at (3, 4)\n- Since a = 2 > 0, the parabola opens upward\n- This is a minimum point",
+    "key_point": "Converting a quadratic function from standard form (ax² + bx + c) to vertex form allows us to easily identify the vertex. This conversion can be done by completing the square, which we'll explore in later lessons."
+  },
+  "interactive": {
+    "question": "What is the vertex of the quadratic function f(x) = -3(x + 2)² - 5?",
+    "options": [
+      "(-2, -5)",
+      "(2, -5)",
+      "(-2, 5)"
+    ],
+    "correct": 0
+  }
+}

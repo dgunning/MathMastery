@@ -1,0 +1,83 @@
+{
+  "id": "unit_1_lesson_12_sequence",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_12",
+  "title": "Solving Linear-Quadratic Systems",
+  "cards": [
+    {
+      "id": "unit_1_lesson_12_card_001",
+      "title": "Introduction to Linear-Quadratic Systems",
+      "duration": 120
+    },
+    {
+      "id": "unit_1_lesson_12_card_002",
+      "title": "Graphical Method for Solving Linear-Quadratic Systems",
+      "duration": 120
+    },
+    {
+      "id": "unit_1_lesson_12_card_003",
+      "title": "Substitution Method for Solving Linear-Quadratic Systems",
+      "duration": 120
+    },
+    {
+      "id": "unit_1_lesson_12_card_004",
+      "title": "Worked Example: Substitution Method",
+      "duration": 120
+    },
+    {
+      "id": "unit_1_lesson_12_card_005",
+      "title": "Elimination Method for Solving Linear-Quadratic Systems",
+      "duration": 120
+    },
+    {
+      "id": "unit_1_lesson_12_card_006",
+      "title": "Worked Example: Elimination Method",
+      "duration": 120
+    },
+    {
+      "id": "unit_1_lesson_12_card_007",
+      "title": "Number of Solutions in Linear-Quadratic Systems",
+      "duration": 120
+    },
+    {
+      "id": "unit_1_lesson_12_card_008",
+      "title": "Worked Example: Systems with Different Numbers of Solutions",
+      "duration": 120
+    },
+    {
+      "id": "unit_1_lesson_12_card_009",
+      "title": "Using the Discriminant in Linear-Quadratic Systems",
+      "duration": 120
+    },
+    {
+      "id": "unit_1_lesson_12_card_010",
+      "title": "Applications: Finding Points of Intersection",
+      "duration": 120
+    },
+    {
+      "id": "unit_1_lesson_12_card_011",
+      "title": "Applications: Motion Problems",
+      "duration": 120
+    },
+    {
+      "id": "unit_1_lesson_12_card_012",
+      "title": "Applications: Area and Perimeter Problems",
+      "duration": 120
+    },
+    {
+      "id": "unit_1_lesson_12_card_013",
+      "title": "Applications: Optimization Problems",
+      "duration": 120
+    },
+    {
+      "id": "unit_1_lesson_12_card_014",
+      "title": "Choosing the Best Method for Solving Linear-Quadratic Systems",
+      "duration": 120
+    },
+    {
+      "id": "unit_1_lesson_12_card_015",
+      "title": "Review: Solving Linear-Quadratic Systems",
+      "duration": 120
+    }
+  ]
+}

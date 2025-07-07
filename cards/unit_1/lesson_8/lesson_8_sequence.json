@@ -1,0 +1,28 @@
+{
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_8",
+  "lesson_name": "Working with Radicals",
+  "total_cards": 15,
+  "estimated_duration": 1800,
+  "sequence": [
+    "unit_1_lesson_8_card_001",
+    "unit_1_lesson_8_card_002",
+    "unit_1_lesson_8_card_003",
+    "unit_1_lesson_8_card_004",
+    "unit_1_lesson_8_card_005",
+    "unit_1_lesson_8_card_006",
+    "unit_1_lesson_8_card_007",
+    "unit_1_lesson_8_card_008",
+    "unit_1_lesson_8_card_009",
+    "unit_1_lesson_8_card_010",
+    "unit_1_lesson_8_card_011",
+    "unit_1_lesson_8_card_012",
+    "unit_1_lesson_8_card_013",
+    "unit_1_lesson_8_card_014",
+    "unit_1_lesson_8_card_015"
+  ],
+  "card_types": {
+    "concept_intro": 4,
+    "worked_example": 11
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_1_card_008",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1",
+  "type": "worked_example",
+  "title": "Working with Function Notation",
+  "duration": 180,
+  "content": {
+    "explanation": "Let's practice with function notation using a real scenario.\n\nImagine: P(t) = 20t + 100 represents your gaming points, where t is hours played.\n\nThis means: 'Points equals 20 times hours played, plus 100 starting points'",
+    "example": "🎮 Finding outputs:\n\nStep 1: P(0) = 20(0) + 100 = 100 points (starting points)\nStep 2: P(5) = 20(5) + 100 = 200 points (after 5 hours)\nStep 3: P(10) = 20(10) + 100 = 300 points (after 10 hours)\n\n🔍 Finding inputs:\nIf P(t) = 180, what is t?\n180 = 20t + 100\n80 = 20t\nt = 4 hours",
+    "key_point": "Substitute the input value for the variable, then solve using order of operations."
+  },
+  "interactive": {
+    "question": "Using P(t) = 20t + 100, how many hours played if you have 260 points?",
+    "options": [
+      "6 hours",
+      "8 hours",
+      "10 hours"
+    ],
+    "correct": 1
+  }
+}

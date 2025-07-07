@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_7_card_013",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_7",
+  "type": "concept_intro",
+  "title": "Common Errors in Completing the Square",
+  "duration": 120,
+  "content": {
+    "explanation": "When completing the square, students often make several common errors:\n\n1. Forgetting to take half of the coefficient of x before squaring\n2. Adding the square term but forgetting to subtract it as well\n3. Not factoring out the leading coefficient when a ≠ 1\n4. Errors in simplifying the constant terms\n5. Forgetting to apply the same operations to both sides of an equation\n\nBeing aware of these common mistakes can help you avoid them and successfully complete the square.",
+    "example": "Incorrect: x² + 6x becomes (x + 6)² - 36\nCorrect: x² + 6x becomes (x + 3)² - 9 (half of 6 is 3, and 3² = 9)\n\nIncorrect: 2x² - 12x + 5 becomes 2(x - 6)² + 5\nCorrect: 2x² - 12x + 5 becomes 2(x - 3)² - 13 (factor out 2, then half of -6 is -3)",
+    "key_point": "Always double-check your work when completing the square. Verify that your answer is correct by expanding the vertex form back to standard form and confirming that it matches the original expression."
+  },
+  "interactive": {
+    "question": "Which of the following is the correct result of completing the square for 3x² - 18x + 7?",
+    "options": [
+      "3(x - 3)² - 20",
+      "3(x - 6)² + 7",
+      "(3x - 9)² + 7"
+    ],
+    "correct": 0
+  }
+}

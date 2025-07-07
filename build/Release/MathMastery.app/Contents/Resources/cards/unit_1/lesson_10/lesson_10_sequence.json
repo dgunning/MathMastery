@@ -1,0 +1,96 @@
+{
+  "lesson_id": "lesson_10",
+  "title": "The Discriminant",
+  "cards": [
+    {
+      "id": "unit_1_lesson_10_card_001",
+      "type": "concept_intro",
+      "title": "Introduction to the Discriminant",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_10_card_002",
+      "type": "concept_intro",
+      "title": "The Discriminant and Types of Roots",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_10_card_003",
+      "type": "worked_example",
+      "title": "Calculating the Discriminant",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_10_card_004",
+      "type": "worked_example",
+      "title": "Using the Discriminant to Determine Root Types",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_10_card_005",
+      "type": "concept_intro",
+      "title": "Graphical Interpretation of the Discriminant",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_10_card_006",
+      "type": "worked_example",
+      "title": "Discriminant and Parabola Position",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_10_card_007",
+      "type": "concept_intro",
+      "title": "The Discriminant and Factorability",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_10_card_008",
+      "type": "worked_example",
+      "title": "Finding Values for a Specific Discriminant",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_10_card_009",
+      "type": "worked_example",
+      "title": "Discriminant in Quadratic Inequalities",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_10_card_010",
+      "type": "concept_intro",
+      "title": "The Discriminant in Applications",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_10_card_011",
+      "type": "worked_example",
+      "title": "Analyzing Projectile Motion with the Discriminant",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_10_card_012",
+      "type": "worked_example",
+      "title": "The Discriminant in Optimization Problems",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_10_card_013",
+      "type": "concept_intro",
+      "title": "The Discriminant and the Quadratic Formula",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_10_card_014",
+      "type": "worked_example",
+      "title": "Solving Quadratic Equations with the Discriminant",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_10_card_015",
+      "type": "concept_intro",
+      "title": "Review: The Discriminant",
+      "estimated_duration": 120
+    }
+  ]
+}

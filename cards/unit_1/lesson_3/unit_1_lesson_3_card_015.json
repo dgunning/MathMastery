@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_3_card_015",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_3",
+  "type": "concept_intro",
+  "title": "Connecting Functions to Technology",
+  "duration": 120,
+  "content": {
+    "explanation": "Functions are fundamental to technology and programming. In apps and websites, functions process inputs to produce outputs in predictable ways.\n\nFor example:\n- A music streaming app uses functions to recommend songs based on your listening history\n- Social media algorithms use functions to determine what content appears in your feed\n- Navigation apps use functions to calculate the fastest route based on current traffic conditions",
+    "example": "When you use a photo filter app, you're applying a function to the original image (input) to produce a modified image (output). Different filters are different functions that transform the image in specific ways.",
+    "key_point": "Understanding functions helps us make sense of the digital world. Every time you interact with technology, you're likely providing inputs to functions that determine what you experience."
+  },
+  "interactive": {
+    "question": "In a ride-sharing app, the cost of a ride is calculated as $2.50 plus $0.75 per mile. Which of these represents this as a function C(m) where m is the distance in miles?",
+    "options": [
+      "C(m) = 2.50 + 0.75m",
+      "C(m) = 0.75 + 2.50m",
+      "C(m) = 2.50m + 0.75"
+    ],
+    "correct": 0
+  }
+}

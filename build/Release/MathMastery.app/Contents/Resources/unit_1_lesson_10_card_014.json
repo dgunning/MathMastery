@@ -1,0 +1,36 @@
+{
+  "id": "unit_1_lesson_10_card_014",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_10",
+  "type": "worked_example",
+  "title": "Solving Quadratic Equations with the Discriminant",
+  "duration": 120,
+  "content": {
+    "problem": "Use the discriminant to determine the most efficient method for solving each of the following quadratic equations, and then solve them:\n\n1. 2x² - 7x + 3 = 0\n\n2. 9x² - 12x + 4 = 0\n\n3. 3x² - 2x + 5 = 0",
+    "steps": [
+      "Step 1: For equation 1, 2x² - 7x + 3 = 0, calculate the discriminant:\nΔ = (-7)² - 4(2)(3) = 49 - 24 = 25",
+      "Step 2: Since Δ = 25 > 0 and is a perfect square (5²), the equation has two rational roots. Factoring is likely the most efficient method.",
+      "Step 3: To factor 2x² - 7x + 3, we need to find two numbers p and q such that p + q = -7 and pq = 2 × 3 = 6.\nThe numbers -6 and -1 satisfy these conditions: -6 + (-1) = -7 and (-6)(-1) = 6.",
+      "Step 4: Therefore, 2x² - 7x + 3 = (2x - 6)(x - 1/2) = 2(x - 3)(x - 1/2).",
+      "Step 5: Setting each factor equal to zero: x - 3 = 0 or x - 1/2 = 0.\nSo x = 3 or x = 1/2 are the solutions.",
+      "Step 6: For equation 2, 9x² - 12x + 4 = 0, calculate the discriminant:\nΔ = (-12)² - 4(9)(4) = 144 - 144 = 0",
+      "Step 7: Since Δ = 0, the equation has one repeated root. The solution is x = -b/(2a) = -(-12)/(2(9)) = 12/18 = 2/3.",
+      "Step 8: We can verify this by rewriting the equation as a perfect square:\n9x² - 12x + 4 = 9(x² - 4x/3 + 4/9) = 9(x - 2/3)²",
+      "Step 9: Therefore, the solution is x = 2/3 (with multiplicity 2).",
+      "Step 10: For equation 3, 3x² - 2x + 5 = 0, calculate the discriminant:\nΔ = (-2)² - 4(3)(5) = 4 - 60 = -56",
+      "Step 11: Since Δ = -56 < 0, the equation has two complex conjugate roots. We must use the quadratic formula.",
+      "Step 12: Using the quadratic formula: x = (2 ± √(-56))/(2(3)) = (2 ± 2√14i)/6 = (1 ± √14i)/3",
+      "Step 13: Therefore, the solutions are x = (1 + √14i)/3 and x = (1 - √14i)/3."
+    ],
+    "explanation": "The discriminant helps us choose the most efficient method for solving a quadratic equation:\n\n1. When Δ > 0 and is a perfect square:\n   - The equation has two rational roots\n   - Factoring is often the most efficient method\n   - The quadratic formula will also work but may involve more calculation\n\n2. When Δ > 0 but is not a perfect square:\n   - The equation has two irrational roots\n   - The quadratic formula is usually the most efficient method\n   - Factoring will involve irrational coefficients, which is typically avoided\n\n3. When Δ = 0:\n   - The equation has one repeated root\n   - The solution is x = -b/(2a)\n   - The expression can be rewritten as a perfect square: a(x - r)²\n\n4. When Δ < 0:\n   - The equation has two complex conjugate roots\n   - The quadratic formula with complex numbers is necessary\n   - Factoring over real numbers is not possible\n\nBy calculating the discriminant first, we can choose the most appropriate method and anticipate the nature of the solutions, making the solving process more efficient."
+  },
+  "interactive": {
+    "question": "Which method would be most efficient for solving the equation 4x² - 12x + 9 = 0?",
+    "options": [
+      "Rewriting as a perfect square trinomial",
+      "Using the quadratic formula",
+      "Factoring into two binomials with real coefficients"
+    ],
+    "correct": 0
+  }
+}

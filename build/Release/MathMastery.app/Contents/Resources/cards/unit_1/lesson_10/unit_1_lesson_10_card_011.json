@@ -1,0 +1,34 @@
+{
+  "id": "unit_1_lesson_10_card_011",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_10",
+  "type": "worked_example",
+  "title": "Analyzing Projectile Motion with the Discriminant",
+  "duration": 120,
+  "content": {
+    "problem": "A ball is thrown from a cliff 45 meters above the ground with an initial velocity of v meters per second. The height h (in meters) of the ball after t seconds is given by:\n\nh(t) = -4.9t² + vt + 45\n\n1. Find the value of v such that the ball just touches the ground and then rises back up.\n2. Find the range of values of v for which the ball will hit the ground.\n3. For v = 20 m/s, determine when the ball will hit the ground.",
+    "steps": [
+      "Step 1: For the ball to hit the ground, we need to solve h(t) = 0, which gives us the equation -4.9t² + vt + 45 = 0.",
+      "Step 2: The discriminant of this equation is Δ = v² - 4(-4.9)(45) = v² + 882.",
+      "Step 3: For the ball to just touch the ground and then rise back up, it must have exactly one solution for h(t) = 0. This means the discriminant must be zero: Δ = v² + 882 = 0.",
+      "Step 4: Solving for v: v² = -882. Since v² must be non-negative, there is no real value of v that satisfies this condition. This means the ball cannot just touch the ground and rise back up from a height of 45 meters.",
+      "Step 5: For the ball to hit the ground, the equation h(t) = 0 must have at least one real solution. This means the discriminant must be non-negative: Δ = v² + 882 ≥ 0.",
+      "Step 6: Since v² + 882 > 0 for all real values of v, the discriminant is always positive. This means the ball will always hit the ground regardless of the initial velocity v.",
+      "Step 7: For v = 20 m/s, we need to solve the equation -4.9t² + 20t + 45 = 0 to find when the ball hits the ground.",
+      "Step 8: Calculate the discriminant: Δ = 20² + 882 = 400 + 882 = 1282.",
+      "Step 9: Using the quadratic formula: t = (-20 ± √1282)/(-9.8).",
+      "Step 10: Simplifying: t = (20 ± 35.8)/9.8 ≈ -1.61 or t ≈ 5.69.",
+      "Step 11: Since time cannot be negative in this context, the ball will hit the ground after approximately 5.69 seconds."
+    ],
+    "explanation": "In projectile motion problems, the discriminant of the quadratic equation h(t) = 0 provides important information about the trajectory of the projectile:\n\n1. If Δ > 0, the equation has two distinct real roots, meaning the projectile crosses the reference height (often ground level) twice. This typically happens when the projectile is thrown from a height or with sufficient velocity to rise and then fall.\n\n2. If Δ = 0, the equation has one repeated root, meaning the projectile touches the reference height exactly once. This can happen when the projectile is thrown horizontally from the reference height or when it reaches its maximum height exactly at the reference level.\n\n3. If Δ < 0, the equation has no real roots, meaning the projectile never reaches the reference height. This can happen when the projectile doesn't have enough energy to reach the specified height.\n\nIn the case of a projectile thrown from a height with the standard gravitational model h(t) = -4.9t² + vt + h₀, the discriminant is Δ = v² + 19.6h₀. Since h₀ > 0 when throwing from a height, the discriminant is always positive, meaning the projectile will always hit the ground eventually, regardless of the initial velocity (assuming no other forces act on it)."
+  },
+  "interactive": {
+    "question": "A ball is thrown upward from ground level with an initial velocity of v m/s. Its height (in meters) after t seconds is given by h(t) = -4.9t² + vt. What is the minimum value of v needed for the ball to reach a height of at least 20 meters?",
+    "options": [
+      "v ≥ 9.8 m/s",
+      "v ≥ 14 m/s",
+      "v ≥ 19.8 m/s"
+    ],
+    "correct": 1
+  }
+}

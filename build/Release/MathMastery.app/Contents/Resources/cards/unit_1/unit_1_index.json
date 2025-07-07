@@ -1,0 +1,235 @@
+{
+  "unit_id": "unit_1",
+  "unit_name": "Characteristics of Functions",
+  "lessons": {
+    "lesson_1_1": {
+      "lesson_name": "Introduction to Functions",
+      "total_cards": 10,
+      "estimated_duration": 1590,
+      "card_types": {
+        "concept_intro": 8,
+        "worked_example": 2
+      },
+      "content_types": {
+        "cards": true,
+        "lesson_guide": true,
+        "lesson_plan": true,
+        "worksheet": true,
+        "quiz": false,
+        "activity": false
+      }
+    },
+    "lesson_1_2": {
+      "lesson_name": "Advanced Factoring Methods",
+      "total_cards": 18,
+      "estimated_duration": 2280,
+      "card_types": {
+        "worked_example": 11,
+        "concept_intro": 7
+      },
+      "content_types": {
+        "cards": true,
+        "lesson_guide": true,
+        "lesson_plan": false,
+        "worksheet": true,
+        "quiz": false,
+        "activity": false
+      }
+    },
+    "lesson_3": {
+      "lesson_name": "Functions, Domain, and Range",
+      "total_cards": 15,
+      "estimated_duration": 1800,
+      "card_types": {
+        "worked_example": 9,
+        "concept_intro": 6
+      },
+      "content_types": {
+        "cards": true,
+        "lesson_guide": true,
+        "lesson_plan": false,
+        "worksheet": true,
+        "quiz": false,
+        "activity": false
+      }
+    },
+    "lesson_4": {
+      "lesson_name": "Functions and Function Notation",
+      "total_cards": 12,
+      "estimated_duration": 1440,
+      "card_types": {
+        "worked_example": 9,
+        "concept_intro": 6
+      },
+      "content_types": {
+        "cards": true,
+        "lesson_guide": true,
+        "lesson_plan": false,
+        "worksheet": false,
+        "quiz": false,
+        "activity": false
+      }
+    },
+    "lesson_5": {
+      "lesson_name": "Vertex of a Parabola",
+      "total_cards": 15,
+      "estimated_duration": 1800,
+      "card_types": {
+        "worked_example": 9,
+        "concept_intro": 6
+      },
+      "content_types": {
+        "cards": true,
+        "lesson_guide": true,
+        "lesson_plan": false,
+        "worksheet": false,
+        "quiz": false,
+        "activity": false
+      }
+    },
+    "lesson_6": {
+      "lesson_name": "Maximum and Minimum Values",
+      "total_cards": 15,
+      "estimated_duration": 1800,
+      "card_types": {
+        "worked_example": 9,
+        "concept_intro": 6
+      },
+      "content_types": {
+        "cards": true,
+        "lesson_guide": true,
+        "lesson_plan": false,
+        "worksheet": false,
+        "quiz": false,
+        "activity": false
+      }
+    },
+    "lesson_7": {
+      "lesson_name": "Completing the Square",
+      "total_cards": 15,
+      "estimated_duration": 1800,
+      "card_types": {
+        "worked_example": 9,
+        "concept_intro": 6
+      },
+      "content_types": {
+        "cards": true,
+        "lesson_guide": true,
+        "lesson_plan": false,
+        "worksheet": true,
+        "quiz": false,
+        "activity": false
+      }
+    },
+    "lesson_8": {
+      "lesson_name": "Working with Radicals",
+      "total_cards": 15,
+      "estimated_duration": 1800,
+      "card_types": {
+        "worked_example": 10,
+        "concept_intro": 5
+      },
+      "content_types": {
+        "cards": true,
+        "lesson_guide": true,
+        "lesson_plan": false,
+        "worksheet": false,
+        "quiz": false,
+        "activity": false
+      }
+    },
+    "lesson_9": {
+      "lesson_name": "Solving Quadratic Equations by Factoring and Formula",
+      "total_cards": 15,
+      "estimated_duration": 1800,
+      "card_types": {
+        "worked_example": 9,
+        "concept_intro": 6
+      },
+      "content_types": {
+        "cards": true,
+        "lesson_guide": true,
+        "lesson_plan": false,
+        "worksheet": true,
+        "quiz": false,
+        "activity": false
+      }
+    },
+    "lesson_10": {
+      "lesson_name": "The Discriminant",
+      "total_cards": 15,
+      "estimated_duration": 1800,
+      "card_types": {
+        "worked_example": 9,
+        "concept_intro": 6
+      },
+      "content_types": {
+        "cards": true,
+        "lesson_guide": true,
+        "lesson_plan": false,
+        "worksheet": false,
+        "quiz": false,
+        "activity": false
+      }
+    },
+    "lesson_11": {
+      "lesson_name": "Determining a Quadratic Equation from its Roots",
+      "total_cards": 15,
+      "estimated_duration": 1800,
+      "card_types": {
+        "worked_example": 10,
+        "concept_intro": 5
+      },
+      "content_types": {
+        "cards": true,
+        "lesson_guide": true,
+        "lesson_plan": false,
+        "worksheet": false,
+        "quiz": false,
+        "activity": false
+      }
+    },
+    "lesson_12": {
+      "lesson_name": "Solving Linear-Quadratic Systems",
+      "total_cards": 15,
+      "estimated_duration": 1800,
+      "card_types": {
+        "concept_intro": 15,
+        "worked_example": 0
+      },
+      "content_types": {
+        "cards": true,
+        "lesson_guide": true,
+        "lesson_plan": false,
+        "worksheet": false,
+        "quiz": false,
+        "activity": false
+      }
+    }
+  },
+  "unit_quizzes": {
+    "mid_unit_quiz": {
+      "name": "Unit 1 Mid-Unit Quiz",
+      "available": true,
+      "prerequisite_lessons": ["lesson_1_1", "lesson_1_2", "lesson_3", "lesson_4", "lesson_5", "lesson_6"]
+    },
+    "final_quiz": {
+      "name": "Unit 1 Final Quiz", 
+      "available": true,
+      "prerequisite_lessons": ["lesson_1_1", "lesson_1_2", "lesson_3", "lesson_4", "lesson_5", "lesson_6", "lesson_7", "lesson_8", "lesson_9", "lesson_10", "lesson_11", "lesson_12"]
+    }
+  },
+  "total_lessons": 12,
+  "total_cards": 185,
+  "total_duration": 21390,
+  "total_card_types": {
+    "worked_example": 112,
+    "concept_intro": 73
+  },
+  "content_summary": {
+    "lessons_with_guides": 12,
+    "lessons_with_worksheets": 5,
+    "lessons_with_lesson_plans": 1,
+    "unit_quizzes": 2
+  }
+}

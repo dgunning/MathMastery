@@ -1,0 +1,27 @@
+{
+  "id": "unit_1_lesson_4_card_010",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_4",
+  "type": "worked_example",
+  "title": "Function Notation with Algebraic Expressions",
+  "duration": 120,
+  "content": {
+    "problem": "If f(x) = 3x² - 2x + 1, find f(a + h) - f(a).",
+    "steps": [
+      "Step 1: Find f(a + h) by substituting (a + h) for x\nf(a + h) = 3(a + h)² - 2(a + h) + 1",
+      "Step 2: Expand (a + h)²\nf(a + h) = 3(a² + 2ah + h²) - 2(a + h) + 1\nf(a + h) = 3a² + 6ah + 3h² - 2a - 2h + 1",
+      "Step 3: Find f(a) by substituting a for x\nf(a) = 3a² - 2a + 1",
+      "Step 4: Calculate f(a + h) - f(a)\nf(a + h) - f(a) = (3a² + 6ah + 3h² - 2a - 2h + 1) - (3a² - 2a + 1)\nf(a + h) - f(a) = 6ah + 3h² - 2h\nf(a + h) - f(a) = h(6a + 3h - 2)"
+    ],
+    "explanation": "This type of expression is important in calculus when finding the derivative of a function. It represents the change in the function's value when the input changes from a to a + h."
+  },
+  "interactive": {
+    "question": "If g(x) = x² + 4x, what is g(a + h) - g(a) simplified?",
+    "options": [
+      "h(2a + h + 4)",
+      "2ah + h²",
+      "h(2a + h)"
+    ],
+    "correct": 0
+  }
+}

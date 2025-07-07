@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_3_card_008",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_3",
+  "type": "concept_intro",
+  "title": "Real-World Applications of Functions",
+  "duration": 120,
+  "content": {
+    "explanation": "Functions are all around us in everyday life. They model relationships between quantities in the real world.\n\nFor example:\n- The cost of a cab ride as a function of distance traveled\n- The height of a thrown ball as a function of time\n- The temperature of a cup of coffee as a function of time since brewing\n\nIn each case, one quantity (the output) depends on another quantity (the input) in a predictable way.",
+    "example": "The function C(g) = 3.79g represents the cost C in dollars to buy g gallons of gasoline at $3.79 per gallon.\n\nDomain: g ≥ 0 (you can't buy a negative amount of gas)\nRange: C ≥ 0 (the cost can't be negative)",
+    "key_point": "In real-world contexts, the domain and range often have practical limitations. For instance, time can't be negative, or a person's height can't be 20 feet."
+  },
+  "interactive": {
+    "question": "A cell phone plan costs $20 per month plus $0.10 per text message. If the function C(t) represents the monthly cost when sending t text messages, what is C(50)?",
+    "options": [
+      "$25",
+      "$20.50",
+      "$70"
+    ],
+    "correct": 0
+  }
+}

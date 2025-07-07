@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_5_card_002",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_5",
+  "type": "concept_intro",
+  "title": "Understanding the Vertex",
+  "duration": 120,
+  "content": {
+    "explanation": "The vertex of a parabola is the point where the parabola changes direction. It's either the lowest point (if the parabola opens upward) or the highest point (if the parabola opens downward).\n\nThe vertex is important because it represents:\n- The minimum or maximum value of the function\n- The axis of symmetry of the parabola\n- Often, a key point in real-world applications (like maximum height of a projectile)",
+    "example": "For the function f(x) = x² - 6x + 8:\n- The parabola opens upward (a > 0)\n- The vertex is the minimum point\n- We'll learn how to find this vertex in the following cards",
+    "key_point": "The x-coordinate of the vertex is also the axis of symmetry of the parabola. If you fold the graph along this vertical line, the two halves of the parabola would match perfectly."
+  },
+  "interactive": {
+    "question": "What does the vertex represent for a quadratic function with a negative leading coefficient (a < 0)?",
+    "options": [
+      "The maximum value of the function",
+      "The minimum value of the function",
+      "The y-intercept of the function"
+    ],
+    "correct": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_10_card_002",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_10",
+  "type": "concept_intro",
+  "title": "The Discriminant and Types of Roots",
+  "duration": 120,
+  "content": {
+    "explanation": "The discriminant (Δ = b² - 4ac) of a quadratic equation ax² + bx + c = 0 determines the number and type of roots the equation has. There are three possible cases:\n\n1. Positive Discriminant (Δ > 0):\n   - The equation has two distinct real roots\n   - The roots are given by x = (-b ± √Δ)/(2a)\n   - On a graph, the parabola crosses the x-axis at two different points\n\n2. Zero Discriminant (Δ = 0):\n   - The equation has one repeated real root (a double root)\n   - The root is given by x = -b/(2a)\n   - On a graph, the parabola touches (is tangent to) the x-axis at exactly one point\n   - The equation can be written as a perfect square: a(x - r)²\n\n3. Negative Discriminant (Δ < 0):\n   - The equation has two complex conjugate roots\n   - The roots are given by x = (-b ± i√|Δ|)/(2a), where i = √(-1)\n   - On a graph, the parabola doesn't intersect the x-axis at all\n\nThe discriminant also provides information about whether the quadratic expression can be factored with real numbers. If Δ ≥ 0, the expression can be factored with real coefficients; if Δ < 0, it cannot.",
+    "example": "Let's examine three quadratic equations with different discriminants:\n\n1. x² - 5x + 6 = 0\n   Discriminant: Δ = (-5)² - 4(1)(6) = 25 - 24 = 1 > 0\n   This equation has two distinct real roots: x = 2 and x = 3\n   The factored form is (x - 2)(x - 3) = 0\n\n2. x² - 6x + 9 = 0\n   Discriminant: Δ = (-6)² - 4(1)(9) = 36 - 36 = 0\n   This equation has one repeated root: x = 3\n   The factored form is (x - 3)² = 0\n\n3. x² + x + 1 = 0\n   Discriminant: Δ = 1² - 4(1)(1) = 1 - 4 = -3 < 0\n   This equation has two complex conjugate roots: x = -1/2 ± i√3/2\n   The expression cannot be factored using real numbers",
+    "key_point": "The sign of the discriminant immediately tells you the nature of the roots without requiring you to solve the equation completely. This makes it a valuable tool for analyzing quadratic equations and their corresponding functions."
+  },
+  "interactive": {
+    "question": "A quadratic equation has a discriminant of -16. Which statement is true about its roots?",
+    "options": [
+      "The equation has two complex conjugate roots",
+      "The equation has two distinct real roots",
+      "The equation has one repeated real root"
+    ],
+    "correct": 0
+  }
+}

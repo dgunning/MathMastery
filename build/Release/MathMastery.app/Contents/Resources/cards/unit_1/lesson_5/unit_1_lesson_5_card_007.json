@@ -1,0 +1,27 @@
+{
+  "id": "unit_1_lesson_5_card_007",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_5",
+  "type": "worked_example",
+  "title": "Real-World Application: Maximum Height",
+  "duration": 120,
+  "content": {
+    "problem": "A ball is thrown upward from a height of 6 feet with an initial velocity of 32 feet per second. The height h(t) of the ball after t seconds is given by h(t) = -16t² + 32t + 6. Find the maximum height reached by the ball and the time at which it occurs.",
+    "steps": [
+      "Step 1: Identify that this is a quadratic function with a < 0, so it has a maximum value at the vertex\nh(t) = -16t² + 32t + 6, where a = -16, b = 32, c = 6",
+      "Step 2: Find the t-coordinate of the vertex using t = -b/(2a)\nt = -(32)/(2(-16)) = 32/32 = 1 second",
+      "Step 3: Find the maximum height by evaluating h(1)\nh(1) = -16(1)² + 32(1) + 6\nh(1) = -16 + 32 + 6\nh(1) = 22 feet",
+      "Step 4: State the answer\nThe ball reaches its maximum height of 22 feet after 1 second"
+    ],
+    "explanation": "In physics, quadratic functions often model the height of projectiles under gravity. The vertex represents the maximum height and the time at which it occurs. The negative coefficient of t² reflects the downward force of gravity."
+  },
+  "interactive": {
+    "question": "A rocket is launched with the height function h(t) = -4.9t² + 40t + 10, where h is in meters and t is in seconds. What is the maximum height reached by the rocket?",
+    "options": [
+      "91.3 meters",
+      "50 meters",
+      "81.6 meters"
+    ],
+    "correct": 0
+  }
+}

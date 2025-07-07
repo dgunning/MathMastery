@@ -188,11 +188,159 @@ struct LessonInfo: Codable {
     let totalCards: Int
     let estimatedDuration: Int
     let cardTypes: [String: Int]
+    let contentTypes: ContentTypes?
     
     enum CodingKeys: String, CodingKey {
         case lessonName = "lesson_name"
         case totalCards = "total_cards"
         case estimatedDuration = "estimated_duration"
         case cardTypes = "card_types"
+        case contentTypes = "content_types"
     }
+}
+
+// MARK: - Content Types
+enum ContentType: String, CaseIterable {
+    case cards = "cards"
+    case lessonGuide = "lesson_guide"
+    case lessonPlan = "lesson_plan"
+    case worksheet = "worksheet"
+    case quiz = "quiz"
+    case activity = "activity"
+    
+    var displayName: String {
+        switch self {
+        case .cards: return "Quick Learn"
+        case .lessonGuide: return "Full Lesson"
+        case .lessonPlan: return "Lesson Plan"
+        case .worksheet: return "Worksheet"
+        case .quiz: return "Quiz"
+        case .activity: return "Activity"
+        }
+    }
+    
+    var icon: String {
+        switch self {
+        case .cards: return "rectangle.stack.badge.play"
+        case .lessonGuide: return "book.pages"
+        case .lessonPlan: return "list.clipboard"
+        case .worksheet: return "doc.text"
+        case .quiz: return "checkmark.circle.badge.questionmark"
+        case .activity: return "gamecontroller"
+        }
+    }
+    
+    var description: String {
+        switch self {
+        case .cards: return "Bite-sized lessons"
+        case .lessonGuide: return "Comprehensive guide"
+        case .lessonPlan: return "Teaching outline"
+        case .worksheet: return "Practice problems"
+        case .quiz: return "Assessment"
+        case .activity: return "Interactive game"
+        }
+    }
+}
+
+struct ContentTypes: Codable {
+    let cards: Bool
+    let lessonGuide: Bool
+    let lessonPlan: Bool
+    let worksheet: Bool
+    let quiz: Bool
+    let activity: Bool
+    
+    enum CodingKeys: String, CodingKey {
+        case cards
+        case lessonGuide = "lesson_guide"
+        case lessonPlan = "lesson_plan"
+        case worksheet
+        case quiz
+        case activity
+    }
+    
+    func isAvailable(_ type: ContentType) -> Bool {
+        switch type {
+        case .cards: return cards
+        case .lessonGuide: return lessonGuide
+        case .lessonPlan: return lessonPlan
+        case .worksheet: return worksheet
+        case .quiz: return quiz
+        case .activity: return activity
+        }
+    }
+    
+    var availableTypes: [ContentType] {
+        ContentType.allCases.filter { isAvailable($0) }
+    }
+}
+
+// MARK: - Lesson Content Models
+struct LessonContent: Codable {
+    let lessonId: String
+    let lessonName: String
+    let cards: [LearningCard]?
+    let contentTypes: ContentTypes
+    
+    var availableContentTypes: [ContentType] {
+        contentTypes.availableTypes
+    }
+}
+
+struct FullLesson: Codable {
+    let id: String
+    let title: String
+    let content: String
+    let estimatedDuration: Int
+    let sections: [LessonSection]?
+}
+
+struct LessonSection: Codable {
+    let title: String
+    let content: String
+    let examples: [String]?
+    let activities: [String]?
+}
+
+struct Worksheet: Codable {
+    let id: String
+    let title: String
+    let problems: [WorksheetProblem]
+    let estimatedDuration: Int
+}
+
+struct WorksheetProblem: Codable {
+    let id: String
+    let question: String
+    let type: String
+    let difficulty: String?
+    let solution: String?
+    let hints: [String]?
+}
+
+struct Quiz: Codable {
+    let id: String
+    let title: String
+    let questions: [QuizQuestion]
+    let timeLimit: Int?
+    let passingScore: Int?
+}
+
+struct QuizQuestion: Codable {
+    let id: String
+    let question: String
+    let type: String // multiple_choice, short_answer, etc.
+    let options: [String]?
+    let correctAnswer: String
+    let points: Int
+    let explanation: String?
+}
+
+struct Activity: Codable {
+    let id: String
+    let title: String
+    let description: String
+    let type: String
+    let estimatedDuration: Int
+    let instructions: [String]
 }

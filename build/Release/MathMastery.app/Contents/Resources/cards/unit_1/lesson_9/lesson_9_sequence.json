@@ -1,0 +1,96 @@
+{
+  "lesson_id": "lesson_9",
+  "title": "Solving Quadratic Equations by Factoring and Formula",
+  "cards": [
+    {
+      "id": "unit_1_lesson_9_card_001",
+      "type": "concept_intro",
+      "title": "Introduction to Quadratic Equations",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_9_card_002",
+      "type": "concept_intro",
+      "title": "Methods for Solving Quadratic Equations",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_9_card_003",
+      "type": "worked_example",
+      "title": "Solving Quadratics by Factoring: Simple Cases",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_9_card_004",
+      "type": "worked_example",
+      "title": "Solving Quadratics by Factoring: Complex Cases",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_9_card_005",
+      "type": "concept_intro",
+      "title": "The Quadratic Formula",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_9_card_006",
+      "type": "worked_example",
+      "title": "Solving Quadratics Using the Quadratic Formula",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_9_card_007",
+      "type": "worked_example",
+      "title": "Solving Quadratics with Complex Roots",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_9_card_008",
+      "type": "worked_example",
+      "title": "Solving Quadratic Equations by Completing the Square",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_9_card_009",
+      "type": "concept_intro",
+      "title": "Comparing Solution Methods",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_9_card_010",
+      "type": "worked_example",
+      "title": "Solving Quadratic Equations in Non-Standard Form",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_9_card_011",
+      "type": "worked_example",
+      "title": "Word Problems Leading to Quadratic Equations",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_9_card_012",
+      "type": "worked_example",
+      "title": "Geometric Applications of Quadratic Equations",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_9_card_013",
+      "type": "worked_example",
+      "title": "Motion Problems with Quadratic Equations",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_9_card_014",
+      "type": "concept_intro",
+      "title": "Connecting Roots to Graphs of Quadratic Functions",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_9_card_015",
+      "type": "concept_intro",
+      "title": "Review: Solving Quadratic Equations",
+      "estimated_duration": 120
+    }
+  ]
+}

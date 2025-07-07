@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_7_card_009",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_7",
+  "type": "concept_intro",
+  "title": "Completing the Square and the Quadratic Formula",
+  "duration": 120,
+  "content": {
+    "explanation": "The quadratic formula x = (-b ± √(b² - 4ac))/(2a) can actually be derived using the completing the square method. Understanding this connection helps us see why the formula works.\n\nStarting with the standard form ax² + bx + c = 0, we can apply completing the square to derive the quadratic formula:\n\n1. Divide all terms by a: x² + (b/a)x + (c/a) = 0\n2. Move the constant term: x² + (b/a)x = -(c/a)\n3. Complete the square: (x + (b/2a))² - (b/2a)² = -(c/a)\n4. Simplify: (x + (b/2a))² = (b²/4a²) - (c/a)\n5. Combine fractions: (x + (b/2a))² = (b² - 4ac)/(4a²)\n6. Take the square root: x + (b/2a) = ±√(b² - 4ac)/(2a)\n7. Solve for x: x = -b/(2a) ± √(b² - 4ac)/(2a)\n8. Factor: x = (-b ± √(b² - 4ac))/(2a)",
+    "example": "For the equation 2x² - 6x + 3 = 0:\n\nUsing the quadratic formula with a = 2, b = -6, c = 3:\nx = (-(-6) ± √((-6)² - 4(2)(3)))/(2(2))\nx = (6 ± √(36 - 24))/4\nx = (6 ± √12)/4\nx = (6 ± 2√3)/4\nx = 3/2 ± √3/2",
+    "key_point": "Completing the square is not just a technique for solving specific quadratic equations—it's the foundation for the general quadratic formula that works for all quadratic equations."
+  },
+  "interactive": {
+    "question": "Which of the following is NOT a benefit of understanding the connection between completing the square and the quadratic formula?",
+    "options": [
+      "It eliminates the need to memorize the quadratic formula",
+      "It provides insight into why the quadratic formula works",
+      "It helps us understand the role of the discriminant b² - 4ac"
+    ],
+    "correct": 0
+  }
+}

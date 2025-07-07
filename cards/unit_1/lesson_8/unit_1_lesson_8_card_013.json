@@ -1,0 +1,28 @@
+{
+  "id": "unit_1_lesson_8_card_013",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_8",
+  "type": "worked_example",
+  "title": "Real-World Applications of Radicals",
+  "duration": 120,
+  "content": {
+    "problem": "Solve the following real-world problems involving radicals:\n\n1. The time (in seconds) it takes an object to fall from a height of h meters is given by t = √(2h/9.8). How long will it take an object to fall from the top of a 45-meter building?\n\n2. The period T (in seconds) of a simple pendulum with length L (in meters) is given by T = 2π√(L/9.8). Find the length of a pendulum with a period of 2 seconds.",
+    "steps": [
+      "Step 1: For the falling object problem, substitute h = 45 meters into the formula t = √(2h/9.8).\nt = √(2 × 45/9.8)\nt = √(90/9.8)\nt = √9.18\nt ≈ 3.03 seconds",
+      "Step 2: For the pendulum problem, we need to solve for L in the formula T = 2π√(L/9.8).\nGiven T = 2 seconds, we have:\n2 = 2π√(L/9.8)",
+      "Step 3: Divide both sides by 2π.\n2/(2π) = √(L/9.8)\n1/π = √(L/9.8)",
+      "Step 4: Square both sides.\n(1/π)² = L/9.8\n1/π² = L/9.8",
+      "Step 5: Multiply both sides by 9.8.\n9.8/π² = L\nL ≈ 0.994 meters or about 99.4 centimeters"
+    ],
+    "explanation": "Radicals appear in many scientific and real-world formulas, particularly those involving:\n\n1. Physics: Free fall, pendulum motion, wave propagation\n2. Geometry: Pythagorean theorem, distance formula, area and volume calculations\n3. Statistics: Standard deviation, correlation coefficients\n4. Engineering: Structural stability, electrical circuits\n5. Finance: Compound interest formulas, option pricing models\n\nWhen solving real-world problems with radicals:\n1. Identify the appropriate formula\n2. Substitute the known values\n3. Solve for the unknown variable\n4. Check that your answer makes sense in the context of the problem\n5. Express your answer with appropriate units"
+  },
+  "interactive": {
+    "question": "The distance (in kilometers) a person can see to the horizon from a height h meters above sea level is approximately d = 3.57√h. From what height can a person see 25 kilometers to the horizon?",
+    "options": [
+      "49 meters",
+      "89 meters",
+      "625 meters"
+    ],
+    "correct": 0
+  }
+}

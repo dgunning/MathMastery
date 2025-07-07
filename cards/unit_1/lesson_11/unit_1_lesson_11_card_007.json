@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_11_card_007",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_11",
+  "type": "concept_intro",
+  "title": "Finding a Quadratic Equation with Additional Constraints",
+  "duration": 120,
+  "content": {
+    "explanation": "Sometimes we need to find a quadratic equation that satisfies not only conditions about its roots but also additional constraints. These constraints might involve specific points on the graph, the vertex, or other properties of the quadratic function.\n\nHere are common scenarios and approaches for finding quadratic equations with additional constraints:\n\n1. Given Roots and a Point on the Graph:\n   - Start with the factored form: a(x - r)(x - s) = 0, where r and s are the roots\n   - Use the given point (x₀, y₀) to find the value of a:\n     y₀ = a(x₀ - r)(x₀ - s)\n     a = y₀/((x₀ - r)(x₀ - s))\n   - Expand to get the standard form: ax² + bx + c = 0\n\n2. Given One Root and the Vertex:\n   - Use the vertex form: a(x - h)² + k, where (h, k) is the vertex\n   - If r is the given root, then a(r - h)² + k = 0\n   - Solve for a: a = -k/((r - h)²)\n   - Convert to standard form: ax² + bx + c = 0\n\n3. Given the Discriminant and Other Information:\n   - Recall that the discriminant is Δ = b² - 4ac\n   - Use this equation along with other given information to set up a system of equations\n   - Solve for the coefficients a, b, and c\n\n4. Given a Family of Equations with the Same Roots:\n   - If two quadratic equations share the same roots, they differ only by a constant multiple\n   - If ax² + bx + c = 0 and px² + qx + r = 0 have the same roots, then there exists a constant k such that p = ka, q = kb, and r = kc\n   - Use this relationship along with additional constraints to find the specific equation\n\nThese approaches allow us to find unique quadratic equations that satisfy multiple conditions, not just information about the roots.",
+    "example": "Suppose we want to find a quadratic function f(x) = ax² + bx + c that has roots 2 and -3, and passes through the point (1, 4).\n\nStep 1: Since the roots are 2 and -3, we can write the function in factored form as:\nf(x) = a(x - 2)(x - (-3)) = a(x - 2)(x + 3)\n\nStep 2: Expand this expression:\nf(x) = a(x² + 3x - 2x - 6) = a(x² + x - 6)\n\nStep 3: Use the condition that f(1) = 4:\n4 = a(1² + 1 - 6) = a(-4)\na = -1\n\nStep 4: Therefore, the quadratic function is:\nf(x) = -1(x² + x - 6) = -x² - x + 6\n\nWe can verify that this function has the required properties:\n- f(2) = -2² - 2 + 6 = -4 - 2 + 6 = 0 ✓\n- f(-3) = -(-3)² - (-3) + 6 = -9 + 3 + 6 = 0 ✓\n- f(1) = -1² - 1 + 6 = -1 - 1 + 6 = 4 ✓\n\nSo the quadratic function f(x) = -x² - x + 6 satisfies all the given conditions.",
+    "key_point": "When finding a quadratic equation with additional constraints beyond its roots, remember these key strategies:\n\n1. Start with what you know about the roots (either use factored form or Vieta's formulas)\n2. Incorporate the additional constraints to determine any unknown coefficients\n3. Convert to the required form (standard, factored, or vertex form)\n\nThese problems often have unique solutions because each additional constraint provides another equation to help determine the coefficients."
+  },
+  "interactive": {
+    "question": "A quadratic function f(x) has roots 1 and 5, and f(2) = -6. What is the value of f(3)?",
+    "options": [
+      "-8",
+      "-6",
+      "-4"
+    ],
+    "correct": 0
+  }
+}

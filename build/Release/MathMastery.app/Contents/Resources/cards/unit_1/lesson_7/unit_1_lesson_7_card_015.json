@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_7_card_015",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_7",
+  "type": "concept_intro",
+  "title": "Completing the Square: Key Concepts Review",
+  "duration": 120,
+  "content": {
+    "explanation": "Let's review the key concepts about completing the square:\n\n1. Completing the square is a technique used to rewrite a quadratic expression in the form (x + p)² + q\n\n2. The process involves:\n   - For expressions with a = 1: Add and subtract (b/2)² to create a perfect square trinomial\n   - For expressions with a ≠ 1: Factor out a, complete the square inside the parentheses, then distribute\n\n3. Applications of completing the square include:\n   - Converting from standard form to vertex form\n   - Finding the vertex of a quadratic function\n   - Solving quadratic equations\n   - Deriving the quadratic formula\n   - Analyzing maximum and minimum values\n\n4. The vertex form f(x) = a(x - h)² + k directly reveals:\n   - The vertex at (h, k)\n   - The direction of opening (upward if a > 0, downward if a < 0)\n   - The maximum or minimum value (k)",
+    "example": "For f(x) = 2x² - 12x + 10:\n\n1. Factor out the leading coefficient: f(x) = 2(x² - 6x) + 10\n2. Complete the square inside: f(x) = 2(x² - 6x + 9 - 9) + 10 = 2((x - 3)² - 9) + 10\n3. Distribute and simplify: f(x) = 2(x - 3)² - 18 + 10 = 2(x - 3)² - 8\n4. The vertex is at (3, -8)\n5. Since a = 2 > 0, the parabola opens upward and has a minimum value of -8",
+    "key_point": "Completing the square is a versatile technique that connects many concepts in quadratic functions. It provides a geometric understanding of quadratics and is the foundation for the quadratic formula."
+  },
+  "interactive": {
+    "question": "Which of the following is NOT a direct application of completing the square?",
+    "options": [
+      "Finding the domain of a quadratic function",
+      "Converting a quadratic function to vertex form",
+      "Finding the maximum or minimum value of a quadratic function"
+    ],
+    "correct": 0
+  }
+}

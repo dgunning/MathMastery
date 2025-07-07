@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_12_card_009",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_12",
+  "type": "concept_intro",
+  "title": "Using the Discriminant in Linear-Quadratic Systems",
+  "duration": 120,
+  "content": {
+    "explanation": "The discriminant is a powerful tool for analyzing linear-quadratic systems without having to solve them completely. It provides immediate information about the number and nature of the solutions.\n\nWhen solving a linear-quadratic system using either substitution or elimination, we always end up with a quadratic equation in one variable: ax² + bx + c = 0. The discriminant of this equation is defined as:\n\nΔ = b² - 4ac\n\nThe value of the discriminant tells us about the solutions:\n\n1. If Δ > 0: The system has two distinct real solutions\n   - The line intersects the parabola at two different points\n   - The solutions are x = (-b ± √Δ)/(2a)\n\n2. If Δ = 0: The system has exactly one real solution\n   - The line is tangent to the parabola\n   - The solution is x = -b/(2a) (a repeated root)\n\n3. If Δ < 0: The system has no real solutions\n   - The line and parabola don't intersect in the real coordinate plane\n   - The algebraic solutions are complex numbers\n\nThe discriminant can also be used to determine when a linear-quadratic system will have specific types of solutions:\n\n- For integer solutions: Δ must be a perfect square and certain other conditions must be met\n- For rational solutions: Δ must be a perfect square and the quadratic equation must be factorable over the rational numbers\n- For a tangent line: We can find the value of a parameter that makes Δ = 0",
+    "example": "Example 1: Determining the Number of Solutions\n\nConsider the system:\ny = mx + 2\ny = x² - 4x + 6\n\nwhere m is a parameter. For what values of m will this system have:\na) Two distinct real solutions\nb) Exactly one real solution\nc) No real solutions\n\nSolution:\nUsing the elimination method:\nmx + 2 = x² - 4x + 6\n0 = x² - (m + 4)x + 4\n\nThe discriminant is:\nΔ = (-(m + 4))² - 4(1)(4) = (m + 4)² - 16 = m² + 8m + 16 - 16 = m² + 8m\n\na) For two distinct real solutions, we need Δ > 0:\nm² + 8m > 0\nm(m + 8) > 0\nThis is true when m > 0 or m < -8\n\nb) For exactly one real solution, we need Δ = 0:\nm² + 8m = 0\nm(m + 8) = 0\nThis is true when m = 0 or m = -8\n\nc) For no real solutions, we need Δ < 0:\nm² + 8m < 0\nm(m + 8) < 0\nThis is true when -8 < m < 0\n\nExample 2: Finding a Tangent Line\n\nFind the value of k such that the line y = 2x + k is tangent to the parabola y = x² + 3x + 5.\n\nSolution:\nUsing the elimination method:\n2x + k = x² + 3x + 5\n0 = x² + x + (5 - k)\n\nFor the line to be tangent, the discriminant must be zero:\nΔ = 1² - 4(1)(5 - k) = 1 - 4(5 - k) = 1 - 20 + 4k = 4k - 19 = 0\n4k = 19\nk = 19/4\n\nTherefore, the line y = 2x + 19/4 is tangent to the parabola y = x² + 3x + 5.",
+    "key_point": "When using the discriminant to analyze linear-quadratic systems:\n\n1. Always rearrange the resulting equation into standard form ax² + bx + c = 0 before calculating the discriminant\n\n2. The discriminant formula Δ = b² - 4ac provides immediate information about the number of solutions without requiring you to solve the equation\n\n3. For systems involving parameters:\n   - Set up inequalities based on the discriminant to find parameter values that yield specific types of solutions\n   - The condition Δ = 0 is particularly useful for finding tangent lines\n\n4. Remember the geometric interpretation:\n   - Δ > 0: Line cuts through the parabola (two intersection points)\n   - Δ = 0: Line is tangent to the parabola (one intersection point)\n   - Δ < 0: Line doesn't intersect the parabola\n\n5. The discriminant approach is especially efficient when you only need to determine the number of solutions or analyze how the solutions depend on parameters"
+  },
+  "interactive": {
+    "question": "For what value(s) of k will the line y = kx + 1 be tangent to the parabola y = x² + 2x + 3?",
+    "options": [
+      "k = 4",
+      "k = -2",
+      "k = 0"
+    ],
+    "correct": 0
+  }
+}

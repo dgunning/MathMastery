@@ -1,0 +1,26 @@
+{
+  "id": "unit_1_lesson_3_card_014",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_3",
+  "type": "worked_example",
+  "title": "Domain and Range from Tables",
+  "duration": 120,
+  "content": {
+    "problem": "A function is represented by the following table of values:\nx | -2 | -1 | 0 | 1 | 2 | 3\ny | 4  | 1  | 0 | 1 | 4 | 9\nDetermine: a) if this represents a function, b) the domain, and c) the range.",
+    "steps": [
+      "Step 1: Determine if this is a function\nCheck if any x-value appears more than once with different y-values\nEach x-value appears exactly once, so this is a function",
+      "Step 2: Find the domain\nThe domain consists of all x-values in the table\nDomain = {-2, -1, 0, 1, 2, 3}",
+      "Step 3: Find the range\nThe range consists of all y-values in the table\nRange = {0, 1, 4, 9}"
+    ],
+    "explanation": "When working with a function given as a table of values, the domain is the set of all input values shown, and the range is the set of all output values. Note that some y-values may appear multiple times (like 1 and 4 in this example)."
+  },
+  "interactive": {
+    "question": "For the function represented by the table:\nx | 5 | 10 | 15 | 20\ny | 25 | 50 | 75 | 25\nWhat is the range?",
+    "options": [
+      "{25, 50, 75}",
+      "{5, 10, 15, 20}",
+      "{25, 50, 75, 100}"
+    ],
+    "correct": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_11_card_010",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_11",
+  "type": "concept_intro",
+  "title": "Finding a Quadratic Equation with a Given Discriminant",
+  "duration": 120,
+  "content": {
+    "explanation": "The discriminant of a quadratic equation ax² + bx + c = 0 is given by the formula Δ = b² - 4ac. The discriminant provides information about the nature of the roots:\n\n- If Δ > 0, the equation has two distinct real roots\n- If Δ = 0, the equation has one repeated real root\n- If Δ < 0, the equation has two complex conjugate roots\n\nWhen we need to find a quadratic equation with a specific discriminant value, we're essentially looking for coefficients a, b, and c that satisfy the equation b² - 4ac = Δ, where Δ is the given discriminant.\n\nThis is a single equation with three unknowns (a, b, and c), so there are infinitely many solutions. To find a specific solution, we need additional constraints or we can choose values for some of the coefficients.\n\nCommon approaches include:\n\n1. Setting a = 1 (creating a monic polynomial) and then finding values for b and c\n2. Setting specific values for two of the coefficients and solving for the third\n3. Using additional constraints such as specific roots or points on the graph\n\nOnce we have the coefficients a, b, and c, we can write the quadratic equation in standard form: ax² + bx + c = 0.",
+    "example": "Let's find a quadratic equation with discriminant Δ = 16.\n\nApproach 1: Setting a = 1\nIf a = 1, then b² - 4c = 16\nWe can choose any value for b and then calculate c:\nIf b = 6, then 36 - 4c = 16\n-4c = 16 - 36 = -20\nc = 5\nSo one possible equation is x² + 6x + 5 = 0\n\nApproach 2: Setting b = 0\nIf b = 0, then -4ac = 16\nWe can choose any value for a and calculate c:\nIf a = 1, then -4c = 16\nc = -4\nSo another possible equation is x² - 4 = 0\n\nApproach 3: Using specific roots\nSuppose we want an equation with roots 2 and 6.\nThe equation would be (x - 2)(x - 6) = 0, which expands to x² - 8x + 12 = 0\nLet's check the discriminant: Δ = (-8)² - 4(1)(12) = 64 - 48 = 16 ✓\n\nAll three approaches yield valid quadratic equations with discriminant 16, demonstrating that there are infinitely many such equations.",
+    "key_point": "When finding a quadratic equation with a given discriminant:\n\n1. Remember that the discriminant equation b² - 4ac = Δ has infinitely many solutions\n\n2. You can simplify the problem by:\n   - Setting a = 1 to create a monic polynomial\n   - Setting b = 0 to create an equation without a linear term\n   - Using additional constraints to narrow down the possibilities\n\n3. You can verify your answer by calculating the discriminant of your equation and checking that it matches the given value\n\n4. The nature of the discriminant (positive, zero, or negative) determines the nature of the roots, which can guide your approach"
+  },
+  "interactive": {
+    "question": "Which of the following quadratic equations has a discriminant of 25?",
+    "options": [
+      "2x² - 10x + 7 = 0",
+      "x² - 5x - 5 = 0",
+      "3x² + 15x + 10 = 0"
+    ],
+    "correct": 1
+  }
+}

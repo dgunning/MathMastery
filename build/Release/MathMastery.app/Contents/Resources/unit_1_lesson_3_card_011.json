@@ -1,0 +1,26 @@
+{
+  "id": "unit_1_lesson_3_card_011",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_3",
+  "type": "worked_example",
+  "title": "Domain Restrictions with Radical Functions",
+  "duration": 120,
+  "content": {
+    "problem": "Find the domain and range of the function f(x) = √(x - 5).",
+    "steps": [
+      "Step 1: Identify domain restrictions\nSince we can't take the square root of a negative number, we need x - 5 ≥ 0\nx ≥ 5",
+      "Step 2: Express the domain using interval notation\nDomain = {x | x ≥ 5} = [5, ∞)",
+      "Step 3: Determine the range\nWhen x = 5, f(5) = √(5 - 5) = √0 = 0\nAs x increases beyond 5, f(x) increases without bound\nSo the range is [0, ∞)"
+    ],
+    "explanation": "For radical functions with even roots (like square roots), the expression under the radical must be non-negative. This creates a natural restriction on the domain."
+  },
+  "interactive": {
+    "question": "What is the domain of g(x) = √(8 - 2x)?",
+    "options": [
+      "x ≤ 4",
+      "x ≥ 4",
+      "x ≤ 8"
+    ],
+    "correct": 0
+  }
+}

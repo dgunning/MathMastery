@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_1_card_003",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1",
+  "type": "concept_intro",
+  "title": "Relations vs. Functions",
+  "duration": 140,
+  "content": {
+    "explanation": "Every function is a relation, but not every relation is a function. Think of it this way:\n\n🔗 RELATION: Any connection between inputs and outputs\n⚙️ FUNCTION: A special relation where each input connects to exactly ONE output\n\nIt's like the difference between a messy friend and a reliable friend. A messy friend might give you different answers to the same question, but a reliable friend is consistent.",
+    "example": "📱 Contact list examples:\n• Your phone number → Your name (FUNCTION - one number, one person)\n• Your birthday → People born that day (RELATION - one date, many people)\n• A person → Their parents (RELATION - one person, two parents)",
+    "key_point": "Functions are reliable relations - same input always gives the same output."
+  },
+  "interactive": {
+    "question": "Which relationship represents a function?",
+    "options": [
+      "A student → Their favorite subjects (could have multiple)",
+      "A car's VIN number → The car's make and model",
+      "A movie → Its actors (multiple actors per movie)"
+    ],
+    "correct": 1
+  }
+}

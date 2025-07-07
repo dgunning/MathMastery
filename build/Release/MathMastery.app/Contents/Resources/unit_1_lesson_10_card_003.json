@@ -1,0 +1,33 @@
+{
+  "id": "unit_1_lesson_10_card_003",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_10",
+  "type": "worked_example",
+  "title": "Calculating the Discriminant",
+  "duration": 120,
+  "content": {
+    "problem": "Calculate the discriminant for each of the following quadratic equations and determine the nature of the roots:\n1. 2x² - 7x + 3 = 0\n2. 4x² - 12x + 9 = 0\n3. 3x² + 2x + 5 = 0",
+    "steps": [
+      "Step 1: Recall that for a quadratic equation ax² + bx + c = 0, the discriminant is calculated using the formula Δ = b² - 4ac.",
+      "Step 2: For the equation 2x² - 7x + 3 = 0, identify the coefficients: a = 2, b = -7, c = 3.",
+      "Step 3: Calculate the discriminant:\nΔ = (-7)² - 4(2)(3)\nΔ = 49 - 24\nΔ = 25",
+      "Step 4: Since Δ = 25 > 0, the equation 2x² - 7x + 3 = 0 has two distinct real roots.",
+      "Step 5: For the equation 4x² - 12x + 9 = 0, identify the coefficients: a = 4, b = -12, c = 9.",
+      "Step 6: Calculate the discriminant:\nΔ = (-12)² - 4(4)(9)\nΔ = 144 - 144\nΔ = 0",
+      "Step 7: Since Δ = 0, the equation 4x² - 12x + 9 = 0 has one repeated real root (a double root).",
+      "Step 8: For the equation 3x² + 2x + 5 = 0, identify the coefficients: a = 3, b = 2, c = 5.",
+      "Step 9: Calculate the discriminant:\nΔ = 2² - 4(3)(5)\nΔ = 4 - 60\nΔ = -56",
+      "Step 10: Since Δ = -56 < 0, the equation 3x² + 2x + 5 = 0 has two complex conjugate roots."
+    ],
+    "explanation": "When calculating the discriminant, it's important to correctly identify the coefficients a, b, and c from the standard form of the quadratic equation ax² + bx + c = 0.\n\nCommon errors to avoid:\n1. Forgetting the sign of the coefficients (especially for b)\n2. Using coefficients from an equation that is not in standard form\n3. Arithmetic errors in the calculation\n\nThe discriminant provides immediate information about the nature of the roots:\n- Positive discriminant: Two distinct real roots\n- Zero discriminant: One repeated real root\n- Negative discriminant: Two complex conjugate roots\n\nThis information is valuable for analyzing quadratic equations without solving them completely."
+  },
+  "interactive": {
+    "question": "What is the discriminant of the equation 5x² - 6x - 2 = 0, and what does it tell you about the roots?",
+    "options": [
+      "Δ = 76; two distinct real roots",
+      "Δ = 56; two distinct real roots",
+      "Δ = -56; two complex conjugate roots"
+    ],
+    "correct": 0
+  }
+}

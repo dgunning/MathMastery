@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_9_card_002",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_9",
+  "type": "concept_intro",
+  "title": "Methods for Solving Quadratic Equations",
+  "duration": 120,
+  "content": {
+    "explanation": "There are several methods for solving quadratic equations, each with its own advantages and appropriate situations:\n\n1. Factoring Method:\n   - Best for equations that can be easily factored\n   - Works well when the solutions are rational numbers\n   - Based on the zero product property: if ab = 0, then either a = 0 or b = 0\n\n2. Quadratic Formula:\n   - Works for any quadratic equation\n   - Especially useful when factoring is difficult or impossible\n   - Formula: x = (-b ± √(b² - 4ac))/(2a) for ax² + bx + c = 0\n\n3. Completing the Square:\n   - Converts the quadratic to vertex form\n   - Useful for understanding the derivation of the quadratic formula\n   - Helps connect algebraic and geometric interpretations\n\n4. Graphical Method:\n   - Visualizes the solutions as x-intercepts of the parabola\n   - Provides approximate solutions when exact values are difficult to compute\n   - Helps understand the nature of the solutions\n\n5. Square Root Method:\n   - Used for equations in the form x² = d\n   - Solutions are x = ±√d",
+    "example": "Consider the equation x² - 5x + 6 = 0:\n\n1. Factoring: x² - 5x + 6 = (x - 2)(x - 3) = 0, so x = 2 or x = 3\n\n2. Quadratic Formula: With a = 1, b = -5, c = 6\n   x = (-(-5) ± √((-5)² - 4(1)(6)))/(2(1))\n   x = (5 ± √(25 - 24))/2\n   x = (5 ± √1)/2\n   x = (5 ± 1)/2\n   x = 3 or x = 2\n\n3. Completing the Square:\n   x² - 5x + 6 = 0\n   x² - 5x = -6\n   x² - 5x + (5/2)² = -6 + (5/2)²\n   (x - 5/2)² = -6 + 25/4\n   (x - 5/2)² = 1/4\n   x - 5/2 = ±1/2\n   x = 5/2 ± 1/2\n   x = 3 or x = 2",
+    "key_point": "The choice of method depends on the specific equation and context. Factoring is often quickest when possible, but the quadratic formula always works and is especially useful for equations that don't factor easily. Understanding all methods provides flexibility in problem-solving."
+  },
+  "interactive": {
+    "question": "Which method would be most efficient for solving 2x² - 7x + 3 = 0?",
+    "options": [
+      "Quadratic Formula",
+      "Square Root Method",
+      "Factoring by inspection"
+    ],
+    "correct": 0
+  }
+}

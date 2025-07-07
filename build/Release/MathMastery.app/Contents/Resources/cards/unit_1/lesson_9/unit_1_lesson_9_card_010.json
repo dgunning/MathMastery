@@ -1,0 +1,31 @@
+{
+  "id": "unit_1_lesson_9_card_010",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_9",
+  "type": "worked_example",
+  "title": "Solving Quadratic Equations in Non-Standard Form",
+  "duration": 120,
+  "content": {
+    "problem": "Solve the following quadratic equations that are not in standard form:\n1. x(x - 3) = 10\n2. (x - 2)² = 9\n3. 1/x + 1/(x+2) = 1",
+    "steps": [
+      "Step 1: For x(x - 3) = 10, first expand the left side.\nx(x - 3) = 10\nx² - 3x = 10",
+      "Step 2: Rearrange to standard form by moving all terms to one side.\nx² - 3x - 10 = 0",
+      "Step 3: Solve by factoring. Find two numbers that multiply to give -10 and add to give -3.\nThe factors of -10 are: (1,-10), (-1,10), (2,-5), (-2,5).\nChecking the sums: 1 + (-10) = -9, (-1) + 10 = 9, 2 + (-5) = -3, (-2) + 5 = 3.\nThe pair (2,-5) works since 2 × (-5) = -10 and 2 + (-5) = -3.",
+      "Step 4: Factor and solve.\nx² - 3x - 10 = 0\n(x + 2)(x - 5) = 0\nx = -2 or x = 5",
+      "Step 5: For (x - 2)² = 9, use the square root method directly.\n(x - 2)² = 9\nx - 2 = ±3\nx = 2 ± 3\nx = 5 or x = -1",
+      "Step 6: For 1/x + 1/(x+2) = 1, find a common denominator for the fractions on the left.\nThe common denominator is x(x+2).\n1/x + 1/(x+2) = 1\n(x+2)/[x(x+2)] + x/[x(x+2)] = 1\n(x+2+x)/[x(x+2)] = 1\n(2x+2)/[x(x+2)] = 1",
+      "Step 7: Multiply both sides by the common denominator x(x+2).\n2x+2 = x(x+2)\n2x+2 = x² + 2x\n2x+2 - x² - 2x = 0\n-x² + 2 = 0\nx² = 2\nx = ±√2",
+      "Step 8: Check the solutions in the original equation to ensure they don't create division by zero.\nFor x = √2: Both denominators are non-zero, so √2 is a valid solution.\nFor x = -√2: We need to check if x+2 = 0. Since -√2 + 2 ≈ 0.59, which is not zero, -√2 is also a valid solution.\nSo the solutions are x = √2 or x = -√2."
+    ],
+    "explanation": "Quadratic equations often appear in forms that are not immediately recognizable as ax² + bx + c = 0. Common non-standard forms include:\n\n1. Equations with algebraic expressions: p(x) × q(x) = r\n2. Equations with perfect square expressions: (x - h)² = k\n3. Rational equations that lead to quadratics\n4. Equations with radicals that, when squared, lead to quadratics\n\nThe general strategy for solving these equations is:\n\n1. Manipulate the equation to get it into standard form\n2. Solve using any appropriate method (factoring, quadratic formula, etc.)\n3. Check all solutions in the original equation to identify any extraneous solutions\n\nFor equations in the form (x - h)² = k, the square root method provides a direct path to the solutions: x = h ± √k."
+  },
+  "interactive": {
+    "question": "What are the solutions to the equation x(2x + 3) = 5?",
+    "options": [
+      "x = 1 or x = -5/2",
+      "x = -1 or x = 5/2",
+      "x = 5 or x = -1/2"
+    ],
+    "correct": 0
+  }
+}

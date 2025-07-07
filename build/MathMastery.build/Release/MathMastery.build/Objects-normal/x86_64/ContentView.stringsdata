@@ -1,0 +1,224 @@
+{
+  "source": "/Users/dwight/Projects/MathMastery/MathMastery/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Unit Overview",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 135
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld lessons",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "•",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld cards",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 60
+        }
+      },
+      {
+        "comment": "",
+        "key": "•",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld minutes",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 62
+        }
+      },
+      {
+        "comment": "",
+        "key": "Back to All Lessons",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 84
+        }
+      },
+      {
+        "comment": "",
+        "key": "Progress",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 174
+        }
+      },
+      {
+        "comment": "",
+        "key": "0/%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 178
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Learning",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 196
+        }
+      },
+      {
+        "comment": "",
+        "key": "Choose Your Learning Path",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 301
+        }
+      },
+      {
+        "comment": "",
+        "key": "Practice & Assessment",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 326
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld cards",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 395
+        }
+      },
+      {
+        "comment": "",
+        "key": "~%lld minutes",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 396
+        }
+      },
+      {
+        "comment": "",
+        "key": "45 min comprehensive guide",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 398
+        }
+      },
+      {
+        "comment": "",
+        "key": "With examples & activities",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 399
+        }
+      },
+      {
+        "comment": "",
+        "key": "15-20 practice problems",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 401
+        }
+      },
+      {
+        "comment": "",
+        "key": "Printable PDF format",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 402
+        }
+      },
+      {
+        "comment": "",
+        "key": "Assessment questions",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 404
+        }
+      },
+      {
+        "comment": "",
+        "key": "Progress tracking",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 405
+        }
+      },
+      {
+        "comment": "",
+        "key": "Teaching outline",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 407
+        }
+      },
+      {
+        "comment": "",
+        "key": "For educators",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 408
+        }
+      },
+      {
+        "comment": "",
+        "key": "Interactive learning",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 410
+        }
+      },
+      {
+        "comment": "",
+        "key": "Gamified experience",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 411
+        }
+      },
+      {
+        "comment": "",
+        "key": "Best for:",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 419
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select a Unit",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 486
+        }
+      },
+      {
+        "comment": "",
+        "key": "Choose a unit from the sidebar to view lessons and start learning.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 490
+        }
+      }
+    ]
+  },
+  "version": 1
+}

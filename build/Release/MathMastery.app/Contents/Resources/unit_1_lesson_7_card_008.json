@@ -1,0 +1,31 @@
+{
+  "id": "unit_1_lesson_7_card_008",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_7",
+  "type": "worked_example",
+  "title": "Solving Quadratic Equations with a ≠ 1",
+  "duration": 120,
+  "content": {
+    "problem": "Solve the quadratic equation 2x² - 12x + 10 = 0 by completing the square.",
+    "steps": [
+      "Step 1: Factor out the leading coefficient from the first two terms\n2x² - 12x + 10 = 0\n2(x² - 6x) + 10 = 0",
+      "Step 2: Move the constant term to the right side\n2(x² - 6x) = -10",
+      "Step 3: Complete the square inside the parentheses\nFor x² - 6x, take half of -6, which is -3, and square it: (-3)² = 9\n2(x² - 6x + 9 - 9) = -10\n2((x - 3)² - 9) = -10",
+      "Step 4: Distribute the leading coefficient\n2(x - 3)² - 18 = -10",
+      "Step 5: Isolate the squared term\n2(x - 3)² = 8\n(x - 3)² = 4",
+      "Step 6: Take the square root of both sides\n√(x - 3)² = ±√4\nx - 3 = ±2",
+      "Step 7: Solve for x\nx - 3 = 2 or x - 3 = -2\nx = 5 or x = 1",
+      "Step 8: Verify the solutions\nFor x = 5: 2(5)² - 12(5) + 10 = 2(25) - 60 + 10 = 50 - 60 + 10 = 0 ✓\nFor x = 1: 2(1)² - 12(1) + 10 = 2 - 12 + 10 = 0 ✓"
+    ],
+    "explanation": "When solving a quadratic equation with a leading coefficient other than 1, we first factor out this coefficient before completing the square. This approach allows us to solve any quadratic equation, regardless of its coefficients."
+  },
+  "interactive": {
+    "question": "What are the solutions to the equation 3x² + 6x - 24 = 0 using completing the square?",
+    "options": [
+      "x = 2 or x = -4",
+      "x = -2 or x = 4",
+      "x = -1 ± √9"
+    ],
+    "correct": 0
+  }
+}

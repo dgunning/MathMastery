@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_7_card_001",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_7",
+  "type": "concept_intro",
+  "title": "Introduction to Completing the Square",
+  "duration": 120,
+  "content": {
+    "explanation": "Completing the square is an algebraic technique used to rewrite a quadratic expression in the form (x + p)² + q. This method allows us to convert a quadratic function from standard form (ax² + bx + c) to vertex form (a(x - h)² + k).\n\nThe vertex form is particularly useful because it directly reveals the vertex (h, k) of the parabola, which is the maximum or minimum point of the quadratic function.\n\nCompleting the square is based on the pattern of perfect square trinomials:\nx² + 2px + p² = (x + p)²",
+    "example": "Consider the perfect square trinomial: x² + 6x + 9\n\nWe can rewrite this as (x + 3)² because:\n(x + 3)² = x² + 2(3)x + 3² = x² + 6x + 9\n\nThe key insight is that the coefficient of x (which is 6) is twice the value of p (which is 3), and the constant term (which is 9) is p² (which is 3²).",
+    "key_point": "To complete the square for an expression x² + bx, we add (b/2)² to create a perfect square trinomial. This is the foundation of the completing the square method."
+  },
+  "interactive": {
+    "question": "Which of the following is a perfect square trinomial?",
+    "options": [
+      "x² + 10x + 25",
+      "x² + 5x + 25",
+      "x² + 10x + 5"
+    ],
+    "correct": 0
+  }
+}

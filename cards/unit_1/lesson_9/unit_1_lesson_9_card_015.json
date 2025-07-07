@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_9_card_015",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_9",
+  "type": "concept_intro",
+  "title": "Review: Solving Quadratic Equations",
+  "duration": 120,
+  "content": {
+    "explanation": "Let's review the key concepts and methods for solving quadratic equations:\n\n1. Standard Form:\n   - A quadratic equation can be written as ax² + bx + c = 0, where a ≠ 0\n   - The first step in solving is often to rearrange the equation into this form\n\n2. Solution Methods:\n   - Factoring: Write as (px + q)(rx + s) = 0, then set each factor equal to zero\n   - Quadratic Formula: x = (-b ± √(b² - 4ac))/(2a)\n   - Completing the Square: Rewrite as (x + p)² = q, then take square roots\n   - Square Root Method: For equations in the form x² = k, x = ±√k\n   - Graphical Method: Find x-intercepts of the corresponding function\n\n3. The Discriminant (b² - 4ac):\n   - Positive: Two distinct real roots\n   - Zero: One repeated real root\n   - Negative: Two complex conjugate roots\n\n4. Types of Solutions:\n   - Rational: Can be expressed as a fraction of integers\n   - Irrational: Real numbers that cannot be expressed as fractions\n   - Complex: Numbers involving i = √(-1)\n\n5. Connections to Graphs:\n   - Roots correspond to x-intercepts of the parabola\n   - Vertex is at x = -b/(2a)\n   - Axis of symmetry passes through the vertex\n\n6. Applications:\n   - Geometric problems (areas, Pythagorean theorem)\n   - Motion problems (projectile motion, distance-rate-time)\n   - Number problems (products, consecutive integers)\n   - Optimization problems (maximum/minimum values)",
+    "example": "Comprehensive Example: Solve x² - 6x + 8 = 0 using multiple methods.\n\n1. Factoring Method:\n   x² - 6x + 8 = 0\n   (x - 4)(x - 2) = 0\n   x = 4 or x = 2\n\n2. Quadratic Formula:\n   x = (6 ± √(36 - 32))/2\n   x = (6 ± √4)/2\n   x = (6 ± 2)/2\n   x = 4 or x = 2\n\n3. Completing the Square:\n   x² - 6x + 8 = 0\n   x² - 6x = -8\n   x² - 6x + 9 = -8 + 9\n   (x - 3)² = 1\n   x - 3 = ±1\n   x = 4 or x = 2\n\n4. Graphical Interpretation:\n   - The parabola y = x² - 6x + 8 crosses the x-axis at x = 2 and x = 4\n   - The vertex is at (3, -1)\n   - The axis of symmetry is the line x = 3\n   - The discriminant is 36 - 32 = 4 > 0, confirming two distinct real roots",
+    "key_point": "Mastering quadratic equations is fundamental to success in algebra and higher mathematics. The ability to choose and apply the most efficient solution method for a given problem is a valuable skill. Remember that each method has its strengths, and often the nature of the problem will suggest which approach is most appropriate."
+  },
+  "interactive": {
+    "question": "Which of the following statements is NOT true about quadratic equations?",
+    "options": [
+      "The sum of the roots equals b/a",
+      "The product of the roots equals c/a",
+      "The axis of symmetry occurs at x = -b/(2a)"
+    ],
+    "correct": 0
+  }
+}

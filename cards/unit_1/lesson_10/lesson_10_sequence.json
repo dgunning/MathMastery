@@ -1,0 +1,28 @@
+{
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_10",
+  "lesson_name": "The Discriminant",
+  "total_cards": 15,
+  "estimated_duration": 1800,
+  "sequence": [
+    "unit_1_lesson_10_card_001",
+    "unit_1_lesson_10_card_002",
+    "unit_1_lesson_10_card_003",
+    "unit_1_lesson_10_card_004",
+    "unit_1_lesson_10_card_005",
+    "unit_1_lesson_10_card_006",
+    "unit_1_lesson_10_card_007",
+    "unit_1_lesson_10_card_008",
+    "unit_1_lesson_10_card_009",
+    "unit_1_lesson_10_card_010",
+    "unit_1_lesson_10_card_011",
+    "unit_1_lesson_10_card_012",
+    "unit_1_lesson_10_card_013",
+    "unit_1_lesson_10_card_014",
+    "unit_1_lesson_10_card_015"
+  ],
+  "card_types": {
+    "worked_example": 9,
+    "concept_intro": 6
+  }
+}

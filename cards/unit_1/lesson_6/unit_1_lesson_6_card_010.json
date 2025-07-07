@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_6_card_010",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_6",
+  "type": "concept_intro",
+  "title": "Maximum/Minimum Values and the Discriminant",
+  "duration": 120,
+  "content": {
+    "explanation": "The discriminant (b² - 4ac) of a quadratic function f(x) = ax² + bx + c provides information about the relationship between the maximum/minimum value and the x-axis.\n\nFor a quadratic function with a maximum or minimum value k:\n\n- If k > 0 and a > 0, the discriminant is negative and the function has no real roots\n- If k < 0 and a < 0, the discriminant is negative and the function has no real roots\n- If k = 0, the discriminant is zero and the function has exactly one real root (a repeated root)\n- If k and a have opposite signs, the discriminant is positive and the function has two distinct real roots",
+    "example": "For f(x) = 2x² - 8x + 10:\n- The vertex is at x = -b/(2a) = -(-8)/(2(2)) = 8/4 = 2\n- The minimum value is f(2) = 2(2)² - 8(2) + 10 = 8 - 16 + 10 = 2\n- Since the minimum value k = 2 > 0 and a = 2 > 0, the discriminant should be negative\n- Indeed, the discriminant is b² - 4ac = (-8)² - 4(2)(10) = 64 - 80 = -16 < 0\n- This confirms that the function has no real roots",
+    "key_point": "The sign of the maximum/minimum value combined with the sign of the leading coefficient determines whether the quadratic function crosses the x-axis 0, 1, or 2 times."
+  },
+  "interactive": {
+    "question": "A quadratic function has a minimum value of -3 and opens upward. How many real roots does it have?",
+    "options": [
+      "2",
+      "1",
+      "0"
+    ],
+    "correct": 0
+  }
+}

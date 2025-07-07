@@ -1,0 +1,27 @@
+{
+  "id": "unit_1_lesson_5_card_004",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_5",
+  "type": "worked_example",
+  "title": "Finding the Vertex: Standard Form Method",
+  "duration": 120,
+  "content": {
+    "problem": "Find the vertex of the quadratic function f(x) = 3x² - 12x + 8.",
+    "steps": [
+      "Step 1: Identify the values of a, b, and c\na = 3, b = -12, c = 8",
+      "Step 2: Calculate the x-coordinate of the vertex using x = -b/(2a)\nx = -(-12)/(2(3)) = 12/6 = 2",
+      "Step 3: Find the y-coordinate by substituting the x-value into the original function\nf(2) = 3(2)² - 12(2) + 8\nf(2) = 3(4) - 24 + 8\nf(2) = 12 - 24 + 8\nf(2) = -4",
+      "Step 4: Write the vertex as an ordered pair\nVertex = (2, -4)"
+    ],
+    "explanation": "The vertex formula x = -b/(2a) works for any quadratic function in standard form. Since a > 0 in this example, the vertex is a minimum point, meaning f(x) ≥ -4 for all values of x."
+  },
+  "interactive": {
+    "question": "What is the vertex of g(x) = -2x² + 16x - 25?",
+    "options": [
+      "(4, 7)",
+      "(8, 39)",
+      "(-4, -57)"
+    ],
+    "correct": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_10_card_013",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_10",
+  "type": "concept_intro",
+  "title": "The Discriminant and the Quadratic Formula",
+  "duration": 120,
+  "content": {
+    "explanation": "The discriminant is an integral part of the quadratic formula and provides important insights into the nature of the solutions before we even complete the calculation.\n\nRecall that for a quadratic equation ax² + bx + c = 0, the quadratic formula gives the solutions as:\n\nx = (-b ± √(b² - 4ac))/(2a)\n\nThe expression under the square root, b² - 4ac, is the discriminant (Δ). The value of the discriminant directly affects how we proceed with the quadratic formula:\n\n1. When Δ > 0:\n   - The square root term √Δ is a real number\n   - We get two distinct real solutions: x = (-b + √Δ)/(2a) and x = (-b - √Δ)/(2a)\n   - If Δ is a perfect square, the solutions are rational (assuming a, b, c are rational)\n   - If Δ is not a perfect square, the solutions are irrational\n\n2. When Δ = 0:\n   - The square root term √Δ = 0\n   - The quadratic formula simplifies to x = -b/(2a)\n   - We get one repeated real solution (a double root)\n\n3. When Δ < 0:\n   - The square root term √Δ involves the square root of a negative number\n   - We need to use complex numbers: √Δ = i√|Δ| where i = √(-1)\n   - We get two complex conjugate solutions: x = (-b + i√|Δ|)/(2a) and x = (-b - i√|Δ|)/(2a)\n\nUnderstanding the discriminant allows us to anticipate the nature of the solutions before carrying out the full calculation, which can save time and provide insights into the problem being solved.",
+    "example": "Let's examine how the discriminant affects the solutions for three different quadratic equations:\n\n1. 2x² - 7x + 3 = 0\n   Discriminant: Δ = (-7)² - 4(2)(3) = 49 - 24 = 25\n   Since Δ = 25 > 0 and is a perfect square, we expect two rational solutions.\n   Using the quadratic formula: x = (7 ± √25)/(2(2)) = (7 ± 5)/4\n   x = 3 or x = 1/2\n\n2. x² - 6x + 9 = 0\n   Discriminant: Δ = (-6)² - 4(1)(9) = 36 - 36 = 0\n   Since Δ = 0, we expect one repeated solution.\n   Using the quadratic formula: x = 6/(2(1)) = 3\n   The solution is x = 3 (with multiplicity 2)\n\n3. x² + 2x + 5 = 0\n   Discriminant: Δ = 2² - 4(1)(5) = 4 - 20 = -16\n   Since Δ = -16 < 0, we expect two complex conjugate solutions.\n   Using the quadratic formula: x = (-2 ± √(-16))/(2(1)) = (-2 ± 4i)/2 = -1 ± 2i\n   The solutions are x = -1 + 2i and x = -1 - 2i",
+    "key_point": "The discriminant provides a quick way to determine the nature of the solutions to a quadratic equation before applying the full quadratic formula. This can guide our approach to solving the equation and interpreting the results in context."
+  },
+  "interactive": {
+    "question": "For the equation 3x² - 2x + 5 = 0, what is the discriminant and what does it tell you about the solutions?",
+    "options": [
+      "Δ = -56; the equation has two complex conjugate solutions",
+      "Δ = 56; the equation has two distinct real solutions",
+      "Δ = 0; the equation has one repeated real solution"
+    ],
+    "correct": 0
+  }
+}

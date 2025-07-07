@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_5_card_003",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_5",
+  "type": "concept_intro",
+  "title": "Finding the Vertex Using the Formula",
+  "duration": 120,
+  "content": {
+    "explanation": "For a quadratic function in standard form f(x) = ax² + bx + c, the x-coordinate of the vertex can be found using the formula:\n\nx = -b/(2a)\n\nOnce we know the x-coordinate, we can find the y-coordinate by substituting this x-value back into the original function:\n\ny = f(-b/(2a))",
+    "example": "For f(x) = 2x² - 8x + 7:\na = 2, b = -8, c = 7\n\nx-coordinate: x = -(-8)/(2(2)) = 8/4 = 2\ny-coordinate: f(2) = 2(2)² - 8(2) + 7 = 8 - 16 + 7 = -1\n\nSo the vertex is (2, -1)",
+    "key_point": "The formula x = -b/(2a) comes from calculus by finding where the derivative of the quadratic function equals zero (where the slope is zero), which occurs at the vertex."
+  },
+  "interactive": {
+    "question": "What is the vertex of the quadratic function f(x) = -3x² + 12x - 5?",
+    "options": [
+      "(2, 7)",
+      "(2, -5)",
+      "(-2, 7)"
+    ],
+    "correct": 0
+  }
+}

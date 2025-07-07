@@ -1,0 +1,27 @@
+{
+  "id": "unit_1_lesson_8_card_003",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_8",
+  "type": "worked_example",
+  "title": "Simplifying Radicals",
+  "duration": 120,
+  "content": {
+    "problem": "Simplify the following radical expressions: \n1. √75 \n2. ³√54",
+    "steps": [
+      "Step 1: For √75, find the largest perfect square factor of 75.\n75 = 25 × 3 = 5² × 3",
+      "Step 2: Apply the product property of radicals.\n√75 = √(5² × 3) = √(5²) × √3 = 5 × √3 = 5√3",
+      "Step 3: For ³√54, find the largest perfect cube factor of 54.\n54 = 27 × 2 = 3³ × 2",
+      "Step 4: Apply the product property of radicals.\n³√54 = ³√(3³ × 2) = ³√(3³) × ³√2 = 3 × ³√2 = 3³√2"
+    ],
+    "explanation": "To simplify a radical expression, we look for factors of the radicand that are perfect powers matching the index of the radical. For square roots, we look for perfect square factors. For cube roots, we look for perfect cube factors.\n\nThe goal is to extract as many factors as possible from under the radical sign. A radical is considered simplified when:\n1. The radicand has no factor that is a perfect power matching the index\n2. There are no fractions under the radical sign\n3. There are no radicals in the denominator"
+  },
+  "interactive": {
+    "question": "Which of the following is the simplified form of √50?",
+    "options": [
+      "5√2",
+      "2√5",
+      "25√2"
+    ],
+    "correct": 0
+  }
+}

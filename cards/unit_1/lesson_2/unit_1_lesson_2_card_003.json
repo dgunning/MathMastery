@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_2_card_003",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_2",
+  "type": "practice",
+  "title": "Practice: Finding AC Values",
+  "duration": 120,
+  "content": {
+    "explanation": "Let's practice calculating the ac value, which is the first step in the AC method. Remember: multiply the coefficient of x² by the constant term.",
+    "problem": "For each trinomial, find the value of ac:\n\n1) 3x² + 10x + 8\n2) 4x² - 12x + 9\n3) 6x² + 7x - 3",
+    "key_point": "Getting the ac value correct is crucial - it determines which factor pairs you'll look for in the next step."
+  },
+  "interactive": {
+    "question": "What is the ac value for 3x² + 10x + 8?",
+    "options": [
+      "24",
+      "13", 
+      "18"
+    ],
+    "correct": 0
+  }
+}

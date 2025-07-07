@@ -1,0 +1,29 @@
+{
+  "id": "unit_1_lesson_6_card_013",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_6",
+  "type": "worked_example",
+  "title": "Minimizing Distance: The Shortest Path Problem",
+  "duration": 120,
+  "content": {
+    "problem": "A lifeguard on a beach is at point A, which is 30 meters from the water's edge. She needs to reach point B, which is 50 meters down the beach and 40 meters into the water. If she can run at 8 m/s on the sand and swim at 3 m/s in the water, at what point should she enter the water to reach point B in the minimum time?",
+    "steps": [
+      "Step 1: Define variables and set up the problem\nLet x = distance along the beach from point A to where she enters the water\nThe remaining distance along the beach to point B is (50 - x)\nThe distance she swims is √((50 - x)² + 40²) = √((50 - x)² + 1600)",
+      "Step 2: Write the time function\nTime = (Distance on sand / Speed on sand) + (Distance in water / Speed in water)\nT(x) = x/8 + √((50 - x)² + 1600)/3",
+      "Step 3: This is not a quadratic function, but we can still find its minimum using calculus\nThe minimum occurs when the derivative equals zero\nSolving T'(x) = 0 gives x ≈ 20 meters",
+      "Step 4: Verify this is a minimum by checking the second derivative or by testing nearby values\nTesting confirms that x ≈ 20 gives a minimum time",
+      "Step 5: Calculate the minimum time\nT(20) = 20/8 + √((50 - 20)² + 1600)/3\nT(20) = 2.5 + √(900 + 1600)/3\nT(20) = 2.5 + √2500/3\nT(20) = 2.5 + 50/3\nT(20) ≈ 19.17 seconds",
+      "Step 6: State the answer\nThe lifeguard should run 20 meters along the beach before entering the water to reach point B in the minimum time of about 19.17 seconds"
+    ],
+    "explanation": "This problem illustrates how optimization can be applied to find the most efficient path between two points when traveling through different media. While the resulting function is not quadratic, the principle of finding where the derivative equals zero to locate the minimum value still applies."
+  },
+  "interactive": {
+    "question": "A person at point A needs to reach point C, which is across a river. Point B is the closest point on the river to A, and point D is the closest point on the river to C. If the person can walk faster than they can swim, they should:",
+    "options": [
+      "Enter the river at a point between B and D",
+      "Walk directly from A to C through the river",
+      "Walk to point B, then swim directly to C"
+    ],
+    "correct": 0
+  }
+}

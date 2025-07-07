@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_1_card_006",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1",
+  "type": "concept_intro",
+  "title": "Range: All Possible Outputs",
+  "duration": 150,
+  "content": {
+    "explanation": "The RANGE is the complete set of all possible output values (y-values) that a function can produce.\n\nThink of range like what actually comes out of a vending machine:\n🥤 The range is all the drinks/snacks you might actually get\n📦 Even if the machine has 50 slots, maybe only 30 have products\n\nThe range depends on both the function's rule AND its domain. A function might be capable of producing many values, but only produces certain ones based on what you put in.",
+    "example": "🎮 Gaming examples:\n• Character level function: Range might be 1 to 60\n• Health points: 0 to 100 HP\n• Score multiplier: 1x to 10x\n• Jump height: 1 to 5 blocks",
+    "key_point": "Range = all y-values the function actually produces."
+  },
+  "interactive": {
+    "question": "If f(x) = x² and the domain is {-2, -1, 0, 1, 2}, what's the range?",
+    "options": [
+      "{0, 1, 4}",
+      "{-2, -1, 0, 1, 2}",
+      "{-4, -1, 0, 1, 4}"
+    ],
+    "correct": 0
+  }
+}

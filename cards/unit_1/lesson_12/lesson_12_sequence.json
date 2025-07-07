@@ -1,0 +1,28 @@
+{
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_12",
+  "lesson_name": "Solving Linear-Quadratic Systems",
+  "total_cards": 15,
+  "estimated_duration": 1800,
+  "sequence": [
+    "unit_1_lesson_12_card_001",
+    "unit_1_lesson_12_card_002",
+    "unit_1_lesson_12_card_003",
+    "unit_1_lesson_12_card_004",
+    "unit_1_lesson_12_card_005",
+    "unit_1_lesson_12_card_006",
+    "unit_1_lesson_12_card_007",
+    "unit_1_lesson_12_card_008",
+    "unit_1_lesson_12_card_009",
+    "unit_1_lesson_12_card_010",
+    "unit_1_lesson_12_card_011",
+    "unit_1_lesson_12_card_012",
+    "unit_1_lesson_12_card_013",
+    "unit_1_lesson_12_card_014",
+    "unit_1_lesson_12_card_015"
+  ],
+  "card_types": {
+    "concept_intro": 9,
+    "worked_example": 6
+  }
+}

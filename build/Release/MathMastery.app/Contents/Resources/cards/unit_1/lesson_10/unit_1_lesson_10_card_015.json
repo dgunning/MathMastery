@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_10_card_015",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_10",
+  "type": "concept_intro",
+  "title": "Review: The Discriminant",
+  "duration": 120,
+  "content": {
+    "explanation": "The discriminant is a powerful tool in the analysis of quadratic equations and functions. Let's review the key concepts we've learned about the discriminant:\n\n1. Definition and Formula:\n   - For a quadratic equation ax² + bx + c = 0, the discriminant is Δ = b² - 4ac\n   - It appears under the radical in the quadratic formula: x = (-b ± √Δ)/(2a)\n\n2. Types of Roots Based on the Discriminant:\n   - Positive Discriminant (Δ > 0): Two distinct real roots\n   - Zero Discriminant (Δ = 0): One repeated real root (double root)\n   - Negative Discriminant (Δ < 0): Two complex conjugate roots\n\n3. Graphical Interpretation:\n   - Δ > 0: The parabola crosses the x-axis at two distinct points\n   - Δ = 0: The parabola touches the x-axis at exactly one point (the vertex)\n   - Δ < 0: The parabola doesn't intersect the x-axis\n\n4. Factorability:\n   - Δ > 0 and a perfect square: The quadratic expression can be factored with rational coefficients\n   - Δ > 0 but not a perfect square: The quadratic expression can be factored with irrational coefficients\n   - Δ = 0: The quadratic expression is a perfect square trinomial\n   - Δ < 0: The quadratic expression cannot be factored with real coefficients\n\n5. Choosing Solution Methods:\n   - Δ > 0 and a perfect square: Factoring is often efficient\n   - Δ > 0 but not a perfect square: Quadratic formula is typically best\n   - Δ = 0: Direct formula x = -b/(2a) or rewriting as a perfect square\n   - Δ < 0: Quadratic formula with complex numbers\n\n6. Applications:\n   - Projectile motion: Determining if and when an object hits the ground\n   - Optimization: Finding maximum/minimum values and feasible regions\n   - Quadratic inequalities: Determining solution intervals\n   - Geometric problems: Analyzing intersections and relative positions\n\n7. Parameter Analysis:\n   - Finding values of parameters for specific types of roots\n   - Determining conditions for real solutions, repeated roots, or no real solutions\n\nThe discriminant provides a direct link between the algebraic properties of a quadratic equation and the geometric properties of its graph, making it an essential tool for analyzing quadratic expressions efficiently.",
+    "example": "Let's apply our knowledge of the discriminant to analyze the quadratic expression 2x² + kx + 3:\n\n1. The discriminant is Δ = k² - 4(2)(3) = k² - 24\n\n2. For the expression to be factorable with rational coefficients, Δ must be a perfect square.\n   So k² - 24 = m² for some integer m\n   This means k² = m² + 24\n\n3. Some solutions include:\n   - If m = 0: k² = 24, so k = ±2√6\n   - If m = 4: k² = 40, so k = ±2√10\n   - If m = 5: k² = 49, so k = ±7\n\n4. If k = 7, then 2x² + 7x + 3 has discriminant Δ = 49 - 24 = 25 = 5²\n   This can be factored as 2x² + 7x + 3 = (2x + 3)(x + 1)\n\n5. If k = 0, then 2x² + 3 has discriminant Δ = 0 - 24 = -24 < 0\n   This cannot be factored with real coefficients and has no real roots\n\n6. If k = ±2√6, then the discriminant is Δ = 24 - 24 = 0\n   The expression is a perfect square trinomial\n   For k = 2√6: 2x² + 2√6x + 3 = 2(x + √6/2)²\n   For k = -2√6: 2x² - 2√6x + 3 = 2(x - √6/2)²",
+    "key_point": "The discriminant is a versatile tool that provides immediate insights into the nature of quadratic equations and functions without requiring complete solutions. Mastering the discriminant allows you to analyze quadratic expressions efficiently and make informed decisions about solution methods."
+  },
+  "interactive": {
+    "question": "Which of the following statements about the discriminant is NOT true?",
+    "options": [
+      "If the discriminant is negative, the quadratic equation has no solution",
+      "If the discriminant is zero, the graph of the quadratic function touches the x-axis at exactly one point",
+      "The discriminant appears under the radical in the quadratic formula"
+    ],
+    "correct": 0
+  }
+}

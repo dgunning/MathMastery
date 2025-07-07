@@ -1,0 +1,33 @@
+{
+  "id": "unit_1_lesson_9_card_008",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_9",
+  "type": "worked_example",
+  "title": "Solving Quadratic Equations by Completing the Square",
+  "duration": 120,
+  "content": {
+    "problem": "Solve the following quadratic equations by completing the square:\n1. x² + 6x + 8 = 0\n2. x² - 4x - 5 = 0\n3. 2x² - 12x + 10 = 0",
+    "steps": [
+      "Step 1: For x² + 6x + 8 = 0, move the constant term to the right side.\nx² + 6x = -8",
+      "Step 2: Complete the square on the left side. To do this, take half the coefficient of x, square it, and add it to both sides.\nHalf the coefficient of x is 6/2 = 3, and 3² = 9.\nx² + 6x + 9 = -8 + 9\n(x + 3)² = 1",
+      "Step 3: Take the square root of both sides.\nx + 3 = ±1\nx = -3 ± 1\nx = -2 or x = -4",
+      "Step 4: For x² - 4x - 5 = 0, move the constant term to the right side.\nx² - 4x = 5",
+      "Step 5: Complete the square. Half the coefficient of x is -4/2 = -2, and (-2)² = 4.\nx² - 4x + 4 = 5 + 4\n(x - 2)² = 9",
+      "Step 6: Take the square root of both sides.\nx - 2 = ±3\nx = 2 ± 3\nx = 5 or x = -1",
+      "Step 7: For 2x² - 12x + 10 = 0, first divide all terms by 2 to make the coefficient of x² equal to 1.\nx² - 6x + 5 = 0",
+      "Step 8: Move the constant term to the right side.\nx² - 6x = -5",
+      "Step 9: Complete the square. Half the coefficient of x is -6/2 = -3, and (-3)² = 9.\nx² - 6x + 9 = -5 + 9\n(x - 3)² = 4",
+      "Step 10: Take the square root of both sides.\nx - 3 = ±2\nx = 3 ± 2\nx = 5 or x = 1"
+    ],
+    "explanation": "Completing the square is a method for solving quadratic equations by rewriting the quadratic expression as a perfect square trinomial plus or minus a constant. The general steps are:\n\n1. Ensure the coefficient of x² is 1 (divide all terms by the leading coefficient if necessary)\n2. Move the constant term to the right side of the equation\n3. Complete the square on the left side by:\n   a. Taking half the coefficient of x and squaring it\n   b. Adding this value to both sides of the equation\n   c. Rewriting the left side as a perfect square trinomial (x + p)²\n4. Take the square root of both sides\n5. Solve for x\n\nThis method is particularly useful for:\n- Deriving the quadratic formula\n- Converting from standard form to vertex form\n- Understanding the geometric meaning of the solutions"
+  },
+  "interactive": {
+    "question": "What are the solutions to x² + 8x + 12 = 0 using completing the square?",
+    "options": [
+      "x = -6 or x = -2",
+      "x = -4 ± 2",
+      "x = -4 ± 2√2"
+    ],
+    "correct": 0
+  }
+}

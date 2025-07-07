@@ -1,0 +1,35 @@
+{
+  "id": "unit_1_lesson_9_card_013",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_9",
+  "type": "worked_example",
+  "title": "Motion Problems with Quadratic Equations",
+  "duration": 120,
+  "content": {
+    "problem": "Solve the following motion problems using quadratic equations:\n\n1. A ball is thrown upward from ground level with an initial velocity of 24 meters per second. The height h (in meters) of the ball after t seconds is given by h = -4.9t² + 24t. How long will it take for the ball to return to the ground?\n\n2. A motorboat travels 24 km upstream and then returns. The speed of the current is 2 km/h. If the total trip takes 6 hours, what is the speed of the boat in still water?",
+    "steps": [
+      "Step 1: For the ball problem, we need to find when the ball returns to the ground, which means h = 0.\nh = -4.9t² + 24t = 0",
+      "Step 2: Factor out t from the equation.\nt(-4.9t + 24) = 0",
+      "Step 3: Set each factor equal to zero and solve for t.\nt = 0 or -4.9t + 24 = 0\nt = 0 or t = 24/4.9 ≈ 4.9 seconds",
+      "Step 4: Interpret the solutions. t = 0 represents the initial time when the ball is thrown, and t ≈ 4.9 seconds is when the ball returns to the ground. So it takes about 4.9 seconds for the ball to return to the ground.",
+      "Step 5: For the motorboat problem, let's define our variable. Let v represent the speed of the boat in still water (in km/h).",
+      "Step 6: Calculate the boat's speed in each direction:\n- Upstream speed: v - 2 km/h (boat speed minus current)\n- Downstream speed: v + 2 km/h (boat speed plus current)",
+      "Step 7: Calculate the time for each part of the journey:\n- Time upstream = Distance / Speed = 24 / (v - 2) hours\n- Time downstream = Distance / Speed = 24 / (v + 2) hours",
+      "Step 8: Set up an equation based on the total trip time of 6 hours.\n24/(v - 2) + 24/(v + 2) = 6",
+      "Step 9: Find a common denominator for the fractions.\n[24(v + 2) + 24(v - 2)]/[(v - 2)(v + 2)] = 6\n[24v + 48 + 24v - 48]/[(v - 2)(v + 2)] = 6\n48v/[(v - 2)(v + 2)] = 6",
+      "Step 10: Multiply both sides by (v - 2)(v + 2).\n48v = 6(v - 2)(v + 2)\n48v = 6(v² - 4)\n48v = 6v² - 24\n0 = 6v² - 48v - 24\n0 = v² - 8v - 4",
+      "Step 11: Solve this quadratic equation using the quadratic formula.\nv = [8 ± √(64 + 16)]/2\nv = [8 ± √80]/2\nv = [8 ± 4√5]/2\nv = 4 ± 2√5",
+      "Step 12: Evaluate the two solutions.\nv ≈ 4 + 4.47 ≈ 8.47 km/h or v ≈ 4 - 4.47 ≈ -0.47 km/h\nSince the speed must be positive and greater than the current speed (2 km/h) for the boat to make progress upstream, the only valid solution is v ≈ 8.47 km/h.\nSo the speed of the boat in still water is about 8.5 km/h."
+    ],
+    "explanation": "Motion problems often lead to quadratic equations, particularly in these scenarios:\n\n1. Projectile motion: Objects thrown upward or at an angle are affected by gravity, creating a parabolic path described by a quadratic function. The standard formula is h = -4.9t² + v₀t + h₀, where v₀ is initial velocity and h₀ is initial height.\n\n2. Distance-rate-time problems: When rates vary or when comparing round trips, the relationship between distance, rate, and time (d = rt) can lead to quadratic equations.\n\n3. Relative motion: Problems involving objects moving toward or away from each other often involve quadratic relationships.\n\nWhen solving motion problems:\n1. Define variables clearly\n2. Identify the relevant physical formulas\n3. Set up equations based on the given information\n4. Solve the resulting quadratic equation\n5. Interpret solutions in the context of the problem\n6. Discard any solutions that don't make physical sense (e.g., negative time values)"
+  },
+  "interactive": {
+    "question": "A stone is thrown upward from a height of 5 meters with an initial velocity of 15 meters per second. The height h (in meters) of the stone after t seconds is given by h = -4.9t² + 15t + 5. After how many seconds will the stone reach its maximum height?",
+    "options": [
+      "1.5 seconds",
+      "3 seconds",
+      "2.5 seconds"
+    ],
+    "correct": 0
+  }
+}

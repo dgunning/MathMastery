@@ -38,25 +38,6 @@
 		B4273E7E2E17252C0052BBCC /* Exceptions for "cards" folder in "MathMastery" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				unit_1/lesson_1_2/lesson_1_2_sequence.json,
-				unit_1/lesson_1_2/unit_1_lesson_1_2_card_001.json,
-				unit_1/lesson_1_2/unit_1_lesson_1_2_card_002.json,
-				unit_1/lesson_1_2/unit_1_lesson_1_2_card_003.json,
-				unit_1/lesson_1_2/unit_1_lesson_1_2_card_004.json,
-				unit_1/lesson_1_2/unit_1_lesson_1_2_card_005.json,
-				unit_1/lesson_1_2/unit_1_lesson_1_2_card_006.json,
-				unit_1/lesson_1_2/unit_1_lesson_1_2_card_007.json,
-				unit_1/lesson_1_2/unit_1_lesson_1_2_card_008.json,
-				unit_1/lesson_1_2/unit_1_lesson_1_2_card_009.json,
-				unit_1/lesson_1_2/unit_1_lesson_1_2_card_010.json,
-				unit_1/lesson_1_2/unit_1_lesson_1_2_card_011.json,
-				unit_1/lesson_1_2/unit_1_lesson_1_2_card_012.json,
-				unit_1/lesson_1_2/unit_1_lesson_1_2_card_013.json,
-				unit_1/lesson_1_2/unit_1_lesson_1_2_card_014.json,
-				unit_1/lesson_1_2/unit_1_lesson_1_2_card_015.json,
-				unit_1/lesson_1_2/unit_1_lesson_1_2_card_016.json,
-				unit_1/lesson_1_2/unit_1_lesson_1_2_card_017.json,
-				unit_1/lesson_1_2/unit_1_lesson_1_2_card_018.json,
 				unit_1/unit_1_index.json,
 			);
 			target = B4273C062E170AED0052BBCC /* MathMastery */;

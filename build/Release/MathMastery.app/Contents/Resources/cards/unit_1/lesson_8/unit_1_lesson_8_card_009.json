@@ -1,0 +1,28 @@
+{
+  "id": "unit_1_lesson_8_card_009",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_8",
+  "type": "worked_example",
+  "title": "Converting Between Radical and Exponential Form",
+  "duration": 120,
+  "content": {
+    "problem": "Convert the following expressions between radical and exponential form, and simplify:\n1. Convert 5^(3/4) to radical form\n2. Convert ⁵√x^7 to exponential form\n3. Simplify √x × ⁴√x^3 using exponential form",
+    "steps": [
+      "Step 1: For 5^(3/4), use the relationship a^(m/n) = ⁿ√(a^m).\n5^(3/4) = ⁴√(5^3) = ⁴√125",
+      "Step 2: For ⁵√x^7, use the relationship ⁿ√(a^m) = a^(m/n).\n⁵√x^7 = x^(7/5)",
+      "Step 3: For √x × ⁴√x^3, first convert both to exponential form.\n√x = x^(1/2)\n⁴√x^3 = x^(3/4)",
+      "Step 4: Apply the product rule of exponents.\nx^(1/2) × x^(3/4) = x^(1/2 + 3/4) = x^(5/4)",
+      "Step 5: Convert back to radical form if needed.\nx^(5/4) = ⁴√x^5 = ⁴√(x^4 × x) = x × ⁴√x"
+    ],
+    "explanation": "Converting between radical and exponential forms allows us to apply the laws of exponents to simplify expressions. The key relationships are:\n\n1. ⁿ√a = a^(1/n)\n2. ⁿ√(a^m) = a^(m/n)\n3. a^(m/n) = ⁿ√(a^m) = (ⁿ√a)^m\n\nWhen simplifying expressions with different radicals, converting to exponential form often makes the process more straightforward, as we can apply the familiar rules of exponents and then convert back to radical form if necessary."
+  },
+  "interactive": {
+    "question": "Which of the following is equal to 8^(2/3)?",
+    "options": [
+      "4",
+      "³√64",
+      "²√8"
+    ],
+    "correct": 0
+  }
+}

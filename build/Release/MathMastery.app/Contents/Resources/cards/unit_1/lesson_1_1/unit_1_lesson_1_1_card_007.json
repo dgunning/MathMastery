@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_1_1_card_007",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1_1",
+  "type": "concept_intro",
+  "title": "Function Notation: f(x)",
+  "duration": 140,
+  "content": {
+    "explanation": "Function notation is mathematical shorthand that makes everything clearer!\n\nInstead of writing: 'y equals 2 times x plus 3'\nWe write: f(x) = 2x + 3\n\n🔤 f(x) is read as 'f of x'\n❌ NOT 'f times x'\n✅ It means 'the output when the input is x'\n\nYou can use any letter: f(x), g(x), h(x), C(t), etc. The letter often relates to what the function represents (C for cost, h for height, etc.).",
+    "example": "📱 If C(h) = 10 + 5h represents phone bill cost:\n• C(0) = $10 (0 hours of calls)\n• C(3) = $25 (3 hours of calls)\n• C(h) = 40 means you used 6 hours",
+    "key_point": "f(x) is a compact way to say 'function f applied to input x'."
+  },
+  "interactive": {
+    "question": "If f(x) = 3x - 1, what is f(4)?",
+    "options": [
+      "11",
+      "12", 
+      "7"
+    ],
+    "correct": 0
+  }
+}

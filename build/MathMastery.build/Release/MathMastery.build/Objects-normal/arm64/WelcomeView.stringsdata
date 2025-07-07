@@ -1,0 +1,48 @@
+{
+  "source": "/Users/dwight/Projects/MathMastery/MathMastery/WelcomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Math Mastery",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 12
+        }
+      },
+      {
+        "comment": "",
+        "key": "Grade 11 Functions (MCR3U)",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "Welcome to Math Mastery!",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Getting Started",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 70
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select a unit from the sidebar to begin learning. Each lesson is broken down into bite-sized cards that adapt to your learning pace.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 73
+        }
+      }
+    ]
+  },
+  "version": 1
+}

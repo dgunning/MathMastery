@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_8_card_001",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_8",
+  "type": "concept_intro",
+  "title": "Introduction to Radicals",
+  "duration": 120,
+  "content": {
+    "explanation": "A radical expression is a mathematical expression that contains a radical symbol (√). The radical symbol represents the operation of taking a root of a number or expression.\n\nThe most common radical is the square root (√), which gives a value that, when multiplied by itself, equals the number under the radical. For example, √9 = 3 because 3² = 9.\n\nThe general form of a radical is ⁿ√x, where:\n- n is the index (or order) of the radical\n- x is the radicand (the expression under the radical symbol)\n\nWhen n = 2 (square root), the index is typically omitted: √x instead of ²√x.\n\nOther common radicals include:\n- Cube root: ³√x (the value that, when cubed, equals x)\n- Fourth root: ⁴√x (the value that, when raised to the fourth power, equals x)",
+    "example": "Examples of radical expressions:\n\n1. √16 = 4 (because 4² = 16)\n2. ³√27 = 3 (because 3³ = 27)\n3. ⁴√16 = 2 (because 2⁴ = 16)\n4. √x² + 9 (a radical expression with a variable)\n\nRadicals can also be expressed using fractional exponents:\n- √x = x^(1/2)\n- ³√x = x^(1/3)\n- ⁿ√x = x^(1/n)",
+    "key_point": "Radicals are the inverse operations of exponents. Just as exponents represent repeated multiplication, radicals represent finding what value, when raised to a power, gives the radicand."
+  },
+  "interactive": {
+    "question": "Which of the following is equal to √49?",
+    "options": [
+      "7",
+      "8",
+      "6"
+    ],
+    "correct": 0
+  }
+}

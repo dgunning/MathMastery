@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_10_card_007",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_10",
+  "type": "concept_intro",
+  "title": "The Discriminant and Factorability",
+  "duration": 120,
+  "content": {
+    "explanation": "The discriminant of a quadratic expression provides important information about whether the expression can be factored using real numbers, and if so, what type of factors it will have.\n\nFor a quadratic expression ax² + bx + c:\n\n1. When Δ > 0 (positive discriminant):\n   - The expression can be factored as a(x - r₁)(x - r₂) where r₁ and r₂ are real numbers\n   - If Δ is a perfect square, then r₁ and r₂ are rational numbers (assuming a, b, and c are rational)\n   - If Δ is not a perfect square, then r₁ and r₂ are irrational numbers\n\n2. When Δ = 0 (zero discriminant):\n   - The expression can be factored as a(x - r)² where r is a real number\n   - This is a perfect square trinomial (when expanded)\n   - The repeated root r equals -b/(2a)\n\n3. When Δ < 0 (negative discriminant):\n   - The expression cannot be factored using real numbers\n   - It can only be factored using complex numbers as a(x - z)(x - z̄) where z and z̄ are complex conjugates\n   - The expression is irreducible over the real numbers\n\nThis connection between the discriminant and factorability is particularly useful when deciding which method to use for solving a quadratic equation. If the discriminant suggests the expression can be factored with rational coefficients, factoring is often the most efficient approach.",
+    "example": "Let's examine three quadratic expressions with different discriminants:\n\n1. 6x² - 5x - 6\n   Discriminant: Δ = (-5)² - 4(6)(-6) = 25 + 144 = 169 = 13²\n   Since Δ = 169 is a perfect square, this expression can be factored with rational coefficients.\n   6x² - 5x - 6 = (3x + 2)(2x - 3)\n   The roots are x = -2/3 and x = 3/2.\n\n2. x² - 6x + 9\n   Discriminant: Δ = (-6)² - 4(1)(9) = 36 - 36 = 0\n   Since Δ = 0, this expression is a perfect square trinomial.\n   x² - 6x + 9 = (x - 3)²\n   The repeated root is x = 3.\n\n3. 2x² - 3x + 5\n   Discriminant: Δ = (-3)² - 4(2)(5) = 9 - 40 = -31\n   Since Δ = -31 < 0, this expression cannot be factored using real numbers.\n   It is irreducible over the real numbers.",
+    "key_point": "The discriminant provides a quick way to determine whether a quadratic expression can be factored with real coefficients. This is valuable information when deciding on the most efficient approach to solving a quadratic equation or analyzing a quadratic function."
+  },
+  "interactive": {
+    "question": "Which of the following quadratic expressions can be factored with rational coefficients?",
+    "options": [
+      "3x² - 10x - 8",
+      "2x² - 3x + 5",
+      "x² - 4x + 5"
+    ],
+    "correct": 0
+  }
+}

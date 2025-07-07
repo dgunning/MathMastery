@@ -1,0 +1,27 @@
+{
+  "id": "unit_1_lesson_6_card_002",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_6",
+  "type": "worked_example",
+  "title": "Finding Maximum/Minimum Values from Standard Form",
+  "duration": 120,
+  "content": {
+    "problem": "Find the maximum or minimum value of the quadratic function f(x) = -2x² + 12x - 10.",
+    "steps": [
+      "Step 1: Identify whether the function has a maximum or minimum value\nSince a = -2 < 0, the parabola opens downward and has a maximum value",
+      "Step 2: Find the x-coordinate of the vertex using x = -b/(2a)\nx = -(12)/(2(-2)) = -12/(-4) = 3",
+      "Step 3: Calculate the maximum value by evaluating f(3)\nf(3) = -2(3)² + 12(3) - 10\nf(3) = -2(9) + 36 - 10\nf(3) = -18 + 36 - 10\nf(3) = 8",
+      "Step 4: State the answer\nThe maximum value of the function is 8, which occurs at x = 3"
+    ],
+    "explanation": "For any quadratic function in standard form, we can find its maximum or minimum value by first finding the x-coordinate of the vertex using the formula x = -b/(2a), and then evaluating the function at that point."
+  },
+  "interactive": {
+    "question": "What is the minimum value of g(x) = 3x² - 24x + 50?",
+    "options": [
+      "2",
+      "50",
+      "-22"
+    ],
+    "correct": 0
+  }
+}

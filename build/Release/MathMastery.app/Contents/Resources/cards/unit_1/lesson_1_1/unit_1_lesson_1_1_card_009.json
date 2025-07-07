@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_1_1_card_009",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1_1",
+  "type": "concept_intro",
+  "title": "Four Ways to Represent Functions",
+  "duration": 170,
+  "content": {
+    "explanation": "Functions can be shown in four different ways, like describing the same person with words, a photo, their stats, and their signature:\n\n📝 VERBAL: 'Add 3 to twice the input'\n🔢 ALGEBRAIC: f(x) = 2x + 3\n📊 NUMERICAL: A table of input-output pairs\n📈 GRAPHICAL: A visual plot on coordinate axes\n\nEach representation shows the same function relationship, just in different formats. Sometimes one format is more useful than others.",
+    "example": "🎯 The function 'double and add 1':\n\n• Words: 'Double the input, then add 1'\n• Equation: f(x) = 2x + 1\n• Table: (0→1), (1→3), (2→5), (3→7)\n• Graph: A straight line with slope 2",
+    "key_point": "Same function, different formats - choose what works best for your situation."
+  },
+  "interactive": {
+    "question": "Which representation would be best for quickly finding many output values?",
+    "options": [
+      "Verbal description",
+      "Algebraic equation",
+      "Data table"
+    ],
+    "correct": 1
+  }
+}

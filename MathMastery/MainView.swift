@@ -5,6 +5,7 @@ struct MainView: View {
     @State private var selectedUnit: String?
     @State private var selectedLesson: String?
     @State private var showingLearningView = false
+    @State private var selectedContentType: ContentType = .cards
     
     var body: some View {
         NavigationSplitView {
@@ -18,7 +19,8 @@ struct MainView: View {
             ContentView(
                 selectedUnit: $selectedUnit,
                 selectedLesson: $selectedLesson,
-                showingLearningView: $showingLearningView
+                showingLearningView: $showingLearningView,
+                selectedContentType: $selectedContentType
             )
             .environmentObject(contentService)
         } detail: {
@@ -26,10 +28,10 @@ struct MainView: View {
                 if showingLearningView,
                    let unitId = selectedUnit,
                    let lessonId = selectedLesson {
-                    LearningView(unitId: unitId, lessonId: lessonId)
+                    contentTypeView(unitId: unitId, lessonId: lessonId, contentType: selectedContentType)
                         .environmentObject(contentService)
                         .onAppear {
-                            print("DEBUG: LearningView appeared for unit: \(unitId), lesson: \(lessonId)")
+                            print("DEBUG: Content view appeared for unit: \(unitId), lesson: \(lessonId), type: \(selectedContentType)")
                         }
                 } else {
                     WelcomeView()
@@ -42,6 +44,24 @@ struct MainView: View {
         .frame(minWidth: 1000, minHeight: 700)
         .task {
             await contentService.loadUnits()
+        }
+    }
+    
+    @ViewBuilder
+    private func contentTypeView(unitId: String, lessonId: String, contentType: ContentType) -> some View {
+        switch contentType {
+        case .cards:
+            LearningView(unitId: unitId, lessonId: lessonId)
+        case .lessonGuide:
+            FullLessonView(unitId: unitId, lessonId: lessonId)
+        case .worksheet:
+            WorksheetView(unitId: unitId, lessonId: lessonId)
+        case .quiz:
+            QuizView(unitId: unitId, quizType: "mid_unit")
+        case .activity:
+            ActivityView(unitId: unitId, lessonId: lessonId)
+        case .lessonPlan:
+            LessonPlanView(unitId: unitId, lessonId: lessonId)
         }
     }
 }
@@ -104,7 +124,12 @@ struct UnitSection: View {
         DisclosureGroup(
             isExpanded: $isExpanded,
             content: {
-                ForEach(Array(unit.lessons.keys.sorted()), id: \.self) { lessonId in
+                ForEach(Array(unit.lessons.keys.sorted { lessonId1, lessonId2 in
+                    // Extract lesson numbers for proper sorting
+                    let num1 = extractLessonNumber(from: lessonId1)
+                    let num2 = extractLessonNumber(from: lessonId2)
+                    return num1 < num2
+                }), id: \.self) { lessonId in
                     if let lessonInfo = unit.lessons[lessonId] {
                         LessonRow(
                             lessonId: lessonId,
@@ -136,6 +161,16 @@ struct UnitSection: View {
                 isExpanded = true
             }
         }
+    }
+    
+    // Helper function to extract lesson number for sorting
+    private func extractLessonNumber(from lessonId: String) -> Int {
+        // Extract number from strings like "lesson_1", "lesson_10", etc.
+        let components = lessonId.components(separatedBy: "_")
+        if let lastComponent = components.last, let number = Int(lastComponent) {
+            return number
+        }
+        return 0
     }
 }
 

@@ -4,10 +4,12 @@ class ContentService: ObservableObject {
     @Published var units: [UnitIndex] = []
     @Published var currentLesson: LessonSequence?
     @Published var currentCards: [LearningCard] = []
+    @Published var currentLessonContent: LessonContent?
     @Published var isLoading = false
     @Published var error: String?
     
     private let contentBaseURL: URL
+    private let docsBaseURL: URL
     
     init() {
         // For the app bundle, use the main bundle
@@ -19,6 +21,16 @@ class ContentService: ObservableObject {
             let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
             self.contentBaseURL = URL(fileURLWithPath: documentsPath).appendingPathComponent("cards")
             print("DEBUG: Using fallback path: \(self.contentBaseURL)")
+        }
+        
+        // Set up docs directory for lesson guides, worksheets, etc.
+        if let bundleURL = Bundle.main.url(forResource: "docs", withExtension: nil) {
+            self.docsBaseURL = bundleURL
+            print("DEBUG: Found docs bundle at: \(bundleURL)")
+        } else {
+            let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
+            self.docsBaseURL = URL(fileURLWithPath: documentsPath).appendingPathComponent("docs")
+            print("DEBUG: Using fallback docs path: \(self.docsBaseURL)")
         }
     }
     
@@ -208,5 +220,113 @@ class ContentService: ObservableObject {
             return (0, currentCards.count)
         }
         return (index + 1, currentCards.count)
+    }
+    
+    // MARK: - Multi-Content Type Support
+    
+    func loadIntegratedLessonContent(unitId: String, lessonId: String) async -> LessonContent? {
+        do {
+            // Get lesson info from unit index
+            guard let unit = units.first(where: { $0.unitId == unitId }),
+                  let lessonInfo = unit.lessons[lessonId] else {
+                print("DEBUG: Could not find lesson info for \(unitId)/\(lessonId)")
+                return nil
+            }
+            
+            // Load cards if available
+            var cards: [LearningCard]? = nil
+            if lessonInfo.contentTypes?.cards == true {
+                let (_, loadedCards) = try await loadLessonContent(unitId: unitId, lessonId: lessonId)
+                cards = loadedCards
+            }
+            
+            let lessonContent = LessonContent(
+                lessonId: lessonId,
+                lessonName: lessonInfo.lessonName,
+                cards: cards,
+                contentTypes: lessonInfo.contentTypes ?? ContentTypes(
+                    cards: true,
+                    lessonGuide: false,
+                    lessonPlan: false,
+                    worksheet: false,
+                    quiz: false,
+                    activity: false
+                )
+            )
+            
+            await MainActor.run {
+                self.currentLessonContent = lessonContent
+            }
+            
+            return lessonContent
+        } catch {
+            print("DEBUG: Error loading lesson content: \(error)")
+            return nil
+        }
+    }
+    
+    func loadFullLesson(unitId: String, lessonId: String) async -> String? {
+        // Convert lesson_1_1 to lesson1, lesson_1_2 to lesson2, etc.
+        let lessonNumber = lessonId.replacingOccurrences(of: "lesson_", with: "").replacingOccurrences(of: "_", with: "")
+        
+        let lessonContentURL = docsBaseURL
+            .appendingPathComponent("learning_plans")
+            .appendingPathComponent(unitId)
+            .appendingPathComponent("lesson_content")
+            .appendingPathComponent("lesson\(lessonNumber)_guide.md")
+        
+        do {
+            let content = try String(contentsOf: lessonContentURL, encoding: .utf8)
+            print("DEBUG: Loaded full lesson from: \(lessonContentURL)")
+            return content
+        } catch {
+            print("DEBUG: Could not load full lesson from \(lessonContentURL): \(error)")
+            return nil
+        }
+    }
+    
+    func loadWorksheet(unitId: String, lessonId: String) async -> String? {
+        let lessonNumber = lessonId.replacingOccurrences(of: "lesson_", with: "").replacingOccurrences(of: "_", with: "")
+        
+        let worksheetURL = docsBaseURL
+            .appendingPathComponent("learning_plans")
+            .appendingPathComponent(unitId)
+            .appendingPathComponent("worksheets")
+            .appendingPathComponent("lesson\(lessonNumber)_worksheet.md")
+        
+        do {
+            let content = try String(contentsOf: worksheetURL, encoding: .utf8)
+            print("DEBUG: Loaded worksheet from: \(worksheetURL)")
+            return content
+        } catch {
+            print("DEBUG: Could not load worksheet from \(worksheetURL): \(error)")
+            return nil
+        }
+    }
+    
+    func loadQuiz(unitId: String, type: String) async -> String? {
+        let quizURL = docsBaseURL
+            .appendingPathComponent("learning_plans")
+            .appendingPathComponent(unitId)
+            .appendingPathComponent("quizzes")
+            .appendingPathComponent("\(unitId)_\(type)_quiz.md")
+        
+        do {
+            let content = try String(contentsOf: quizURL, encoding: .utf8)
+            print("DEBUG: Loaded quiz from: \(quizURL)")
+            return content
+        } catch {
+            print("DEBUG: Could not load quiz from \(quizURL): \(error)")
+            return nil
+        }
+    }
+    
+    func getAvailableContentTypes(unitId: String, lessonId: String) -> [ContentType] {
+        guard let unit = units.first(where: { $0.unitId == unitId }),
+              let lessonInfo = unit.lessons[lessonId],
+              let contentTypes = lessonInfo.contentTypes else {
+            return [.cards] // Default to cards only
+        }
+        return contentTypes.availableTypes
     }
 }

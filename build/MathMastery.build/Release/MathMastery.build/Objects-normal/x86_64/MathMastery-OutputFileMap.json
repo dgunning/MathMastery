@@ -1,0 +1,50 @@
+{
+  "" : {
+    "const-values" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/MathMastery-master.swiftconstvalues",
+    "dependencies" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/MathMastery-master.d",
+    "diagnostics" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/MathMastery-master.dia",
+    "emit-module-dependencies" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/MathMastery-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/MathMastery-master-emit-module.dia",
+    "swift-dependencies" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/MathMastery-master.swiftdeps"
+  },
+  "/Users/dwight/Projects/MathMastery/MathMastery/Card.swift" : {
+    "index-unit-output-path" : "/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/Card.o",
+    "llvm-bc" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/Card.bc",
+    "object" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/Card.o"
+  },
+  "/Users/dwight/Projects/MathMastery/MathMastery/ContentService.swift" : {
+    "index-unit-output-path" : "/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/ContentService.o",
+    "llvm-bc" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/ContentService.bc",
+    "object" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/ContentService.o"
+  },
+  "/Users/dwight/Projects/MathMastery/MathMastery/ContentTypeViews.swift" : {
+    "index-unit-output-path" : "/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/ContentTypeViews.o",
+    "llvm-bc" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/ContentTypeViews.bc",
+    "object" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/ContentTypeViews.o"
+  },
+  "/Users/dwight/Projects/MathMastery/MathMastery/ContentView.swift" : {
+    "index-unit-output-path" : "/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/ContentView.o",
+    "llvm-bc" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/ContentView.bc",
+    "object" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/ContentView.o"
+  },
+  "/Users/dwight/Projects/MathMastery/MathMastery/LearningView.swift" : {
+    "index-unit-output-path" : "/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/LearningView.o",
+    "llvm-bc" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/LearningView.bc",
+    "object" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/LearningView.o"
+  },
+  "/Users/dwight/Projects/MathMastery/MathMastery/MainView.swift" : {
+    "index-unit-output-path" : "/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/MainView.o",
+    "llvm-bc" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/MainView.bc",
+    "object" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/MainView.o"
+  },
+  "/Users/dwight/Projects/MathMastery/MathMastery/MathMasteryApp.swift" : {
+    "index-unit-output-path" : "/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/MathMasteryApp.o",
+    "llvm-bc" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/MathMasteryApp.bc",
+    "object" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/MathMasteryApp.o"
+  },
+  "/Users/dwight/Projects/MathMastery/MathMastery/WelcomeView.swift" : {
+    "index-unit-output-path" : "/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/WelcomeView.o",
+    "llvm-bc" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/WelcomeView.bc",
+    "object" : "/Users/dwight/Projects/MathMastery/build/MathMastery.build/Release/MathMastery.build/Objects-normal/x86_64/WelcomeView.o"
+  }
+}

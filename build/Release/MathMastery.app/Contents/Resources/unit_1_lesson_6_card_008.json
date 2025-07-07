@@ -1,0 +1,28 @@
+{
+  "id": "unit_1_lesson_6_card_008",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_6",
+  "type": "worked_example",
+  "title": "Maximizing Revenue: Pricing Strategy",
+  "duration": 120,
+  "content": {
+    "problem": "A movie theater finds that when they charge x dollars per ticket, they sell (120 - 5x) tickets per showing. What ticket price will maximize their revenue?",
+    "steps": [
+      "Step 1: Define the revenue function\nRevenue = (Price per ticket) × (Number of tickets sold)\nR(x) = x(120 - 5x) = 120x - 5x²",
+      "Step 2: Identify that this is a quadratic function with a < 0, so it has a maximum value\nR(x) = 120x - 5x² = -5x² + 120x, where a = -5, b = 120, c = 0",
+      "Step 3: Find the x-coordinate of the vertex using x = -b/(2a)\nx = -(120)/(2(-5)) = 120/10 = 12 dollars",
+      "Step 4: Calculate the maximum revenue by evaluating R(12)\nR(12) = 120(12) - 5(12)² = 1440 - 5(144) = 1440 - 720 = $720",
+      "Step 5: State the answer\nThe theater should charge $12 per ticket to maximize revenue at $720 per showing"
+    ],
+    "explanation": "This problem illustrates the economic principle that as price increases, demand typically decreases. The quadratic revenue function captures this relationship, and finding its maximum helps businesses determine optimal pricing strategies."
+  },
+  "interactive": {
+    "question": "A concert venue sells tickets for x dollars each and finds that they sell (500 - 10x) tickets at that price. What ticket price maximizes their revenue?",
+    "options": [
+      "$25",
+      "$50",
+      "$10"
+    ],
+    "correct": 0
+  }
+}

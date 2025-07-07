@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_8_card_002",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_8",
+  "type": "concept_intro",
+  "title": "Properties of Radicals",
+  "duration": 120,
+  "content": {
+    "explanation": "Radicals follow several important properties that allow us to manipulate and simplify expressions. For any positive real numbers a and b, and any positive integer n:\n\n1. Product Property: ⁿ√(a × b) = ⁿ√a × ⁿ√b\n   This means the radical of a product equals the product of the radicals.\n\n2. Quotient Property: ⁿ√(a ÷ b) = ⁿ√a ÷ ⁿ√b\n   This means the radical of a quotient equals the quotient of the radicals.\n\n3. Power Property: ⁿ√(a^m) = (ⁿ√a)^m\n   This means the radical of a power equals the power of the radical.\n\n4. Root of a Root: ᵐ√(ⁿ√a) = ᵐⁿ√a\n   This means taking successive roots is equivalent to taking a single root with an index equal to the product of the indices.\n\n5. Exponent-Radical Relationship: ⁿ√a = a^(1/n)\n   This allows us to convert between radical and exponential forms.",
+    "example": "Examples of applying radical properties:\n\n1. Product Property: √(9 × 4) = √9 × √4 = 3 × 2 = 6\n\n2. Quotient Property: √(25 ÷ 9) = √25 ÷ √9 = 5 ÷ 3 = 5/3\n\n3. Power Property: √(x^4) = (√x)^4 = x^2\n\n4. Root of a Root: √(³√8) = ⁶√8 = ⁶√(2^3) = 2^(3/6) = 2^(1/2) = √2\n\n5. Exponent-Radical Relationship: ⁴√16 = 16^(1/4) = (2^4)^(1/4) = 2^(4/4) = 2^1 = 2",
+    "key_point": "These properties are essential for simplifying radical expressions and solving equations involving radicals. They allow us to break down complex radical expressions into simpler forms."
+  },
+  "interactive": {
+    "question": "Which of the following is equal to √(16 × 9)?",
+    "options": [
+      "12",
+      "√144",
+      "√16 + √9"
+    ],
+    "correct": 0
+  }
+}

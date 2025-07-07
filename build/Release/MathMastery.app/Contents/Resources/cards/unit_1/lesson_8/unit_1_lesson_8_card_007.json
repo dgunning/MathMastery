@@ -1,0 +1,29 @@
+{
+  "id": "unit_1_lesson_8_card_007",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_8",
+  "type": "worked_example",
+  "title": "Dividing Radicals and Rationalizing Denominators",
+  "duration": 120,
+  "content": {
+    "problem": "Simplify the following expressions by rationalizing the denominator:\n1. 4/√3\n2. √8/√6\n3. 5/(2 + √5)",
+    "steps": [
+      "Step 1: For 4/√3, multiply both numerator and denominator by √3 to rationalize the denominator.\n4/√3 = (4 × √3)/(√3 × √3) = 4√3/3",
+      "Step 2: For √8/√6, first use the quotient property of radicals.\n√8/√6 = √(8/6) = √(4/3) = √4/√3 = 2/√3",
+      "Step 3: Now rationalize the denominator as in Step 1.\n2/√3 = (2 × √3)/(√3 × √3) = 2√3/3",
+      "Step 4: For 5/(2 + √5), multiply both numerator and denominator by the conjugate of the denominator (2 - √5).\n5/(2 + √5) = 5(2 - √5)/((2 + √5)(2 - √5))",
+      "Step 5: Expand the denominator using the difference of squares formula: (a + b)(a - b) = a² - b².\n(2 + √5)(2 - √5) = 2² - (√5)² = 4 - 5 = -1",
+      "Step 6: Expand the numerator and simplify.\n5(2 - √5)/(-1) = (10 - 5√5)/(-1) = -10 + 5√5"
+    ],
+    "explanation": "Rationalizing the denominator is a technique used to eliminate radicals from the denominator of a fraction. This is done for two main reasons:\n\n1. Historically, it was easier to calculate decimal approximations without radicals in the denominator\n2. It's a standard form that makes expressions easier to compare and work with\n\nThe process involves multiplying both the numerator and denominator by an appropriate expression:\n\n- For a single radical (like √a), multiply by that same radical\n- For a binomial involving a radical (like a + √b), multiply by its conjugate (a - √b)\n\nThe key is that whatever we multiply the denominator by, we must also multiply the numerator by to maintain equality."
+  },
+  "interactive": {
+    "question": "Which of the following is the simplified form of 3/√12 after rationalizing the denominator?",
+    "options": [
+      "3√3/6",
+      "√3/2",
+      "3√12/12"
+    ],
+    "correct": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "unit_1_lesson_7_card_012",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_7",
+  "type": "worked_example",
+  "title": "Real-World Application: Revenue Optimization",
+  "duration": 120,
+  "content": {
+    "problem": "A company sells x items at a price of p = 50 - 0.5x dollars per item. The revenue R is given by R(x) = x·p = x(50 - 0.5x) = 50x - 0.5x². Use completing the square to find how many items should be sold to maximize revenue, and what is the maximum revenue.",
+    "steps": [
+      "Step 1: Rewrite the revenue function to prepare for completing the square\nR(x) = 50x - 0.5x²\nR(x) = -0.5x² + 50x\nR(x) = -0.5(x² - 100x)",
+      "Step 2: Complete the square inside the parentheses\nFor x² - 100x, take half of -100, which is -50, and square it: (-50)² = 2500\nR(x) = -0.5(x² - 100x + 2500 - 2500)\nR(x) = -0.5((x - 50)² - 2500)",
+      "Step 3: Distribute the leading coefficient\nR(x) = -0.5(x - 50)² + 0.5(2500)\nR(x) = -0.5(x - 50)² + 1250",
+      "Step 4: Identify the vertex from the vertex form\nComparing with R(x) = a(x - h)² + k, we have a = -0.5, h = 50, k = 1250\nSo the vertex is at (50, 1250)",
+      "Step 5: Interpret the result\nThe company should sell 50 items to maximize revenue, and the maximum revenue is $1250"
+    ],
+    "explanation": "In economics, quadratic functions often model revenue or profit. By completing the square, we can convert the revenue function to vertex form, which directly gives us the optimal number of items to sell (the h-value) and the maximum revenue (the k-value)."
+  },
+  "interactive": {
+    "question": "A theater charges x dollars per ticket and sells (200 - 4x) tickets at that price. What ticket price maximizes revenue?",
+    "options": [
+      "$25",
+      "$50",
+      "$100"
+    ],
+    "correct": 0
+  }
+}

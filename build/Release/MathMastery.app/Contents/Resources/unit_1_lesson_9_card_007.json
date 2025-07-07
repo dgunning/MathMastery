@@ -1,0 +1,28 @@
+{
+  "id": "unit_1_lesson_9_card_007",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_9",
+  "type": "worked_example",
+  "title": "Solving Quadratics with Complex Roots",
+  "duration": 120,
+  "content": {
+    "problem": "Solve the following quadratic equations that have complex roots:\n1. x² + 4 = 0\n2. x² + 2x + 5 = 0\n3. 2x² - 4x + 5 = 0",
+    "steps": [
+      "Step 1: For x² + 4 = 0, rearrange to standard form: x² = -4.\nUsing the square root method: x = ±√(-4) = ±2i, where i = √(-1) is the imaginary unit.\nSo the solutions are x = 2i or x = -2i.",
+      "Step 2: For x² + 2x + 5 = 0, we'll use the quadratic formula with a = 1, b = 2, c = 5.\nFirst, calculate the discriminant: b² - 4ac = 2² - 4(1)(5) = 4 - 20 = -16\nSince the discriminant is negative, the equation has complex roots.",
+      "Step 3: Substitute into the quadratic formula:\nx = (-2 ± √(-16))/(2(1))\nx = (-2 ± 4i)/2\nx = -1 ± 2i\nSo the solutions are x = -1 + 2i or x = -1 - 2i.",
+      "Step 4: For 2x² - 4x + 5 = 0, we'll use the quadratic formula with a = 2, b = -4, c = 5.\nFirst, calculate the discriminant: b² - 4ac = (-4)² - 4(2)(5) = 16 - 40 = -24\nSince the discriminant is negative, the equation has complex roots.",
+      "Step 5: Substitute into the quadratic formula:\nx = (-(-4) ± √(-24))/(2(2))\nx = (4 ± √24 · i)/4\nx = (4 ± 2√6 · i)/4\nx = 1 ± (√6/2)i\nSo the solutions are x = 1 + (√6/2)i or x = 1 - (√6/2)i."
+    ],
+    "explanation": "When a quadratic equation has a negative discriminant (b² - 4ac < 0), it has no real solutions. Instead, it has two complex conjugate solutions of the form α ± βi, where:\n\n- α = -b/(2a) is the real part\n- β = √|b² - 4ac|/(2a) is the coefficient of the imaginary part\n- i = √(-1) is the imaginary unit\n\nComplex roots always come in conjugate pairs (if α + βi is a root, then α - βi is also a root).\n\nAlthough complex roots don't have a direct geometric interpretation on the real number line, they are important in mathematics and have applications in physics, engineering, and other fields. On the graph of a quadratic function, complex roots indicate that the parabola does not intersect the x-axis."
+  },
+  "interactive": {
+    "question": "What are the solutions to the equation x² + 6x + 10 = 0?",
+    "options": [
+      "x = -3 ± i",
+      "x = -3 ± 2i",
+      "x = -3 ± √7i"
+    ],
+    "correct": 0
+  }
+}

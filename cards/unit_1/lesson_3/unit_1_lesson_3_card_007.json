@@ -1,0 +1,25 @@
+{
+  "id": "unit_1_lesson_3_card_007",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_3",
+  "type": "worked_example",
+  "title": "Finding Domain and Range from Graphs",
+  "duration": 120,
+  "content": {
+    "problem": "Find the domain and range of the function shown in the graph of a parabola opening downward with vertex at (2, 5) and x-intercepts at (0, 0) and (4, 0).",
+    "steps": [
+      "Step 1: To find the domain, look at all possible x-values on the graph.\nThe graph extends horizontally from x = 0 to x = 4.\nSo the domain is [0, 4].",
+      "Step 2: To find the range, look at all possible y-values on the graph.\nThe lowest y-value is 0 (at the x-intercepts).\nThe highest y-value is 5 (at the vertex).\nSo the range is [0, 5]."
+    ],
+    "explanation": "When finding domain and range from a graph, the domain is the set of all x-coordinates and the range is the set of all y-coordinates. For a parabola opening downward, the maximum y-value occurs at the vertex."
+  },
+  "interactive": {
+    "question": "A function is graphed as a semicircle centered at the origin with radius 3, in the upper half of the coordinate plane. What is its range?",
+    "options": [
+      "[0, 3]",
+      "[-3, 3]",
+      "[-3, 0]"
+    ],
+    "correct": 0
+  }
+}

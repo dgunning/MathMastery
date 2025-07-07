@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_9_card_001",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_9",
+  "type": "concept_intro",
+  "title": "Introduction to Quadratic Equations",
+  "duration": 120,
+  "content": {
+    "explanation": "A quadratic equation is an equation that can be written in the standard form ax² + bx + c = 0, where a, b, and c are constants, and a ≠ 0.\n\nQuadratic equations are characterized by having a variable raised to the second power as the highest power. They are fundamental in mathematics and have numerous applications in physics, engineering, economics, and other fields.\n\nSome key points about quadratic equations:\n\n1. They can have at most two real solutions (roots)\n2. Their graphs are parabolas\n3. The solutions represent the x-intercepts of the parabola\n4. The solutions can be real or complex numbers\n5. The solutions can be rational or irrational numbers",
+    "example": "Examples of quadratic equations:\n\n1. x² - 5x + 6 = 0 (standard form with a = 1, b = -5, c = 6)\n2. 2x² = 8 (can be rewritten as 2x² - 8 = 0)\n3. x(x + 3) = 4 (can be expanded to x² + 3x - 4 = 0)\n4. (x - 2)(x + 3) = 0 (factored form of x² + x - 6 = 0)\n\nNon-examples (not quadratic equations):\n1. x³ - 2x + 1 = 0 (cubic equation)\n2. x - 3 = 0 (linear equation)\n3. x⁴ - 16 = 0 (quartic equation)",
+    "key_point": "Solving quadratic equations means finding the values of the variable that make the equation true. These values are called the roots or solutions of the equation. There are several methods for solving quadratic equations, including factoring, using the quadratic formula, completing the square, and graphing."
+  },
+  "interactive": {
+    "question": "Which of the following is a quadratic equation?",
+    "options": [
+      "x² - 7x + 12 = 0",
+      "2x - 5 = 0",
+      "x³ + x = 7"
+    ],
+    "correct": 0
+  }
+}

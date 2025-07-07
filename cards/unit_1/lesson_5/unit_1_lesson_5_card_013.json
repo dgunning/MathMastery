@@ -1,0 +1,27 @@
+{
+  "id": "unit_1_lesson_5_card_013",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_5",
+  "type": "worked_example",
+  "title": "Real-World Application: Minimum Cost",
+  "duration": 120,
+  "content": {
+    "problem": "A manufacturing company has determined that the daily cost C(x) of producing x items is given by C(x) = 0.5x² - 60x + 2000. How many items should be produced daily to minimize the cost, and what is the minimum cost?",
+    "steps": [
+      "Step 1: Identify that this is a quadratic function with a > 0, so it has a minimum value at the vertex\nC(x) = 0.5x² - 60x + 2000, where a = 0.5, b = -60, c = 2000",
+      "Step 2: Find the x-coordinate of the vertex using x = -b/(2a)\nx = -(-60)/(2(0.5)) = 60/1 = 60 items",
+      "Step 3: Calculate the minimum cost by evaluating C(60)\nC(60) = 0.5(60)² - 60(60) + 2000\nC(60) = 0.5(3600) - 3600 + 2000\nC(60) = 1800 - 3600 + 2000\nC(60) = $200",
+      "Step 4: State the answer\nThe company should produce 60 items daily to minimize the cost, and the minimum cost is $200"
+    ],
+    "explanation": "In business applications, quadratic cost functions often have a minimum value that represents the optimal production level. The vertex gives us this critical information for decision-making."
+  },
+  "interactive": {
+    "question": "A delivery company has determined that the total cost (in dollars) of delivering x packages per day is C(x) = 0.2x² - 24x + 800. How many packages should be delivered daily to minimize the cost?",
+    "options": [
+      "60 packages",
+      "120 packages",
+      "40 packages"
+    ],
+    "correct": 0
+  }
+}

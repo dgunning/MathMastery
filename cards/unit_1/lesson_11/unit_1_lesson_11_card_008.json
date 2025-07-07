@@ -1,0 +1,34 @@
+{
+  "id": "unit_1_lesson_11_card_008",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_11",
+  "type": "worked_example",
+  "title": "Finding a Quadratic Equation with a Specific Point",
+  "duration": 120,
+  "content": {
+    "problem": "Find the quadratic function f(x) = ax² + bx + c that satisfies the given conditions:\n\n1. Roots: 3 and -2, passes through the point (1, 5)\n2. Roots: 4 and 4, passes through the point (2, -8)\n3. Roots: 1 + i and 1 - i, passes through the point (2, 3)",
+    "steps": [
+      "Step 1: For problem 1, since the roots are 3 and -2, we can write the function in factored form as f(x) = a(x - 3)(x - (-2)) = a(x - 3)(x + 2).",
+      "Step 2: Expand this expression: f(x) = a(x² + 2x - 3x - 6) = a(x² - x - 6).",
+      "Step 3: Use the condition that f(1) = 5: 5 = a(1² - 1 - 6) = a(-6), which gives us a = -5/6.",
+      "Step 4: Therefore, the quadratic function is f(x) = (-5/6)(x² - x - 6) = (-5/6)x² + (5/6)x + 5.",
+      "Step 5: For problem 2, since the roots are both 4 (a repeated root), we can write the function in factored form as f(x) = a(x - 4)².",
+      "Step 6: Use the condition that f(2) = -8: -8 = a(2 - 4)² = a(4), which gives us a = -2.",
+      "Step 7: Therefore, the quadratic function is f(x) = -2(x - 4)² = -2x² + 16x - 32.",
+      "Step 8: For problem 3, since the roots are 1 + i and 1 - i, we can write the function in factored form as f(x) = a(x - (1 + i))(x - (1 - i)).",
+      "Step 9: Expand this expression: f(x) = a((x - 1) - i)((x - 1) + i) = a((x - 1)² - i²) = a((x - 1)² + 1) = a(x² - 2x + 1 + 1) = a(x² - 2x + 2).",
+      "Step 10: Use the condition that f(2) = 3: 3 = a(2² - 2(2) + 2) = a(4 - 4 + 2) = a(2), which gives us a = 3/2.",
+      "Step 11: Therefore, the quadratic function is f(x) = (3/2)(x² - 2x + 2) = (3/2)x² - 3x + 3."
+    ],
+    "explanation": "When finding a quadratic function that has specific roots and passes through a given point, we follow these steps:\n\n1. Use the roots to write the function in factored form: f(x) = a(x - r₁)(x - r₂)\n   - If the roots are complex conjugates r = p ± qi, use f(x) = a((x - p)² + q²)\n   - If there's a repeated root r, use f(x) = a(x - r)²\n\n2. Expand the factored form to get f(x) = a(x² + bx + c)\n\n3. Use the given point (x₀, y₀) to find the value of a:\n   y₀ = a(x₀² + bx₀ + c)\n   a = y₀/(x₀² + bx₀ + c)\n\n4. Substitute the value of a back into the expanded form to get the final function\n\nThis method works because:\n- The factored form guarantees that the function has the required roots\n- The scaling factor a is determined by the additional point constraint\n- The resulting function is unique (there is exactly one quadratic function with given roots and passing through a specific point)\n\nWhen working with complex roots, remember that a quadratic function with real coefficients will always have complex roots in conjugate pairs (p + qi and p - qi)."
+  },
+  "interactive": {
+    "question": "A quadratic function f(x) has roots -1 and 3, and passes through the point (2, 10). What is the function f(x)?",
+    "options": [
+      "f(x) = 2x² - 4x - 6",
+      "f(x) = 2x² + 4x - 6",
+      "f(x) = 2x² - 4x + 6"
+    ],
+    "correct": 0
+  }
+}

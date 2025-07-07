@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_2_card_017",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_2",
+  "type": "quick_check",
+  "title": "Challenge Problem",
+  "duration": 180,
+  "content": {
+    "problem": "Factor completely: 6x² + 13x + 6",
+    "explanation": "This combines everything you've learned:\n• Leading coefficient ≠ 1 (use AC method)\n• All positive terms\n• Need to work systematically through the steps\n\nTake your time and show each step!",
+    "key_point": "Remember to check your answer by expanding back to the original expression."
+  },
+  "interactive": {
+    "question": "What is the completely factored form of 6x² + 13x + 6?",
+    "options": [
+      "(2x + 3)(3x + 2)",
+      "(6x + 2)(x + 3)",
+      "(2x + 2)(3x + 3)"
+    ],
+    "correct": 0
+  }
+}

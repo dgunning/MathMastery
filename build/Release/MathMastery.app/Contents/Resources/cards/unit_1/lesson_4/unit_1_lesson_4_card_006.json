@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_4_card_006",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_4",
+  "type": "concept_intro",
+  "title": "Introduction to Piecewise Functions",
+  "duration": 120,
+  "content": {
+    "explanation": "A piecewise function is defined by different formulas for different parts of its domain.\n\nWe write piecewise functions using curly braces with conditions that specify which formula to use for which input values.\n\nFor example:\nf(x) = {\n  x² if x ≥ 0\n  -x if x < 0\n}\n\nThis means we use x² when x is non-negative, and -x when x is negative.",
+    "example": "For the piecewise function above:\nf(3) = 3² = 9 (since 3 ≥ 0)\nf(-2) = -(-2) = 2 (since -2 < 0)",
+    "key_point": "When evaluating piecewise functions, first determine which piece applies to your input value by checking the conditions, then use the corresponding formula."
+  },
+  "interactive": {
+    "question": "For g(x) = {\n  2x + 1 if x > 0\n  5 if x = 0\n  3x - 2 if x < 0\n}\nWhat is g(-3)?",
+    "options": [
+      "-11",
+      "5",
+      "-7"
+    ],
+    "correct": 0
+  }
+}

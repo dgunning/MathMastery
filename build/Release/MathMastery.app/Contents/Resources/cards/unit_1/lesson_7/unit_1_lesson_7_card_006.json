@@ -1,0 +1,28 @@
+{
+  "id": "unit_1_lesson_7_card_006",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_7",
+  "type": "worked_example",
+  "title": "Finding the Vertex Using Completing the Square",
+  "duration": 120,
+  "content": {
+    "problem": "Find the vertex of the quadratic function f(x) = 2x² - 16x + 35 by completing the square.",
+    "steps": [
+      "Step 1: Factor out the leading coefficient from the first two terms\nf(x) = 2(x² - 8x) + 35",
+      "Step 2: Complete the square inside the parentheses\nFor x² - 8x, take half of -8, which is -4, and square it: (-4)² = 16\nf(x) = 2(x² - 8x + 16 - 16) + 35\nf(x) = 2((x - 4)² - 16) + 35",
+      "Step 3: Distribute the leading coefficient\nf(x) = 2(x - 4)² - 32 + 35",
+      "Step 4: Simplify the constant terms\nf(x) = 2(x - 4)² + 3",
+      "Step 5: Identify the vertex from the vertex form\nComparing with f(x) = a(x - h)² + k, we have h = 4 and k = 3\nSo the vertex is (4, 3)"
+    ],
+    "explanation": "Completing the square allows us to convert a quadratic function to vertex form, from which we can directly read off the coordinates of the vertex. This method is particularly useful when the vertex cannot be easily found using the formula x = -b/(2a)."
+  },
+  "interactive": {
+    "question": "What is the vertex of the quadratic function g(x) = 3x² + 12x + 5?",
+    "options": [
+      "(-2, -7)",
+      "(2, 17)",
+      "(-2, 5)"
+    ],
+    "correct": 0
+  }
+}

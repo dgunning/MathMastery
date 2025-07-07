@@ -1,0 +1,96 @@
+{
+  "lesson_id": "lesson_8",
+  "title": "Working with Radicals",
+  "cards": [
+    {
+      "id": "unit_1_lesson_8_card_001",
+      "type": "concept_intro",
+      "title": "Introduction to Radicals",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_8_card_002",
+      "type": "concept_intro",
+      "title": "Properties of Radicals",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_8_card_003",
+      "type": "worked_example",
+      "title": "Simplifying Radicals",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_8_card_004",
+      "type": "worked_example",
+      "title": "Simplifying Radicals with Variables",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_8_card_005",
+      "type": "worked_example",
+      "title": "Adding and Subtracting Radicals",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_8_card_006",
+      "type": "worked_example",
+      "title": "Multiplying Radicals",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_8_card_007",
+      "type": "worked_example",
+      "title": "Dividing Radicals and Rationalizing Denominators",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_8_card_008",
+      "type": "concept_intro",
+      "title": "Radicals and Exponents",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_8_card_009",
+      "type": "worked_example",
+      "title": "Converting Between Radical and Exponential Form",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_8_card_010",
+      "type": "worked_example",
+      "title": "Solving Equations with Radicals",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_8_card_011",
+      "type": "worked_example",
+      "title": "Graphing Functions with Radicals",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_8_card_012",
+      "type": "concept_intro",
+      "title": "Domain Restrictions with Radicals",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_8_card_013",
+      "type": "worked_example",
+      "title": "Real-World Applications of Radicals",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_8_card_014",
+      "type": "worked_example",
+      "title": "Complex Radical Expressions",
+      "estimated_duration": 120
+    },
+    {
+      "id": "unit_1_lesson_8_card_015",
+      "type": "concept_intro",
+      "title": "Radicals Review and Connections",
+      "estimated_duration": 120
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_5_card_015",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_5",
+  "type": "concept_intro",
+  "title": "Vertex of a Parabola: Key Concepts Review",
+  "duration": 120,
+  "content": {
+    "explanation": "Let's review the key concepts about the vertex of a parabola:\n\n1. The vertex is the highest or lowest point of a parabola\n   - For a > 0 (opens upward): minimum point\n   - For a < 0 (opens downward): maximum point\n\n2. Finding the vertex:\n   - For f(x) = ax² + bx + c: vertex at x = -b/(2a), y = f(-b/(2a))\n   - For f(x) = a(x - h)² + k: vertex at (h, k)\n\n3. The vertex tells us:\n   - The maximum or minimum value of the function\n   - The axis of symmetry (x = h)\n   - Information about the roots (based on the position relative to the x-axis)",
+    "example": "For f(x) = 2x² - 12x + 19:\n- Standard form: a = 2, b = -12, c = 19\n- Vertex x-coordinate: x = -(-12)/(2(2)) = 12/4 = 3\n- Vertex y-coordinate: f(3) = 2(3)² - 12(3) + 19 = 18 - 36 + 19 = 1\n- Vertex: (3, 1)\n- Since a > 0, this is a minimum point\n- Vertex form: f(x) = 2(x - 3)² + 1",
+    "key_point": "The vertex is a critical point in understanding quadratic functions. It helps us graph the function, determine its range, find maximum/minimum values, and solve real-world optimization problems."
+  },
+  "interactive": {
+    "question": "Which of the following is NOT a way to find the vertex of a quadratic function?",
+    "options": [
+      "Taking the average of the x-intercepts",
+      "Using the formula x = -b/(2a)",
+      "Converting to vertex form f(x) = a(x - h)² + k"
+    ],
+    "correct": 0
+  }
+}

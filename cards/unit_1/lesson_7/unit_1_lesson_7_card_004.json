@@ -1,0 +1,28 @@
+{
+  "id": "unit_1_lesson_7_card_004",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_7",
+  "type": "worked_example",
+  "title": "Completing the Square with a ≠ 1",
+  "duration": 120,
+  "content": {
+    "problem": "Rewrite the quadratic expression 2x² - 12x + 5 by completing the square.",
+    "steps": [
+      "Step 1: Factor out the leading coefficient from the first two terms\n2x² - 12x + 5 = 2(x² - 6x) + 5",
+      "Step 2: Complete the square inside the parentheses\nFor x² - 6x, take half of -6, which is -3, and square it: (-3)² = 9\n2(x² - 6x) + 5 = 2(x² - 6x + 9 - 9) + 5\n= 2((x - 3)² - 9) + 5",
+      "Step 3: Distribute the leading coefficient\n2((x - 3)² - 9) + 5 = 2(x - 3)² - 18 + 5",
+      "Step 4: Simplify the constant terms\n2(x - 3)² - 18 + 5 = 2(x - 3)² - 13",
+      "Step 5: Verify by expanding\n2(x - 3)² - 13 = 2(x² - 6x + 9) - 13\n= 2x² - 12x + 18 - 13\n= 2x² - 12x + 5 ✓"
+    ],
+    "explanation": "When the leading coefficient is not 1, we first factor it out from the x² and x terms. Then we complete the square on the expression inside the parentheses, and finally distribute the leading coefficient and simplify. This approach works for any quadratic expression."
+  },
+  "interactive": {
+    "question": "What is the result of completing the square for 3x² + 12x - 7?",
+    "options": [
+      "3(x + 2)² - 19",
+      "3(x + 2)² + 5",
+      "(3x + 2)² - 7"
+    ],
+    "correct": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "unit_1_lesson_11_card_005",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_11",
+  "type": "worked_example",
+  "title": "Using Vieta's Formulas to Find Quadratic Equations",
+  "duration": 120,
+  "content": {
+    "problem": "Use Vieta's Formulas to find the quadratic equation ax² + bx + c = 0 with the given conditions:\n\n1. Roots: 3 and -5, with a = 2\n2. Sum of roots = 4 and product of roots = -12, with a = 1\n3. Sum of roots = -3/2 and product of roots = 5/4, with a = 4",
+    "steps": [
+      "Step 1: Recall Vieta's Formulas for a quadratic equation ax² + bx + c = 0 with roots r and s:\n- r + s = -b/a (Sum of roots)\n- r × s = c/a (Product of roots)",
+      "Step 2: For problem 1, we have roots 3 and -5 with a = 2. First, calculate the sum of roots: 3 + (-5) = -2.",
+      "Step 3: Using Vieta's first formula: r + s = -b/a, so -2 = -b/2, which gives us b = 4.",
+      "Step 4: Next, calculate the product of roots: 3 × (-5) = -15.",
+      "Step 5: Using Vieta's second formula: r × s = c/a, so -15 = c/2, which gives us c = -30.",
+      "Step 6: Therefore, the quadratic equation is 2x² + 4x - 30 = 0, which can be simplified to x² + 2x - 15 = 0.",
+      "Step 7: For problem 2, we have sum of roots = 4, product of roots = -12, and a = 1.",
+      "Step 8: Using Vieta's first formula: r + s = -b/a, so 4 = -b/1, which gives us b = -4.",
+      "Step 9: Using Vieta's second formula: r × s = c/a, so -12 = c/1, which gives us c = -12.",
+      "Step 10: Therefore, the quadratic equation is x² - 4x - 12 = 0.",
+      "Step 11: For problem 3, we have sum of roots = -3/2, product of roots = 5/4, and a = 4.",
+      "Step 12: Using Vieta's first formula: r + s = -b/a, so -3/2 = -b/4, which gives us b = 6.",
+      "Step 13: Using Vieta's second formula: r × s = c/a, so 5/4 = c/4, which gives us c = 5.",
+      "Step 14: Therefore, the quadratic equation is 4x² + 6x + 5 = 0."
+    ],
+    "explanation": "Vieta's Formulas provide a direct method for finding a quadratic equation from information about its roots. The process involves these key steps:\n\n1. Identify what you know about the roots (either the actual roots, or their sum and product).\n\n2. Apply Vieta's Formulas to find the coefficients:\n   - For a quadratic equation ax² + bx + c = 0:\n     - b = -a(r + s) [from r + s = -b/a]\n     - c = a(r × s) [from r × s = c/a]\n\n3. Substitute the values of a, b, and c into the standard form ax² + bx + c = 0.\n\nThis approach is particularly efficient when:\n- You know the sum and product of roots but not the roots themselves\n- You want to find a quadratic equation with a specific leading coefficient\n- You're working with complex roots\n\nVieta's Formulas work for all types of roots and provide a systematic way to find quadratic equations without having to expand binomial products."
+  },
+  "interactive": {
+    "question": "What is the quadratic equation with sum of roots = 7 and product of roots = 10, with a = 3?",
+    "options": [
+      "3x² - 21x + 30 = 0",
+      "3x² + 21x + 30 = 0",
+      "3x² - 21x - 30 = 0"
+    ],
+    "correct": 0
+  }
+}

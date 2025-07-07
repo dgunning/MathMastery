@@ -1,0 +1,26 @@
+{
+  "id": "unit_1_lesson_3_card_013",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_3",
+  "type": "worked_example",
+  "title": "Finding Range of Quadratic Functions",
+  "duration": 120,
+  "content": {
+    "problem": "Find the range of the quadratic function f(x) = -2x² + 8x - 5.",
+    "steps": [
+      "Step 1: Rewrite the function in vertex form to identify the maximum value\nf(x) = -2x² + 8x - 5\nf(x) = -2(x² - 4x) - 5\nf(x) = -2(x² - 4x + 4 - 4) - 5\nf(x) = -2(x - 2)² + 8 - 5\nf(x) = -2(x - 2)² + 3",
+      "Step 2: Identify the vertex\nThe vertex is at x = 2, and f(2) = 3",
+      "Step 3: Determine the range\nSince the coefficient of x² is negative (-2), the parabola opens downward\nThis means the vertex is the maximum point\nAs x moves away from 2 in either direction, f(x) decreases without bound\nTherefore, the range is (-∞, 3]"
+    ],
+    "explanation": "For quadratic functions, the range depends on whether the parabola opens upward or downward. If the coefficient of x² is negative, the parabola opens downward and has a maximum value at the vertex. If the coefficient is positive, it opens upward and has a minimum value."
+  },
+  "interactive": {
+    "question": "What is the range of g(x) = 3x² - 12x + 15?",
+    "options": [
+      "[3, ∞)",
+      "(-∞, 3]",
+      "[0, ∞)"
+    ],
+    "correct": 0
+  }
+}

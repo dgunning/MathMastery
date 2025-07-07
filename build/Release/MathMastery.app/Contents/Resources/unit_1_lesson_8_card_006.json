@@ -1,0 +1,28 @@
+{
+  "id": "unit_1_lesson_8_card_006",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_8",
+  "type": "worked_example",
+  "title": "Multiplying Radicals",
+  "duration": 120,
+  "content": {
+    "problem": "Multiply and simplify the following expressions:\n1. √6 × √10\n2. 3√5 × 2√7\n3. √2x × √3x",
+    "steps": [
+      "Step 1: For √6 × √10, use the product property of radicals in reverse.\n√6 × √10 = √(6 × 10) = √60",
+      "Step 2: Simplify the result if possible.\n√60 = √(4 × 15) = √4 × √15 = 2√15",
+      "Step 3: For 3√5 × 2√7, multiply the coefficients and use the product property for the radicals.\n3√5 × 2√7 = 3 × 2 × √5 × √7 = 6 × √(5 × 7) = 6√35",
+      "Step 4: For √2x × √3x, use the product property of radicals.\n√2x × √3x = √(2x × 3x) = √(6x²)",
+      "Step 5: Simplify the result.\n√(6x²) = √(6 × x²) = √6 × √(x²) = √6 × x = x√6"
+    ],
+    "explanation": "When multiplying radical expressions with the same index, we can use the product property of radicals: ⁿ√a × ⁿ√b = ⁿ√(a × b).\n\nThe general steps for multiplying radicals are:\n1. Multiply the coefficients outside the radicals\n2. Use the product property to combine the radicands\n3. Simplify the resulting radical expression if possible\n\nFor expressions with variables, remember to account for the exponents when simplifying."
+  },
+  "interactive": {
+    "question": "Which of the following is the simplified form of √12 × √15?",
+    "options": [
+      "6√5",
+      "√180",
+      "3√20"
+    ],
+    "correct": 0
+  }
+}

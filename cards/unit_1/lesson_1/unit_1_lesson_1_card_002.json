@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_1_card_002",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1",
+  "type": "concept_intro",
+  "title": "The Function Machine",
+  "duration": 150,
+  "content": {
+    "explanation": "Imagine a function as a machine with three parts:\n\n📥 INPUT (Domain): What you put into the machine\n⚙️ PROCESS: What the machine does to transform the input\n📤 OUTPUT (Range): What comes out of the machine\n\nThe special rule: For any given input, the machine ALWAYS produces exactly the same output. It's completely reliable and predictable.",
+    "example": "Function machine: f(x) = 2x + 1\n\n• Input 3 → Process: 2(3) + 1 → Output: 7\n• Input 5 → Process: 2(5) + 1 → Output: 11\n• Input 0 → Process: 2(0) + 1 → Output: 1",
+    "key_point": "Functions are like reliable machines - same input always gives the same output."
+  },
+  "interactive": {
+    "question": "If a function machine always adds 5 to any input, what happens when you input 8?",
+    "options": [
+      "Output is 13",
+      "Output is 3",
+      "Output could be different each time"
+    ],
+    "correct": 0
+  }
+}

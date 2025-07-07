@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_2_card_002",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_2",
+  "type": "concept_intro",
+  "title": "The AC Method Strategy",
+  "duration": 150,
+  "content": {
+    "explanation": "The AC method is a systematic way to factor trinomials when the leading coefficient isn't 1. Here's the strategy:\n\n1. Multiply the first coefficient (a) by the last coefficient (c)\n2. Find two numbers that multiply to give ac and add to give the middle coefficient (b)\n3. Use these numbers to split the middle term\n4. Factor by grouping\n\nThis method works because it transforms the problem into something we already know how to solve.",
+    "example": "For 2x² + 7x + 3:\na = 2, c = 3, so ac = 6\nWe need two numbers that multiply to 6 and add to 7\nThose numbers are 1 and 6!",
+    "key_point": "The AC method converts any trinomial factoring problem into a grouping problem, which we already know how to solve."
+  },
+  "interactive": {
+    "question": "For the trinomial 3x² + 14x + 8, what is the value of ac?",
+    "options": [
+      "24",
+      "11",
+      "14"
+    ],
+    "correct": 0
+  }
+}

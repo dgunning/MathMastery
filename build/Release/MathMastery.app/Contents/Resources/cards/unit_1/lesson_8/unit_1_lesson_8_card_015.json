@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_8_card_015",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_8",
+  "type": "concept_intro",
+  "title": "Radicals Review and Connections",
+  "duration": 120,
+  "content": {
+    "explanation": "Let's review the key concepts about working with radicals:\n\n1. Radical Basics:\n   - A radical expression contains a radical symbol (√) representing a root\n   - The radicand is the expression under the radical symbol\n   - The index indicates which root (square root, cube root, etc.)\n\n2. Properties of Radicals:\n   - Product Property: ⁿ√(a × b) = ⁿ√a × ⁿ√b\n   - Quotient Property: ⁿ√(a ÷ b) = ⁿ√a ÷ ⁿ√b\n   - Power Property: ⁿ√(a^m) = (ⁿ√a)^m\n\n3. Simplifying Radicals:\n   - Extract perfect powers matching the index\n   - For variables, divide exponents by the index\n\n4. Operations with Radicals:\n   - Add/subtract like radicals by combining coefficients\n   - Multiply radicals using the product property\n   - Divide radicals and rationalize denominators when needed\n\n5. Radical-Exponent Connection:\n   - ⁿ√a = a^(1/n)\n   - ⁿ√(a^m) = a^(m/n)\n\n6. Domain Considerations:\n   - Even-indexed radicals require non-negative radicands\n   - Odd-indexed radicals allow any real number radicand\n\n7. Solving Radical Equations:\n   - Isolate the radical\n   - Raise both sides to appropriate power\n   - Check for extraneous solutions",
+    "example": "Comprehensive Example: Simplify √12 + √27 - √75\n\n1. Simplify each radical:\n   √12 = √(4 × 3) = 2√3\n   √27 = √(9 × 3) = 3√3\n   √75 = √(25 × 3) = 5√3\n\n2. Combine like terms:\n   2√3 + 3√3 - 5√3 = 0\n\nThe expression simplifies to 0.\n\nThis example demonstrates simplifying radicals and combining like terms, two fundamental skills in working with radical expressions.",
+    "key_point": "Radicals connect to many areas of mathematics, including:\n- Quadratic equations and the quadratic formula\n- Distance formula in coordinate geometry\n- Trigonometric functions and the Pythagorean identity\n- Complex numbers\n- Exponential and logarithmic functions\n\nMastering radicals provides essential tools for solving a wide range of mathematical problems and understanding more advanced topics."
+  },
+  "interactive": {
+    "question": "Which of the following is NOT a valid property of radicals?",
+    "options": [
+      "√(a + b) = √a + √b",
+      "√(a × b) = √a × √b",
+      "√(a^n) = (√a)^n"
+    ],
+    "correct": 0
+  }
+}

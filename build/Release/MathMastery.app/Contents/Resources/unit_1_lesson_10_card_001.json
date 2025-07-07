@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_10_card_001",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_10",
+  "type": "concept_intro",
+  "title": "Introduction to the Discriminant",
+  "duration": 120,
+  "content": {
+    "explanation": "The discriminant is a key component of the quadratic formula that provides important information about the solutions to a quadratic equation without having to solve the equation completely.\n\nFor a quadratic equation in standard form ax² + bx + c = 0, the discriminant is defined as:\n\nΔ = b² - 4ac\n\nWhere:\n- a is the coefficient of x²\n- b is the coefficient of x\n- c is the constant term\n\nThe discriminant appears under the radical sign in the quadratic formula:\nx = (-b ± √(b² - 4ac))/(2a)\n\nThe value of the discriminant determines the nature of the roots (solutions) of the quadratic equation. This makes it a powerful tool for analyzing quadratic expressions without performing complete calculations.",
+    "example": "Consider the quadratic equation 2x² - 5x + 3 = 0.\n\nTo find the discriminant:\n1. Identify the coefficients: a = 2, b = -5, c = 3\n2. Calculate Δ = b² - 4ac\n   Δ = (-5)² - 4(2)(3)\n   Δ = 25 - 24\n   Δ = 1\n\nSince the discriminant is positive (Δ = 1), this equation has two distinct real roots.\n\nWe can verify this by solving the equation:\nx = (5 ± √1)/(2(2))\nx = (5 ± 1)/4\nx = 6/4 or x = 4/4\nx = 3/2 or x = 1\n\nIndeed, the equation has two distinct real roots: x = 3/2 and x = 1.",
+    "key_point": "The discriminant provides a quick way to determine the nature of the roots of a quadratic equation without solving the equation completely. It is an essential tool for analyzing quadratic expressions and their graphs."
+  },
+  "interactive": {
+    "question": "What is the discriminant of the quadratic equation 3x² + 2x - 1 = 0?",
+    "options": [
+      "16",
+      "4",
+      "12"
+    ],
+    "correct": 0
+  }
+}

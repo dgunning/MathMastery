@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_9_card_005",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_9",
+  "type": "concept_intro",
+  "title": "The Quadratic Formula",
+  "duration": 120,
+  "content": {
+    "explanation": "The quadratic formula is a universal method for solving any quadratic equation in the form ax² + bx + c = 0, where a ≠ 0.\n\nThe formula states that the solutions (roots) of a quadratic equation are:\n\nx = (-b ± √(b² - 4ac))/(2a)\n\nThis means there are potentially two solutions:\nx₁ = (-b + √(b² - 4ac))/(2a)\nx₂ = (-b - √(b² - 4ac))/(2a)\n\nThe expression b² - 4ac is called the discriminant and is denoted by Δ (delta). The discriminant determines the nature of the roots:\n\n1. If Δ > 0, the equation has two distinct real roots\n2. If Δ = 0, the equation has one repeated real root (a double root)\n3. If Δ < 0, the equation has two complex conjugate roots (no real roots)\n\nThe quadratic formula can be derived by completing the square on the general form of a quadratic equation.",
+    "example": "Let's derive the quadratic formula by completing the square:\n\nStarting with ax² + bx + c = 0 (where a ≠ 0):\n\n1. Divide all terms by a:\n   x² + (b/a)x + c/a = 0\n\n2. Move the constant term to the right side:\n   x² + (b/a)x = -c/a\n\n3. Complete the square on the left side by adding and subtracting (b/2a)²:\n   x² + (b/a)x + (b/2a)² - (b/2a)² = -c/a\n\n4. Simplify the left side to a perfect square trinomial:\n   (x + b/2a)² - b²/4a² = -c/a\n\n5. Add c/a to both sides:\n   (x + b/2a)² - b²/4a² + c/a = 0\n   (x + b/2a)² = b²/4a² - c/a\n   (x + b/2a)² = (b² - 4ac)/4a²\n\n6. Take the square root of both sides:\n   x + b/2a = ±√((b² - 4ac)/4a²)\n   x + b/2a = ±√(b² - 4ac)/2a\n\n7. Solve for x:\n   x = -b/2a ± √(b² - 4ac)/2a\n   x = (-b ± √(b² - 4ac))/2a",
+    "key_point": "The quadratic formula is the most versatile method for solving quadratic equations because it works for any quadratic equation, regardless of whether it can be factored easily. It directly provides the solutions without requiring factoring or other algebraic manipulations."
+  },
+  "interactive": {
+    "question": "What is the discriminant of the equation 3x² - 6x + 4 = 0?",
+    "options": [
+      "-12",
+      "36",
+      "12"
+    ],
+    "correct": 0
+  }
+}

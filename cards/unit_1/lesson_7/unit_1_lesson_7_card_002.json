@@ -1,0 +1,29 @@
+{
+  "id": "unit_1_lesson_7_card_002",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_7",
+  "type": "worked_example",
+  "title": "Basic Steps of Completing the Square",
+  "duration": 120,
+  "content": {
+    "problem": "Complete the square for the expression x² + 8x.",
+    "steps": [
+      "Step 1: Identify the coefficient of x, which is 8",
+      "Step 2: Take half of this coefficient: 8 ÷ 2 = 4",
+      "Step 3: Square this value: 4² = 16",
+      "Step 4: Add and subtract this value to maintain equality\nx² + 8x = x² + 8x + 16 - 16",
+      "Step 5: Rewrite the first three terms as a perfect square trinomial\nx² + 8x + 16 - 16 = (x + 4)² - 16",
+      "Step 6: Verify by expanding\n(x + 4)² - 16 = x² + 8x + 16 - 16 = x² + 8x ✓"
+    ],
+    "explanation": "Completing the square involves adding the square of half the coefficient of x to create a perfect square trinomial. To maintain the equality, we must also subtract the same value. This technique allows us to rewrite quadratic expressions in a form that's easier to analyze."
+  },
+  "interactive": {
+    "question": "What is the result of completing the square for x² - 6x?",
+    "options": [
+      "(x - 3)² - 9",
+      "(x - 3)² + 9",
+      "(x + 3)² - 9"
+    ],
+    "correct": 0
+  }
+}

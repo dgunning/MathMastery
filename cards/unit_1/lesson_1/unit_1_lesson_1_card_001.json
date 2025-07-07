@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_1_card_001",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_1",
+  "type": "concept_intro",
+  "title": "Welcome to Functions!",
+  "duration": 120,
+  "content": {
+    "explanation": "Welcome to the world of functions! Functions are everywhere in your daily life, even if you don't realize it.\n\nThink about your smartphone: when you tap an app icon, your phone always opens that specific app. When you press the volume up button, the volume increases. Each action (input) produces a predictable result (output).\n\nThis predictable relationship between inputs and outputs is what we call a function in mathematics.",
+    "example": "🎮 Video game controller:\n• Press A → Character jumps\n• Press B → Character runs\n• Press X → Character attacks\n\nEach button always does the same thing!",
+    "key_point": "A function is a relationship where each input gives exactly one output."
+  },
+  "interactive": {
+    "question": "Which of these is most like a mathematical function?",
+    "options": [
+      "A vending machine (put in money, get a specific snack)",
+      "A lottery ticket (random outcomes)",
+      "A conversation (unpredictable responses)"
+    ],
+    "correct": 0
+  }
+}

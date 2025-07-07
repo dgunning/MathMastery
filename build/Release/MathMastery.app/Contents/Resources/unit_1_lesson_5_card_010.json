@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_5_card_010",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_5",
+  "type": "concept_intro",
+  "title": "Vertex and Roots Relationship",
+  "duration": 120,
+  "content": {
+    "explanation": "The vertex of a quadratic function provides important information about its roots (x-intercepts).\n\nFor a quadratic function f(x) = a(x - h)² + k with vertex (h, k):\n\n- If k = 0, the vertex is on the x-axis, and x = h is a repeated root\n- If k > 0 and a > 0, the parabola opens upward and doesn't cross the x-axis (no real roots)\n- If k > 0 and a < 0, the parabola opens downward and crosses the x-axis twice (two real roots)\n- If k < 0 and a > 0, the parabola opens upward and crosses the x-axis twice (two real roots)\n- If k < 0 and a < 0, the parabola opens downward and doesn't cross the x-axis (no real roots)",
+    "example": "For f(x) = 2(x - 3)² - 8:\n- The vertex is (3, -8)\n- Since k = -8 < 0 and a = 2 > 0, the parabola opens upward and crosses the x-axis twice\n- The parabola crosses the x-axis at two points on either side of x = 3",
+    "key_point": "The position of the vertex relative to the x-axis tells us about the number of real roots. If the vertex is above the x-axis and the parabola opens upward, or if the vertex is below the x-axis and the parabola opens downward, there are no real roots."
+  },
+  "interactive": {
+    "question": "A quadratic function has its vertex at (4, -9) and opens upward. How many real roots does it have?",
+    "options": [
+      "2",
+      "1",
+      "0"
+    ],
+    "correct": 0
+  }
+}

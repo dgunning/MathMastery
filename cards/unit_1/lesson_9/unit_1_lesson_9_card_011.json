@@ -1,0 +1,36 @@
+{
+  "id": "unit_1_lesson_9_card_011",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_9",
+  "type": "worked_example",
+  "title": "Word Problems Leading to Quadratic Equations",
+  "duration": 120,
+  "content": {
+    "problem": "Solve the following word problems by setting up and solving quadratic equations:\n\n1. The product of two consecutive integers is 156. Find the integers.\n\n2. A rectangular garden has a perimeter of 26 meters. If the area of the garden is 40 square meters, what are the dimensions of the garden?",
+    "steps": [
+      "Step 1: For the first problem, let's define our variable. If we let x represent the smaller integer, then x + 1 represents the next consecutive integer.",
+      "Step 2: Set up the equation based on the given information that their product is 156.\nx(x + 1) = 156",
+      "Step 3: Expand the left side of the equation.\nx² + x = 156",
+      "Step 4: Rearrange to standard form.\nx² + x - 156 = 0",
+      "Step 5: Solve by factoring. We need to find two numbers that multiply to give -156 and add to give 1.\nThe factors of -156 include: (1,-156), (-1,156), (2,-78), (-2,78), (3,-52), (-3,52), (4,-39), (-4,39), (6,-26), (-6,26), (12,-13), (-12,13).\nChecking the sums: (-12) + 13 = 1.\nSo the factorization is (x - 12)(x + 13) = 0.",
+      "Step 6: Solve for x.\nx = 12 or x = -13\nSince we're looking for consecutive integers and x represents the smaller one, we check both solutions:\nIf x = 12, the integers are 12 and 13. Product: 12 × 13 = 156 ✓\nIf x = -13, the integers are -13 and -12. Product: (-13) × (-12) = 156 ✓\nBoth pairs satisfy the conditions, so the answers are: (12, 13) and (-13, -12)",
+      "Step 7: For the second problem, let's define variables. Let l represent the length and w represent the width of the rectangular garden.",
+      "Step 8: Set up equations based on the given information.\nPerimeter: 2l + 2w = 26\nArea: l × w = 40",
+      "Step 9: From the perimeter equation, express one variable in terms of the other.\n2l + 2w = 26\nl + w = 13\nl = 13 - w",
+      "Step 10: Substitute this expression into the area equation.\nl × w = 40\n(13 - w) × w = 40\n13w - w² = 40",
+      "Step 11: Rearrange to standard form.\nw² - 13w + 40 = 0",
+      "Step 12: Solve by factoring. We need to find two numbers that multiply to give 40 and add to give -13.\nThe factors of 40 include: (1,40), (2,20), (4,10), (5,8).\nChecking the sums: (-5) + (-8) = -13.\nSo the factorization is (w - 5)(w - 8) = 0.",
+      "Step 13: Solve for w.\nw = 5 or w = 8\nFor each value of w, find the corresponding value of l using l = 13 - w:\nIf w = 5, then l = 13 - 5 = 8\nIf w = 8, then l = 13 - 8 = 5\nBoth pairs (l,w) = (8,5) and (l,w) = (5,8) represent the same rectangle, just with length and width swapped.\nSo the dimensions of the garden are 8 meters by 5 meters."
+    ],
+    "explanation": "Word problems that lead to quadratic equations typically involve relationships such as:\n\n1. Products: When two quantities multiply to give a known value\n2. Areas: Especially of rectangles, triangles, or other geometric shapes\n3. Pythagorean theorem: Relating sides of a right triangle\n4. Motion problems: Involving distance, time, and speed\n5. Number relationships: Such as consecutive integers or other patterns\n\nThe general approach to solving such problems is:\n\n1. Define appropriate variables for the unknown quantities\n2. Express the given information as equations using these variables\n3. Manipulate the equations to obtain a quadratic equation\n4. Solve the quadratic equation using an appropriate method\n5. Find the values of all required quantities\n6. Check that the solutions satisfy the original conditions of the problem\n7. Interpret the solutions in the context of the problem"
+  },
+  "interactive": {
+    "question": "A ball is thrown upward from a height of 6 meters with an initial velocity of 20 meters per second. The height h (in meters) of the ball after t seconds is given by h = -4.9t² + 20t + 6. After how many seconds will the ball hit the ground?",
+    "options": [
+      "4.5 seconds",
+      "5 seconds",
+      "4 seconds"
+    ],
+    "correct": 0
+  }
+}

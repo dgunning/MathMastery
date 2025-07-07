@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_12_card_007",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_12",
+  "type": "concept_intro",
+  "title": "Number of Solutions in Linear-Quadratic Systems",
+  "duration": 120,
+  "content": {
+    "explanation": "The number of solutions in a linear-quadratic system depends on how the line and parabola intersect in the coordinate plane. Understanding the possible number of solutions and the conditions that lead to each case is important for analyzing these systems.\n\nA linear-quadratic system can have:\n\n1. Two Real Solutions\n   - This occurs when the line intersects the parabola at two distinct points\n   - Geometrically, the line cuts through the parabola\n   - Algebraically, the resulting quadratic equation has a positive discriminant (b² - 4ac > 0)\n   - This is the most common case\n\n2. One Real Solution\n   - This occurs when the line is tangent to the parabola\n   - Geometrically, the line touches the parabola at exactly one point\n   - Algebraically, the resulting quadratic equation has a zero discriminant (b² - 4ac = 0)\n   - The solution is a repeated root of the quadratic equation\n\n3. No Real Solutions\n   - This occurs when the line doesn't intersect the parabola at all\n   - Geometrically, the line and parabola have no common points\n   - Algebraically, the resulting quadratic equation has a negative discriminant (b² - 4ac < 0)\n   - The solutions are complex numbers\n\nThe discriminant test provides a quick way to determine the number of solutions without having to solve the entire system. If we express the system in the form ax² + bx + c = 0 after elimination or substitution, then:\n- If b² - 4ac > 0: Two real solutions\n- If b² - 4ac = 0: One real solution\n- If b² - 4ac < 0: No real solutions",
+    "example": "Let's examine three linear-quadratic systems and determine the number of solutions in each case:\n\nSystem 1: y = 2x + 1 and y = x² - 3\n\nUsing the elimination method:\n2x + 1 = x² - 3\n0 = x² - 2x - 4\n\nThe discriminant is b² - 4ac = (-2)² - 4(1)(-4) = 4 + 16 = 20 > 0\nSince the discriminant is positive, this system has two real solutions.\n\nSystem 2: y = -2x + 3 and y = x² - 4x + 3\n\nUsing the elimination method:\n-2x + 3 = x² - 4x + 3\n0 = x² - 2x\n0 = x(x - 2)\n\nThe solutions are x = 0 and x = 2.\nThis system has two real solutions: (0, 3) and (2, -1).\n\nSystem 3: y = 2x - 1 and y = x² - 4x + 5\n\nUsing the elimination method:\n2x - 1 = x² - 4x + 5\n0 = x² - 6x + 6\n\nThe discriminant is b² - 4ac = (-6)² - 4(1)(6) = 36 - 24 = 12 > 0\nSince the discriminant is positive, this system has two real solutions.\n\nSystem 4: y = 4x - 4 and y = x² + 4x + 4\n\nUsing the elimination method:\n4x - 4 = x² + 4x + 4\n0 = x² + 0x + 8\n\nThe discriminant is b² - 4ac = 0² - 4(1)(8) = -32 < 0\nSince the discriminant is negative, this system has no real solutions.\n\nSystem 5: y = -2x + 5 and y = x² - 4x + 5\n\nUsing the elimination method:\n-2x + 5 = x² - 4x + 5\n0 = x² - 2x\n0 = x(x - 2)\n\nThe solutions are x = 0 and x = 2.\nThis system has two real solutions: (0, 5) and (2, 1).",
+    "key_point": "When analyzing the number of solutions in a linear-quadratic system:\n\n1. The discriminant of the resulting quadratic equation provides immediate information:\n   - Positive discriminant → two real solutions\n   - Zero discriminant → one real solution\n   - Negative discriminant → no real solutions\n\n2. Geometrically, these cases correspond to:\n   - Two solutions: The line intersects the parabola at two distinct points\n   - One solution: The line is tangent to the parabola\n   - No solutions: The line and parabola don't intersect\n\n3. Special cases to watch for:\n   - If the resulting quadratic equation factors as x(ax + b), one solution is x = 0\n   - If the resulting equation is a perfect square, like (x - a)², there's only one solution\n   - If the coefficient of x² becomes zero during elimination, the system reduces to a linear equation, indicating that the line and parabola may coincide (infinite solutions) or have one solution"
+  },
+  "interactive": {
+    "question": "A linear-quadratic system leads to the quadratic equation 2x² - 4x + 2 = 0. How many solutions does this system have?",
+    "options": [
+      "Two real solutions",
+      "One real solution",
+      "No real solutions"
+    ],
+    "correct": 1
+  }
+}

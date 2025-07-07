@@ -1,0 +1,26 @@
+{
+  "id": "unit_1_lesson_3_card_010",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_3",
+  "type": "worked_example",
+  "title": "Domain Restrictions with Rational Functions",
+  "duration": 120,
+  "content": {
+    "problem": "Find the domain of the rational function f(x) = (x + 3)/(x² - 4).",
+    "steps": [
+      "Step 1: Identify values that make the denominator zero\nx² - 4 = 0\n(x - 2)(x + 2) = 0\nx = 2 or x = -2",
+      "Step 2: Exclude these values from the domain\nSince division by zero is undefined, x cannot equal 2 or -2",
+      "Step 3: Express the domain using interval notation\nDomain = {x | x ≠ -2 and x ≠ 2} = (-∞, -2) ∪ (-2, 2) ∪ (2, ∞)"
+    ],
+    "explanation": "For rational functions (fractions with variables), the domain excludes any values that make the denominator zero. These are the vertical asymptotes of the function's graph."
+  },
+  "interactive": {
+    "question": "What is the domain of g(x) = 5/(x - 7)?",
+    "options": [
+      "All real numbers except x = 7",
+      "All real numbers except x = 0",
+      "All real numbers"
+    ],
+    "correct": 0
+  }
+}

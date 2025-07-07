@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_4_card_012",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_4",
+  "type": "concept_intro",
+  "title": "Different Names for the Same Function",
+  "duration": 120,
+  "content": {
+    "explanation": "The letter used in function notation is arbitrary - it's just a name we give to the function. The same function can be written with different letters.\n\nFor example, these all represent the same function:\nf(x) = 2x + 3\ng(t) = 2t + 3\nh(u) = 2u + 3\n\nSimilarly, we can use different letters for the input variable, as long as we're consistent within the function definition.",
+    "example": "If f(x) = x² - 4x + 7, we could also write this as f(p) = p² - 4p + 7 or even g(x) = x² - 4x + 7. All these represent the same mathematical relationship.",
+    "key_point": "What matters in a function is the relationship between inputs and outputs, not the specific letters used to represent them. However, in context, certain letters may be chosen to have specific meaning (like t for time)."
+  },
+  "interactive": {
+    "question": "Which of these is equivalent to f(x) = 3x - 5?",
+    "options": [
+      "h(z) = 3z - 5",
+      "g(x) = 3x + 5",
+      "f(y) = 5y - 3"
+    ],
+    "correct": 0
+  }
+}
