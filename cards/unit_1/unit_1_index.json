@@ -13,7 +13,7 @@
       "content_types": {
         "cards": true,
         "lesson_guide": true,
-        "lesson_plan": true,
+        "lesson_plan": false,
         "worksheet": true,
         "quiz": false,
         "activity": false
@@ -65,7 +65,7 @@
         "cards": true,
         "lesson_guide": true,
         "lesson_plan": false,
-        "worksheet": false,
+        "worksheet": true,
         "quiz": false,
         "activity": false
       }
@@ -82,7 +82,7 @@
         "cards": true,
         "lesson_guide": true,
         "lesson_plan": false,
-        "worksheet": false,
+        "worksheet": true,
         "quiz": false,
         "activity": false
       }
@@ -99,7 +99,7 @@
         "cards": true,
         "lesson_guide": true,
         "lesson_plan": false,
-        "worksheet": false,
+        "worksheet": true,
         "quiz": false,
         "activity": false
       }
@@ -133,7 +133,7 @@
         "cards": true,
         "lesson_guide": true,
         "lesson_plan": false,
-        "worksheet": false,
+        "worksheet": true,
         "quiz": false,
         "activity": false
       }
@@ -167,7 +167,7 @@
         "cards": true,
         "lesson_guide": true,
         "lesson_plan": false,
-        "worksheet": false,
+        "worksheet": true,
         "quiz": false,
         "activity": false
       }
@@ -184,7 +184,7 @@
         "cards": true,
         "lesson_guide": true,
         "lesson_plan": false,
-        "worksheet": false,
+        "worksheet": true,
         "quiz": false,
         "activity": false
       }
@@ -201,7 +201,7 @@
         "cards": true,
         "lesson_guide": true,
         "lesson_plan": false,
-        "worksheet": false,
+        "worksheet": true,
         "quiz": false,
         "activity": false
       }
@@ -228,7 +228,7 @@
   },
   "content_summary": {
     "lessons_with_guides": 12,
-    "lessons_with_worksheets": 5,
+    "lessons_with_worksheets": 12,
     "lessons_with_lesson_plans": 1,
     "unit_quizzes": 2
   }

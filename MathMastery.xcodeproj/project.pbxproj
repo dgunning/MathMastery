@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B4273E812E17257A0052BBCC /* cards in Resources */ = {isa = PBXBuildFile; fileRef = B4273E802E17257A0052BBCC /* cards */; };
+		B4273F212E1751900052BBCC /* docs in Resources */ = {isa = PBXBuildFile; fileRef = B4273F202E1751580052BBCC /* docs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -353,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4273E812E17257A0052BBCC /* cards in Resources */,
+				B4273F212E1751900052BBCC /* docs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

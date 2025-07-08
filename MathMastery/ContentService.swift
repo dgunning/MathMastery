@@ -23,11 +23,39 @@ class ContentService: ObservableObject {
             print("DEBUG: Using fallback path: \(self.contentBaseURL)")
         }
         
+        // Print all bundle resources for debugging
+        print("DEBUG: Bundle resources:")
+        if let resourceURLs = Bundle.main.urls(forResourcesWithExtension: nil, subdirectory: nil) {
+            for url in resourceURLs.prefix(20) { // Limit to first 20 to avoid flooding
+                print("  - \(url.lastPathComponent)")
+            }
+            if resourceURLs.count > 20 {
+                print("  ... and \(resourceURLs.count - 20) more items")
+            }
+        } else {
+            print("  No resources found in bundle")
+        }
+        
         // Set up docs directory for lesson guides, worksheets, etc.
         if let bundleURL = Bundle.main.url(forResource: "docs", withExtension: nil) {
             self.docsBaseURL = bundleURL
             print("DEBUG: Found docs bundle at: \(bundleURL)")
+            
+            // Try to list contents of docs directory
+            do {
+                let contents = try FileManager.default.contentsOfDirectory(at: bundleURL, includingPropertiesForKeys: nil)
+                print("DEBUG: Contents of docs directory:")
+                for item in contents.prefix(10) {
+                    print("  - \(item.lastPathComponent)")
+                }
+                if contents.count > 10 {
+                    print("  ... and \(contents.count - 10) more items")
+                }
+            } catch {
+                print("DEBUG: Error listing docs directory: \(error)")
+            }
         } else {
+            // Fallback to Documents directory
             let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
             self.docsBaseURL = URL(fileURLWithPath: documentsPath).appendingPathComponent("docs")
             print("DEBUG: Using fallback docs path: \(self.docsBaseURL)")
@@ -266,59 +294,273 @@ class ContentService: ObservableObject {
     }
     
     func loadFullLesson(unitId: String, lessonId: String) async -> String? {
-        // Convert lesson_1_1 to lesson1, lesson_1_2 to lesson2, etc.
-        let lessonNumber = lessonId.replacingOccurrences(of: "lesson_", with: "").replacingOccurrences(of: "_", with: "")
+        print("DEBUG: Loading lesson guide for unitId: \(unitId), lessonId: \(lessonId)")
         
-        let lessonContentURL = docsBaseURL
-            .appendingPathComponent("learning_plans")
-            .appendingPathComponent(unitId)
-            .appendingPathComponent("lesson_content")
-            .appendingPathComponent("lesson\(lessonNumber)_guide.md")
+        // Normalize unit ID (remove underscore if present)
+        let normalizedUnitId = unitId.replacingOccurrences(of: "unit_", with: "unit")
         
+        // Normalize lesson ID to ensure consistent format (e.g., "lesson_1")
+        let normalizedLessonId = normalizeLessonId(lessonId)
+        print("DEBUG: Normalized lesson ID: \(normalizedLessonId)")
+        
+        // First try using the mapping file if it exists
         do {
-            let content = try String(contentsOf: lessonContentURL, encoding: .utf8)
-            print("DEBUG: Loaded full lesson from: \(lessonContentURL)")
-            return content
+            let mappingFileURL = docsBaseURL
+                .appendingPathComponent("learning_plans")
+                .appendingPathComponent(normalizedUnitId)
+                .appendingPathComponent("lesson_guide_mapping.json")
+            
+            print("DEBUG: Looking for mapping file at: \(mappingFileURL.path)")
+            
+            if FileManager.default.fileExists(atPath: mappingFileURL.path) {
+                let mappingData = try Data(contentsOf: mappingFileURL)
+                let mappingDict = try JSONSerialization.jsonObject(with: mappingData) as? [String: String]
+                
+                if let filename = mappingDict?[normalizedLessonId] {
+                    print("DEBUG: Found lesson guide filename in mapping: \(filename)")
+                    
+                    let lessonGuideURL = docsBaseURL
+                        .appendingPathComponent("learning_plans")
+                        .appendingPathComponent(normalizedUnitId)
+                        .appendingPathComponent("lesson_content")
+                        .appendingPathComponent(filename)
+                    
+                    if FileManager.default.fileExists(atPath: lessonGuideURL.path) {
+                        print("DEBUG: Loading lesson guide from mapped file: \(lessonGuideURL.path)")
+                        let content = try String(contentsOf: lessonGuideURL, encoding: .utf8)
+                        return content
+                    }
+                }
+            } else {
+                print("DEBUG: Mapping file not found, falling back to pattern matching")
+            }
         } catch {
-            print("DEBUG: Could not load full lesson from \(lessonContentURL): \(error)")
-            return nil
+            print("DEBUG: Error using mapping file: \(error), falling back to pattern matching")
         }
+        
+        // Extract lesson number for pattern matching fallback
+        var lessonNumber: String
+        if normalizedLessonId.contains("_") {
+            let components = normalizedLessonId.components(separatedBy: "_")
+            if let lastComponent = components.last, let number = Int(lastComponent) {
+                lessonNumber = String(number)
+            } else {
+                lessonNumber = normalizedLessonId.replacingOccurrences(of: "lesson_", with: "")
+            }
+        } else {
+            lessonNumber = normalizedLessonId.replacingOccurrences(of: "lesson", with: "")
+        }
+        
+        // Fallback to pattern matching if mapping file approach failed
+        let possibleFilenames = [
+            "^lesson\(lessonNumber)_.*_guide\\.md$",
+            "^lesson\(lessonNumber)_guide\\.md$"
+        ]
+        
+        let lessonContentDir = docsBaseURL
+            .appendingPathComponent("learning_plans")
+            .appendingPathComponent(normalizedUnitId)
+            .appendingPathComponent("lesson_content")
+        
+        print("DEBUG: Falling back to pattern matching in directory: \(lessonContentDir.path)")
+        
+        if let lessonFiles = try? FileManager.default.contentsOfDirectory(at: lessonContentDir, includingPropertiesForKeys: nil) {
+            print("DEBUG: Found \(lessonFiles.count) files in lesson_content directory")
+            
+            for file in lessonFiles {
+                let filename = file.lastPathComponent
+                
+                for pattern in possibleFilenames {
+                    if filename.range(of: pattern, options: .regularExpression) != nil {
+                        print("DEBUG: Found matching lesson guide with pattern: \(filename)")
+                        do {
+                            let content = try String(contentsOf: file, encoding: .utf8)
+                            return content
+                        } catch {
+                            print("DEBUG: Error reading lesson guide file: \(error)")
+                        }
+                    }
+                }
+            }
+        }
+        
+        print("DEBUG: Could not find any matching lesson guide for lesson \(normalizedLessonId) in unit \(normalizedUnitId)")
+        return nil
     }
     
     func loadWorksheet(unitId: String, lessonId: String) async -> String? {
-        let lessonNumber = lessonId.replacingOccurrences(of: "lesson_", with: "").replacingOccurrences(of: "_", with: "")
+        print("DEBUG: Loading worksheet for unitId: \(unitId), lessonId: \(lessonId)")
         
-        let worksheetURL = docsBaseURL
-            .appendingPathComponent("learning_plans")
-            .appendingPathComponent(unitId)
-            .appendingPathComponent("worksheets")
-            .appendingPathComponent("lesson\(lessonNumber)_worksheet.md")
+        // Normalize unit ID (remove underscore if present)
+        let normalizedUnitId = unitId.replacingOccurrences(of: "unit_", with: "unit")
         
+        // Normalize lesson ID to ensure consistent format (e.g., "lesson_1")
+        let normalizedLessonId = normalizeLessonId(lessonId)
+        print("DEBUG: Normalized lesson ID: \(normalizedLessonId)")
+        
+        // First try using the mapping file if it exists
         do {
-            let content = try String(contentsOf: worksheetURL, encoding: .utf8)
-            print("DEBUG: Loaded worksheet from: \(worksheetURL)")
-            return content
+            let mappingFileURL = docsBaseURL
+                .appendingPathComponent("learning_plans")
+                .appendingPathComponent(normalizedUnitId)
+                .appendingPathComponent("worksheet_mapping.json")
+            
+            print("DEBUG: Looking for mapping file at: \(mappingFileURL.path)")
+            
+            if FileManager.default.fileExists(atPath: mappingFileURL.path) {
+                let mappingData = try Data(contentsOf: mappingFileURL)
+                let mappingDict = try JSONSerialization.jsonObject(with: mappingData) as? [String: String]
+                
+                if let filename = mappingDict?[normalizedLessonId] {
+                    print("DEBUG: Found worksheet filename in mapping: \(filename)")
+                    
+                    let worksheetURL = docsBaseURL
+                        .appendingPathComponent("learning_plans")
+                        .appendingPathComponent(normalizedUnitId)
+                        .appendingPathComponent("worksheets")
+                        .appendingPathComponent(filename)
+                    
+                    if FileManager.default.fileExists(atPath: worksheetURL.path) {
+                        print("DEBUG: Loading worksheet from mapped file: \(worksheetURL.path)")
+                        let content = try String(contentsOf: worksheetURL, encoding: .utf8)
+                        return content
+                    }
+                }
+            } else {
+                print("DEBUG: Mapping file not found, falling back to pattern matching")
+            }
         } catch {
-            print("DEBUG: Could not load worksheet from \(worksheetURL): \(error)")
-            return nil
+            print("DEBUG: Error using mapping file: \(error), falling back to pattern matching")
         }
+        
+        // Extract lesson number for pattern matching fallback
+        var lessonNumber: String
+        if normalizedLessonId.contains("_") {
+            let components = normalizedLessonId.components(separatedBy: "_")
+            if let lastComponent = components.last, let number = Int(lastComponent) {
+                lessonNumber = String(number)
+            } else {
+                lessonNumber = normalizedLessonId.replacingOccurrences(of: "lesson_", with: "")
+            }
+        } else {
+            lessonNumber = normalizedLessonId.replacingOccurrences(of: "lesson", with: "")
+        }
+        
+        // Fallback to pattern matching if mapping file approach failed
+        let possibleFilenames = [
+            "^lesson\(lessonNumber)_.*_worksheet\\.md$",
+            "^lesson\(lessonNumber)_worksheet\\.md$"
+        ]
+        
+        let worksheetsDir = docsBaseURL
+            .appendingPathComponent("learning_plans")
+            .appendingPathComponent(normalizedUnitId)
+            .appendingPathComponent("worksheets")
+        
+        print("DEBUG: Falling back to pattern matching in directory: \(worksheetsDir.path)")
+        
+        if let worksheetFiles = try? FileManager.default.contentsOfDirectory(at: worksheetsDir, includingPropertiesForKeys: nil) {
+            print("DEBUG: Found \(worksheetFiles.count) files in worksheets directory")
+            
+            for file in worksheetFiles {
+                let filename = file.lastPathComponent
+                
+                for pattern in possibleFilenames {
+                    if filename.range(of: pattern, options: .regularExpression) != nil {
+                        print("DEBUG: Found matching worksheet with pattern: \(filename)")
+                        do {
+                            let content = try String(contentsOf: file, encoding: .utf8)
+                            return content
+                        } catch {
+                            print("DEBUG: Error reading worksheet file: \(error)")
+                        }
+                    }
+                }
+            }
+        }
+        
+        print("DEBUG: Could not find any matching worksheet for lesson \(normalizedLessonId) in unit \(normalizedUnitId)")
+        return nil
     }
     
     func loadQuiz(unitId: String, type: String) async -> String? {
-        let quizURL = docsBaseURL
-            .appendingPathComponent("learning_plans")
-            .appendingPathComponent(unitId)
-            .appendingPathComponent("quizzes")
-            .appendingPathComponent("\(unitId)_\(type)_quiz.md")
+        print("DEBUG: Loading quiz for unitId: \(unitId), type: \(type)")
         
+        // Normalize unit ID (remove underscore if present)
+        let normalizedUnitId = unitId.replacingOccurrences(of: "unit_", with: "unit")
+        
+        // First try using the mapping file if it exists
         do {
-            let content = try String(contentsOf: quizURL, encoding: .utf8)
-            print("DEBUG: Loaded quiz from: \(quizURL)")
-            return content
+            let mappingFileURL = docsBaseURL
+                .appendingPathComponent("learning_plans")
+                .appendingPathComponent(normalizedUnitId)
+                .appendingPathComponent("quiz_mapping.json")
+            
+            print("DEBUG: Looking for quiz mapping file at: \(mappingFileURL.path)")
+            
+            if FileManager.default.fileExists(atPath: mappingFileURL.path) {
+                let mappingData = try Data(contentsOf: mappingFileURL)
+                let mappingDict = try JSONSerialization.jsonObject(with: mappingData) as? [String: String]
+                
+                if let filename = mappingDict?[type] {
+                    print("DEBUG: Found quiz filename in mapping: \(filename)")
+                    
+                    let quizURL = docsBaseURL
+                        .appendingPathComponent("learning_plans")
+                        .appendingPathComponent(normalizedUnitId)
+                        .appendingPathComponent("quizzes")
+                        .appendingPathComponent(filename)
+                    
+                    if FileManager.default.fileExists(atPath: quizURL.path) {
+                        print("DEBUG: Loading quiz from mapped file: \(quizURL.path)")
+                        let content = try String(contentsOf: quizURL, encoding: .utf8)
+                        return content
+                    }
+                }
+            } else {
+                print("DEBUG: Quiz mapping file not found, falling back to pattern matching")
+            }
         } catch {
-            print("DEBUG: Could not load quiz from \(quizURL): \(error)")
-            return nil
+            print("DEBUG: Error using quiz mapping file: \(error), falling back to pattern matching")
         }
+        
+        // Fallback to pattern matching if mapping file approach failed
+        let possibleFilenames = [
+            // Standard pattern with unit ID
+            "^\(normalizedUnitId)_\(type)_quiz\\.md$",
+            // Alternative pattern
+            "^.*_\(type)_quiz\\.md$"
+        ]
+        
+        let quizzesDir = docsBaseURL
+            .appendingPathComponent("learning_plans")
+            .appendingPathComponent(normalizedUnitId)
+            .appendingPathComponent("quizzes")
+        
+        print("DEBUG: Falling back to pattern matching in directory: \(quizzesDir.path)")
+        
+        if let quizFiles = try? FileManager.default.contentsOfDirectory(at: quizzesDir, includingPropertiesForKeys: nil) {
+            print("DEBUG: Found \(quizFiles.count) files in quizzes directory")
+            
+            for file in quizFiles {
+                let filename = file.lastPathComponent
+                
+                for pattern in possibleFilenames {
+                    if filename.range(of: pattern, options: .regularExpression) != nil {
+                        print("DEBUG: Found matching quiz with pattern: \(filename)")
+                        do {
+                            let content = try String(contentsOf: file, encoding: .utf8)
+                            return content
+                        } catch {
+                            print("DEBUG: Error reading quiz file: \(error)")
+                        }
+                    }
+                }
+            }
+        }
+        
+        print("DEBUG: Could not find any matching \(type) quiz in unit \(normalizedUnitId)")
+        return nil
     }
     
     func getAvailableContentTypes(unitId: String, lessonId: String) -> [ContentType] {
@@ -328,5 +570,21 @@ class ContentService: ObservableObject {
             return [.cards] // Default to cards only
         }
         return contentTypes.availableTypes
+    }
+    
+    // MARK: - Helper Methods
+    
+    private func normalizeLessonId(_ lessonId: String) -> String {
+        // Ensure lesson ID is in format "lesson_X"
+        if lessonId.hasPrefix("lesson_") {
+            return lessonId
+        } else if lessonId.hasPrefix("lesson") {
+            // Convert "lesson1" to "lesson_1"
+            let numberPart = lessonId.replacingOccurrences(of: "lesson", with: "")
+            return "lesson_\(numberPart)"
+        } else {
+            // If it's just a number or something else, prefix with "lesson_"
+            return "lesson_\(lessonId)"
+        }
     }
 }
