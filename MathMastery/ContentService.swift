@@ -575,13 +575,21 @@ class ContentService: ObservableObject {
     // MARK: - Helper Methods
     
     private func normalizeLessonId(_ lessonId: String) -> String {
-        // Ensure lesson ID is in format "lesson_X"
+        // Ensure lesson ID is in format "lesson_X" or "lesson_X_Y" for fractional lessons
         if lessonId.hasPrefix("lesson_") {
             return lessonId
         } else if lessonId.hasPrefix("lesson") {
-            // Convert "lesson1" to "lesson_1"
+            // Convert "lesson1" or "lesson1_5" to "lesson_1" or "lesson_1_5"
             let numberPart = lessonId.replacingOccurrences(of: "lesson", with: "")
-            return "lesson_\(numberPart)"
+            // Check if it's already in the format "1_5"
+            if numberPart.contains("_") {
+                return "lesson_\(numberPart)"
+            } else {
+                return "lesson_\(numberPart)"
+            }
+        } else if lessonId.contains("_") {
+            // Handle case where it might be just "1_5"
+            return "lesson_\(lessonId)"
         } else {
             // If it's just a number or something else, prefix with "lesson_"
             return "lesson_\(lessonId)"
