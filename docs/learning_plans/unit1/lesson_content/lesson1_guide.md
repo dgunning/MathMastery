@@ -1,14 +1,23 @@
-# Introduction to Functions: Parent Teaching Guide
+# Introduction to Functions
 
-## What You're Teaching
+## What You're Learning
 
-This guide provides everything you need to know about functions, domain, and range in a way that's engaging and understandable. Each section includes:
-- Clear explanations with everyday language
-- Real-world examples your will relate to
-- Step-by-step instructions for activities
-- Questions to check understanding
+Functions are mathematical relationships where each input has exactly one output
 
-## Key Concepts to Cover
+## Why This Matters
+
+**Real-World Applications:**
+- **App Development:** When you open Instagram or TikTok, functions determine what content appears in your feed. Software engineers at these companies (earning $130,000+) write functions that transform your preferences into personalized recommendations.
+
+- **Video Game Design:** Games like Fortnite and Minecraft use functions to control everything from character movement to world generation. Game developers at companies like Epic Games and Roblox (earning $120,000+) create functions that translate player inputs into in-game actions.
+
+- **Data Science & AI:** When Netflix recommends shows or Spotify creates playlists, they're using functions to analyze your viewing or listening patterns. Data scientists (earning $135,000+) build complex mathematical functions that predict your preferences.
+
+- **Financial Technology:** Banking apps use functions to calculate interest, investment returns, and loan payments. Financial analysts (earning $95,000+) at companies like Robinhood and Chase rely on functions to model economic trends and optimize investment strategies.
+
+**Career Connection:** Understanding functions is essential for high-growth careers in technology, engineering, data analysis, scientific research, and finance. Beyond the impressive salaries, these fields offer the opportunity to build tools that millions of people use daily. The mathematical relationships you're learning today form the foundation of algorithms that power our digital world.
+
+## Key Concepts
 
 ### 1. What is a Function?
 

@@ -1,12 +1,21 @@
-# Maximum and Minimum Values: Parent Teaching Guide
+# Maximum and Minimum Values
 
-## What You're Teaching
+## What You're Learning
 
-This guide provides everything you need to know about maximum and minimum values of quadratic functions in a way that's engaging and application-focused. Each section includes:
-- Clear explanations in everyday language
-- Real-world examples relevant to you
-- Visual aids and interactive activities
-- Practice problems with step-by-step solutions
+Maximum and minimum values represent the extreme points of quadratic functions
+
+## Why This Matters
+
+**Real-World Applications:**
+- **Business & Economics:** Companies like Amazon and Walmart use maximum/minimum calculations to determine optimal pricing strategies that maximize profit. A difference of just a few cents in price can generate millions in additional revenue when optimized correctly.
+
+- **Architecture & Construction:** Engineers use these calculations to design structures that maximize strength while minimizing materials. The stunning arch of the St. Louis Gateway Arch is a 630-foot-tall example of optimization mathematics at work.
+
+- **Product Design:** From smartphone batteries that maximize energy storage to aerodynamic vehicles that minimize wind resistance, product designers rely on these mathematical principles to create superior products. Tesla uses quadratic optimization to maximize the range of their electric vehicles.
+
+- **Sports Analytics:** Professional teams use maximum/minimum values to optimize player performance, from the perfect launch angle in baseball (approximately 32°) to ideal basketball shooting trajectories that maximize scoring probability.
+
+**Career Connection:** Professionals who master optimization mathematics are highly sought after in fields like operations research ($92,000 average salary), financial analysis ($85,000+), data science ($120,000+), and engineering design ($90,000+). Companies like Google, JP Morgan, and Boeing specifically seek candidates with these optimization skills.
 
 ## Key Concepts to Cover
 
@@ -287,4 +296,4 @@ Once you understand maximum and minimum values, you can move on to:
 3. Applications of quadratic functions to more complex real-world problems
 4. Introduction to other types of functions and their max/min values
 
-**Remember:** The ability to find and interpret maximum and minimum values is a powerful mathematical skill with countless applications in science, engineering, business, and everyday life. This concept will serve you well in future math courses and real-world problem-solving!
+**Remember:** Max and min values aren't just mathematical extremes—they're the decision points that drive our world! From businesses maximizing profits to engineers minimizing material costs, these values determine success or failure. Master these skills now and you'll see optimization opportunities everywhere you look!

@@ -1,8 +1,9 @@
-# Unit 1 Review and Practice Test: Parent Teaching Guide
+# Unit 1 Review and Practice Test
 
-## Introduction to This Lesson
+## What You're Learning
 
-This guide provides a comprehensive review of all the concepts covered in Unit 1: Characteristics of Functions. Use it to help you consolidate your understanding before your unit test. The review is structured by topic area and includes key concepts, examples, and practice problems with solutions.
+Master the key skills from Unit 1 to ace your test and prepare for future math courses — your comprehensive review covers everything from factoring techniques and function properties to quadratic equations and systems, with examples and solutions to boost your confidence.
+
 
 ## Key Concepts Review
 

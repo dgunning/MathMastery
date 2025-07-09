@@ -1,10 +1,23 @@
-# Solving Linear-Quadratic Systems: Parent Teaching Guide
+# Solving Linear-Quadratic Systems
 
-## What You're Teaching
+## What You're Learning
 
-This guide provides everything you need to know about solving systems of equations where one equation is linear and the other is quadratic. This topic combines previous knowledge about linear equations and quadratic functions to find points of intersection between lines and parabolas.
+Linear-quadratic systems find intersection points between lines and curves
 
-## Key Concepts to Cover
+## Why This Matters
+
+**Real-World Applications:**
+- **Robotics & Automation:** When programming robots to navigate around obstacles, engineers use linear-quadratic systems to determine where straight-line paths might intersect with curved boundaries. This math ensures delivery robots, autonomous vehicles, and manufacturing robots move efficiently without collisions.
+
+- **Computer Gaming:** Game developers use these systems to calculate realistic interactions between objects. When a character (moving in a straight line) meets an object with a curved trajectory (like a bouncing ball), this exact math determines if, when, and where they'll intersect.
+
+- **Financial Modeling:** Economists and financial analysts use linear-quadratic systems when analyzing the intersection of supply curves (often quadratic) and demand curves (often linear). These intersection points determine critical market equilibrium prices.
+
+- **Environmental Science:** Scientists model pollution dispersal using these systems - tracking where linear paths of wind or water currents intersect with the quadratic spread of contaminants to predict affected areas and plan mitigation efforts.
+
+**Career Connection:** Professionals in engineering, video game development, financial analysis, and environmental science use these intersection calculations daily. Companies like Tesla, Epic Games, Goldman Sachs, and the EPA hire specifically for these mathematical modeling skills, with starting salaries averaging $85,000-$110,000.
+
+## Key Concepts
 
 ### 1. Understanding Linear-Quadratic Systems
 
@@ -484,7 +497,7 @@ After covering the material, ask these questions:
 
 4. **Real-World Modeling**: Use projectile motion to demonstrate how a ball's path intersects horizontal obstacles.
 
-## Tips for Teaching Success
+## Tips for Success
 
 1. **Connect to previous learning**: Remind students that they're combining their knowledge of linear equations and quadratic equations.
 
@@ -511,4 +524,4 @@ Once you understand how to solve linear-quadratic systems, you can move on to:
 3. Optimization problems using systems of equations
 4. Applications in economics, physics, and engineering
 
-**Remember:** Linear-quadratic systems are an important bridge between linear and quadratic functions, showing how different function types interact. The skills learned here extend to many advanced topics in mathematics and its applications.
+**Remember:** Every time functions intersect, something amazing happens in the real world! These system-solving skills are your ticket to understanding everything from optimal pricing to rocket trajectories. Master this now, and you'll see intersections of math and reality everywhere you look!
