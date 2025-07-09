@@ -1,8 +1,6 @@
 # Determining a Quadratic Equation from its Roots
 
-## What You're Learning
-
-Determining quadratics from roots is mathematical reverse-engineering
+### Determining quadratics from roots is mathematical reverse-engineering
 
 ## Why This Matters
 

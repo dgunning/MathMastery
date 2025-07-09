@@ -1,8 +1,6 @@
 # Maximum and Minimum Values
 
-## What You're Learning
-
-Maximum and minimum values represent the extreme points of quadratic functions
+### Maximum and minimum values represent the extreme points of quadratic functions
 
 ## Why This Matters
 

@@ -1,8 +1,6 @@
 # Working with Radicals
 
-## What You're Learning
-
-Radical expressions represent roots of numbers
+### Radical expressions represent roots of numbers
 
 ## Why This Matters
 

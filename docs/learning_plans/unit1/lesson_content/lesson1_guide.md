@@ -1,8 +1,6 @@
 # Introduction to Functions
 
-## What You're Learning
-
-Functions are mathematical relationships where each input has exactly one output
+### Functions are mathematical relationships where each input has exactly one output
 
 ## Why This Matters
 

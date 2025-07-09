@@ -1,8 +1,6 @@
 # The Discriminant
 
-## What You're Learning
-
-The discriminant is a powerful mathematical shortcut that instantly reveals the number and type of solutions to quadratic equations 
+### The discriminant is the mathematical shortcut that reveals the number and type of solutions to quadratic equations 
 
 ## Why This Matters
 

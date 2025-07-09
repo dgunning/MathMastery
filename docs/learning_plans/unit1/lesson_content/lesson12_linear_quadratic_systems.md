@@ -1,8 +1,6 @@
 # Solving Linear-Quadratic Systems
 
-## What You're Learning
-
-Linear-quadratic systems find intersection points between lines and curves
+### Linear-quadratic systems find intersection points between lines and curves
 
 ## Why This Matters
 

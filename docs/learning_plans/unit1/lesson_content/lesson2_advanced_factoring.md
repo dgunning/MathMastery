@@ -1,8 +1,6 @@
 # Advanced Factoring Methods:
 
-## What You're Learning
-
-Advanced factoring techniques break complex expressions into simpler parts
+### Advanced factoring techniques break complex expressions into simpler parts
 
 ## Why This Matters
 

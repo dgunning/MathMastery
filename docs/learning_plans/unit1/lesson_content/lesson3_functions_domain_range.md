@@ -1,8 +1,6 @@
 # Functions, Domain, and Range
 
-## What You're Learning
-
-Functions connect inputs to outputs, while domain and range define their boundaries
+### Functions connect inputs to outputs, while domain and range define their boundaries
 
 ## Why This Matters
 

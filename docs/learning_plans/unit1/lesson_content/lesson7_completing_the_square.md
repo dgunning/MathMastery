@@ -1,8 +1,6 @@
 # Completing the Square
 
-## What You're Learning
-
-Completing the square transforms quadratic expressions into a more useful form
+### Completing the square transforms quadratic expressions into a more useful form
 
 ## Why This Matters
 

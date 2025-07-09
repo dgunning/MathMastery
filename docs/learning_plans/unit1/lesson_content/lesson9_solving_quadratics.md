@@ -1,8 +1,6 @@
 # Solving Quadratic Equations
 
-## What You're Learning
-
-Solving quadratic equations unlocks the values that make equations true
+### Solving quadratic equations unlocks the values that make equations true
 
 ## Why This Matters
 

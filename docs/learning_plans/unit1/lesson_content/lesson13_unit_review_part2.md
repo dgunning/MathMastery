@@ -1,8 +1,6 @@
 # Unit 1 Review and Practice Test (Part 2)
 
-## What You're Learning
-
-Complete your Unit 1 mastery with this second part of your review guide — focusing on advanced quadratic concepts, equation-solving techniques, and real-world applications that appear frequently on tests and form the foundation for higher-level math courses.
+### Complete your Unit 1 mastery with this second part of your review guide 
 
 ## Key Concepts Review (Continued)
 

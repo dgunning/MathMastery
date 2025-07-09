@@ -1,8 +1,6 @@
 # Vertex of a Parabola
 
-## What You're Learning
-
-The vertex is the turning point of a parabola — which unlocks the ability to find maximum and minimum values and solve real-world optimization problems
+### The vertex is the turning point of a parabola 
 
 ## Why This Matters
 

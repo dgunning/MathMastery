@@ -1,8 +1,6 @@
 # Functions and Function Notation
 
-## What You're Learning
-
-Function notation provides a powerful shorthand for expressing mathematical relationships
+### Function notation provides a powerful shorthand for expressing mathematical relationships
 
 ## Why This Matters
 

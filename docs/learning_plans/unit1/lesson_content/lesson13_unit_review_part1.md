@@ -1,8 +1,6 @@
 # Unit 1 Review and Practice Test
 
-## What You're Learning
-
-Master the key skills from Unit 1 to ace your test and prepare for future math courses — your comprehensive review covers everything from factoring techniques and function properties to quadratic equations and systems, with examples and solutions to boost your confidence.
+### Master the key skills from Unit 1 to ace your test and prepare for future math courses 
 
 
 ## Key Concepts Review
