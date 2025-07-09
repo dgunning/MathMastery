@@ -2,7 +2,7 @@
 
 ## What You're Teaching
 
-This guide provides everything you need to teach your teenager about completing the square - a powerful algebraic technique that helps convert quadratic functions to vertex form, find the vertex precisely, and solve quadratic equations. Each section includes:
+This guide provides everything you need to know about completing the square - a powerful algebraic technique that helps convert quadratic functions to vertex form, find the vertex precisely, and solve quadratic equations. Each section includes:
 - Clear explanations in everyday language
 - Step-by-step examples with thorough explanations
 - Common pitfalls and how to avoid them
@@ -351,10 +351,10 @@ After covering the material, ask these questions:
 
 ## Next Steps
 
-Once your teen is comfortable with completing the square, you can move on to:
+Once you are comfortable with completing the square, you can move on to:
 1. Working with radicals and radical equations
 2. Solving more complex quadratic equations
 3. The discriminant and its relationship to roots
 4. Linear-quadratic systems and their applications
 
-Remember: Completing the square is a powerful technique that will serve your teen in higher mathematics. It's worth taking the time to ensure they have a solid grasp of this process before moving on to more advanced topics.
+**Remember:** Completing the square is a powerful technique that will serve you in higher mathematics. It's worth taking the time to ensure you have a solid grasp of this process before moving on to more advanced topics.

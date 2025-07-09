@@ -2,7 +2,7 @@
 
 ## What You're Teaching
 
-This guide provides everything you need to teach your teenager about advanced factoring techniques in a way that's engaging and practical. Each section includes:
+This guide provides everything you need to know about advanced factoring techniques in a way that's engaging and practical. Each section includes:
 - Clear explanations with everyday language
 - Real-world applications where possible
 - Step-by-step instructions for different factoring methods
@@ -199,11 +199,11 @@ After covering the material, ask these questions:
 
 ## Tips for Teaching Success
 
-1. **Start simple:** Begin with problems your teen can handle confidently before moving to harder ones.
+1. **Start simple:** Begin with problems you can handle confidently before moving to harder ones.
 2. **Use patterns:** Point out recurring patterns in factoring to build intuition.
 3. **Encourage checking:** Always multiply factors back together as a verification step.
 4. **Connect to applications:** Mention that factoring is essential for solving equations, simplifying fractions, and finding intercepts of graphs.
-5. **Create a reference sheet:** Have your teen make a "cheat sheet" with factoring formulas and strategies.
+5. **Create a reference sheet:**  Make a "cheat sheet" with factoring formulas and strategies.
 
 ## Online Resources
 
@@ -214,9 +214,9 @@ After covering the material, ask these questions:
 
 ## Next Steps
 
-Once your teen is comfortable with these factoring techniques, you can move on to:
+Once you are comfortable with these factoring techniques, you can move on to:
 1. Solving quadratic equations and higher-degree polynomial equations using factoring
 2. Applications of factoring in rational expressions and functions
 3. Connecting factoring to finding x-intercepts of polynomial graphs
 
-Remember: Factoring is a fundamental skill that will be used throughout algebra, calculus, and beyond. Building strong factoring skills now will pay dividends in future math courses!
+**Remember:** Factoring is a fundamental skill that will be used throughout algebra, calculus, and beyond. Building strong factoring skills now will pay dividends in future math courses!

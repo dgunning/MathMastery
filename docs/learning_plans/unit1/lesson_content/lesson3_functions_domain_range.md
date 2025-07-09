@@ -2,9 +2,9 @@
 
 ## What You're Teaching
 
-This guide provides everything you need to teach your teenager about functions, domain, and range in a way that's engaging and relevant. Each section includes:
+This guide provides everything you need to know about functions, domain, and range in a way that's engaging and relevant. Each section includes:
 - Clear explanations with everyday language
-- Real-world examples relevant to teenagers
+- Real-world examples relevant to you
 - Step-by-step activities to illustrate concepts
 - Questions to check understanding and deepen learning
 
@@ -35,7 +35,7 @@ This guide provides everything you need to teach your teenager about functions, 
 **Activity: "Is It a Function?" Game**
 
 Instructions:
-1. Create a table with these examples (or make up your own relevant to your teen's interests):
+1. Create a table with these examples (or make up your own relevant to your interests):
 
 | Relation | Description | Function? |
 |----------|-------------|-----------|
@@ -50,7 +50,7 @@ Instructions:
    - "Can one input have multiple outputs?"
    - "If I give you the same input twice, will I always get the same output?"
 
-3. Help your teen identify which are functions by applying the "one input → one output" rule.
+3. Identify which are functions by applying the "one input → one output" rule.
 
 ### 3. Representing Functions
 
@@ -99,7 +99,7 @@ Miles (m) | Cost C(m)
    - x² + y² = 9
    - y = |x|
    - x = |y|
-3. Have your teen drag a vertical line across each graph to see if it ever crosses more than once
+3. Drag a vertical line across each graph to see if it ever crosses more than once
 
 **Key point:** "The vertical line test works because a vertical line represents one specific x-value (input). If the line crosses the graph twice, that means one input gives two outputs, which breaks the function rule."
 
@@ -225,7 +225,7 @@ After covering the material, ask these questions:
 
 ## Tips for Teaching Success
 
-1. **Make it relevant:** Connect functions to things your teen cares about—gaming, social media, sports, music.
+1. **Make it relevant:** Connect functions to things you care about—gaming, social media, sports, music.
 
 2. **Use technology:** Desmos and GeoGebra make functions visual and interactive.
 
@@ -244,9 +244,9 @@ After covering the material, ask these questions:
 
 ## Next Steps
 
-Once your teen understands these function basics, you can move on to:
-1. Function transformations (shifting, stretching, reflecting graphs)
-2. Special functions (quadratic, absolute value, exponential)
-3. Combining functions (addition, subtraction, multiplication, composition)
+Once you understand these function basics, you can move on to:
+1. **Function transformations** (shifting, stretching, reflecting graphs)
+2. **Special functions** (quadratic, absolute value, exponential)
+3. **Combining functions** (addition, subtraction, multiplication, composition)
 
-Remember: The goal is understanding the concept of a function as a predictable relationship between values, not just memorizing definitions. If your teen can explain what makes something a function using their own examples, they've got it!
+**Remember:** The goal is understanding the concept of a function as a predictable relationship between values, not just memorizing definitions. If you can explain what makes something a function using your own examples, you've got it!

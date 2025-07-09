@@ -2,9 +2,9 @@
 
 ## What You're Teaching
 
-This guide provides everything you need to teach your teenager about functions, domain, and range in a way that's engaging and understandable. Each section includes:
+This guide provides everything you need to know about functions, domain, and range in a way that's engaging and understandable. Each section includes:
 - Clear explanations with everyday language
-- Real-world examples your teen will relate to
+- Real-world examples your will relate to
 - Step-by-step instructions for activities
 - Questions to check understanding
 
@@ -53,7 +53,7 @@ Instructions:
    - "Can one input have multiple outputs?"
    - "If I give you the same input twice, will I always get the same output?"
 
-3. Help your teen identify which are functions by applying the "one input → one output" rule.
+3. Identify which are functions by applying the "one input → one output" rule.
 
 ### 3. The Vertical Line Test
 
@@ -73,7 +73,7 @@ Instructions:
    - x² + y² = 9 (a circle)
    - y = |x|
    - x = |y|
-3. Have your teen drag a vertical line across each graph to see if it ever crosses more than once
+3. Drag a vertical line across each graph to see if it ever crosses more than once
 
 **Key point:** "The vertical line test works because a vertical line represents the same x-value (input). If the line crosses the graph twice, that means one input gives two outputs, which breaks the function rule."
 
@@ -167,7 +167,7 @@ After covering the material, ask these questions:
 
 ## Tips for Teaching Success
 
-1. **Connect to interests:** Use examples from gaming, sports, social media, or whatever your teen enjoys.
+1. **Connect to interests:** Use examples from gaming, sports, social media, or whatever you enjoy.
 2. **Be patient:** Functions are abstract. It might take several attempts for the concept to click.
 3. **Use visuals:** Draw pictures, use online tools, or create physical models.
 4. **Take breaks:** If frustration builds, switch to another activity and come back later.
@@ -181,9 +181,9 @@ After covering the material, ask these questions:
 
 ## Next Steps
 
-Once your teen understands these basics, you can move on to:
+Once you understands these basics, you can move on to:
 1. Function transformations (how changing the equation affects the graph)
 2. Special functions (quadratic, exponential, etc.)
 3. Function operations (adding, subtracting, multiplying functions)
 
-Remember: The goal is understanding, not memorization. If your teen can explain the concepts in their own words and apply them to new situations, they're on the right track!
+**Remember:** The goal is understanding, not memorization. If you can explain the concepts in your own words and apply them to new situations, you're on the right track!

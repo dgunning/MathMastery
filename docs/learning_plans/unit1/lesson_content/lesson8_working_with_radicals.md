@@ -2,7 +2,7 @@
 
 ## What You're Teaching
 
-This guide provides everything you need to teach your teenager about radical expressions - their meaning, properties, and operations. Each section includes:
+This guide provides everything you need to know about radical expressions - their meaning, properties, and operations. Each section includes:
 - Clear explanations in everyday language
 - Step-by-step examples
 - Common mistakes to watch for
@@ -385,7 +385,7 @@ After covering the material, ask these questions:
 
 ## Tips for Teaching Success
 
-1. **Start with perfect squares**: Make sure your teen is comfortable with perfect squares and their roots before moving to more complex expressions.
+1. **Start with perfect squares**: Make sure you are comfortable with perfect squares and their roots before moving to more complex expressions.
 
 2. **Use visual models**: Geometric interpretations of square roots can help build intuition.
 
@@ -404,10 +404,10 @@ After covering the material, ask these questions:
 
 ## Next Steps
 
-Once your teen understands radical expressions, you can move on to:
+Once you understand radical expressions, you can move on to:
 1. Exponential functions and their properties
 2. Complex numbers and their operations
 3. Solving more complex radical equations
 4. Applications of radicals in coordinate geometry
 
-Remember: Radicals are a fundamental concept that will appear throughout higher mathematics. Taking the time to master these skills now will pay dividends in future math courses.
+**Remember: Radicals are a fundamental concept that will appear throughout higher mathematics. Taking the time to master these skills now will pay dividends in future math courses.

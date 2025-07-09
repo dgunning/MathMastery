@@ -2,7 +2,7 @@
 
 ## What You're Teaching
 
-This guide provides everything you need to teach your teenager about solving quadratic equations using factoring and the quadratic formula. Each section includes:
+This guide provides everything you need to know about solving quadratic equations using factoring and the quadratic formula. Each section includes:
 - Clear explanations in everyday language
 - Step-by-step examples with thorough explanations
 - Common pitfalls and how to avoid them
@@ -509,10 +509,10 @@ After covering the material, ask these questions:
 
 ## Next Steps
 
-Once your teen understands how to solve quadratic equations, you can move on to:
+Once you understand how to solve quadratic equations, you can move on to:
 1. Systems of linear and quadratic equations
 2. Quadratic inequalities
 3. Polynomial functions of higher degree
 4. Applications of quadratics in more complex scenarios
 
-Remember: Being able to solve quadratic equations is a fundamental skill that appears throughout mathematics and its applications. Ensuring a strong foundation here will benefit your teen in future math courses and real-world problem-solving.
+**Remember:** Being able to solve quadratic equations is a fundamental skill that appears throughout mathematics and its applications. Ensuring a strong foundation here will benefit you in future math courses and real-world problem-solving.

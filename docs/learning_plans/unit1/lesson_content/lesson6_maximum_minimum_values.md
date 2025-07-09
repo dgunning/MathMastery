@@ -2,9 +2,9 @@
 
 ## What You're Teaching
 
-This guide provides everything you need to teach your teenager about maximum and minimum values of quadratic functions in a way that's engaging and application-focused. Each section includes:
+This guide provides everything you need to know about maximum and minimum values of quadratic functions in a way that's engaging and application-focused. Each section includes:
 - Clear explanations in everyday language
-- Real-world examples relevant to teenagers
+- Real-world examples relevant to you
 - Visual aids and interactive activities
 - Practice problems with step-by-step solutions
 
@@ -262,13 +262,13 @@ After covering the material, ask these questions:
 
 ## Tips for Teaching Success
 
-1. **Start with the visual**: Make sure your teen can recognize a maximum versus a minimum visually before diving into calculations.
+1. **Start with the visual**: Make sure you can recognize a maximum versus a minimum visually before diving into calculations.
 
 2. **Emphasize the process**: The steps for finding max/min values are the same regardless of context - find the vertex, then interpret.
 
-3. **Connect to real life**: Teenagers are more engaged when they see how optimization applies to things they care about (gaming, sports, social media, etc.).
+3. **Connect to real life**: You are more engaged when you see how optimization applies to things you care about (gaming, sports, social media, etc.).
 
-4. **Check answers**: Encourage your teen to always verify their solutions by checking neighboring points.
+4. **Check answers**: Always verify their solutions by checking neighboring points.
 
 5. **Use technology**: Graphing tools help build intuition about maximum and minimum values.
 
@@ -281,10 +281,10 @@ After covering the material, ask these questions:
 
 ## Next Steps
 
-Once your teen understands maximum and minimum values, you can move on to:
+Once you understand maximum and minimum values, you can move on to:
 1. Completing the square as a method for solving quadratic equations
 2. The discriminant and its relationship to the number of roots
 3. Applications of quadratic functions to more complex real-world problems
 4. Introduction to other types of functions and their max/min values
 
-Remember: The ability to find and interpret maximum and minimum values is a powerful mathematical skill with countless applications in science, engineering, business, and everyday life. This concept will serve your teen well in future math courses and real-world problem-solving!
+**Remember:** The ability to find and interpret maximum and minimum values is a powerful mathematical skill with countless applications in science, engineering, business, and everyday life. This concept will serve you well in future math courses and real-world problem-solving!

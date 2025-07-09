@@ -2,9 +2,9 @@
 
 ## What You're Teaching
 
-This guide provides everything you need to teach your teenager about function notation and evaluating functions in a way that's engaging and practical. Each section includes:
+This guide provides everything you need to know about function notation and evaluating functions in a way that's engaging and practical. Each section includes:
 - Clear explanations in everyday language
-- Real-world examples that connect to teen interests
+- Real-world examples that connect to your interests
 - Step-by-step activities to practice concepts
 - Tips for addressing common confusion points
 
@@ -252,7 +252,7 @@ After covering the material, ask these questions:
 
 1. **Start with simple functions:** Begin with linear functions before moving to more complex ones.
 
-2. **Use real contexts:** Connect function notation to scenarios your teen cares about (gaming, sports, social media, money).
+2. **Use real contexts:** Connect function notation to scenarios you care about (gaming, sports, social media, money).
 
 3. **Visualize the process:** Draw "function machines" that transform inputs to outputs.
 
@@ -269,10 +269,10 @@ After covering the material, ask these questions:
 
 ## Next Steps
 
-Once your teen is comfortable with function notation, you can move on to:
-1. Function transformations (how changing the formula affects the graph)
-2. Finding domains of more complex functions
-3. Combining functions (addition, subtraction, multiplication, composition)
-4. Exploring specific types of functions (quadratic, exponential, etc.)
+Once you are comfortable with function notation, you can move on to:
+1. **Function transformations** (how changing the formula affects the graph)
+2. **Finding domains of more complex functions**
+3. **Combining functions** (addition, subtraction, multiplication, composition)
+4. **Exploring specific types of functions** (quadratic, exponential, etc.)
 
-Remember: Function notation is a language for expressing mathematical relationships. The goal is for your teen to become fluent in this language so they can use it as a tool for problem-solving in future math courses and real-life applications.
+**Remember:** Function notation is a language for expressing mathematical relationships. The goal is for you to become fluent in this language so you can use it as a tool for problem-solving in future math courses and real-life applications.

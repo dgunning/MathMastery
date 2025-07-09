@@ -2,7 +2,7 @@
 
 ## What You're Teaching
 
-This guide provides everything you need to teach your teenager how to create a quadratic equation when given its roots (solutions). This is essentially the reverse process of solving quadratics that we've covered in previous lessons.
+This guide provides everything you need to know how to create a quadratic equation when given its roots (solutions). This is essentially the reverse process of solving quadratics that we've covered in previous lessons.
 
 ## Key Concepts to Cover
 
@@ -378,10 +378,10 @@ After covering the material, ask these questions:
 
 ## Next Steps
 
-Once your teen understands how to create quadratic equations from roots, you can move on to:
+Once you understand how to create quadratic equations from roots, you can move on to:
 1. Solving systems of equations involving quadratics
 2. Exploring quadratic inequalities
 3. Working with higher-degree polynomials and their roots
 4. Applying these concepts to more complex problem-solving scenarios
 
-Remember: Creating quadratic equations from roots reinforces the connection between factors, roots, and the expanded form of an equation. This reciprocal relationship is a powerful mathematical concept that appears throughout algebra and calculus.
+**Remember: Creating quadratic equations from roots reinforces the connection between factors, roots, and the expanded form of an equation. This reciprocal relationship is a powerful mathematical concept that appears throughout algebra and calculus.

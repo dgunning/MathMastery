@@ -2,7 +2,7 @@
 
 ## Introduction to This Lesson
 
-This guide provides a comprehensive review of all the concepts covered in Unit 1: Characteristics of Functions. Use it to help your teenager consolidate their understanding before their unit test. The review is structured by topic area and includes key concepts, examples, and practice problems with solutions.
+This guide provides a comprehensive review of all the concepts covered in Unit 1: Characteristics of Functions. Use it to help you consolidate your understanding before your unit test. The review is structured by topic area and includes key concepts, examples, and practice problems with solutions.
 
 ## Key Concepts Review
 

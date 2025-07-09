@@ -2,7 +2,7 @@
 
 ## What You're Teaching
 
-This guide provides everything you need to teach your teenager about solving systems of equations where one equation is linear and the other is quadratic. This topic combines previous knowledge about linear equations and quadratic functions to find points of intersection between lines and parabolas.
+This guide provides everything you need to know about solving systems of equations where one equation is linear and the other is quadratic. This topic combines previous knowledge about linear equations and quadratic functions to find points of intersection between lines and parabolas.
 
 ## Key Concepts to Cover
 
@@ -505,10 +505,10 @@ After covering the material, ask these questions:
 
 ## Next Steps
 
-Once your teen understands how to solve linear-quadratic systems, you can move on to:
+Once you understand how to solve linear-quadratic systems, you can move on to:
 1. Systems involving two quadratic equations
 2. Linear-quadratic inequalities
 3. Optimization problems using systems of equations
 4. Applications in economics, physics, and engineering
 
-Remember: Linear-quadratic systems are an important bridge between linear and quadratic functions, showing how different function types interact. The skills learned here extend to many advanced topics in mathematics and its applications.
+**Remember:** Linear-quadratic systems are an important bridge between linear and quadratic functions, showing how different function types interact. The skills learned here extend to many advanced topics in mathematics and its applications.

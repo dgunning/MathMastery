@@ -2,7 +2,7 @@
 
 ## What You're Teaching
 
-This guide provides everything you need to teach your teenager about the discriminant of quadratic equations. The discriminant reveals critical information about the nature of solutions to quadratic equations without having to solve them completely.
+This guide provides everything you need to know about the discriminant of quadratic equations. The discriminant reveals critical information about the nature of solutions to quadratic equations without having to solve them completely.
 
 ## Key Concepts to Cover
 
@@ -282,10 +282,10 @@ After covering the material, ask these questions:
 
 ## Next Steps
 
-Once your teen understands the discriminant, you can move on to:
+Once you understands the discriminant, you can move on to:
 1. Solving more complex quadratic equations and word problems
 2. Exploring quadratic inequalities
 3. Working with quadratic functions in different forms
 4. Applying quadratics to optimization problems
 
-Remember: The discriminant is a powerful tool that allows us to quickly analyze the behavior of quadratic equations without having to solve them completely. This skill helps build mathematical intuition and problem-solving efficiency.
+**Remember:** The discriminant is a powerful tool that allows us to quickly analyze the behavior of quadratic equations without having to solve them completely. This skill helps build mathematical intuition and problem-solving efficiency.

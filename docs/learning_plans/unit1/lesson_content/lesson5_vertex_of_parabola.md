@@ -2,9 +2,9 @@
 
 ## What You're Teaching
 
-This guide provides everything you need to teach your teenager about the vertex of a parabola and its significance in a way that's engaging and practical. Each section includes:
+This guide provides everything you need to know about the vertex of a parabola and its significance in a way that's engaging and practical. Each section includes:
 - Clear explanations in everyday language
-- Real-world applications relevant to teenagers
+- Real-world applications
 - Visual aids and interactive activities
 - Strategies to build understanding of this key concept
 
@@ -274,10 +274,10 @@ After covering the material, ask these questions:
 
 ## Next Steps
 
-Once your teen understands the vertex of a parabola, you can move on to:
+Once you understand the vertex of a parabola, you can move on to:
 1. Maximum and minimum problems (optimization)
 2. Completing the square method for solving quadratic equations
 3. Transformations of parabolas (shifting, stretching, reflecting)
 4. Connections between the vertex and the discriminant
 
-Remember: The vertex is a foundational concept for understanding quadratic functions. Make sure your teen can both calculate the vertex algebraically and understand its significance geometrically before moving on to more advanced topics.
+**Remember:** The vertex is a foundational concept for understanding quadratic functions. Make sure you can both calculate the vertex algebraically and understand its significance geometrically before moving on to more advanced topics.
