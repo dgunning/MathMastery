@@ -36,68 +36,78 @@
 4. Factor out the GCF from each term
 
 **Example 1:**
-```
-Factor: 6x³ + 9x² - 15x
 
-Step 1: GCF of coefficients: 6, 9, and 15 → 3
-Step 2: GCF of variables: x³, x², and x → x
-Step 3: Overall GCF: 3x
-Step 4: 3x(2x² + 3x - 5)
-```
+**Problem:** Factor: 6x³ + 9x² - 15x
+
+| Step | Description | Result |
+|:----:|:------------|:------:|
+| **1** | Find the GCF of coefficients | 6, 9, and 15 → **3** |
+| **2** | Find the GCF of variables | x³, x², and x → **x** |
+| **3** | Combine for overall GCF | **3x** |
+| **4** | Factor out the GCF | **3x(2x² + 3x - 5)** |
 
 **Example 2:**
-```
-Factor: 8y⁴ - 20y² + 12y
 
-Step 1: GCF of coefficients: 8, 20, and 12 → 4
-Step 2: GCF of variables: y⁴, y², and y → y
-Step 3: Overall GCF: 4y
-Step 4: 4y(2y³ - 5y + 3)
-```
+**Problem:** Factor: 8y⁴ - 20y² + 12y
+
+| Step | Description | Result |
+|:----:|:------------|:------:|
+| **1** | Find the GCF of coefficients | 8, 20, and 12 → **4** |
+| **2** | Find the GCF of variables | y⁴, y², and y → **y** |
+| **3** | Combine for overall GCF | **4y** |
+| **4** | Factor out the GCF | **4y(2y³ - 5y + 3)** |
 
 ### 3. Factoring Special Patterns
 
 **Simple explanation:** "Certain algebraic expressions follow patterns that make them easier to factor. Recognizing these patterns is like having shortcuts."
 
-#### a. Difference of Squares: a² - b² = (a + b)(a - b)
+#### 3.1. Difference of Squares: a² - b² = (a + b)(a - b)
 
 **Example:**
-```
-Factor: x² - 16
 
-This is a difference of squares where a = x and b = 4
-x² - 16 = (x + 4)(x - 4)
-```
+**Problem:** Factor: x² - 16
+
+| Step | Description | Result |
+|:----:|:------------|:------:|
+| **1** | Identify pattern: difference of squares | x² - 16 fits a² - b² pattern |
+| **2** | Identify a and b | a = **x**, b = **4** |
+| **3** | Apply formula: (a + b)(a - b) | **(x + 4)(x - 4)** |
 
 **Example with variables:**
-```
-Factor: 25y² - 49z²
 
-This is a difference of squares where a = 5y and b = 7z
-25y² - 49z² = (5y + 7z)(5y - 7z)
-```
+**Problem:** Factor: 25y² - 49z²
 
-#### b. Perfect Square Trinomials
+| Step | Description | Result |
+|:----:|:------------|:------:|
+| **1** | Identify pattern: difference of squares | 25y² - 49z² fits a² - b² pattern |
+| **2** | Identify a and b | a = **5y**, b = **7z** |
+| **3** | Apply formula: (a + b)(a - b) | **(5y + 7z)(5y - 7z)** |
+
+#### 3.2. Perfect Square Trinomials
 
 **Pattern 1:** a² + 2ab + b² = (a + b)²
 
 **Example:**
-```
-Factor: x² + 6x + 9
 
-This matches the pattern where a = x and b = 3
-x² + 6x + 9 = (x + 3)²
-```
+**Problem:** Factor: x² + 6x + 9
+
+| Step | Description | Result |
+|:----:|:------------|:------:|
+| **1** | Identify pattern: perfect square trinomial | x² + 6x + 9 fits a² + 2ab + b² pattern |
+| **2** | Identify a and b | a = **x**, b = **3** |
+| **3** | Apply formula: (a + b)² | **(x + 3)²** |
 
 **Pattern 2:** a² - 2ab + b² = (a - b)²
 
 **Example:**
-```
-Factor: 4y² - 12y + 9
 
-This matches the pattern where a = 2y and b = 3
-4y² - 12y + 9 = (2y - 3)²
-```
+**Problem:** Factor: 4y² - 12y + 9
+
+| Step | Description | Result |
+|:----:|:------------|:------:|
+| **1** | Identify pattern: perfect square trinomial | 4y² - 12y + 9 fits a² - 2ab + b² pattern |
+| **2** | Identify a and b | a = **2y**, b = **3** |
+| **3** | Apply formula: (a - b)² | **(2y - 3)²** |
 
 ### 4. Factoring Simple Trinomials (ax² + bx + c where a = 1)
 
@@ -109,31 +119,34 @@ This matches the pattern where a = 2y and b = 3
 3. Write the factored form as (x + p)(x + q) where p and q are the numbers you found
 
 **Example 1:**
-```
-Factor: x² + 5x + 6
 
-Step 1: Find factors of 6: 1×6 = 6, 2×3 = 6
-Step 2: Check which pair adds to 5: 2+3 = 5 ✓
-Step 3: x² + 5x + 6 = (x + 2)(x + 3)
-```
+**Problem:** Factor: x² + 5x + 6
+
+| Step | Description | Result |
+|:----:|:------------|:------:|
+| **1** | Find factors of 6 | 1×6 = 6, **2×3 = 6** |
+| **2** | Check which pair adds to 5 | 2+3 = **5** ✓ |
+| **3** | Write in factored form | **(x + 2)(x + 3)** |
 
 **Example 2:**
-```
-Factor: x² - x - 6
 
-Step 1: Find factors of -6: 2×(-3) = -6, (-2)×3 = -6
-Step 2: Check which pair adds to -1: 2+(-3) = -1 ✓
-Step 3: x² - x - 6 = (x + 2)(x - 3)
-```
+**Problem:** Factor: x² - x - 6
+
+| Step | Description | Result |
+|:----:|:------------|:------:|
+| **1** | Find factors of -6 | 2×(-3) = **-6**, (-2)×3 = -6 |
+| **2** | Check which pair adds to -1 | 2+(-3) = **-1** ✓ |
+| **3** | Write in factored form | **(x + 2)(x - 3)** |
 
 **Example 3:**
-```
-Factor: x² - 7x + 12
 
-Step 1: Find factors of 12: 1×12 = 12, 2×6 = 12, 3×4 = 12
-Step 2: Check which pair adds to -7: (-3)+(-4) = -7 ✓
-Step 3: x² - 7x + 12 = (x - 3)(x - 4)
-```
+**Problem:** Factor: x² - 7x + 12
+
+| Step | Description | Result |
+|:----:|:------------|:------:|
+| **1** | Find factors of 12 | 1×12 = 12, 2×6 = 12, **3×4 = 12** |
+| **2** | Check which pair adds to -7 | (-3)+(-4) = **-7** ✓ |
+| **3** | Write in factored form | **(x - 3)(x - 4)** |
 
 ### 5. Factoring by Grouping (Four Terms)
 
@@ -145,23 +158,25 @@ Step 3: x² - 7x + 12 = (x - 3)(x - 4)
 3. Factor out the common binomial factor
 
 **Example 1:**
-```
-Factor: xy + 3x + 2y + 6
 
-Step 1: Group terms: (xy + 3x) + (2y + 6)
-Step 2: Factor out GCF from each group: x(y + 3) + 2(y + 3)
-Step 3: Factor out common binomial: (y + 3)(x + 2)
-```
+**Problem:** Factor: xy + 3x + 2y + 6
+
+| Step | Description | Result |
+|:----:|:------------|:------:|
+| **1** | Group terms into pairs | **(xy + 3x) + (2y + 6)** |
+| **2** | Factor out GCF from each group | **x(y + 3) + 2(y + 3)** |
+| **3** | Factor out common binomial | **(y + 3)(x + 2)** |
 
 **Example 2:**
-```
-Factor: x³ - 3x² - 4x + 12
 
-Step 1: Group terms: (x³ - 3x²) + (-4x + 12)
-Step 2: Factor out GCF from each group: x²(x - 3) - 4(x - 3)
-Step 3: Factor out common binomial: (x - 3)(x² - 4)
-Step 4: Further factor if possible: (x - 3)(x + 2)(x - 2)
-```
+**Problem:** Factor: x³ - 3x² - 4x + 12
+
+| Step | Description | Result |
+|:----:|:------------|:------:|
+| **1** | Group terms into pairs | **(x³ - 3x²) + (-4x + 12)** |
+| **2** | Factor out GCF from each group | **x²(x - 3) - 4(x - 3)** |
+| **3** | Factor out common binomial | **(x - 3)(x² - 4)** |
+| **4** | Further factor the second term | **(x - 3)(x + 2)(x - 2)** |
 
 ### 6. Factoring Strategy
 

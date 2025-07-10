@@ -272,7 +272,7 @@ After covering the material, ask these questions:
 
 4. **Equation Creation Challenge**: Give students specific discriminant values and challenge them to create equations with those discriminants.
 
-## Tips for Teaching Success
+## Tips for Success
 
 1. **Connect to the quadratic formula**: Show how the discriminant emerges from the quadratic formula and why it determines the nature of solutions.
 

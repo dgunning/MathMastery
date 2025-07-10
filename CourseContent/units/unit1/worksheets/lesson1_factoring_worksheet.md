@@ -3,22 +3,25 @@
 ## Part A: Greatest Common Factor (GCF)
 
 1. Find the GCF of each set of terms:
-   a) 12, 18
-   b) 24, 36, 48
-   c) 15, 45, 75
-   d) 16, 24, 40
+
+- a) 12, 18
+- b) 24, 36, 48
+- c) 15, 45, 75
+- d) 16, 24, 40
 
 2. Factor out the GCF from each expression:
-   a) 6x + 9
-   b) 15y - 25
-   c) 8a² + 12a
-   d) 21x³ - 14x² + 7x
+
+- a) 6x + 9
+- b) 15y - 25
+- c) 8a² + 12a
+- d) 21x³ - 14x² + 7x
 
 3. Factor out the GCF from each expression:
-   a) 4x³y + 8x²y² - 12xy³
-   b) 9a²b³ - 18ab⁴ + 27b⁵
-   c) 5m²n³ + 15mn² - 10n
-   d) 16p⁴q² - 24p³q³ + 8p²q⁴
+
+- a) 4x³y + 8x²y² - 12xy³
+- b) 9a²b³ - 18ab⁴ + 27b⁵
+- c) 5m²n³ + 15mn² - 10n
+- d) 16p⁴q² - 24p³q³ + 8p²q⁴
 
 ## Part B: Factoring Trinomials with Leading Coefficient 1
 

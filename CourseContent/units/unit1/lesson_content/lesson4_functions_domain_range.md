@@ -230,7 +230,7 @@ After covering the material, ask these questions:
 
 4. **Real World Function Hunt**: Find examples of functions in daily life (temperature vs. time, speed vs. fuel consumption, etc.) and identify domain and range restrictions.
 
-## Tips for Teaching Success
+## Tips for Success
 
 1. **Make it relevant:** Connect functions to things you care about—gaming, social media, sports, music.
 

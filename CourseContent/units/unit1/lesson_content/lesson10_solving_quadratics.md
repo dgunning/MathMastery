@@ -495,7 +495,7 @@ After covering the material, ask these questions:
 
 4. **Physical Demonstrations**: Use a ball to demonstrate projectile motion and measure heights and times.
 
-## Tips for Teaching Success
+## Tips for Success
 
 1. **Start with factoring**: Begin with equations that factor nicely before moving to the quadratic formula.
 

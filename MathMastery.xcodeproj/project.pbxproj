@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B4276F532E1FE4D60052BBCC /* CourseContent in Resources */ = {isa = PBXBuildFile; fileRef = B4276F4F2E1FE3F50052BBCC /* CourseContent */; };
+		B4276F562E1FF4AD0052BBCC /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = B4276F552E1FF4AD0052BBCC /* MarkdownUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -175,6 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4276F562E1FF4AD0052BBCC /* MarkdownUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +206,7 @@
 				B4273C222E170AEE0052BBCC /* MathMasteryUITests */,
 				B4273C082E170AED0052BBCC /* Products */,
 				B4276F4F2E1FE3F50052BBCC /* CourseContent */,
+				B4276F542E1FF4AD0052BBCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -215,6 +218,13 @@
 				B4273C1F2E170AEE0052BBCC /* MathMasteryUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B4276F542E1FF4AD0052BBCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +248,7 @@
 			);
 			name = MathMastery;
 			packageProductDependencies = (
+				B4276F552E1FF4AD0052BBCC /* MarkdownUI */,
 			);
 			productName = MathMastery;
 			productReference = B4273C072E170AED0052BBCC /* MathMastery.app */;
@@ -682,6 +693,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B4276F552E1FF4AD0052BBCC /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B42749892E1EC12A0052BBCC /* XCRemoteSwiftPackageReference "MarkdownUI" */;
+			productName = MarkdownUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B4273BFF2E170AED0052BBCC /* Project object */;
 }

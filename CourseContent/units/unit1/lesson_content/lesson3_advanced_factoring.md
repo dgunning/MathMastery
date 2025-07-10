@@ -201,7 +201,7 @@ After covering the material, ask these questions:
 7. 4x²(x² - 1) = 4x²(x + 1)(x - 1)
 8. 2x(x² + 27) = 2x(x + 3)(x² - 3x + 9)
 
-## Tips for Teaching Success
+## Tips for Success
 
 1. **Start simple:** Begin with problems you can handle confidently before moving to harder ones.
 2. **Use patterns:** Point out recurring patterns in factoring to build intuition.

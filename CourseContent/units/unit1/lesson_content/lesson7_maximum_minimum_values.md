@@ -267,7 +267,7 @@ After covering the material, ask these questions:
 
 4. **Optimization Game**: Create scenarios where students compete to find the most optimal solution to a problem.
 
-## Tips for Teaching Success
+## Tips for Success
 
 1. **Start with the visual**: Make sure you can recognize a maximum versus a minimum visually before diving into calculations.
 

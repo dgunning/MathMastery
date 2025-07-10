@@ -255,7 +255,7 @@ After covering the material, ask these questions:
 4. h(-2) = -4, h(1) = 0, h(5) = 8
 5. Initial height = h(0) = 2 meters, h(2) = 21.4 meters, Ground impact at approximately t = 3.2 seconds
 
-## Tips for Teaching Success
+## Tips for Success
 
 1. **Start with simple functions:** Begin with linear functions before moving to more complex ones.
 

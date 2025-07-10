@@ -1,5 +1,33 @@
 import SwiftUI
 
+// Helper for hex colors
+extension Color {
+    init(hex: String) {
+        let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
+        var int: UInt64 = 0
+        Scanner(string: hex).scanHexInt64(&int)
+        let a, r, g, b: UInt64
+        switch hex.count {
+        case 3: // RGB (12-bit)
+            (a, r, g, b) = (255, (int >> 8) * 17, (int >> 4 & 0xF) * 17, (int & 0xF) * 17)
+        case 6: // RGB (24-bit)
+            (a, r, g, b) = (255, int >> 16, int >> 8 & 0xFF, int & 0xFF)
+        case 8: // ARGB (32-bit)
+            (a, r, g, b) = (int >> 24, int >> 16 & 0xFF, int >> 8 & 0xFF, int & 0xFF)
+        default:
+            (a, r, g, b) = (1, 1, 1, 0)
+        }
+
+        self.init(
+            .sRGB,
+            red: Double(r) / 255,
+            green: Double(g) / 255,
+            blue: Double(b) / 255,
+            opacity: Double(a) / 255
+        )
+    }
+}
+
 struct MainView: View {
     @StateObject private var contentService = ContentService()
     @State private var selectedUnit: String?
@@ -94,12 +122,14 @@ struct SidebarView: View {
 
 struct DashboardRow: View {
     var body: some View {
-        HStack {
-            Image(systemName: "house")
+        HStack(spacing: 12) {
+            Image(systemName: "house.fill")
+                .font(.system(size: 18))
                 .foregroundColor(.blue)
             VStack(alignment: .leading) {
                 Text("Dashboard")
-                    .font(.headline)
+                    .font(.title3)
+                    .fontWeight(.medium)
                 HStack {
                     Text("🔥 0")
                     Text("⚡ 0")
@@ -109,7 +139,7 @@ struct DashboardRow: View {
             }
             Spacer()
         }
-        .padding(.vertical, 2)
+        .padding(.vertical, 6)
     }
 }
 
@@ -143,17 +173,20 @@ struct UnitSection: View {
                 }
             },
             label: {
-                HStack {
-                    Image(systemName: "folder")
+                HStack(spacing: 12) {
+                    Image(systemName: "folder.fill")
+                        .font(.system(size: 18))
                         .foregroundColor(.blue)
                     VStack(alignment: .leading) {
                         Text(unit.unitId.replacingOccurrences(of: "_", with: " ").capitalized)
-                            .font(.headline)
+                            .font(.title3)
+                            .fontWeight(.medium)
                         ProgressView(value: 0.0, total: 1.0)
                             .frame(width: 120)
                     }
                     Spacer()
                 }
+                .padding(.vertical, 4)
             }
         )
         .onAppear {
@@ -188,21 +221,18 @@ struct LessonRow: View {
             selectedLesson = lessonId
             showingLearningView = false
         }) {
-            HStack {
-                Image(systemName: "doc.text")
-                    .foregroundColor(.green)
-                VStack(alignment: .leading, spacing: 2) {
+            HStack(spacing: 10) {
+                Image(systemName: "doc.text.fill")
+                    .font(.system(size: 16))
+                    .foregroundColor(Color(hex: "#43A047")) // Stronger green
+                VStack(alignment: .leading, spacing: 4) {
                     Text(lessonInfo.lessonName)
                         .font(.subheadline)
+                        .fontWeight(.medium)
                         .multilineTextAlignment(.leading)
                     HStack {
-                        Text("0%")
-                            .font(.caption2)
-                        Circle()
-                            .fill(.blue)
-                            .frame(width: 6, height: 6)
-                        Text("\(lessonInfo.totalCards) cards")
-                            .font(.caption2)
+                        Text("0% Complete")
+                            .font(.caption)
                             .foregroundColor(.secondary)
                     }
                 }

@@ -260,7 +260,7 @@ After covering the material, ask these questions:
 
 4. **Parabolic Mirror Experiment**: Demonstrate how light focuses at the focal point of a parabolic reflector (connected to the vertex).
 
-## Tips for Teaching Success
+## Tips for Success
 
 1. **Connect to physics**: Show how projectile motion problems rely on finding the vertex.
 
