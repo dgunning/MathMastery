@@ -1,4 +1,4 @@
-# Lesson 1.5: Basic Factoring Techniques - Practice Worksheet
+# Lesson 2: Basic Factoring Techniques - Practice Worksheet
 
 ## Part A: Understanding Factoring Concepts
 
@@ -98,29 +98,23 @@
 15. Factor each expression completely:
     a) x² - 8x + 16 - y²
     b) 2a(b + c) + 3(b + c)
-    c) 4x² - 36
-    d) x² + 6x + 9 - 25z²
+    c) x⁴ - 81
+    d) 3a²b - 6ab² + 9ab
 
-## Challenge Problems
+## Answer Key
 
-16. Factor completely: x⁴ - 16
+1. a) Difference of squares, b) Perfect square trinomial, c) Trinomial, d) Trinomial with leading coefficient, e) Factoring by grouping
 
-17. Factor completely: x³ + 8
+4. a) 6, b) 8, c) 15, d) 18
 
-18. Factor the expression 6xy + 9x + 10y + 15 using two different approaches. Explain which method you prefer and why.
+5. a) 5(x + 3), b) 8(y - 3), c) 6a(2a + 3), d) 8x(2x² - 3x + 1)
 
-## Answer Key (Selected Problems)
+7. a) (x + 6)(x - 6), b) (2y + 7)(2y - 7), c) (5m + 4n)(5m - 4n), d) (7p + 8q)(7p - 8q)
 
-4. a) 6  b) 8  c) 15  d) 18
+8. a) (x + 5)², b) (y - 4)², c) (2z + 3)², d) (3a - 2)²
 
-5. a) 5(x + 3)  b) 8(y - 3)  c) 6a(2a + 3)  d) 8x(2x² - 3x + 1)
+10. a) (x + 5)(x + 2), b) (x - 4)(x - 2), c) (x + 8)(x - 3), d) (x - 11)(x + 2)
 
-7. a) (x + 6)(x - 6)  b) (2y + 7)(2y - 7)  c) (5m + 4n)(5m - 4n)  d) (7p + 8q)(7p - 8q)
+12. a) (x + 2)(y + 5), b) (a + 2)(b - 3), c) (x + 2)(x + 3), d) (3x + 5)(y - 2)
 
-8. a) (x + 5)²  b) (y - 4)²  c) Not a perfect square trinomial  d) (3a - 2)²
-
-10. a) (x + 5)(x + 2)  b) (x - 2)(x - 4)  c) (x + 8)(x - 3)  d) (x - 11)(x + 2)
-
-12. a) (y + 5)(x + 2)  b) (a + 2)(b - 3)  c) (x + 2)(x + 3)  d) (3x + 5)(y - 2)
-
-16. x⁴ - 16 = (x² + 4)(x² - 4) = (x² + 4)(x + 2)(x - 2)
+14. a) 3(x² - 4) = 3(x + 2)(x - 2), b) 2(x² + 6x + 9) = 2(x + 3)², c) (x + 3y)(x - 3y), d) 5x(x² - 4) = 5x(x + 2)(x - 2)

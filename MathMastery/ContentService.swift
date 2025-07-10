@@ -1,5 +1,9 @@
 import Foundation
 
+struct MasterIndex: Codable {
+    let units: [UnitIndex]
+}
+
 class ContentService: ObservableObject {
     @Published var units: [UnitIndex] = []
     @Published var currentLesson: LessonSequence?
@@ -12,14 +16,18 @@ class ContentService: ObservableObject {
     private let docsBaseURL: URL
     
     init() {
-        // For the app bundle, use the main bundle
-        if let bundleURL = Bundle.main.url(forResource: "cards", withExtension: nil) {
+        // For the app bundle, use the main bundle - look for cards in CourseContent directory first
+        if let bundleURL = Bundle.main.url(forResource: "CourseContent/cards", withExtension: nil) {
             self.contentBaseURL = bundleURL
-            print("DEBUG: Found cards bundle at: \(bundleURL)")
+            print("DEBUG: Found cards in CourseContent bundle at: \(bundleURL)")
+        } else if let legacyBundleURL = Bundle.main.url(forResource: "cards", withExtension: nil) {
+            // Fallback to original cards directory for backward compatibility
+            self.contentBaseURL = legacyBundleURL
+            print("DEBUG: Found legacy cards bundle at: \(legacyBundleURL)")
         } else {
             // Fallback to Documents directory
             let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
-            self.contentBaseURL = URL(fileURLWithPath: documentsPath).appendingPathComponent("cards")
+            self.contentBaseURL = URL(fileURLWithPath: documentsPath).appendingPathComponent("CourseContent/cards")
             print("DEBUG: Using fallback path: \(self.contentBaseURL)")
         }
         
@@ -36,15 +44,15 @@ class ContentService: ObservableObject {
             print("  No resources found in bundle")
         }
         
-        // Set up docs directory for lesson guides, worksheets, etc.
-        if let bundleURL = Bundle.main.url(forResource: "docs", withExtension: nil) {
+        // Set up CourseContent directory for lesson guides, worksheets, etc.
+        if let bundleURL = Bundle.main.url(forResource: "CourseContent", withExtension: nil) {
             self.docsBaseURL = bundleURL
-            print("DEBUG: Found docs bundle at: \(bundleURL)")
+            print("DEBUG: Found CourseContent bundle at: \(bundleURL)")
             
-            // Try to list contents of docs directory
+            // Try to list contents of CourseContent directory
             do {
                 let contents = try FileManager.default.contentsOfDirectory(at: bundleURL, includingPropertiesForKeys: nil)
-                print("DEBUG: Contents of docs directory:")
+                print("DEBUG: Contents of CourseContent directory:")
                 for item in contents.prefix(10) {
                     print("  - \(item.lastPathComponent)")
                 }
@@ -52,13 +60,13 @@ class ContentService: ObservableObject {
                     print("  ... and \(contents.count - 10) more items")
                 }
             } catch {
-                print("DEBUG: Error listing docs directory: \(error)")
+                print("DEBUG: Error listing CourseContent directory: \(error)")
             }
         } else {
             // Fallback to Documents directory
             let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
-            self.docsBaseURL = URL(fileURLWithPath: documentsPath).appendingPathComponent("docs")
-            print("DEBUG: Using fallback docs path: \(self.docsBaseURL)")
+            self.docsBaseURL = URL(fileURLWithPath: documentsPath).appendingPathComponent("CourseContent")
+            print("DEBUG: Using fallback CourseContent path: \(self.docsBaseURL)")
         }
     }
     
@@ -170,6 +178,14 @@ class ContentService: ObservableObject {
     }
     
     private func loadUnitsFromDisk() async throws -> [UnitIndex] {
+        // First try to load from master index file
+        if let masterIndexURL = try await findMasterIndexFile() {
+            print("DEBUG: Loading units from master index file: \(masterIndexURL)")
+            return try await loadFromMasterIndex(url: masterIndexURL)
+        }
+        
+        // Fall back to original method of loading individual unit index files
+        print("DEBUG: Falling back to loading individual unit index files")
         var units: [UnitIndex] = []
         
         let fileManager = FileManager.default
@@ -187,6 +203,57 @@ class ContentService: ObservableObject {
         }
         
         return units.sorted { $0.unitId < $1.unitId }
+    }
+    
+    private func findMasterIndexFile() async throws -> URL? {
+        // Try several strategies to find the master index file
+        
+        // Strategy 1: Look directly in the CourseContent directory in resources
+        if let courseContentURL = Bundle.main.url(forResource: "CourseContent/units_index", withExtension: "json") {
+            print("DEBUG: Found master index at CourseContent/units_index.json: \(courseContentURL)")
+            return courseContentURL
+        }
+        
+        // Strategy 2: Get CourseContent directory and look for units_index.json inside it
+        if let courseContentDir = Bundle.main.url(forResource: "CourseContent", withExtension: nil) {
+            let indexPath = courseContentDir.appendingPathComponent("units_index.json")
+            if FileManager.default.fileExists(atPath: indexPath.path) {
+                print("DEBUG: Found master index inside CourseContent dir: \(indexPath)")
+                return indexPath
+            }
+        }
+        
+        // Strategy 3: Check in docsBaseURL if it exists
+        let masterIndexPath = docsBaseURL.appendingPathComponent("units_index.json")
+        if FileManager.default.fileExists(atPath: masterIndexPath.path) {
+            print("DEBUG: Found master index in docsBaseURL: \(masterIndexPath)")
+            return masterIndexPath
+        }
+        
+        // Strategy 4: Look for units_index.json at the app bundle root
+        if let rootIndexPath = Bundle.main.url(forResource: "units_index", withExtension: "json") {
+            print("DEBUG: Found master index at root: \(rootIndexPath)")
+            return rootIndexPath
+        }
+        
+        print("DEBUG: No master index file found after trying all locations")
+        print("DEBUG: Listing app bundle root contents for debugging:")
+        let bundleURL = Bundle.main.bundleURL
+        Self.listDirectoryContents(bundleURL, prefix: "Bundle root")
+        
+        if let resourcesURL = Bundle.main.resourceURL {
+            Self.listDirectoryContents(resourcesURL, prefix: "Resources directory")
+        } else {
+            print("DEBUG: No resources URL available in bundle")
+        }
+        
+        return nil
+    }
+    
+    private func loadFromMasterIndex(url: URL) async throws -> [UnitIndex] {
+        let data = try Data(contentsOf: url)
+        let masterIndex = try JSONDecoder().decode(MasterIndex.self, from: data)
+        return masterIndex.units
     }
     
     private func loadLessonContent(unitId: String, lessonId: String) async throws -> (LessonSequence, [LearningCard]) {
@@ -306,8 +373,9 @@ class ContentService: ObservableObject {
         // First try using the mapping file if it exists
         do {
             let mappingFileURL = docsBaseURL
-                .appendingPathComponent("learning_plans")
+                .appendingPathComponent("units")
                 .appendingPathComponent(normalizedUnitId)
+                .appendingPathComponent("mappings")
                 .appendingPathComponent("lesson_guide_mapping.json")
             
             print("DEBUG: Looking for mapping file at: \(mappingFileURL.path)")
@@ -320,7 +388,7 @@ class ContentService: ObservableObject {
                     print("DEBUG: Found lesson guide filename in mapping: \(filename)")
                     
                     let lessonGuideURL = docsBaseURL
-                        .appendingPathComponent("learning_plans")
+                        .appendingPathComponent("units")
                         .appendingPathComponent(normalizedUnitId)
                         .appendingPathComponent("lesson_content")
                         .appendingPathComponent(filename)
@@ -358,7 +426,7 @@ class ContentService: ObservableObject {
         ]
         
         let lessonContentDir = docsBaseURL
-            .appendingPathComponent("learning_plans")
+            .appendingPathComponent("units")
             .appendingPathComponent(normalizedUnitId)
             .appendingPathComponent("lesson_content")
         
@@ -401,8 +469,9 @@ class ContentService: ObservableObject {
         // First try using the mapping file if it exists
         do {
             let mappingFileURL = docsBaseURL
-                .appendingPathComponent("learning_plans")
+                .appendingPathComponent("units")
                 .appendingPathComponent(normalizedUnitId)
+                .appendingPathComponent("mappings")
                 .appendingPathComponent("worksheet_mapping.json")
             
             print("DEBUG: Looking for mapping file at: \(mappingFileURL.path)")
@@ -415,7 +484,7 @@ class ContentService: ObservableObject {
                     print("DEBUG: Found worksheet filename in mapping: \(filename)")
                     
                     let worksheetURL = docsBaseURL
-                        .appendingPathComponent("learning_plans")
+                        .appendingPathComponent("units")
                         .appendingPathComponent(normalizedUnitId)
                         .appendingPathComponent("worksheets")
                         .appendingPathComponent(filename)
@@ -453,7 +522,7 @@ class ContentService: ObservableObject {
         ]
         
         let worksheetsDir = docsBaseURL
-            .appendingPathComponent("learning_plans")
+            .appendingPathComponent("units")
             .appendingPathComponent(normalizedUnitId)
             .appendingPathComponent("worksheets")
         
@@ -492,8 +561,9 @@ class ContentService: ObservableObject {
         // First try using the mapping file if it exists
         do {
             let mappingFileURL = docsBaseURL
-                .appendingPathComponent("learning_plans")
+                .appendingPathComponent("units")
                 .appendingPathComponent(normalizedUnitId)
+                .appendingPathComponent("mappings")
                 .appendingPathComponent("quiz_mapping.json")
             
             print("DEBUG: Looking for quiz mapping file at: \(mappingFileURL.path)")
@@ -506,7 +576,7 @@ class ContentService: ObservableObject {
                     print("DEBUG: Found quiz filename in mapping: \(filename)")
                     
                     let quizURL = docsBaseURL
-                        .appendingPathComponent("learning_plans")
+                        .appendingPathComponent("units")
                         .appendingPathComponent(normalizedUnitId)
                         .appendingPathComponent("quizzes")
                         .appendingPathComponent(filename)
@@ -533,7 +603,7 @@ class ContentService: ObservableObject {
         ]
         
         let quizzesDir = docsBaseURL
-            .appendingPathComponent("learning_plans")
+            .appendingPathComponent("units")
             .appendingPathComponent(normalizedUnitId)
             .appendingPathComponent("quizzes")
         

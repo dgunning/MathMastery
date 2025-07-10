@@ -1,0 +1,310 @@
+{
+  "units": [
+    {
+      "unit_id": "unit_1",
+      "unit_name": "Characteristics of Functions",
+      "total_cards": 195,
+      "total_duration": 25200,
+      "lessons": {
+        "lesson_1": {
+          "lesson_name": "Introduction to Functions",
+          "total_cards": 10,
+          "estimated_duration": 1590,
+          "card_types": {
+            "concept_intro": 4,
+            "worked_example": 3,
+            "practice": 2,
+            "quick_check": 1
+          },
+          "content_types": {
+            "cards": true,
+            "lesson_guide": true,
+            "lesson_plan": false,
+            "worksheet": true,
+            "quiz": false,
+            "activity": false
+          }
+        },
+        "lesson_2": {
+          "lesson_name": "Basic Factoring",
+          "total_cards": 18,
+          "estimated_duration": 2280,
+          "card_types": {
+            "concept_intro": 5,
+            "worked_example": 6,
+            "practice": 5,
+            "quick_check": 2
+          },
+          "content_types": {
+            "cards": true,
+            "lesson_guide": true,
+            "lesson_plan": false,
+            "worksheet": true,
+            "quiz": false,
+            "activity": false
+          }
+        },
+        "lesson_3": {
+          "lesson_name": "Advanced Factoring",
+          "total_cards": 15,
+          "estimated_duration": 1800,
+          "card_types": {
+            "concept_intro": 4,
+            "worked_example": 5,
+            "practice": 4,
+            "quick_check": 2
+          },
+          "content_types": {
+            "cards": true,
+            "lesson_guide": true,
+            "lesson_plan": false,
+            "worksheet": true,
+            "quiz": false,
+            "activity": false
+          }
+        },
+        "lesson_4": {
+          "lesson_name": "Functions, Domain, and Range",
+          "total_cards": 12,
+          "estimated_duration": 1440,
+          "card_types": {
+            "concept_intro": 4,
+            "worked_example": 3,
+            "practice": 3,
+            "quick_check": 2
+          },
+          "content_types": {
+            "cards": true,
+            "lesson_guide": true,
+            "lesson_plan": false,
+            "worksheet": true,
+            "quiz": false,
+            "activity": false
+          }
+        },
+        "lesson_5": {
+          "lesson_name": "Function Notation",
+          "total_cards": 15,
+          "estimated_duration": 1800,
+          "card_types": {
+            "concept_intro": 5,
+            "worked_example": 4,
+            "practice": 5,
+            "quick_check": 1
+          },
+          "content_types": {
+            "cards": true,
+            "lesson_guide": true,
+            "lesson_plan": false,
+            "worksheet": true,
+            "quiz": false,
+            "activity": false
+          }
+        },
+        "lesson_6": {
+          "lesson_name": "Vertex of a Parabola",
+          "total_cards": 15,
+          "estimated_duration": 1800,
+          "card_types": {
+            "concept_intro": 5,
+            "worked_example": 5,
+            "practice": 4,
+            "quick_check": 1
+          },
+          "content_types": {
+            "cards": true,
+            "lesson_guide": true,
+            "lesson_plan": false,
+            "worksheet": true,
+            "quiz": false,
+            "activity": false
+          }
+        },
+        "lesson_7": {
+          "lesson_name": "Maximum and Minimum Values",
+          "total_cards": 15,
+          "estimated_duration": 1800,
+          "card_types": {
+            "concept_intro": 4,
+            "worked_example": 5,
+            "practice": 4,
+            "quick_check": 2
+          },
+          "content_types": {
+            "cards": true,
+            "lesson_guide": true,
+            "lesson_plan": false,
+            "worksheet": true,
+            "quiz": false,
+            "activity": false
+          }
+        },
+        "lesson_8": {
+          "lesson_name": "Completing the Square",
+          "total_cards": 15,
+          "estimated_duration": 1800,
+          "card_types": {
+            "concept_intro": 4,
+            "worked_example": 6,
+            "practice": 4,
+            "quick_check": 1
+          },
+          "content_types": {
+            "cards": true,
+            "lesson_guide": true,
+            "lesson_plan": false,
+            "worksheet": true,
+            "quiz": false,
+            "activity": false
+          }
+        },
+        "lesson_9": {
+          "lesson_name": "Working with Radicals",
+          "total_cards": 15,
+          "estimated_duration": 1800,
+          "card_types": {
+            "concept_intro": 5,
+            "worked_example": 5,
+            "practice": 4,
+            "quick_check": 1
+          },
+          "content_types": {
+            "cards": true,
+            "lesson_guide": true,
+            "lesson_plan": false,
+            "worksheet": true,
+            "quiz": false,
+            "activity": false
+          }
+        },
+        "lesson_10": {
+          "lesson_name": "Solving Quadratics",
+          "total_cards": 15,
+          "estimated_duration": 1800,
+          "card_types": {
+            "concept_intro": 3,
+            "worked_example": 5,
+            "practice": 5,
+            "quick_check": 2
+          },
+          "content_types": {
+            "cards": true,
+            "lesson_guide": true,
+            "lesson_plan": false,
+            "worksheet": true,
+            "quiz": false,
+            "activity": false
+          }
+        },
+        "lesson_11": {
+          "lesson_name": "Discriminant",
+          "total_cards": 15,
+          "estimated_duration": 1800,
+          "card_types": {
+            "concept_intro": 4,
+            "worked_example": 4,
+            "practice": 5,
+            "quick_check": 2
+          },
+          "content_types": {
+            "cards": true,
+            "lesson_guide": true,
+            "lesson_plan": false,
+            "worksheet": true,
+            "quiz": false,
+            "activity": false
+          }
+        },
+        "lesson_12": {
+          "lesson_name": "Determining Quadratics from Roots",
+          "total_cards": 15,
+          "estimated_duration": 1800,
+          "card_types": {
+            "concept_intro": 4,
+            "worked_example": 5,
+            "practice": 5,
+            "quick_check": 1
+          },
+          "content_types": {
+            "cards": true,
+            "lesson_guide": true,
+            "lesson_plan": false,
+            "worksheet": true,
+            "quiz": false,
+            "activity": false
+          }
+        },
+        "lesson_13": {
+          "lesson_name": "Linear-Quadratic Systems",
+          "total_cards": 15,
+          "estimated_duration": 1800,
+          "card_types": {
+            "concept_intro": 4,
+            "worked_example": 5,
+            "practice": 5,
+            "quick_check": 1
+          },
+          "content_types": {
+            "cards": false,
+            "lesson_guide": true,
+            "lesson_plan": false,
+            "worksheet": true,
+            "quiz": false,
+            "activity": false
+          }
+        },
+        "lesson_14": {
+          "lesson_name": "Unit Review Part 1",
+          "total_cards": 10,
+          "estimated_duration": 1200,
+          "card_types": {
+            "concept_intro": 2,
+            "worked_example": 3,
+            "practice": 4,
+            "quick_check": 1
+          },
+          "content_types": {
+            "cards": false,
+            "lesson_guide": true,
+            "lesson_plan": false,
+            "worksheet": true,
+            "quiz": false,
+            "activity": false
+          }
+        },
+        "lesson_15": {
+          "lesson_name": "Unit Review Part 2",
+          "total_cards": 10,
+          "estimated_duration": 1200,
+          "card_types": {
+            "concept_intro": 2,
+            "worked_example": 3,
+            "practice": 3,
+            "quick_check": 2
+          },
+          "content_types": {
+            "cards": false,
+            "lesson_guide": true,
+            "lesson_plan": false,
+            "worksheet": true,
+            "quiz": false,
+            "activity": false
+          }
+        }
+      },
+      "unit_quizzes": {
+        "mid_unit_quiz": {
+          "name": "Unit 1 Mid-Unit Quiz",
+          "available": true,
+          "prerequisite_lessons": ["lesson_1", "lesson_2", "lesson_3", "lesson_4", "lesson_5", "lesson_6"]
+        },
+        "final_quiz": {
+          "name": "Unit 1 Final Quiz", 
+          "available": true,
+          "prerequisite_lessons": ["lesson_1", "lesson_2", "lesson_3", "lesson_4", "lesson_5", "lesson_6", "lesson_7", "lesson_8", "lesson_9", "lesson_10", "lesson_11", "lesson_12", "lesson_13", "lesson_14", "lesson_15"]
+        }
+      },
+      "total_lessons": 15
+    }
+  ]
+}

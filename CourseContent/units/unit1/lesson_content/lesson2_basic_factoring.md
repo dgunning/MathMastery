@@ -231,7 +231,7 @@ Step 4: Further factor if possible: (x - 3)(x + 2)(x - 2)
 ## Next Steps
 
 Once you understand these basic factoring techniques, you're ready to move on to:
-1. Advanced factoring methods (lesson 2)
+1. Advanced factoring methods (lesson 3)
 2. Solving quadratic equations using factoring
 3. Simplifying rational expressions using factoring
 

@@ -1,4 +1,4 @@
-# Lesson 2: Advanced Factoring Methods - Practice Worksheet
+# Lesson 3: Advanced Factoring Methods - Practice Worksheet
 
 ## Part A: Difference of Squares
 
@@ -81,3 +81,61 @@
     b) 4a² - 9b² - 4a + 9b
     c) 27x³ - 8y³ - 27x³z³ + 8y³z³
     d) x⁴ - y⁴ + x²y²
+
+## Part F: Factoring Trinomials with Leading Coefficient (ax² + bx + c, where a ≠ 1)
+
+13. Factor each expression:
+    a) 2x² + 7x + 3
+    b) 3x² - 10x + 8
+    c) 6x² + 5x - 6
+    d) 4x² - 12x + 9
+
+14. Factor each expression:
+    a) 5x² - 13x - 6
+    b) 8x² + 14x - 15
+    c) 9x² - 1
+    d) 12x² - 5x - 2
+
+## Part G: Substitution Method
+
+15. Factor using substitution:
+    a) x⁴ - 5x² + 4
+    b) (x - 3)² + 6(x - 3) + 8
+    c) 3(y + 1)² - 7(y + 1) + 2
+    d) x⁴ - 13x² + 36
+
+## Answer Key
+
+1. a) (x + 4)(x - 4)
+   b) (5y + 3)(5y - 3)
+   c) (7a + 8b)(7a - 8b)
+   d) (11 + 2z)(11 - 2z)
+
+4. a) (x + 3)(x² - 3x + 9)
+   b) (2y - 1)(4y² + 2y + 1)
+   c) (5a + 2)(25a² - 10a + 4)
+   d) (3 - b)(9 + 3b + b²)
+
+7. a) (x + 2)(y + 3)
+   b) (a + 3)(b - 5)
+   c) (2x + 5)(y - 3)
+   d) (3p - 7)(q + 4)
+
+9. a) (x² + 4)(x + 2)(x - 2)
+   b) 2x(x² + 8)
+   c) (3y + 5z)(3y - 5z)
+   d) 3a(a² + a - 4)
+
+11. a) (x³ + y³)(x³ - y³) = (x + y)(x² - xy + y²)(x - y)(x² + xy + y²)
+    b) (a³ + b³)(1 - c³) = (a + b)(a² - ab + b²)(1 - c)(1 + c + c²)
+    c) (x² + 9y²)(x + 3y)(x - 3y)
+    d) 4xy
+
+13. a) (2x + 1)(x + 3)
+    b) (3x - 4)(x - 2)
+    c) (3x - 2)(2x + 3)
+    d) (2x - 3)²
+
+15. a) Let u = x², then u² - 5u + 4 = (u - 1)(u - 4) = (x² - 1)(x² - 4) = (x + 1)(x - 1)(x + 2)(x - 2)
+    b) Let u = (x - 3), then u² + 6u + 8 = (u + 2)(u + 4) = (x - 3 + 2)(x - 3 + 4) = (x - 1)(x + 1)
+    c) Let u = (y + 1), then 3u² - 7u + 2 = (3u - 2)(u - 1) = (3(y + 1) - 2)((y + 1) - 1) = (3y + 1)(y)

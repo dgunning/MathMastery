@@ -100,35 +100,32 @@ Step 4: Substitute back: (2(x + 3) - 1)((x + 3) - 3)
 Step 5: Simplify: (2x + 6 - 1)(x + 3 - 3) = (2x + 5)(x)
 ```
 
-**Key point:** "Substitution turns complex-looking problems into ones we already know how to solve. The trick is identifying what to substitute."
-
 ### 4. Factoring Sum and Difference of Cubes
 
-**Formulas to know:**
-- Sum of cubes: a³ + b³ = (a + b)(a² - ab + b²)
+**Simple explanation:** "Just like there's a special pattern for the difference of squares, there are patterns for working with cubes."
+
+**Key formulas to memorize:**
 - Difference of cubes: a³ - b³ = (a - b)(a² + ab + b²)
+- Sum of cubes: a³ + b³ = (a + b)(a² - ab + b²)
 
-**Memory trick:** "For the second factor, the signs follow this pattern:
-- For sum of cubes (a³ + b³): a² - ab + b²  (always minus in the middle)
-- For difference of cubes (a³ - b³): a² + ab + b²  (always plus in the middle)"
-
-**Example walkthrough:**
+**Example 1: Difference of cubes**
 ```
-Factor: x³ + 27
+Factor: x³ - 27
 
-Step 1: Identify as sum of cubes: x³ + 3³
-Step 2: Apply the formula: (x + 3)(x² - 3x + 9)
+Step 1: Identify as x³ - 3³
+Step 2: Apply formula: (x - 3)(x² + 3x + 9)
 ```
 
+**Example 2: Sum of cubes**
 ```
-Factor: 8x³ - 125
+Factor: 8x³ + 125
 
-Step 1: Identify as difference of cubes: (2x)³ - 5³
-Step 2: Apply the formula: (2x - 5)((2x)² + 2x·5 + 5²)
-Step 3: Simplify: (2x - 5)(4x² + 10x + 25)
+Step 1: Identify as 8x³ + 5³ = (2x)³ + 5³
+Step 2: Apply formula: (2x + 5)((2x)² - (2x)(5) + 5²)
+Step 3: Simplify: (2x + 5)(4x² - 10x + 25)
 ```
 
-**Visual demonstration:** "Draw a cube with side length (a + b). The volume is (a + b)³, which equals a³ + 3a²b + 3ab² + b³. But we can also see it as (a + b)(a² + 2ab + b²), which helps us understand where the factoring formula comes from."
+**Visual aid:** "Draw a diagram showing the pattern of signs in the factors of a³ - b³ and a³ + b³"
 
 ### 5. Complex Polynomial Factoring Strategy
 
