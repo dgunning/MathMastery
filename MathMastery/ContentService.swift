@@ -16,18 +16,14 @@ class ContentService: ObservableObject {
     private let docsBaseURL: URL
     
     init() {
-        // For the app bundle, use the main bundle - look for cards in CourseContent directory first
-        if let bundleURL = Bundle.main.url(forResource: "CourseContent/cards", withExtension: nil) {
+        // For the app bundle, use the main bundle - look for CourseContent directory first
+        if let bundleURL = Bundle.main.url(forResource: "CourseContent", withExtension: nil) {
             self.contentBaseURL = bundleURL
-            print("DEBUG: Found cards in CourseContent bundle at: \(bundleURL)")
-        } else if let legacyBundleURL = Bundle.main.url(forResource: "cards", withExtension: nil) {
-            // Fallback to original cards directory for backward compatibility
-            self.contentBaseURL = legacyBundleURL
-            print("DEBUG: Found legacy cards bundle at: \(legacyBundleURL)")
+            print("DEBUG: Found CourseContent bundle at: \(bundleURL)")
         } else {
             // Fallback to Documents directory
             let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
-            self.contentBaseURL = URL(fileURLWithPath: documentsPath).appendingPathComponent("CourseContent/cards")
+            self.contentBaseURL = URL(fileURLWithPath: documentsPath).appendingPathComponent("CourseContent")
             print("DEBUG: Using fallback path: \(self.contentBaseURL)")
         }
         
@@ -260,7 +256,9 @@ class ContentService: ObservableObject {
         print("DEBUG: Loading lesson content for unit: \(unitId), lesson: \(lessonId)")
         print("DEBUG: Base URL: \(contentBaseURL)")
         
-        let lessonURL = contentBaseURL.appendingPathComponent(unitId).appendingPathComponent(lessonId)
+        // Convert unit_1 to unit1 format by removing underscore
+        let normalizedUnitId = unitId.replacingOccurrences(of: "_", with: "")
+        let lessonURL = contentBaseURL.appendingPathComponent("units").appendingPathComponent(normalizedUnitId).appendingPathComponent("cards").appendingPathComponent(lessonId)
         
         // Try multiple formats for sequence file to ensure consistency
         var sequenceURL = lessonURL.appendingPathComponent("\(lessonId)_sequence.json")
