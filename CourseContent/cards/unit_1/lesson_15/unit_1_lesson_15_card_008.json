@@ -3,11 +3,20 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_15",
   "type": "worked_example",
-  "title": "Practice Problem 4",
-  "duration": 180,
+  "title": "Complex System of Equations",
+  "duration": 240,
   "content": {
-    "problem": "[Practice problem 4 for Unit 1 Review and Practice Test (Part 2)]",
-    "solution": "[Step-by-step solution]",
-    "insight": "[Key insight from this example]"
+    "problem": "A coffee shop blends three types of coffee beans: Colombian, Ethiopian, and Sumatran. The shop wants to create a 20-pound blend that sells for $14 per pound. The Colombian beans cost $12 per pound, Ethiopian beans cost $15 per pound, and Sumatran beans cost $18 per pound.\n\nTo achieve the desired flavor profile, the amount of Ethiopian beans must be twice the amount of Sumatran beans. Find how many pounds of each type of bean should be used in the blend.",
+    "solution": "Step 1: Define variables.\nLet's define our variables:\n- x = pounds of Colombian beans\n- y = pounds of Ethiopian beans\n- z = pounds of Sumatran beans\n\nStep 2: Set up the system of equations.\n\nFrom the total weight requirement:\nx + y + z = 20   ... Equation 1\n\nFrom the flavor profile requirement (Ethiopian = twice Sumatran):\ny = 2z   ... Equation 2\n\nFrom the price requirement ($14/pound for a blend with component prices of $12, $15, and $18):\n12x + 15y + 18z = 14(20) = 280   ... Equation 3\n\nStep 3: Solve the system.\n\nSubstitute Equation 2 into Equation 1:\nx + 2z + z = 20\nx + 3z = 20\nx = 20 - 3z   ... Equation 4\n\nSubstitute Equations 2 and 4 into Equation 3:\n12(20 - 3z) + 15(2z) + 18z = 280\n240 - 36z + 30z + 18z = 280\n240 + 12z = 280\n12z = 40\nz = 10/3 ≈ 3.33 pounds of Sumatran beans\n\nNow use Equation 2 to find y:\ny = 2z = 2(10/3) = 20/3 ≈ 6.67 pounds of Ethiopian beans\n\nAnd use Equation 4 to find x:\nx = 20 - 3z = 20 - 3(10/3) = 20 - 10 = 10 pounds of Colombian beans\n\nStep 4: Verify the solution.\n\nCheck the total weight:\nx + y + z = 10 + 20/3 + 10/3 = 10 + 30/3 = 10 + 10 = 20 pounds ✓\n\nCheck the flavor profile requirement:\ny = 20/3 and z = 10/3, so y = 2z ✓\n\nCheck the price requirement:\n12x + 15y + 18z = 12(10) + 15(20/3) + 18(10/3)\n= 120 + 100 + 60 = 280 ✓\n\nThe coffee shop should use 10 pounds of Colombian beans, 6.67 pounds (20/3 pounds) of Ethiopian beans, and 3.33 pounds (10/3 pounds) of Sumatran beans.",
+    "insight": "This problem illustrates how systems of equations can model real-world scenarios with multiple constraints. We had three variables (the amounts of each type of bean) and three constraints (total weight, flavor profile, and price). When solving systems with three variables, it's often effective to use substitution to reduce to fewer variables, as we did by expressing x and y in terms of z. Always verify your solution by checking all original constraints, especially when working with word problems where the answer needs to make physical sense."
+  },
+  "interactive": {
+    "question": "If the coffee shop decides to create a 30-pound blend with the same price and flavor profile constraints, how many pounds of Colombian beans would be needed?",
+    "options": [
+      "15 pounds",
+      "18 pounds",
+      "12 pounds"
+    ],
+    "correct": 0
   }
 }

@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_15",
   "type": "concept_intro",
-  "title": "Review Topic 1",
+  "title": "Polynomial Operations Review",
   "duration": 180,
   "content": {
-    "explanation": "[Content for Unit 1 Review and Practice Test (Part 2) - Review Topic 1]",
-    "example": "[Example content]",
-    "key_point": "[Key point about this topic]"
+    "explanation": "Polynomial operations are fundamental to algebraic manipulation. Let's review the key operations:\n\n1. Addition and Subtraction: Combine like terms by adding/subtracting coefficients\n\n2. Multiplication:\n   - Monomial × Monomial: Multiply coefficients and add exponents of like bases\n   - Polynomial × Monomial: Distribute the monomial to each term\n   - Polynomial × Polynomial: Use the distributive property (FOIL for binomials)\n\n3. Division:\n   - Polynomial ÷ Monomial: Divide each term by the monomial\n   - Polynomial ÷ Polynomial: Use long division or synthetic division\n\n4. Special Products:\n   - (a + b)(a - b) = a² - b² (difference of squares)\n   - (a + b)² = a² + 2ab + b² (perfect square trinomial)\n   - (a - b)² = a² - 2ab + b² (perfect square trinomial)",
+    "example": "Example: Multiply (2x - 3)(x + 4)\n\nUsing FOIL (First, Outer, Inner, Last):\nFirst terms: 2x × x = 2x²\nOuter terms: 2x × 4 = 8x\nInner terms: -3 × x = -3x\nLast terms: -3 × 4 = -12\n\nCombining like terms: 2x² + 8x - 3x - 12 = 2x² + 5x - 12",
+    "key_point": "When working with polynomials, pay attention to the signs during operations. For subtraction, distribute the negative sign to all terms in the second polynomial. For multiplication, remember the sign rule: same signs yield positive, different signs yield negative."
   },
   "interactive": {
-    "question": "[Question about Unit 1 Review and Practice Test (Part 2) topic 1]",
+    "question": "What is the result of (3x² - 2x + 5) - (x² + 3x - 2)?",
     "options": [
-      "[Option 1]",
-      "[Option 2]",
-      "[Option 3]"
+      "2x² - 5x + 7",
+      "4x² - 5x + 3",
+      "2x² - 5x + 3"
     ],
     "correct": 0
   }

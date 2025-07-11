@@ -261,10 +261,24 @@ class ContentService: ObservableObject {
         print("DEBUG: Base URL: \(contentBaseURL)")
         
         let lessonURL = contentBaseURL.appendingPathComponent(unitId).appendingPathComponent(lessonId)
-        let sequenceURL = lessonURL.appendingPathComponent("\(lessonId)_sequence.json")
-        print("DEBUG: Looking for sequence file at: \(sequenceURL)")
+        
+        // Try multiple formats for sequence file to ensure consistency
+        var sequenceURL = lessonURL.appendingPathComponent("\(lessonId)_sequence.json")
+        print("DEBUG: Looking for sequence file at primary location: \(sequenceURL)")
+        
+        // If the primary format doesn't exist, try alternative formats
+        if !FileManager.default.fileExists(atPath: sequenceURL.path) {
+            // Try format: lesson_15_sequence.json (where lessonId is "lesson_15")
+            let alternativeURL = lessonURL.appendingPathComponent("lesson_\(lessonId.replacingOccurrences(of: "lesson_", with: ""))_sequence.json")
+            print("DEBUG: Primary sequence file not found. Trying alternative location: \(alternativeURL)")
+            
+            if FileManager.default.fileExists(atPath: alternativeURL.path) {
+                sequenceURL = alternativeURL
+            }
+        }
         
         // Load sequence
+        print("DEBUG: Loading sequence from: \(sequenceURL)")
         let sequenceData = try Data(contentsOf: sequenceURL)
         let sequence = try JSONDecoder().decode(LessonSequence.self, from: sequenceData)
         print("DEBUG: Loaded sequence with \(sequence.sequence.count) cards: \(sequence.sequence)")

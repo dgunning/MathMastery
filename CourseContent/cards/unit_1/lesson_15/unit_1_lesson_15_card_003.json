@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_15",
   "type": "concept_intro",
-  "title": "Review Topic 3",
+  "title": "Function Transformations and Graphing",
   "duration": 180,
   "content": {
-    "explanation": "[Content for Unit 1 Review and Practice Test (Part 2) - Review Topic 3]",
-    "example": "[Example content]",
-    "key_point": "[Key point about this topic]"
+    "explanation": "Understanding function transformations helps us graph functions efficiently. Starting from a basic function f(x), we can apply these transformations:\n\n1. Vertical shifts:\n   - f(x) + k shifts the graph up by k units\n   - f(x) - k shifts the graph down by k units\n\n2. Horizontal shifts:\n   - f(x - h) shifts the graph right by h units\n   - f(x + h) shifts the graph left by h units\n\n3. Reflections:\n   - -f(x) reflects the graph across the x-axis\n   - f(-x) reflects the graph across the y-axis\n\n4. Stretches and compressions:\n   - a·f(x) where |a| > 1 vertically stretches by factor a\n   - a·f(x) where 0 < |a| < 1 vertically compresses by factor a\n   - f(bx) where |b| > 1 horizontally compresses by factor 1/b\n   - f(bx) where 0 < |b| < 1 horizontally stretches by factor 1/b",
+    "example": "Example: Graph g(x) = -2(x - 3)² + 4 using transformations from f(x) = x²\n\nStart with f(x) = x²\n1. Replace x with (x - 3): f(x - 3) = (x - 3)² → shifts right by 3 units\n2. Multiply by -2: -2(x - 3)² → vertical stretch by factor of 2 and reflection across x-axis\n3. Add 4: -2(x - 3)² + 4 → shifts up by 4 units\n\nKey points of g(x):\n- Vertex at (3, 4)\n- Opens downward (negative coefficient)\n- Wider than f(x) = x² (coefficient magnitude > 1)\n- y-intercept at x = 0: g(0) = -2(0-3)² + 4 = -2(9) + 4 = -18 + 4 = -14",
+    "key_point": "When graphing transformed functions, apply the transformations in this order: 1) inner function changes (horizontal shifts/stretches), 2) outer function changes (vertical stretches/reflections), then 3) vertical shifts. Use key points (like y-intercept, vertex for quadratics, zeros) to sketch accurate graphs."
   },
   "interactive": {
-    "question": "[Question about Unit 1 Review and Practice Test (Part 2) topic 3]",
+    "question": "Which of the following describes the transformation from f(x) = x² to g(x) = 3(x + 2)² - 5?",
     "options": [
-      "[Option 1]",
-      "[Option 2]",
-      "[Option 3]"
+      "Shift left 2 units, stretch vertically by factor of 3, shift down 5 units",
+      "Shift right 2 units, stretch vertically by factor of 3, shift down 5 units",
+      "Shift left 2 units, stretch vertically by factor of 3, shift up 5 units"
     ],
     "correct": 0
   }

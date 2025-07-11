@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_15",
   "type": "concept_intro",
-  "title": "Review Topic 4",
+  "title": "Advanced Systems of Equations Applications",
   "duration": 180,
   "content": {
-    "explanation": "[Content for Unit 1 Review and Practice Test (Part 2) - Review Topic 4]",
-    "example": "[Example content]",
-    "key_point": "[Key point about this topic]"
+    "explanation": "Systems of equations can model complex real-world scenarios involving multiple variables and constraints:\n\n1. Mixture Problems:\n   - Combining solutions with different concentrations\n   - Blending products with different costs or values\n\n2. Rate-Time-Distance Problems:\n   - Vehicles traveling at different speeds\n   - Objects moving in different directions\n\n3. Investment Problems:\n   - Allocating money across different interest rates\n   - Determining amounts invested to achieve specific returns\n\n4. Chemical Reaction Problems:\n   - Balancing chemical equations\n   - Determining reagent quantities\n\n5. Business Applications:\n   - Supply and demand equilibrium\n   - Break-even analysis with multiple products",
+    "example": "Example: A chemist needs to create 10 liters of a 20% acid solution. She has available a 10% acid solution and a 50% acid solution. How much of each should she mix?\n\nLet x = liters of 10% solution\nLet y = liters of 50% solution\n\nFrom the total volume needed:\nx + y = 10 ... Equation 1\n\nFrom the acid content balance:\n0.10x + 0.50y = 0.20(10) = 2 ... Equation 2\n\nSolving Equation 1 for y: y = 10 - x\n\nSubstituting into Equation 2:\n0.10x + 0.50(10 - x) = 2\n0.10x + 5 - 0.50x = 2\n-0.40x + 5 = 2\n-0.40x = -3\nx = 7.5\n\nSubstituting back: y = 10 - 7.5 = 2.5\n\nThe chemist needs 7.5 liters of 10% solution and 2.5 liters of 50% solution.",
+    "key_point": "When solving application problems with systems of equations: 1) Clearly define what each variable represents, 2) Identify the constraints that create your equations, 3) Verify your solution satisfies all original conditions, and 4) Always include proper units in your final answer."
   },
   "interactive": {
-    "question": "[Question about Unit 1 Review and Practice Test (Part 2) topic 4]",
+    "question": "An investor places $8,000 into two accounts. One account earns 3% annual interest, while the other earns 5% annual interest. If the total annual interest earned is $340, how much was invested in the 5% account?",
     "options": [
-      "[Option 1]",
-      "[Option 2]",
-      "[Option 3]"
+      "$5,000",
+      "$3,000",
+      "$4,000"
     ],
     "correct": 0
   }

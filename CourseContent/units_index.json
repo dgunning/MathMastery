@@ -264,7 +264,7 @@
             "quick_check": 1
           },
           "content_types": {
-            "cards": false,
+            "cards": true,
             "lesson_guide": true,
             "lesson_plan": false,
             "worksheet": true,
@@ -283,7 +283,7 @@
             "quick_check": 2
           },
           "content_types": {
-            "cards": false,
+            "cards": true,
             "lesson_guide": true,
             "lesson_plan": false,
             "worksheet": true,

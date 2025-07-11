@@ -3,11 +3,20 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_15",
   "type": "worked_example",
-  "title": "Practice Problem 5",
-  "duration": 180,
+  "title": "Comprehensive Algebra: Function Composition and Optimization",
+  "duration": 240,
   "content": {
-    "problem": "[Practice problem 5 for Unit 1 Review and Practice Test (Part 2)]",
-    "solution": "[Step-by-step solution]",
-    "insight": "[Key insight from this example]"
+    "problem": "A small manufacturing company produces rectangular storage containers. The material for the base costs $8 per square foot, while the material for the sides costs $5 per square foot.\n\n1. If the container must have a volume of 48 cubic feet and have a square base (length = width), express the total cost C as a function of the base length x.\n\n2. Determine the dimensions that will minimize the cost of materials.\n\n3. If g(x) = x² - 4 and h(x) = 3x + 2, find (g ∘ h)(x) and (h ∘ g)(x).\n\n4. Using your answers from part 3, find (g ∘ h)(2) and determine if g(h(x)) = h(g(x)).",
+    "solution": "Part 1: Express the total cost C as a function of the base length x.\n\nLet's define our variables:\n- x = length and width of the square base (in feet)\n- h = height of the container (in feet)\n\nGiven information:\n- Volume = 48 cubic feet\n- Base material costs $8 per square foot\n- Side material costs $5 per square foot\n\nStep 1: Find the relationship between x and h using the volume constraint.\nVolume = x × x × h = x²h = 48\nSolving for h: h = 48/x²\n\nStep 2: Calculate the areas of each part.\n- Base area = x² square feet\n- Side areas = perimeter × height = 4x × h = 4x × (48/x²) = 192/x square feet\n\nStep 3: Express the total cost function.\nTotal cost = (Cost of base) + (Cost of sides)\nC(x) = 8(x²) + 5(192/x)\nC(x) = 8x² + 960/x\n\nPart 2: Determine the dimensions that minimize the cost.\n\nTo find the minimum cost, we need to find where the derivative of C(x) equals zero.\n\nStep 1: Find the derivative.\nC'(x) = 16x - 960/x²\n\nStep 2: Set the derivative equal to zero and solve.\n16x - 960/x² = 0\n16x = 960/x²\n16x³ = 960\nx³ = 60\nx = ∛60 ≈ 3.91 feet\n\nStep 3: Calculate the height using our volume formula.\nh = 48/x² = 48/(3.91)² ≈ 3.14 feet\n\nThe dimensions that minimize cost are approximately:\n- Base: 3.91 ft × 3.91 ft\n- Height: 3.14 ft\n\nPart 3: Find the function compositions.\n\nGiven:\n- g(x) = x² - 4\n- h(x) = 3x + 2\n\nTo find (g ∘ h)(x), we substitute h(x) for x in g(x):\n(g ∘ h)(x) = g(h(x)) = g(3x + 2) = (3x + 2)² - 4\n= 9x² + 12x + 4 - 4\n= 9x² + 12x\n\nTo find (h ∘ g)(x), we substitute g(x) for x in h(x):\n(h ∘ g)(x) = h(g(x)) = h(x² - 4) = 3(x² - 4) + 2\n= 3x² - 12 + 2\n= 3x² - 10\n\nPart 4: Evaluate (g ∘ h)(2) and check if g(h(x)) = h(g(x)).\n\nStep 1: Calculate (g ∘ h)(2).\n(g ∘ h)(2) = 9(2)² + 12(2) = 9(4) + 24 = 36 + 24 = 60\n\nStep 2: Determine if g(h(x)) = h(g(x)).\nWe found that:\n- g(h(x)) = 9x² + 12x\n- h(g(x)) = 3x² - 10\n\nSince these expressions are not equal, g(h(x)) ≠ h(g(x)).",
+    "insight": "This comprehensive problem integrates several key algebraic concepts. In the manufacturing scenario, we see how optimization problems often involve expressing one variable in terms of another using constraints (like volume), then finding a critical point by taking derivatives. For function composition, the order matters significantly - as shown by the fact that g(h(x)) ≠ h(g(x)). This non-commutativity of function composition is a fundamental property that distinguishes it from simple arithmetic operations like addition and multiplication."
+  },
+  "interactive": {
+    "question": "In the container problem, approximately how much money would the company save per container by using the optimal dimensions compared to using dimensions of x = 4 and h = 3?",
+    "options": [
+      "$0.90",
+      "$2.17",
+      "$3.45"
+    ],
+    "correct": 1
   }
 }

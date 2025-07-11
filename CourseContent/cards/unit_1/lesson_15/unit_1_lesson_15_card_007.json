@@ -3,11 +3,20 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_15",
   "type": "worked_example",
-  "title": "Practice Problem 3",
-  "duration": 180,
+  "title": "Function Transformations and Analysis",
+  "duration": 240,
   "content": {
-    "problem": "[Practice problem 3 for Unit 1 Review and Practice Test (Part 2)]",
-    "solution": "[Step-by-step solution]",
-    "insight": "[Key insight from this example]"
+    "problem": "Given the function f(x) = x²:\n\n1. Describe the transformations needed to obtain g(x) = -3(x + 1)² - 4\n2. Find the coordinates of the vertex of g(x)\n3. Find the y-intercept of g(x)\n4. Determine the range of g(x)\n5. Where is g(x) increasing? Where is it decreasing?",
+    "solution": "Step 1: Describe the transformations from f(x) = x² to g(x) = -3(x + 1)² - 4\n\nLet's analyze each part of g(x) = -3(x + 1)² - 4:\n\na) (x + 1): Substituting (x + 1) for x shifts the graph left by 1 unit\n   f(x + 1) = (x + 1)²\n\nb) -3(x + 1)²: Multiplying by -3 vertically stretches the graph by a factor of 3 and reflects it across the x-axis\n   -3(x + 1)²\n\nc) -3(x + 1)² - 4: Subtracting 4 shifts the graph down by 4 units\n   -3(x + 1)² - 4\n\nIn summary, to transform f(x) = x² into g(x) = -3(x + 1)² - 4:\n1. Shift left by 1 unit\n2. Stretch vertically by a factor of 3 and reflect across x-axis\n3. Shift down by 4 units\n\nStep 2: Find the vertex of g(x)\n\nFor any function in the form g(x) = a(x - h)² + k, the vertex is at (h, k).\nRewriting g(x) = -3(x + 1)² - 4 in the form a(x - h)² + k:\ng(x) = -3(x - (-1))² - 4\n\nSo h = -1 and k = -4\nThe vertex is at (-1, -4)\n\nStep 3: Find the y-intercept of g(x)\n\nThe y-intercept occurs when x = 0:\ng(0) = -3(0 + 1)² - 4\ng(0) = -3(1)² - 4\ng(0) = -3(1) - 4\ng(0) = -3 - 4\ng(0) = -7\n\nThe y-intercept is at (0, -7)\n\nStep 4: Determine the range of g(x)\n\nSince g(x) = -3(x + 1)² - 4 has a negative leading coefficient (-3), the parabola opens downward.\nThe highest point of the parabola is at its vertex (-1, -4).\nTherefore, the range of g(x) is: (-∞, -4]\n\nStep 5: Determine where g(x) is increasing and decreasing\n\nSince the parabola opens downward and has vertex at x = -1:\n- g(x) is increasing when x < -1\n- g(x) is decreasing when x > -1",
+    "insight": "This problem demonstrates how to analyze transformed quadratic functions systematically. Start by identifying the sequence of transformations from the standard form, then use these insights to determine key features like the vertex, intercepts, and behavior. The vertex form a(x-h)² + k directly reveals the vertex at (h,k), which serves as the key reference point for analyzing range and intervals of increase/decrease. For any quadratic function, the parabola opens upward if a > 0 and downward if a < 0, which immediately tells us about its overall behavior and range."
+  },
+  "interactive": {
+    "question": "Which of the following best describes the transformation from f(x) = x² to h(x) = 2(x - 4)² + 5?",
+    "options": [
+      "Shift right 4 units, stretch vertically by factor of 2, shift up 5 units",
+      "Shift left 4 units, stretch vertically by factor of 2, shift up 5 units",
+      "Shift right 4 units, compress vertically by factor of 2, shift up 5 units"
+    ],
+    "correct": 0
   }
 }

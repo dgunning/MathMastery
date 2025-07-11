@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_15",
   "type": "concept_intro",
-  "title": "Review Topic 2",
+  "title": "Applications of Quadratic Equations",
   "duration": 180,
   "content": {
-    "explanation": "[Content for Unit 1 Review and Practice Test (Part 2) - Review Topic 2]",
-    "example": "[Example content]",
-    "key_point": "[Key point about this topic]"
+    "explanation": "Quadratic equations model many real-world scenarios. Here are common applications:\n\n1. Motion Problems:\n   - Free-fall motion: h(t) = -4.9t² + v₀t + h₀\n   - Projectile motion: Path follows a parabolic trajectory\n\n2. Area and Geometry Problems:\n   - Finding dimensions given area and perimeter\n   - Optimizing area for fixed perimeter (maximization problems)\n\n3. Revenue and Profit Modeling:\n   - Revenue = Price × Quantity, where price often relates inversely to quantity\n   - Profit = Revenue - Cost, often forming a quadratic expression\n\n4. Break-even Analysis:\n   - Finding intersection points of cost and revenue functions\n   - Determining profitable ranges of production",
+    "example": "Example: A rectangular garden with area 60 square meters is to be enclosed by a fence. If the available fencing is 32 meters, what dimensions maximize the garden's area?\n\nLet x = width and y = length.\nPerimeter: 2x + 2y = 32 → y = 16 - x\nArea: A = xy = x(16 - x) = 16x - x²\n\nTo find the maximum, set the derivative to zero:\ndA/dx = 16 - 2x = 0\nx = 8\ny = 16 - 8 = 8\n\nThe square dimensions 8m × 8m maximize the garden area.",
+    "key_point": "When solving application problems involving quadratics, identify the quantities that vary, express constraints as equations, and then use optimization techniques or solve for specific values. Always check that your answer makes sense in the real-world context (e.g., negative lengths aren't physically meaningful)."
   },
   "interactive": {
-    "question": "[Question about Unit 1 Review and Practice Test (Part 2) topic 2]",
+    "question": "A ball is thrown upward from a 20-meter building with an initial velocity of 15 m/s. Its height h(t) in meters after t seconds is given by h(t) = -4.9t² + 15t + 20. When does the ball hit the ground?",
     "options": [
-      "[Option 1]",
-      "[Option 2]",
-      "[Option 3]"
+      "4.18 seconds",
+      "3.06 seconds",
+      "5.43 seconds"
     ],
     "correct": 0
   }

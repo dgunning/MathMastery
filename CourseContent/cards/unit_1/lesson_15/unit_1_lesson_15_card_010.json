@@ -3,11 +3,20 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_15",
   "type": "worked_example",
-  "title": "Practice Problem 6",
-  "duration": 180,
+  "title": "Rational Functions and Work Rate Problems",
+  "duration": 240,
   "content": {
-    "problem": "[Practice problem 6 for Unit 1 Review and Practice Test (Part 2)]",
-    "solution": "[Step-by-step solution]",
-    "insight": "[Key insight from this example]"
+    "problem": "A landscape company is planning the irrigation system for a large community garden. Two water pumps are available for this project.\n\n1. Pump A can fill the entire irrigation system in 5 hours working alone. Pump B can fill the same system in 8 hours working alone. How long would it take to fill the system if both pumps work together?\n\n2. The rate at which water flows through a pipe is modeled by the function r(d) = k/d^2, where d is the pipe's diameter in inches, r is the flow rate in gallons per minute, and k is a constant. If the flow rate is 15 gallons per minute when the diameter is 2 inches, find:\n   a) The value of k\n   b) The flow rate when the diameter is 3 inches\n   c) The diameter needed for a flow rate of 60 gallons per minute\n\n3. Simplify the rational expression: \n   \n   $$\\frac{x^2 - 9}{x^2 - x - 6} \\div \\frac{x + 3}{x - 3}$$",
+    "solution": "Part 1: Work Rate Problem\n\nStep 1: Determine the work rates.\n- Pump A's rate: 1/5 of the job per hour\n- Pump B's rate: 1/8 of the job per hour\n\nStep 2: Calculate the combined rate.\nCombined rate = Rate of Pump A + Rate of Pump B\n               = 1/5 + 1/8\n               = (8 + 5)/40\n               = 13/40 of the job per hour\n\nStep 3: Find the time to complete the job.\nTime = 1 / Rate = 1 / (13/40) = 40/13 ≈ 3.08 hours\n\nBoth pumps working together would fill the irrigation system in about 3 hours and 5 minutes.\n\nPart 2: Flow Rate Function\n\nStep 1: Find the constant k.\nGiven r(2) = 15 and r(d) = k/d^2\n15 = k/2^2\n15 = k/4\nk = 60\n\nThe function is r(d) = 60/d^2\n\nStep 2: Calculate the flow rate when d = 3 inches.\nr(3) = 60/3^2 = 60/9 = 6.67 gallons per minute\n\nStep 3: Find the diameter needed for a flow rate of 60 gallons per minute.\n60 = 60/d^2\nd^2 = 60/60 = 1\nd = 1 inch\n\nPart 3: Simplify the Rational Expression\n\nStep 1: Factor the numerators and denominators.\n$$\\frac{x^2 - 9}{x^2 - x - 6} \\div \\frac{x + 3}{x - 3}$$\n\n$$\\frac{(x + 3)(x - 3)}{(x + 2)(x - 3)} \\div \\frac{x + 3}{x - 3}$$\n\nStep 2: For division of rational expressions, multiply by the reciprocal.\n$$\\frac{(x + 3)(x - 3)}{(x + 2)(x - 3)} \\times \\frac{x - 3}{x + 3}$$\n\nStep 3: Cancel common factors.\n$$\\frac{(x + 3)(x - 3)}{(x + 2)(x - 3)} \\times \\frac{x - 3}{x + 3} = \\frac{(x - 3)^2}{(x + 2)(x - 3)(x + 3)}$$\n\n$$\\frac{(x - 3)}{(x + 2)(x + 3)}$$\n\nThe simplified expression is $$\\frac{x - 3}{(x + 2)(x + 3)}$$, valid for x ≠ -2, x ≠ -3, and x ≠ 3.",
+    "insight": "This problem highlights how rational functions and expressions appear in everyday applications. Work rate problems represent a classic application where rates are combined additively, but the resulting time is inversely proportional to the combined rate. In fluid dynamics, the inverse square relationship between pipe diameter and flow rate shows how small changes in dimensions can dramatically affect performance. When simplifying rational expressions, factoring and identifying common terms is essential - notice how carefully tracking restrictions (values where expressions are undefined) prevents mathematical errors."
+  },
+  "interactive": {
+    "question": "If a third pump C can fill the irrigation system in 10 hours working alone, how long would it take for all three pumps (A, B, and C) working together to fill the system?",
+    "options": [
+      "2.11 hours",
+      "1.97 hours",
+      "2.35 hours"
+    ],
+    "correct": 0
   }
 }

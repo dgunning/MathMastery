@@ -3,11 +3,20 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_15",
   "type": "worked_example",
-  "title": "Practice Problem 2",
-  "duration": 180,
+  "title": "Optimizing Revenue with Quadratic Functions",
+  "duration": 240,
   "content": {
-    "problem": "[Practice problem 2 for Unit 1 Review and Practice Test (Part 2)]",
-    "solution": "[Step-by-step solution]",
-    "insight": "[Key insight from this example]"
+    "problem": "A theater has 400 seats and charges $12 per ticket. Historical data shows that for each $1 increase in price, 20 fewer people attend. \n\n1. Write a quadratic function for the revenue in terms of the price increase x.\n2. At what price increase will revenue be maximized?\n3. What is the maximum revenue?\n4. What is the actual ticket price that yields maximum revenue?",
+    "solution": "Step 1: Write a quadratic function for revenue.\n\nLet x = price increase in dollars.\n- Initial price: $12 per ticket\n- New price: $(12 + x) per ticket\n- Initial attendance: 400 people\n- New attendance: (400 - 20x) people\n\nRevenue = Price × Attendance\nR(x) = (12 + x)(400 - 20x)\nR(x) = (12 + x)(400 - 20x)\nR(x) = 4800 - 240x + 400x - 20x²\nR(x) = 4800 + 160x - 20x²\nR(x) = -20x² + 160x + 4800\n\nStep 2: Find the price increase that maximizes revenue.\n\nFor a quadratic function in the form ax² + bx + c, the x-coordinate of the vertex is x = -b/(2a).\n\nx = -160/(-2 × 20) = -160/(-40) = 160/40 = 4\n\nSo revenue is maximized when the price increase is $4.\n\nStep 3: Calculate the maximum revenue.\n\nR(4) = -20(4)² + 160(4) + 4800\nR(4) = -20(16) + 640 + 4800\nR(4) = -320 + 640 + 4800\nR(4) = $5120\n\nStep 4: Determine the actual ticket price that yields maximum revenue.\n\nActual ticket price = Initial price + Optimal price increase\nActual ticket price = $12 + $4 = $16\n\nAt this price, the attendance will be:\nAttendance = 400 - 20(4) = 400 - 80 = 320 people",
+    "insight": "This problem demonstrates how quadratic functions can model revenue in pricing scenarios. The revenue function is quadratic because it involves the product of two linear expressions (price and quantity). The vertex of this parabola represents the optimal price point that maximizes revenue. Notice that the maximum revenue occurs at a higher price point ($16) than the original ($12), even though fewer people attend (320 vs 400). This illustrates the economic concept of price elasticity of demand."
+  },
+  "interactive": {
+    "question": "If the theater increases the ticket price by $6 instead of the optimal $4, approximately what percentage of the maximum possible revenue would they earn?",
+    "options": [
+      "96%",
+      "80%",
+      "88%"
+    ],
+    "correct": 0
   }
 }
