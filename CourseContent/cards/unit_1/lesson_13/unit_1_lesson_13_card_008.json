@@ -1,0 +1,37 @@
+{
+  "id": "unit_1_lesson_13_card_008",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_13",
+  "type": "worked_example",
+  "title": "Worked Example: Systems with Different Numbers of Solutions",
+  "duration": 120,
+  "content": {
+    "problem": "For each of the following linear-quadratic systems, determine the number of solutions and find them if they exist:\n\nSystem 1:\ny = 2x + 3\ny = x\u00b2 - x + 2\n\nSystem 2:\ny = 4x - 3\ny = x\u00b2 + 2x + 1\n\nSystem 3:\ny = -2x + 5\ny = x\u00b2 - 4x + 9",
+    "steps": [
+      "Step 1: For System 1, we'll use the elimination method by setting the two expressions for y equal to each other.\n2x + 3 = x\u00b2 - x + 2",
+      "Step 2: Rearrange into standard form.\n0 = x\u00b2 - 3x - 1",
+      "Step 3: Calculate the discriminant to determine the number of solutions.\nDiscriminant = b\u00b2 - 4ac = (-3)\u00b2 - 4(1)(-1) = 9 + 4 = 13",
+      "Step 4: Since the discriminant is positive, System 1 has two real solutions. Let's find them using the quadratic formula.\nx = (3 \u00b1 \u221a13)/2\nx\u2081 = (3 + \u221a13)/2 \u2248 3.30\nx\u2082 = (3 - \u221a13)/2 \u2248 -0.30",
+      "Step 5: Find the corresponding y-values.\nFor x\u2081 = (3 + \u221a13)/2: y\u2081 = 2((3 + \u221a13)/2) + 3 = 3 + \u221a13 + 3 = 6 + \u221a13 \u2248 9.61\nFor x\u2082 = (3 - \u221a13)/2: y\u2082 = 2((3 - \u221a13)/2) + 3 = 3 - \u221a13 + 3 = 6 - \u221a13 \u2248 2.39",
+      "Step 6: Verify that these points satisfy both equations.\nFor ((3 + \u221a13)/2, 6 + \u221a13):\n- Linear equation: y = 2((3 + \u221a13)/2) + 3 = 6 + \u221a13 \u2713\n- Quadratic equation: y = ((3 + \u221a13)/2)\u00b2 - ((3 + \u221a13)/2) + 2 = (9 + 6\u221a13 + 13)/4 - (3 + \u221a13)/2 + 2 = (22 + 6\u221a13)/4 - (6 + 2\u221a13)/4 + 2 = (16 + 4\u221a13)/4 + 2 = 4 + \u221a13 + 2 = 6 + \u221a13 \u2713\nFor ((3 - \u221a13)/2, 6 - \u221a13):\n- Linear equation: y = 2((3 - \u221a13)/2) + 3 = 6 - \u221a13 \u2713\n- Quadratic equation: y = ((3 - \u221a13)/2)\u00b2 - ((3 - \u221a13)/2) + 2 = (9 - 6\u221a13 + 13)/4 - (3 - \u221a13)/2 + 2 = (22 - 6\u221a13)/4 - (6 - 2\u221a13)/4 + 2 = (16 - 4\u221a13)/4 + 2 = 4 - \u221a13 + 2 = 6 - \u221a13 \u2713\nSystem 1 has two solutions: ((3 + \u221a13)/2, 6 + \u221a13) and ((3 - \u221a13)/2, 6 - \u221a13).",
+      "Step 7: For System 2, we'll use the elimination method.\n4x - 3 = x\u00b2 + 2x + 1",
+      "Step 8: Rearrange into standard form.\n0 = x\u00b2 - 2x + 4",
+      "Step 9: Calculate the discriminant.\nDiscriminant = b\u00b2 - 4ac = (-2)\u00b2 - 4(1)(4) = 4 - 16 = -12",
+      "Step 10: Since the discriminant is negative, System 2 has no real solutions. This means the line and parabola don't intersect in the real coordinate plane.",
+      "Step 11: For System 3, we'll use the elimination method.\n-2x + 5 = x\u00b2 - 4x + 9",
+      "Step 12: Rearrange into standard form.\n0 = x\u00b2 - 2x + 4",
+      "Step 13: Calculate the discriminant.\nDiscriminant = b\u00b2 - 4ac = (-2)\u00b2 - 4(1)(4) = 4 - 16 = -12",
+      "Step 14: Since the discriminant is negative, System 3 has no real solutions. This means the line and parabola don't intersect in the real coordinate plane."
+    ],
+    "explanation": "These examples demonstrate the three possible cases for linear-quadratic systems:\n\n1. Two Real Solutions (System 1)\n   - The discriminant of the resulting quadratic equation is positive (b\u00b2 - 4ac > 0)\n   - Geometrically, the line intersects the parabola at two distinct points\n   - The solutions may be irrational numbers involving square roots\n\n2. No Real Solutions (Systems 2 and 3)\n   - The discriminant of the resulting quadratic equation is negative (b\u00b2 - 4ac < 0)\n   - Geometrically, the line doesn't intersect the parabola at any point\n   - The algebraic solutions are complex numbers, which don't represent points in the real coordinate plane\n\nThe third case (not shown in these examples) is when the system has exactly one solution, which occurs when the discriminant is zero (b\u00b2 - 4ac = 0). In this case, the line is tangent to the parabola.\n\nThe discriminant test provides a quick way to determine the number of solutions without having to solve the entire system. This is particularly useful when you only need to know how many solutions exist rather than finding the exact solutions."
+  },
+  "interactive": {
+    "question": "A linear-quadratic system leads to the quadratic equation 4x\u00b2 + 4x + 1 = 0. How many solutions does the system have, and what are they?",
+    "options": [
+      "Two solutions: x = -1/2 and x = -1/2",
+      "One solution: x = -1/2",
+      "No real solutions"
+    ],
+    "correct": 1
+  }
+}

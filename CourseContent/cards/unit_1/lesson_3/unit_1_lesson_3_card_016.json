@@ -1,17 +1,17 @@
 {
-  "id": "unit_1_lesson_2_card_016",
+  "id": "unit_1_lesson_3_card_016",
   "unit_id": "unit_1",
-  "lesson_id": "lesson_2",
+  "lesson_id": "lesson_3",
   "type": "worked_example",
   "title": "Complex Factoring Strategy",
   "duration": 240,
   "content": {
-    "problem": "Factor completely: 2x⁵ - 32x³",
+    "problem": "Factor completely: 2x\u2075 - 32x\u00b3",
     "steps": [
-      "Step 1: Look for common factors first\n2x⁵ - 32x³ = 2x³(x² - 16)",
-      "Step 2: Check if remaining factor can be factored\nx² - 16 is a difference of squares",
-      "Step 3: Factor the difference of squares\nx² - 16 = (x + 4)(x - 4)",
-      "Step 4: Write the complete factorization\n2x⁵ - 32x³ = 2x³(x + 4)(x - 4)"
+      "Step 1: Look for common factors first\n2x\u2075 - 32x\u00b3 = 2x\u00b3(x\u00b2 - 16)",
+      "Step 2: Check if remaining factor can be factored\nx\u00b2 - 16 is a difference of squares",
+      "Step 3: Factor the difference of squares\nx\u00b2 - 16 = (x + 4)(x - 4)",
+      "Step 4: Write the complete factorization\n2x\u2075 - 32x\u00b3 = 2x\u00b3(x + 4)(x - 4)"
     ],
     "explanation": "Always factor out common terms first, then look for special patterns in what remains."
   },

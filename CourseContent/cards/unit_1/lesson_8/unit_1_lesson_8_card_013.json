@@ -2,26 +2,20 @@
   "id": "unit_1_lesson_8_card_013",
   "unit_id": "unit_1",
   "lesson_id": "lesson_8",
-  "type": "worked_example",
-  "title": "Real-World Applications of Radicals",
+  "type": "concept_intro",
+  "title": "Common Errors in Completing the Square",
   "duration": 120,
   "content": {
-    "problem": "Solve the following real-world problems involving radicals:\n\n1. The time (in seconds) it takes an object to fall from a height of h meters is given by t = √(2h/9.8). How long will it take an object to fall from the top of a 45-meter building?\n\n2. The period T (in seconds) of a simple pendulum with length L (in meters) is given by T = 2π√(L/9.8). Find the length of a pendulum with a period of 2 seconds.",
-    "steps": [
-      "Step 1: For the falling object problem, substitute h = 45 meters into the formula t = √(2h/9.8).\nt = √(2 × 45/9.8)\nt = √(90/9.8)\nt = √9.18\nt ≈ 3.03 seconds",
-      "Step 2: For the pendulum problem, we need to solve for L in the formula T = 2π√(L/9.8).\nGiven T = 2 seconds, we have:\n2 = 2π√(L/9.8)",
-      "Step 3: Divide both sides by 2π.\n2/(2π) = √(L/9.8)\n1/π = √(L/9.8)",
-      "Step 4: Square both sides.\n(1/π)² = L/9.8\n1/π² = L/9.8",
-      "Step 5: Multiply both sides by 9.8.\n9.8/π² = L\nL ≈ 0.994 meters or about 99.4 centimeters"
-    ],
-    "explanation": "Radicals appear in many scientific and real-world formulas, particularly those involving:\n\n1. Physics: Free fall, pendulum motion, wave propagation\n2. Geometry: Pythagorean theorem, distance formula, area and volume calculations\n3. Statistics: Standard deviation, correlation coefficients\n4. Engineering: Structural stability, electrical circuits\n5. Finance: Compound interest formulas, option pricing models\n\nWhen solving real-world problems with radicals:\n1. Identify the appropriate formula\n2. Substitute the known values\n3. Solve for the unknown variable\n4. Check that your answer makes sense in the context of the problem\n5. Express your answer with appropriate units"
+    "explanation": "When completing the square, students often make several common errors:\n\n1. Forgetting to take half of the coefficient of x before squaring\n2. Adding the square term but forgetting to subtract it as well\n3. Not factoring out the leading coefficient when a \u2260 1\n4. Errors in simplifying the constant terms\n5. Forgetting to apply the same operations to both sides of an equation\n\nBeing aware of these common mistakes can help you avoid them and successfully complete the square.",
+    "example": "Incorrect: x\u00b2 + 6x becomes (x + 6)\u00b2 - 36\nCorrect: x\u00b2 + 6x becomes (x + 3)\u00b2 - 9 (half of 6 is 3, and 3\u00b2 = 9)\n\nIncorrect: 2x\u00b2 - 12x + 5 becomes 2(x - 6)\u00b2 + 5\nCorrect: 2x\u00b2 - 12x + 5 becomes 2(x - 3)\u00b2 - 13 (factor out 2, then half of -6 is -3)",
+    "key_point": "Always double-check your work when completing the square. Verify that your answer is correct by expanding the vertex form back to standard form and confirming that it matches the original expression."
   },
   "interactive": {
-    "question": "The distance (in kilometers) a person can see to the horizon from a height h meters above sea level is approximately d = 3.57√h. From what height can a person see 25 kilometers to the horizon?",
+    "question": "Which of the following is the correct result of completing the square for 3x\u00b2 - 18x + 7?",
     "options": [
-      "49 meters",
-      "89 meters",
-      "625 meters"
+      "3(x - 3)\u00b2 - 20",
+      "3(x - 6)\u00b2 + 7",
+      "(3x - 9)\u00b2 + 7"
     ],
     "correct": 0
   }

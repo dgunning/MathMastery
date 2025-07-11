@@ -172,7 +172,7 @@ After covering the material, ask these questions:
 4. "If f(x) = 3x - 4, what is f(2)? What about f(-1)?"
 5. "Give me an example of a function from everyday life."
 
-## Tips for Teaching Success
+## Tips for Success
 
 1. **Connect to interests:** Use examples from gaming, sports, social media, or whatever you enjoy.
 2. **Be patient:** Functions are abstract. It might take several attempts for the concept to click.

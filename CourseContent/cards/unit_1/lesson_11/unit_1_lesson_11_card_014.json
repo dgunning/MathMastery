@@ -3,36 +3,33 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_11",
   "type": "worked_example",
-  "title": "Finding a Quadratic Equation with Specific Constraints",
+  "title": "Solving Quadratic Equations with the Discriminant",
   "duration": 120,
   "content": {
-    "problem": "Find the quadratic equation ax² + bx + c = 0 that satisfies the given constraints:\n\n1. The equation has integer coefficients with a = 1, and roots 2 + √3 and 2 - √3\n2. The equation has rational coefficients, one root is 4, and the graph passes through the point (2, -8)\n3. The equation has integer coefficients, the sum of its roots is 5, and the product of its roots is 6",
+    "problem": "Use the discriminant to determine the most efficient method for solving each of the following quadratic equations, and then solve them:\n\n1. 2x\u00b2 - 7x + 3 = 0\n\n2. 9x\u00b2 - 12x + 4 = 0\n\n3. 3x\u00b2 - 2x + 5 = 0",
     "steps": [
-      "Step 1: For problem 1, we have roots 2 + √3 and 2 - √3, with a = 1.",
-      "Step 2: Using the factored form: (x - (2 + √3))(x - (2 - √3)) = 0.",
-      "Step 3: Expand: (x - 2 - √3)(x - 2 + √3) = (x - 2)² - (√3)² = (x - 2)² - 3 = x² - 4x + 4 - 3 = x² - 4x + 1.",
-      "Step 4: Therefore, the quadratic equation is x² - 4x + 1 = 0.",
-      "Step 5: For problem 2, one root is 4, so the equation can be written as (x - 4)(x - r) = 0, where r is the other root.",
-      "Step 6: Expand: x² - rx - 4x + 4r = x² - (r + 4)x + 4r.",
-      "Step 7: We know the graph passes through (2, -8), so f(2) = -8.",
-      "Step 8: Using the factored form: f(2) = (2 - 4)(2 - r) = -2(2 - r) = -8.",
-      "Step 9: Solving for r: -2(2 - r) = -8, so 2 - r = 4, which gives r = -2.",
-      "Step 10: Therefore, the quadratic equation is (x - 4)(x - (-2)) = 0, which expands to x² - 2x - 8 = 0.",
-      "Step 11: For problem 3, we know the sum of roots is 5 and the product is 6, with integer coefficients.",
-      "Step 12: Using Vieta's formulas with a = 1: r + s = 5 = -b/1, so b = -5.",
-      "Step 13: Also, r × s = 6 = c/1, so c = 6.",
-      "Step 14: Therefore, the quadratic equation is x² - 5x + 6 = 0.",
-      "Step 15: We can verify by factoring: x² - 5x + 6 = (x - 2)(x - 3) = 0, which has roots 2 and 3.",
-      "Step 16: Indeed, 2 + 3 = 5 and 2 × 3 = 6, confirming our solution."
+      "Step 1: For equation 1, 2x\u00b2 - 7x + 3 = 0, calculate the discriminant:\n\u0394 = (-7)\u00b2 - 4(2)(3) = 49 - 24 = 25",
+      "Step 2: Since \u0394 = 25 > 0 and is a perfect square (5\u00b2), the equation has two rational roots. Factoring is likely the most efficient method.",
+      "Step 3: To factor 2x\u00b2 - 7x + 3, we need to find two numbers p and q such that p + q = -7 and pq = 2 \u00d7 3 = 6.\nThe numbers -6 and -1 satisfy these conditions: -6 + (-1) = -7 and (-6)(-1) = 6.",
+      "Step 4: Therefore, 2x\u00b2 - 7x + 3 = (2x - 6)(x - 1/2) = 2(x - 3)(x - 1/2).",
+      "Step 5: Setting each factor equal to zero: x - 3 = 0 or x - 1/2 = 0.\nSo x = 3 or x = 1/2 are the solutions.",
+      "Step 6: For equation 2, 9x\u00b2 - 12x + 4 = 0, calculate the discriminant:\n\u0394 = (-12)\u00b2 - 4(9)(4) = 144 - 144 = 0",
+      "Step 7: Since \u0394 = 0, the equation has one repeated root. The solution is x = -b/(2a) = -(-12)/(2(9)) = 12/18 = 2/3.",
+      "Step 8: We can verify this by rewriting the equation as a perfect square:\n9x\u00b2 - 12x + 4 = 9(x\u00b2 - 4x/3 + 4/9) = 9(x - 2/3)\u00b2",
+      "Step 9: Therefore, the solution is x = 2/3 (with multiplicity 2).",
+      "Step 10: For equation 3, 3x\u00b2 - 2x + 5 = 0, calculate the discriminant:\n\u0394 = (-2)\u00b2 - 4(3)(5) = 4 - 60 = -56",
+      "Step 11: Since \u0394 = -56 < 0, the equation has two complex conjugate roots. We must use the quadratic formula.",
+      "Step 12: Using the quadratic formula: x = (2 \u00b1 \u221a(-56))/(2(3)) = (2 \u00b1 2\u221a14i)/6 = (1 \u00b1 \u221a14i)/3",
+      "Step 13: Therefore, the solutions are x = (1 + \u221a14i)/3 and x = (1 - \u221a14i)/3."
     ],
-    "explanation": "When finding a quadratic equation with specific constraints, we need to carefully analyze the given information and choose the most appropriate approach:\n\n1. For equations with irrational or complex roots:\n   - If the roots are conjugates (like 2 + √3 and 2 - √3), the resulting equation will have rational or integer coefficients\n   - Use the pattern (x - (a + b))(x - (a - b)) = (x - a)² - b²\n   - This approach simplifies the algebra and ensures we get the correct coefficients\n\n2. For equations with one known root and a point on the graph:\n   - Use the factored form (x - r₁)(x - r₂) = 0, where r₁ is the known root\n   - Substitute the coordinates of the given point to find r₂\n   - Expand to get the standard form\n\n3. For equations with given sum and product of roots:\n   - Apply Vieta's formulas directly: r + s = -b/a and r × s = c/a\n   - Choose a value for a (often a = 1 for simplicity) and calculate b and c\n   - Verify the solution by factoring or checking that the discriminant gives the expected types of roots\n\nThese approaches allow us to find quadratic equations that satisfy various constraints, even when we don't know the exact roots or when the roots are irrational or complex numbers."
+    "explanation": "The discriminant helps us choose the most efficient method for solving a quadratic equation:\n\n1. When \u0394 > 0 and is a perfect square:\n   - The equation has two rational roots\n   - Factoring is often the most efficient method\n   - The quadratic formula will also work but may involve more calculation\n\n2. When \u0394 > 0 but is not a perfect square:\n   - The equation has two irrational roots\n   - The quadratic formula is usually the most efficient method\n   - Factoring will involve irrational coefficients, which is typically avoided\n\n3. When \u0394 = 0:\n   - The equation has one repeated root\n   - The solution is x = -b/(2a)\n   - The expression can be rewritten as a perfect square: a(x - r)\u00b2\n\n4. When \u0394 < 0:\n   - The equation has two complex conjugate roots\n   - The quadratic formula with complex numbers is necessary\n   - Factoring over real numbers is not possible\n\nBy calculating the discriminant first, we can choose the most appropriate method and anticipate the nature of the solutions, making the solving process more efficient."
   },
   "interactive": {
-    "question": "What is the quadratic equation with integer coefficients and a = 1 that has roots 3 + √5 and 3 - √5?",
+    "question": "Which method would be most efficient for solving the equation 4x\u00b2 - 12x + 9 = 0?",
     "options": [
-      "x² - 6x + 4 = 0",
-      "x² - 6x + 14 = 0",
-      "x² - 6x - 4 = 0"
+      "Rewriting as a perfect square trinomial",
+      "Using the quadratic formula",
+      "Factoring into two binomials with real coefficients"
     ],
     "correct": 0
   }

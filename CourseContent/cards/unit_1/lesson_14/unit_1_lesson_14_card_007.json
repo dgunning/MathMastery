@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_14_card_007",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_14",
+  "type": "worked_example",
+  "title": "Complex Factoring Problem",
+  "duration": 240,
+  "content": {
+    "problem": "Factor the following expressions completely:\n\n1. 12x² - 75\n2. x³ - 8x² + 16x\n3. 6x² + 19x - 7",
+    "solution": "1. Factoring 12x² - 75\n   First, identify this as a difference of squares after finding the GCF.\n   12x² - 75 = 3(4x² - 25)\n   = 3[(2x)² - 5²]\n   = 3(2x - 5)(2x + 5)\n\n2. Factoring x³ - 8x² + 16x\n   First, find the GCF: x\n   x³ - 8x² + 16x = x(x² - 8x + 16)\n   = x[(x - 4)²]\n   = x(x - 4)(x - 4)\n   = x(x - 4)²\n\n3. Factoring 6x² + 19x - 7\n   This is a standard trinomial in the form ax² + bx + c where a ≠ 1.\n   We need to find two numbers p and q such that p×q = a×c = 6×(-7) = -42\n   and p+q = b = 19.\n   \n   Looking at factors of -42: (-1,42), (1,-42), (-2,21), (2,-21), (-3,14), (3,-14), (-6,7), (6,-7)\n   \n   We need p+q = 19, so p=21 and q=-2 works: 21+(-2)=19 and 21×(-2)=-42\n   \n   Now rewrite the middle term: 6x² + 19x - 7 = 6x² + 21x - 2x - 7\n   \n   Factor by grouping:\n   (6x² + 21x) + (-2x - 7)\n   = 3x(2x + 7) - 1(2x + 7)\n   = (3x - 1)(2x + 7)",
+    "insight": "Successful factoring requires identifying the appropriate technique based on the expression's structure. Always look for the GCF first, then recognize special patterns like difference of squares or perfect square trinomials. For complex expressions, factoring may involve multiple steps or techniques applied sequentially."
+  },
+  "interactive": {
+    "question": "Which expression below is factored correctly?",
+    "options": [
+      "2x² - 32 = 2(x - 4)(x + 4)",
+      "x³ - 125 = (x - 5)(x² + 5x + 25)",
+      "9x² - 6x + 1 = (3x - 1)²"
+    ],
+    "correct": 2
+  }
+}

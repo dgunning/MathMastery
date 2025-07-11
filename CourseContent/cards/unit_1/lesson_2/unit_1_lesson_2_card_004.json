@@ -2,21 +2,21 @@
   "id": "unit_1_lesson_2_card_004",
   "unit_id": "unit_1",
   "lesson_id": "lesson_2",
-  "type": "practice",
-  "title": "Finding Factor Pairs",
-  "duration": 180,
+  "type": "concept_intro",
+  "title": "Recognizing Special Patterns",
+  "duration": 120,
   "content": {
-    "explanation": "Once you have the ac value, you need to find two numbers that multiply to give ac AND add to give the middle coefficient (b).\n\nThis is often the trickiest step, so let's practice systematically listing factor pairs.",
-    "problem": "For 3x² + 14x + 8:\n• ac = 24\n• We need factors of 24 that add to 14\n\nFactor pairs of 24:\n1 × 24 → 1 + 24 = 25\n2 × 12 → 2 + 12 = 14 ✓\n3 × 8 → 3 + 8 = 11\n4 × 6 → 4 + 6 = 10",
-    "key_point": "Be systematic! List all factor pairs until you find the one that adds to the middle coefficient."
+    "explanation": "[Template content for Recognizing Special Patterns]",
+    "example": "[Template example]",
+    "key_point": "[Key point about this concept]"
   },
   "interactive": {
-    "question": "For 2x² + 9x + 10 (where ac = 20), which factor pair adds to 9?",
+    "question": "[Template question about Recognizing Special Patterns]",
     "options": [
-      "1 and 20",
-      "4 and 5",
-      "2 and 10"
+      "[Option 1]",
+      "[Option 2]",
+      "[Option 3]"
     ],
-    "correct": 1
+    "correct": 0
   }
 }

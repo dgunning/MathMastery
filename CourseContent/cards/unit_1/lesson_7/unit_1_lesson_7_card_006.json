@@ -3,25 +3,26 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_7",
   "type": "worked_example",
-  "title": "Finding the Vertex Using Completing the Square",
+  "title": "Maximizing Area: The Rectangle Problem",
   "duration": 120,
   "content": {
-    "problem": "Find the vertex of the quadratic function f(x) = 2x² - 16x + 35 by completing the square.",
+    "problem": "A farmer has 100 meters of fencing to enclose a rectangular field. What dimensions will maximize the area of the field?",
     "steps": [
-      "Step 1: Factor out the leading coefficient from the first two terms\nf(x) = 2(x² - 8x) + 35",
-      "Step 2: Complete the square inside the parentheses\nFor x² - 8x, take half of -8, which is -4, and square it: (-4)² = 16\nf(x) = 2(x² - 8x + 16 - 16) + 35\nf(x) = 2((x - 4)² - 16) + 35",
-      "Step 3: Distribute the leading coefficient\nf(x) = 2(x - 4)² - 32 + 35",
-      "Step 4: Simplify the constant terms\nf(x) = 2(x - 4)² + 3",
-      "Step 5: Identify the vertex from the vertex form\nComparing with f(x) = a(x - h)² + k, we have h = 4 and k = 3\nSo the vertex is (4, 3)"
+      "Step 1: Define variables and write equations\nLet x = width of the rectangle\nLet y = length of the rectangle\nPerimeter equation: 2x + 2y = 100\nSolve for y: y = (100 - 2x)/2 = 50 - x",
+      "Step 2: Write the area as a function of one variable\nArea = x\u00b7y = x(50 - x) = 50x - x\u00b2",
+      "Step 3: Identify this as a quadratic function and find its maximum\nA(x) = 50x - x\u00b2 = -x\u00b2 + 50x\nThis is a quadratic function with a = -1 < 0, so it has a maximum value\nThe maximum occurs at x = -b/(2a) = -(50)/(2(-1)) = 50/2 = 25",
+      "Step 4: Find the corresponding value of y\ny = 50 - x = 50 - 25 = 25",
+      "Step 5: Calculate the maximum area\nArea = x\u00b7y = 25\u00b725 = 625 square meters",
+      "Step 6: State the answer\nThe dimensions that maximize the area are 25 meters by 25 meters, giving a maximum area of 625 square meters"
     ],
-    "explanation": "Completing the square allows us to convert a quadratic function to vertex form, from which we can directly read off the coordinates of the vertex. This method is particularly useful when the vertex cannot be easily found using the formula x = -b/(2a)."
+    "explanation": "This is a classic optimization problem. By expressing the area as a function of one variable, we create a quadratic function whose maximum value gives us the optimal solution. Notice that the maximum area is achieved when the rectangle is a square, which is a general principle for fixed-perimeter problems."
   },
   "interactive": {
-    "question": "What is the vertex of the quadratic function g(x) = 3x² + 12x + 5?",
+    "question": "A rectangular garden with a perimeter of 60 meters will have its maximum area when its dimensions are:",
     "options": [
-      "(-2, -7)",
-      "(2, 17)",
-      "(-2, 5)"
+      "15m \u00d7 15m",
+      "20m \u00d7 10m",
+      "30m \u00d7 0m"
     ],
     "correct": 0
   }

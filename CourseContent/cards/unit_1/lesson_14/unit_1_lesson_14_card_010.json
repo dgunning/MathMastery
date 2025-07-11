@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_14_card_010",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_14",
+  "type": "worked_example",
+  "title": "Comprehensive Review Problem",
+  "duration": 240,
+  "content": {
+    "problem": "The profit (in thousands of dollars) for a small business can be modeled by the function P(x) = -2x² + 24x - 46, where x is the amount spent on advertising (in thousands of dollars).\n\n1. Factor the expression for P(x) completely.\n2. Find the advertising amount that maximizes profit.\n3. What is the maximum profit?\n4. If the business wants to make at least $20,000 in profit, what range of advertising spending should they consider?\n5. The cost of advertising is C(x) = 2x + 5 (in thousands). Find the function T(x) representing the total earnings (before subtracting advertising costs).",
+    "solution": "1. Factoring P(x) = -2x² + 24x - 46:\n   P(x) = -2(x² - 12x + 23)\n   We need to factor (x² - 12x + 23)\n   Looking for two numbers that multiply to 23 and add to -12\n   None of the factor pairs of 23 (1×23, -1×-23) have a sum of -12\n   So the quadratic expression (x² - 12x + 23) cannot be factored further\n   The factored form is P(x) = -2(x² - 12x + 23)\n\n2. Finding the advertising amount that maximizes profit:\n   For a quadratic function in the form P(x) = -2x² + 24x - 46, the maximum occurs at x = -b/(2a)\n   a = -2, b = 24\n   x = -24/(2×(-2)) = -24/-4 = 6\n   The profit is maximized when the business spends $6,000 on advertising.\n\n3. Finding the maximum profit:\n   P(6) = -2(6)² + 24(6) - 46\n   P(6) = -2(36) + 144 - 46\n   P(6) = -72 + 144 - 46\n   P(6) = 26\n   The maximum profit is $26,000.\n\n4. Finding the range for at least $20,000 profit:\n   We need to solve P(x) ≥ 20\n   -2x² + 24x - 46 ≥ 20\n   -2x² + 24x - 66 ≥ 0\n   2x² - 24x + 66 ≤ 0\n\n   Using the quadratic formula:\n   x = (-b ± √(b²-4ac))/(2a)\n   x = (24 ± √(24²-4×2×66))/(2×2)\n   x = (24 ± √(576-528))/4\n   x = (24 ± √48)/4\n   x = (24 ± 6.93)/4\n   x ≈ 3.77 or x ≈ 8.23\n\n   So the business should spend between $3,770 and $8,230 on advertising to make at least $20,000 profit.\n\n5. Finding the total earnings function T(x):\n   We know P(x) = T(x) - C(x)\n   P(x) = -2x² + 24x - 46\n   C(x) = 2x + 5\n   T(x) = P(x) + C(x) = (-2x² + 24x - 46) + (2x + 5) = -2x² + 26x - 41\n   The total earnings function is T(x) = -2x² + 26x - 41 (in thousands of dollars).",
+    "insight": "This problem showcases how multiple algebraic concepts work together in real-world applications. Quadratic functions are frequently used to model business scenarios like profit, revenue, and cost relationships. Understanding how to find key points (like maximums) and solve inequalities allows for making informed business decisions about resource allocation."
+  },
+  "interactive": {
+    "question": "If the cost function changes to C(x) = 3x + 5, what would be the new maximum profit?",
+    "options": [
+      "$24,500",
+      "$25,000",
+      "$26,500"
+    ],
+    "correct": 0
+  }
+}

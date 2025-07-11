@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_7",
   "type": "concept_intro",
-  "title": "Converting from Standard Form to Vertex Form",
+  "title": "Real-World Applications of Maximum and Minimum Values",
   "duration": 120,
   "content": {
-    "explanation": "The standard form of a quadratic function is f(x) = ax² + bx + c, while the vertex form is f(x) = a(x - h)² + k, where (h, k) is the vertex.\n\nCompleting the square allows us to convert from standard form to vertex form, which makes it easier to:\n\n1. Identify the vertex (h, k) of the parabola\n2. Determine the maximum or minimum value of the function\n3. Graph the parabola more easily\n4. Analyze the function's behavior",
-    "example": "To convert f(x) = x² - 6x + 8 to vertex form:\n\n1. Group the x-terms: f(x) = (x² - 6x) + 8\n2. Complete the square: half of -6 is -3, and (-3)² = 9\n   f(x) = (x² - 6x + 9 - 9) + 8\n   f(x) = (x - 3)² - 9 + 8\n   f(x) = (x - 3)² - 1\n\nSo the vertex form is f(x) = (x - 3)² - 1, and the vertex is (3, -1)",
-    "key_point": "The vertex form f(x) = a(x - h)² + k directly shows that the vertex is at (h, k). This is why completing the square is such a valuable technique for analyzing quadratic functions."
+    "explanation": "Maximum and minimum values of quadratic functions have many important real-world applications:\n\n1. Maximizing profit or revenue in business\n2. Minimizing costs in manufacturing or operations\n3. Finding the maximum height of a projectile\n4. Determining optimal dimensions for area or volume problems\n5. Analyzing the peak or trough of data that follows a quadratic pattern\n\nIn these applications, the vertex of the parabola represents the optimal solution to the problem.",
+    "example": "A company's profit function is P(x) = -2x\u00b2 + 120x - 1000, where x is the number of items produced.\n\nSince a = -2 < 0, this function has a maximum value.\nThe maximum occurs at x = -b/(2a) = -(120)/(2(-2)) = 120/4 = 30.\nThe maximum profit is P(30) = -2(30)\u00b2 + 120(30) - 1000 = -1800 + 3600 - 1000 = $800.\n\nSo the company should produce 30 items to maximize profit at $800.",
+    "key_point": "In optimization problems, we're often looking for the maximum or minimum value of a quadratic function. The x-coordinate of the vertex tells us the input that optimizes the outcome, and the y-coordinate tells us the optimal value."
   },
   "interactive": {
-    "question": "What is the vertex form of g(x) = x² + 8x + 12?",
+    "question": "A farmer has 200 meters of fencing to enclose a rectangular field adjacent to a straight river. If no fencing is needed along the river, what dimensions will maximize the area of the field?",
     "options": [
-      "g(x) = (x + 4)² - 4",
-      "g(x) = (x - 4)² + 4",
-      "g(x) = (x + 4)² + 4"
+      "100m \u00d7 50m",
+      "200m \u00d7 100m",
+      "50m \u00d7 50m"
     ],
     "correct": 0
   }

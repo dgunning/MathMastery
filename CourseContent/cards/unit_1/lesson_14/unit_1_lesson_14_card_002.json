@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_14_card_002",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_14",
+  "type": "concept_intro",
+  "title": "Factoring Techniques Review",
+  "duration": 180,
+  "content": {
+    "explanation": "Factoring is the process of rewriting an expression as a product of simpler expressions. Key factoring techniques include:\n\n1. Greatest Common Factor (GCF): Factor out the largest common factor from all terms\n\n2. Factoring trinomials: For ax² + bx + c\n   - When a = 1: Find two numbers that multiply to c and add to b\n   - When a ≠ 1: Use the AC method or factoring by grouping\n\n3. Special patterns:\n   - Difference of squares: a² - b² = (a+b)(a-b)\n   - Perfect square trinomials: a² + 2ab + b² = (a+b)²",
+    "example": "Example: Factor 6x² + 13x - 5\n\nStep 1: Find two numbers that multiply to ac = 6(-5) = -30 and add to b = 13\n   The numbers are 15 and -2 since 15(-2) = -30 and 15 + (-2) = 13\n\nStep 2: Rewrite the middle term using these numbers\n   6x² + 15x - 2x - 5\n\nStep 3: Factor by grouping\n   3x(2x + 5) - 1(2x + 5) = (3x - 1)(2x + 5)",
+    "key_point": "Always look for the GCF first before applying other factoring techniques. This simplifies the subsequent factoring steps and ensures you find the complete factorization."
+  },
+  "interactive": {
+    "question": "Which of the following is the correct factorization of 3x² - 27?",
+    "options": [
+      "3(x - 3)(x + 3)",
+      "3(x - 9)(x + 3)",
+      "3(x - 3)²"
+    ],
+    "correct": 0
+  }
+}

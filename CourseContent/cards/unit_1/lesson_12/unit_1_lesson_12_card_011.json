@@ -2,21 +2,40 @@
   "id": "unit_1_lesson_12_card_011",
   "unit_id": "unit_1",
   "lesson_id": "lesson_12",
-  "type": "concept_intro",
-  "title": "Special Cases in Linear-Quadratic Systems",
+  "type": "worked_example",
+  "title": "Finding a Quadratic Equation with a Specific Property",
   "duration": 120,
   "content": {
-    "explanation": "While most linear-quadratic systems have 0, 1, or 2 solutions, there are several special cases that deserve attention. Understanding these cases helps develop a deeper insight into the geometric and algebraic properties of these systems.\n\n1. Horizontal Line and Parabola\n   - When the linear equation has the form y = k (a horizontal line)\n   - The system becomes: y = k and y = ax² + bx + c\n   - Setting these equal: k = ax² + bx + c\n   - This is a standard quadratic equation in x\n   - The number of solutions depends on the discriminant of this equation\n   - Geometrically, this represents finding where a horizontal line intersects a parabola\n\n2. Vertical Line and Parabola\n   - When the linear equation has the form x = h (a vertical line)\n   - The system becomes: x = h and y = ax² + bx + c\n   - Substituting x = h into the quadratic: y = ah² + bh + c\n   - This gives exactly one y-value for the given x\n   - The system always has exactly one solution: (h, ah² + bh + c)\n   - Geometrically, this represents finding where a vertical line intersects a parabola\n\n3. Line Through the Vertex of a Parabola\n   - The vertex of a parabola y = ax² + bx + c is at x = -b/(2a)\n   - If a line passes through this vertex, it may be tangent to the parabola or intersect it twice\n   - If the line has the same slope as the parabola at the vertex (which is zero), then it's tangent\n   - Otherwise, it intersects the parabola at two points\n\n4. Parabola with Axis Parallel to the Line\n   - When the axis of symmetry of the parabola is parallel to the line\n   - This occurs when the slope of the line equals the slope of the axis of symmetry\n   - In this case, the line and parabola may have 0, 1, or 2 intersections\n   - The analysis requires careful consideration of the relative positions\n\n5. Degenerate Cases\n   - When the coefficient of x² in the resulting quadratic equation is zero\n   - This happens when the elimination process cancels the quadratic term\n   - The system reduces to a linear equation, which has at most one solution\n   - This represents cases where the line and parabola have special geometric relationships",
-    "example": "Example 1: Horizontal Line and Parabola\n\nSolve the system:\ny = 4\ny = x² - 2x + 1\n\nSolution:\nSetting the equations equal:\n4 = x² - 2x + 1\nx² - 2x - 3 = 0\n(x - 3)(x + 1) = 0\nx = 3 or x = -1\n\nSubstituting back to find the y-coordinates:\nFor x = 3: y = 4\nFor x = -1: y = 4\n\nThe solutions are (3, 4) and (-1, 4).\n\nExample 2: Vertical Line and Parabola\n\nSolve the system:\nx = 2\ny = x² + 3x - 1\n\nSolution:\nSubstituting x = 2 into the quadratic equation:\ny = 2² + 3(2) - 1 = 4 + 6 - 1 = 9\n\nThe solution is (2, 9).\n\nExample 3: Line Through the Vertex of a Parabola\n\nConsider the parabola y = 2x² - 4x + 5 and the line y = -2x + 7.\n\nThe vertex of the parabola is at x = -b/(2a) = -(-4)/(2·2) = 4/4 = 1.\nThe y-coordinate of the vertex is y = 2(1)² - 4(1) + 5 = 2 - 4 + 5 = 3.\nSo the vertex is at (1, 3).\n\nChecking if the line passes through the vertex:\nAt x = 1: y = -2(1) + 7 = 5 ≠ 3\n\nThe line doesn't pass through the vertex. Let's solve the system:\n-2x + 7 = 2x² - 4x + 5\n0 = 2x² - 2x - 2\n0 = x² - x - 1\n\nUsing the quadratic formula:\nx = (1 ± √(1 + 4))/2 = (1 ± √5)/2\n\nThe solutions are approximately x ≈ 1.618 and x ≈ -0.618.\n\nExample 4: Degenerate Case\n\nSolve the system:\ny = 2x + 1\ny = 2x² - 2x + 3\n\nSolution:\nSetting the equations equal:\n2x + 1 = 2x² - 2x + 3\n0 = 2x² - 4x + 2\n0 = x² - 2x + 1\n0 = (x - 1)²\nx = 1\n\nSubstituting back:\ny = 2(1) + 1 = 3\n\nThe system has exactly one solution: (1, 3). This is a case where the line is tangent to the parabola.",
-    "key_point": "When dealing with special cases in linear-quadratic systems:\n\n1. Horizontal lines (y = k) intersect a parabola in 0, 1, or 2 points, depending on the relative position of the line and the range of the parabola\n\n2. Vertical lines (x = h) always intersect a parabola exactly once, assuming the parabola opens upward or downward\n\n3. When a line passes through the vertex of a parabola:\n   - If the line has the same slope as the parabola at the vertex, it's tangent to the parabola\n   - Otherwise, it intersects the parabola at two points\n\n4. When the resulting quadratic equation is a perfect square (like (x - a)²), the system has exactly one solution, and the line is tangent to the parabola\n\n5. Always verify your solutions by checking that they satisfy both original equations, especially in degenerate cases"
+    "problem": "Find a quadratic equation ax\u00b2 + bx + c = 0 with the following properties:\n\n1. One root is twice the other root\n2. The sum of the roots is 3 and their product is -10\n3. The roots differ by 5 and their product is -6",
+    "steps": [
+      "Step 1: For problem 1, let's call the roots r and 2r. We'll use Vieta's formulas to find the equation.",
+      "Step 2: The sum of roots is r + 2r = 3r and the product is r \u00d7 2r = 2r\u00b2.",
+      "Step 3: For a quadratic equation ax\u00b2 + bx + c = 0, Vieta's formulas give us:\n- r + 2r = 3r = -b/a\n- r \u00d7 2r = 2r\u00b2 = c/a",
+      "Step 4: We have freedom to choose a value for a. Let's set a = 1 for simplicity.",
+      "Step 5: With a = 1, we get b = -3r and c = 2r\u00b2.",
+      "Step 6: The equation is x\u00b2 - 3rx + 2r\u00b2 = 0. This represents a family of equations, one for each value of r.",
+      "Step 7: If we choose r = 1, the equation becomes x\u00b2 - 3x + 2 = 0, which has roots 1 and 2. We can verify: 1 + 2 = 3 and 1 \u00d7 2 = 2, and 2 is indeed twice 1.",
+      "Step 8: For problem 2, we're given that the sum of roots is 3 and their product is -10.",
+      "Step 9: Using Vieta's formulas with a = 1:\n- r + s = 3 = -b/1, so b = -3\n- r \u00d7 s = -10 = c/1, so c = -10",
+      "Step 10: Therefore, the quadratic equation is x\u00b2 - 3x - 10 = 0.",
+      "Step 11: We can verify by finding the roots using the quadratic formula:\nx = (3 \u00b1 \u221a(9 + 40))/2 = (3 \u00b1 \u221a49)/2 = (3 \u00b1 7)/2\nSo x = 5 or x = -2\nIndeed, 5 + (-2) = 3 and 5 \u00d7 (-2) = -10.",
+      "Step 12: For problem 3, let's call the roots r and r + 5. We're given that their product is -6.",
+      "Step 13: The sum of roots is r + (r + 5) = 2r + 5 and their product is r(r + 5) = r\u00b2 + 5r = -6.",
+      "Step 14: From the product equation: r\u00b2 + 5r = -6, which is a quadratic equation in r.",
+      "Step 15: Solving for r: r\u00b2 + 5r + 6 = 0, which factors as (r + 2)(r + 3) = 0, giving r = -2 or r = -3.",
+      "Step 16: If r = -2, the other root is r + 5 = 3. If r = -3, the other root is r + 5 = 2.",
+      "Step 17: Let's use r = -2 and r + 5 = 3. Using Vieta's formulas with a = 1:\n- (-2) + 3 = 1 = -b/1, so b = -1\n- (-2) \u00d7 3 = -6 = c/1, so c = -6",
+      "Step 18: Therefore, the quadratic equation is x\u00b2 - x - 6 = 0."
+    ],
+    "explanation": "When finding a quadratic equation with specific properties related to its roots, we typically follow these steps:\n\n1. Express the given properties in terms of the roots (let's call them r and s)\n\n2. Use Vieta's formulas to relate the roots to the coefficients of the quadratic equation:\n   - r + s = -b/a\n   - r \u00d7 s = c/a\n\n3. Set up equations based on the given properties and solve for the roots or directly for the coefficients\n\nCommon types of properties include:\n\n- Relationships between roots (one root is a multiple of the other, roots differ by a constant, etc.)\n- Specific values for the sum and/or product of roots\n- Conditions on the nature of roots (real, rational, integer, etc.)\n\nWhen the properties lead to multiple possible solutions, we may need to make choices or use additional constraints to find a specific equation. In some cases, we might find a family of equations that all satisfy the given properties.\n\nVerifying the solution by checking that the resulting equation has roots with the required properties is an important final step."
   },
   "interactive": {
-    "question": "A horizontal line y = k intersects the parabola y = x² - 6x + 8. For what value(s) of k will the line be tangent to the parabola?",
+    "question": "What is the quadratic equation with integer coefficients where one root is 3 more than the other and the product of the roots is 4?",
     "options": [
-      "k = -1",
-      "k = 8",
-      "k = -1 and k = 8"
+      "x\u00b2 - 3x - 4 = 0",
+      "x\u00b2 - 3x + 4 = 0",
+      "x\u00b2 + 3x - 4 = 0"
     ],
-    "correct": 0
+    "correct": 1
   }
 }

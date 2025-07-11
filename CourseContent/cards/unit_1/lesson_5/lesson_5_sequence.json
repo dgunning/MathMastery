@@ -1,9 +1,9 @@
 {
   "unit_id": "unit_1",
   "lesson_id": "lesson_5",
-  "lesson_name": "Vertex of a Parabola",
-  "total_cards": 15,
-  "estimated_duration": 1800,
+  "lesson_name": "Functions and Function Notation",
+  "total_cards": 12,
+  "estimated_duration": 1440,
   "sequence": [
     "unit_1_lesson_5_card_001",
     "unit_1_lesson_5_card_002",
@@ -16,13 +16,10 @@
     "unit_1_lesson_5_card_009",
     "unit_1_lesson_5_card_010",
     "unit_1_lesson_5_card_011",
-    "unit_1_lesson_5_card_012",
-    "unit_1_lesson_5_card_013",
-    "unit_1_lesson_5_card_014",
-    "unit_1_lesson_5_card_015"
+    "unit_1_lesson_5_card_012"
   ],
   "card_types": {
-    "worked_example": 9,
+    "worked_example": 6,
     "concept_intro": 6
   }
 }

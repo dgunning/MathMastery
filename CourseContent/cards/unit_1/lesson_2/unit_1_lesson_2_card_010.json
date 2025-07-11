@@ -3,27 +3,11 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_2",
   "type": "worked_example",
-  "title": "Substitution Method: Quadratic-Like Expressions",
-  "duration": 220,
+  "title": "Mixed Factoring Practice",
+  "duration": 120,
   "content": {
-    "problem": "Factor: x⁴ - 5x² + 4",
-    "steps": [
-      "Step 1: Recognize the pattern\nThis is quadratic-like because we have x⁴, x², and a constant",
-      "Step 2: Make substitution\nLet u = x², so x⁴ = (x²)² = u²",
-      "Step 3: Rewrite in terms of u\nx⁴ - 5x² + 4 = u² - 5u + 4",
-      "Step 4: Factor the quadratic in u\nu² - 5u + 4 = (u - 1)(u - 4)",
-      "Step 5: Substitute back\n(u - 1)(u - 4) = (x² - 1)(x² - 4)",
-      "Step 6: Factor further (difference of squares)\n(x² - 1)(x² - 4) = (x + 1)(x - 1)(x + 2)(x - 2)"
-    ],
-    "explanation": "The key is recognizing when an expression has a quadratic-like pattern, even if it involves higher powers."
-  },
-  "interactive": {
-    "question": "What substitution would work for x⁶ + 3x³ - 10?",
-    "options": [
-      "u = x³",
-      "u = x²",
-      "u = x⁶"
-    ],
-    "correct": 0
+    "problem": "[Template problem for Mixed Factoring Practice]",
+    "solution": "[Step-by-step solution]",
+    "insight": "[Key insight from this example]"
   }
 }

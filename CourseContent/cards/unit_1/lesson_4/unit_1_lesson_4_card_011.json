@@ -3,23 +3,23 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_4",
   "type": "worked_example",
-  "title": "Real-World Application: Cost Functions",
+  "title": "Domain Restrictions with Radical Functions",
   "duration": 120,
   "content": {
-    "problem": "A company manufactures custom t-shirts. The cost function C(x) = 500 + 8x gives the total cost (in dollars) to produce x t-shirts. Find: a) C(100), b) C(250), c) The number of t-shirts that can be produced for $2,500.",
+    "problem": "Find the domain and range of the function f(x) = \u221a(x - 5).",
     "steps": [
-      "Step 1: Find C(100), the cost of producing 100 t-shirts\nC(100) = 500 + 8(100) = 500 + 800 = $1,300",
-      "Step 2: Find C(250), the cost of producing 250 t-shirts\nC(250) = 500 + 8(250) = 500 + 2,000 = $2,500",
-      "Step 3: Find the number of t-shirts for a cost of $2,500\nSet up the equation: 500 + 8x = 2,500\nSubtract 500 from both sides: 8x = 2,000\nDivide both sides by 8: x = 250\nSo 250 t-shirts can be produced for $2,500"
+      "Step 1: Identify domain restrictions\nSince we can't take the square root of a negative number, we need x - 5 \u2265 0\nx \u2265 5",
+      "Step 2: Express the domain using interval notation\nDomain = {x | x \u2265 5} = [5, \u221e)",
+      "Step 3: Determine the range\nWhen x = 5, f(5) = \u221a(5 - 5) = \u221a0 = 0\nAs x increases beyond 5, f(x) increases without bound\nSo the range is [0, \u221e)"
     ],
-    "explanation": "In this cost function, the $500 represents the fixed costs (costs that don't depend on the number of items produced), while the $8x represents the variable costs (costs that increase with each additional item). This is a common structure for many real-world cost functions."
+    "explanation": "For radical functions with even roots (like square roots), the expression under the radical must be non-negative. This creates a natural restriction on the domain."
   },
   "interactive": {
-    "question": "If R(x) = 15x represents the revenue from selling x items, and C(x) = 600 + 9x represents the cost of producing x items, how many items must be sold to break even (where revenue equals cost)?",
+    "question": "What is the domain of g(x) = \u221a(8 - 2x)?",
     "options": [
-      "100 items",
-      "60 items",
-      "150 items"
+      "x \u2264 4",
+      "x \u2265 4",
+      "x \u2264 8"
     ],
     "correct": 0
   }

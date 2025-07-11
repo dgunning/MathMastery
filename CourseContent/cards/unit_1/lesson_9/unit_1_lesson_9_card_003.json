@@ -3,27 +3,24 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_9",
   "type": "worked_example",
-  "title": "Solving Quadratics by Factoring: Simple Cases",
+  "title": "Simplifying Radicals",
   "duration": 120,
   "content": {
-    "problem": "Solve the following quadratic equations by factoring:\n1. x² - 7x + 12 = 0\n2. x² - 9 = 0\n3. x² + 6x = 0",
+    "problem": "Simplify the following radical expressions: \n1. \u221a75 \n2. \u00b3\u221a54",
     "steps": [
-      "Step 1: For x² - 7x + 12 = 0, we need to find two numbers that multiply to give 12 and add to give -7.\nThe factors of 12 are: 1, 2, 3, 4, 6, and 12.\nThe pairs are: (1,12), (2,6), and (3,4).\nChecking the sums: 1 + 12 = 13, 2 + 6 = 8, 3 + 4 = 7.\nSince we need a sum of -7, we need negative factors: (-3)(-4) = 12 and -3 + (-4) = -7.",
-      "Step 2: Factor the equation using these values.\nx² - 7x + 12 = 0\n(x - 3)(x - 4) = 0",
-      "Step 3: Apply the zero product property: if (x - 3)(x - 4) = 0, then either (x - 3) = 0 or (x - 4) = 0.\nx - 3 = 0 → x = 3\nx - 4 = 0 → x = 4\nSo the solutions are x = 3 or x = 4.",
-      "Step 4: For x² - 9 = 0, recognize this as a difference of squares: a² - b² = (a + b)(a - b).\nx² - 9 = 0\nx² - 3² = 0\n(x + 3)(x - 3) = 0",
-      "Step 5: Apply the zero product property.\nx + 3 = 0 → x = -3\nx - 3 = 0 → x = 3\nSo the solutions are x = -3 or x = 3.",
-      "Step 6: For x² + 6x = 0, factor out the common factor x.\nx² + 6x = 0\nx(x + 6) = 0",
-      "Step 7: Apply the zero product property.\nx = 0 or x + 6 = 0\nx = 0 or x = -6\nSo the solutions are x = 0 or x = -6."
+      "Step 1: For \u221a75, find the largest perfect square factor of 75.\n75 = 25 \u00d7 3 = 5\u00b2 \u00d7 3",
+      "Step 2: Apply the product property of radicals.\n\u221a75 = \u221a(5\u00b2 \u00d7 3) = \u221a(5\u00b2) \u00d7 \u221a3 = 5 \u00d7 \u221a3 = 5\u221a3",
+      "Step 3: For \u00b3\u221a54, find the largest perfect cube factor of 54.\n54 = 27 \u00d7 2 = 3\u00b3 \u00d7 2",
+      "Step 4: Apply the product property of radicals.\n\u00b3\u221a54 = \u00b3\u221a(3\u00b3 \u00d7 2) = \u00b3\u221a(3\u00b3) \u00d7 \u00b3\u221a2 = 3 \u00d7 \u00b3\u221a2 = 3\u00b3\u221a2"
     ],
-    "explanation": "The factoring method for solving quadratic equations relies on the zero product property, which states that if a product equals zero, then at least one of the factors must be zero.\n\nKey factoring patterns to recognize:\n1. Common factor: ax² + bx = x(ax + b)\n2. Difference of squares: a² - b² = (a + b)(a - b)\n3. Perfect square trinomial: a² + 2ab + b² = (a + b)²\n4. General trinomial: ax² + bx + c = (px + q)(rx + s) where pr = a and qs = c and ps + qr = b\n\nOnce the equation is factored, set each factor equal to zero and solve for the variable."
+    "explanation": "To simplify a radical expression, we look for factors of the radicand that are perfect powers matching the index of the radical. For square roots, we look for perfect square factors. For cube roots, we look for perfect cube factors.\n\nThe goal is to extract as many factors as possible from under the radical sign. A radical is considered simplified when:\n1. The radicand has no factor that is a perfect power matching the index\n2. There are no fractions under the radical sign\n3. There are no radicals in the denominator"
   },
   "interactive": {
-    "question": "What are the solutions to the equation x² - x - 6 = 0?",
+    "question": "Which of the following is the simplified form of \u221a50?",
     "options": [
-      "x = -2 or x = 3",
-      "x = 2 or x = -3",
-      "x = -2 or x = -3"
+      "5\u221a2",
+      "2\u221a5",
+      "25\u221a2"
     ],
     "correct": 0
   }

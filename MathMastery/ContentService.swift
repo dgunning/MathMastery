@@ -375,7 +375,7 @@ class ContentService: ObservableObject {
             let mappingFileURL = docsBaseURL
                 .appendingPathComponent("units")
                 .appendingPathComponent(normalizedUnitId)
-                .appendingPathComponent("mappings")
+                .appendingPathComponent("config")
                 .appendingPathComponent("lesson_guide_mapping.json")
             
             print("DEBUG: Looking for mapping file at: \(mappingFileURL.path)")
@@ -390,7 +390,7 @@ class ContentService: ObservableObject {
                     let lessonGuideURL = docsBaseURL
                         .appendingPathComponent("units")
                         .appendingPathComponent(normalizedUnitId)
-                        .appendingPathComponent("lesson_content")
+                        .appendingPathComponent("lessons")
                         .appendingPathComponent(filename)
                     
                     if FileManager.default.fileExists(atPath: lessonGuideURL.path) {
@@ -428,12 +428,12 @@ class ContentService: ObservableObject {
         let lessonContentDir = docsBaseURL
             .appendingPathComponent("units")
             .appendingPathComponent(normalizedUnitId)
-            .appendingPathComponent("lesson_content")
+            .appendingPathComponent("lessons")
         
         print("DEBUG: Falling back to pattern matching in directory: \(lessonContentDir.path)")
         
         if let lessonFiles = try? FileManager.default.contentsOfDirectory(at: lessonContentDir, includingPropertiesForKeys: nil) {
-            print("DEBUG: Found \(lessonFiles.count) files in lesson_content directory")
+            print("DEBUG: Found \(lessonFiles.count) files in lessons directory")
             
             for file in lessonFiles {
                 let filename = file.lastPathComponent
@@ -471,7 +471,7 @@ class ContentService: ObservableObject {
             let mappingFileURL = docsBaseURL
                 .appendingPathComponent("units")
                 .appendingPathComponent(normalizedUnitId)
-                .appendingPathComponent("mappings")
+                .appendingPathComponent("config")
                 .appendingPathComponent("worksheet_mapping.json")
             
             print("DEBUG: Looking for mapping file at: \(mappingFileURL.path)")
@@ -563,7 +563,7 @@ class ContentService: ObservableObject {
             let mappingFileURL = docsBaseURL
                 .appendingPathComponent("units")
                 .appendingPathComponent(normalizedUnitId)
-                .appendingPathComponent("mappings")
+                .appendingPathComponent("config")
                 .appendingPathComponent("quiz_mapping.json")
             
             print("DEBUG: Looking for quiz mapping file at: \(mappingFileURL.path)")

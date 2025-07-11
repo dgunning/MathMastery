@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_7",
   "type": "concept_intro",
-  "title": "Introduction to Completing the Square",
+  "title": "Maximum and Minimum Values of Quadratic Functions",
   "duration": 120,
   "content": {
-    "explanation": "Completing the square is an algebraic technique used to rewrite a quadratic expression in the form (x + p)² + q. This method allows us to convert a quadratic function from standard form (ax² + bx + c) to vertex form (a(x - h)² + k).\n\nThe vertex form is particularly useful because it directly reveals the vertex (h, k) of the parabola, which is the maximum or minimum point of the quadratic function.\n\nCompleting the square is based on the pattern of perfect square trinomials:\nx² + 2px + p² = (x + p)²",
-    "example": "Consider the perfect square trinomial: x² + 6x + 9\n\nWe can rewrite this as (x + 3)² because:\n(x + 3)² = x² + 2(3)x + 3² = x² + 6x + 9\n\nThe key insight is that the coefficient of x (which is 6) is twice the value of p (which is 3), and the constant term (which is 9) is p² (which is 3²).",
-    "key_point": "To complete the square for an expression x² + bx, we add (b/2)² to create a perfect square trinomial. This is the foundation of the completing the square method."
+    "explanation": "Every quadratic function has either a maximum or a minimum value, which occurs at the vertex of its parabola.\n\nFor a quadratic function f(x) = ax\u00b2 + bx + c:\n- If a > 0, the parabola opens upward and has a minimum value at the vertex\n- If a < 0, the parabola opens downward and has a maximum value at the vertex\n\nThe value of the function at the vertex is the maximum or minimum value of the function.",
+    "example": "For f(x) = 2x\u00b2 - 8x + 7:\n- Since a = 2 > 0, the parabola opens upward and has a minimum value\n- The vertex is at x = -b/(2a) = -(-8)/(2(2)) = 8/4 = 2\n- The minimum value is f(2) = 2(2)\u00b2 - 8(2) + 7 = 8 - 16 + 7 = -1",
+    "key_point": "The sign of the leading coefficient 'a' tells us whether the quadratic function has a maximum (a < 0) or minimum (a > 0) value."
   },
   "interactive": {
-    "question": "Which of the following is a perfect square trinomial?",
+    "question": "The function g(x) = -3x\u00b2 + 12x - 8 has:",
     "options": [
-      "x² + 10x + 25",
-      "x² + 5x + 25",
-      "x² + 10x + 5"
+      "A maximum value",
+      "A minimum value",
+      "Neither a maximum nor a minimum value"
     ],
     "correct": 0
   }

@@ -1,0 +1,39 @@
+{
+  "id": "unit_1_lesson_13_card_004",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_13",
+  "type": "worked_example",
+  "title": "Worked Example: Substitution Method",
+  "duration": 120,
+  "content": {
+    "problem": "Solve the following linear-quadratic systems using the substitution method:\n\nSystem 1:\n2x + y = 5\ny = x\u00b2 - 3\n\nSystem 2:\n3x - y = 1\ny = -2x\u00b2 + 4\n\nSystem 3:\nx + 2y = 6\ny = x\u00b2 - 2x",
+    "steps": [
+      "Step 1: For System 1, we'll solve the linear equation for y.\n2x + y = 5\ny = 5 - 2x",
+      "Step 2: Substitute this expression for y into the quadratic equation.\ny = x\u00b2 - 3\n5 - 2x = x\u00b2 - 3\n5 + 3 = x\u00b2 + 2x\n8 = x\u00b2 + 2x",
+      "Step 3: Rearrange into standard form and solve.\nx\u00b2 + 2x - 8 = 0\n(x + 4)(x - 2) = 0\nx = -4 or x = 2",
+      "Step 4: Find the corresponding y-values by substituting each x-value into the linear equation.\nFor x = -4: y = 5 - 2(-4) = 5 + 8 = 13\nFor x = 2: y = 5 - 2(2) = 5 - 4 = 1",
+      "Step 5: Verify the solutions.\nFor (-4, 13): 2(-4) + 13 = -8 + 13 = 5 \u2713 and 13 = (-4)\u00b2 - 3 = 16 - 3 = 13 \u2713\nFor (2, 1): 2(2) + 1 = 4 + 1 = 5 \u2713 and 1 = 2\u00b2 - 3 = 4 - 3 = 1 \u2713\nThe solutions to System 1 are (-4, 13) and (2, 1).",
+      "Step 6: For System 2, we'll solve the linear equation for y.\n3x - y = 1\ny = 3x - 1",
+      "Step 7: Substitute this expression for y into the quadratic equation.\ny = -2x\u00b2 + 4\n3x - 1 = -2x\u00b2 + 4\n3x - 1 - 4 = -2x\u00b2\n3x - 5 = -2x\u00b2\n-3x + 5 = 2x\u00b2\n2x\u00b2 + 3x - 5 = 0",
+      "Step 8: Solve this quadratic equation using the quadratic formula.\na = 2, b = 3, c = -5\nx = (-3 \u00b1 \u221a(9 + 40))/4 = (-3 \u00b1 \u221a49)/4 = (-3 \u00b1 7)/4\nx = 1 or x = -5/2",
+      "Step 9: Find the corresponding y-values.\nFor x = 1: y = 3(1) - 1 = 2\nFor x = -5/2: y = 3(-5/2) - 1 = -15/2 - 1 = -17/2",
+      "Step 10: Verify the solutions.\nFor (1, 2): 3(1) - 2 = 1 \u2713 and 2 = -2(1)\u00b2 + 4 = -2 + 4 = 2 \u2713\nFor (-5/2, -17/2): 3(-5/2) - (-17/2) = -15/2 + 17/2 = 1 \u2713 and -17/2 = -2(-5/2)\u00b2 + 4 = -2(25/4) + 4 = -25/2 + 4 = -25/2 + 8/2 = -17/2 \u2713\nThe solutions to System 2 are (1, 2) and (-5/2, -17/2).",
+      "Step 11: For System 3, we'll solve the linear equation for y.\nx + 2y = 6\n2y = 6 - x\ny = (6 - x)/2 = 3 - x/2",
+      "Step 12: Substitute this expression for y into the quadratic equation.\ny = x\u00b2 - 2x\n3 - x/2 = x\u00b2 - 2x\n3 - x/2 - x\u00b2 + 2x = 0\n3 + 2x - x/2 - x\u00b2 = 0\n3 + (4x - x)/2 - x\u00b2 = 0\n3 + 3x/2 - x\u00b2 = 0\n6 + 3x - 2x\u00b2 = 0\n2x\u00b2 - 3x - 6 = 0",
+      "Step 13: Solve this quadratic equation using the quadratic formula.\na = 2, b = -3, c = -6\nx = (3 \u00b1 \u221a(9 + 48))/4 = (3 \u00b1 \u221a57)/4",
+      "Step 14: Simplify the solutions.\nx = (3 + \u221a57)/4 \u2248 2.64 or x = (3 - \u221a57)/4 \u2248 -1.14",
+      "Step 15: Find the corresponding y-values.\nFor x \u2248 2.64: y = 3 - 2.64/2 \u2248 1.68\nFor x \u2248 -1.14: y = 3 - (-1.14)/2 \u2248 3.57",
+      "Step 16: The solutions to System 3 are approximately (2.64, 1.68) and (-1.14, 3.57). The exact solutions are (3+\u221a57)/4, (6-\u221a57)/4) and ((3-\u221a57)/4, (6+\u221a57)/4)."
+    ],
+    "explanation": "The substitution method is a powerful technique for solving linear-quadratic systems because it systematically reduces the problem to a single-variable quadratic equation. Here's a summary of the key steps:\n\n1. Solve the linear equation for one variable (typically y)\n\n2. Substitute this expression into the quadratic equation\n\n3. Solve the resulting quadratic equation using appropriate methods:\n   - Factoring when possible\n   - Quadratic formula for more complex equations\n   - Completing the square when appropriate\n\n4. Find the corresponding values of the second variable\n\n5. Verify all solutions in both original equations\n\nAs demonstrated in the examples, the substitution method can handle various types of linear-quadratic systems, including those with:\n- Integer solutions\n- Fractional solutions\n- Irrational solutions\n\nWhen working with irrational solutions, it's often helpful to keep the exact form (like (3+\u221a57)/4) rather than decimal approximations, especially when verifying solutions."
+  },
+  "interactive": {
+    "question": "Solve the linear-quadratic system: y = 3x - 2 and y = x\u00b2 + 1",
+    "options": [
+      "(-1, -5) and (2, 4)",
+      "(1, 1) and (2, 4)",
+      "(-1, -5) and (3, 7)"
+    ],
+    "correct": 0
+  }
+}

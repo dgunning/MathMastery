@@ -194,8 +194,59 @@
       "total_cards": 15,
       "estimated_duration": 1800,
       "card_types": {
-        "concept_intro": 15,
-        "worked_example": 0
+        "concept_intro": 6,
+        "worked_example": 9
+      },
+      "content_types": {
+        "cards": true,
+        "lesson_guide": true,
+        "lesson_plan": false,
+        "worksheet": true,
+        "quiz": false,
+        "activity": false
+      }
+    },
+    "lesson_13": {
+      "lesson_name": "Solving Linear-Quadratic Systems",
+      "total_cards": 15,
+      "estimated_duration": 1800,
+      "card_types": {
+        "concept_intro": 9,
+        "worked_example": 6
+      },
+      "content_types": {
+        "cards": true,
+        "lesson_guide": true,
+        "lesson_plan": false,
+        "worksheet": true,
+        "quiz": false,
+        "activity": false
+      }
+    },
+    "lesson_14": {
+      "lesson_name": "Unit 1 Review and Practice Test",
+      "total_cards": 10,
+      "estimated_duration": 1800,
+      "card_types": {
+        "concept_intro": 4,
+        "worked_example": 6
+      },
+      "content_types": {
+        "cards": true,
+        "lesson_guide": true,
+        "lesson_plan": false,
+        "worksheet": true,
+        "quiz": false,
+        "activity": false
+      }
+    },
+    "lesson_15": {
+      "lesson_name": "Unit 1 Review and Practice Test (Part 2)",
+      "total_cards": 10,
+      "estimated_duration": 1800,
+      "card_types": {
+        "concept_intro": 4,
+        "worked_example": 6
       },
       "content_types": {
         "cards": true,
@@ -211,24 +262,24 @@
     "mid_unit_quiz": {
       "name": "Unit 1 Mid-Unit Quiz",
       "available": true,
-      "prerequisite_lessons": ["lesson_1_1", "lesson_1_2", "lesson_3", "lesson_4", "lesson_5", "lesson_6"]
+      "prerequisite_lessons": ["lesson_1", "lesson_2", "lesson_3", "lesson_4", "lesson_5", "lesson_6"]
     },
     "final_quiz": {
       "name": "Unit 1 Final Quiz", 
       "available": true,
-      "prerequisite_lessons": ["lesson_1_1", "lesson_1_2", "lesson_3", "lesson_4", "lesson_5", "lesson_6", "lesson_7", "lesson_8", "lesson_9", "lesson_10", "lesson_11", "lesson_12"]
+      "prerequisite_lessons": ["lesson_1", "lesson_2", "lesson_3", "lesson_4", "lesson_5", "lesson_6", "lesson_7", "lesson_8", "lesson_9", "lesson_10", "lesson_11", "lesson_12", "lesson_13", "lesson_14", "lesson_15"]
     }
   },
-  "total_lessons": 12,
-  "total_cards": 185,
-  "total_duration": 21390,
+  "total_lessons": 15,
+  "total_cards": 220,
+  "total_duration": 26790,
   "total_card_types": {
-    "worked_example": 112,
-    "concept_intro": 73
+    "worked_example": 130,
+    "concept_intro": 90
   },
   "content_summary": {
-    "lessons_with_guides": 12,
-    "lessons_with_worksheets": 12,
+    "lessons_with_guides": 15,
+    "lessons_with_worksheets": 15,
     "lessons_with_lesson_plans": 1,
     "unit_quizzes": 2
   }

@@ -3,35 +3,28 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_11",
   "type": "worked_example",
-  "title": "Finding a Quadratic Equation with a Given Vertex and Root",
+  "title": "Discriminant in Quadratic Inequalities",
   "duration": 120,
   "content": {
-    "problem": "Find the quadratic function f(x) = ax² + bx + c that satisfies the given conditions:\n\n1. Vertex: (2, -3), root: 4\n2. Vertex: (-1, 5), root: 2\n3. Vertex: (3, 0), root: 5",
+    "problem": "Use the discriminant to help solve the following quadratic inequalities:\n\n1. x\u00b2 - 4x + 5 > 0\n\n2. 2x\u00b2 - 3x - 2 \u2264 0\n\n3. -x\u00b2 + 6x - 9 \u2265 0",
     "steps": [
-      "Step 1: When given the vertex (h, k) of a quadratic function, we can write the function in vertex form: f(x) = a(x - h)² + k.",
-      "Step 2: For problem 1, with vertex (2, -3) and root 4, we start with f(x) = a(x - 2)² - 3.",
-      "Step 3: Since 4 is a root, f(4) = 0. Substituting: 0 = a(4 - 2)² - 3 = a(4) - 3.",
-      "Step 4: Solving for a: a(4) = 3, so a = 3/4.",
-      "Step 5: Therefore, the quadratic function is f(x) = (3/4)(x - 2)² - 3.",
-      "Step 6: We can convert this to standard form: f(x) = (3/4)x² - 3x + 3 - 3 = (3/4)x² - 3x.",
-      "Step 7: For problem 2, with vertex (-1, 5) and root 2, we start with f(x) = a(x - (-1))² + 5 = a(x + 1)² + 5.",
-      "Step 8: Since 2 is a root, f(2) = 0. Substituting: 0 = a(2 + 1)² + 5 = a(9) + 5.",
-      "Step 9: Solving for a: a(9) = -5, so a = -5/9.",
-      "Step 10: Therefore, the quadratic function is f(x) = (-5/9)(x + 1)² + 5.",
-      "Step 11: We can convert this to standard form: f(x) = (-5/9)x² - (10/9)x - 5/9 + 5 = (-5/9)x² - (10/9)x + 40/9.",
-      "Step 12: For problem 3, with vertex (3, 0) and root 5, we start with f(x) = a(x - 3)².",
-      "Step 13: Since 5 is a root, f(5) = 0. Substituting: 0 = a(5 - 3)² = a(4).",
-      "Step 14: This equation is satisfied when a = 0, which would make f(x) = 0 for all x. However, this isn't a proper quadratic function. This suggests there's an error in the given conditions, as a parabola with vertex (3, 0) already has 3 as a root, so it can't have another root unless it's the zero function.",
-      "Step 15: If we assume the vertex is (3, 0) and the parabola is not the zero function, then 3 must be the only root (a repeated root), and the function would be f(x) = a(x - 3)² for any non-zero value of a."
+      "Step 1: For inequality 1, x\u00b2 - 4x + 5 > 0, first calculate the discriminant to determine the nature of the roots of the corresponding equation x\u00b2 - 4x + 5 = 0.\n\u0394 = (-4)\u00b2 - 4(1)(5) = 16 - 20 = -4 < 0",
+      "Step 2: Since \u0394 < 0, the equation x\u00b2 - 4x + 5 = 0 has no real roots. The parabola y = x\u00b2 - 4x + 5 doesn't cross the x-axis and, since a = 1 > 0, the parabola opens upward. Therefore, the function value is always positive.\nSo the solution to x\u00b2 - 4x + 5 > 0 is all real numbers, or (-\u221e, \u221e).",
+      "Step 3: For inequality 2, 2x\u00b2 - 3x - 2 \u2264 0, calculate the discriminant of the equation 2x\u00b2 - 3x - 2 = 0.\n\u0394 = (-3)\u00b2 - 4(2)(-2) = 9 + 16 = 25 > 0",
+      "Step 4: Since \u0394 > 0, the equation has two distinct real roots. Using the quadratic formula:\nx = (3 \u00b1 \u221a25)/(2(2)) = (3 \u00b1 5)/4\nx = 2 or x = -1/2\nThese are the x-intercepts of the parabola y = 2x\u00b2 - 3x - 2.",
+      "Step 5: Since a = 2 > 0, the parabola opens upward, so the function value is negative (\u2264 0) between the roots.\nSo the solution to 2x\u00b2 - 3x - 2 \u2264 0 is [-1/2, 2].",
+      "Step 6: For inequality 3, -x\u00b2 + 6x - 9 \u2265 0, calculate the discriminant of the equation -x\u00b2 + 6x - 9 = 0.\n\u0394 = 6\u00b2 - 4(-1)(-9) = 36 - 36 = 0",
+      "Step 7: Since \u0394 = 0, the equation has one repeated real root. Using x = -b/(2a):\nx = -6/(2(-1)) = 3\nThis is the x-intercept of the parabola y = -x\u00b2 + 6x - 9.",
+      "Step 8: Since a = -1 < 0, the parabola opens downward, and the vertex is the highest point. Since the parabola touches the x-axis at x = 3 (the vertex), the function value is non-positive for all x except at x = 3, where it equals zero.\nSo the solution to -x\u00b2 + 6x - 9 \u2265 0 is the single point {3}."
     ],
-    "explanation": "When finding a quadratic function with a given vertex and root, we use the vertex form of the quadratic function:\n\nf(x) = a(x - h)² + k\n\nWhere (h, k) is the vertex and a is a constant that determines the opening direction and steepness of the parabola.\n\nThe process involves these steps:\n\n1. Substitute the vertex coordinates into the vertex form\n\n2. Use the given root r to set up the equation f(r) = 0:\n   a(r - h)² + k = 0\n\n3. Solve for the value of a:\n   a = -k/((r - h)²)\n\n4. Substitute the value of a back into the vertex form\n\n5. If needed, convert to standard form using these relationships:\n   f(x) = a(x - h)² + k = ax² - 2ahx + ah² + k\n   So, a = a, b = -2ah, and c = ah² + k\n\nSpecial cases to note:\n\n- If the vertex (h, k) is on the x-axis (k = 0), then h is already a root of the function\n\n- If the given root is the same as the x-coordinate of the vertex, then the vertex is on the x-axis and the root is a repeated root\n\n- If the conditions are inconsistent (as in problem 3), there may be an error in the given information or the function might be degenerate"
+    "explanation": "The discriminant is a valuable tool for solving quadratic inequalities because it helps determine the nature and position of the roots, which are the boundaries of the solution intervals.\n\nThe general approach for solving a quadratic inequality ax\u00b2 + bx + c \u22da 0 is:\n\n1. Calculate the discriminant \u0394 = b\u00b2 - 4ac to determine the number of real roots\n2. Find the roots (if any) using the quadratic formula or factoring\n3. Determine the sign of the leading coefficient a\n4. Use the roots to divide the number line into intervals\n5. Test each interval to determine where the inequality is satisfied\n\nKey patterns to remember:\n\n1. If \u0394 < 0 (no real roots):\n   - If a > 0, the inequality ax\u00b2 + bx + c > 0 is satisfied for all real numbers\n   - If a < 0, the inequality ax\u00b2 + bx + c < 0 is satisfied for all real numbers\n\n2. If \u0394 = 0 (one repeated root r):\n   - If a > 0, the inequality ax\u00b2 + bx + c > 0 is satisfied for all x \u2260 r\n   - If a < 0, the inequality ax\u00b2 + bx + c < 0 is satisfied for all x \u2260 r\n\n3. If \u0394 > 0 (two distinct roots r\u2081 < r\u2082):\n   - If a > 0, the inequality ax\u00b2 + bx + c > 0 is satisfied for x < r\u2081 or x > r\u2082\n   - If a < 0, the inequality ax\u00b2 + bx + c < 0 is satisfied for x < r\u2081 or x > r\u2082"
   },
   "interactive": {
-    "question": "A quadratic function has vertex (1, -4) and root 3. What is the function in standard form?",
+    "question": "What is the solution set for the inequality x\u00b2 + 2x - 8 < 0?",
     "options": [
-      "f(x) = 2x² - 4x - 2",
-      "f(x) = 2x² - 4x + 2",
-      "f(x) = -2x² + 4x - 6"
+      "(-4, 2)",
+      "(-\u221e, -4) \u222a (2, \u221e)",
+      "[-4, 2]"
     ],
     "correct": 0
   }

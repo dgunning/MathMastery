@@ -2,20 +2,30 @@
   "id": "unit_1_lesson_11_card_004",
   "unit_id": "unit_1",
   "lesson_id": "lesson_11",
-  "type": "concept_intro",
-  "title": "Vieta's Formulas",
+  "type": "worked_example",
+  "title": "Using the Discriminant to Determine Root Types",
   "duration": 120,
   "content": {
-    "explanation": "Vieta's Formulas provide elegant relationships between the coefficients of a polynomial and the sums and products of its roots. For quadratic equations, these formulas are particularly useful for finding equations from their roots or analyzing properties of the roots without solving the equation.\n\nConsider a quadratic equation in standard form:\nax² + bx + c = 0, where a ≠ 0\n\nIf r and s are the two roots of this equation, then Vieta's Formulas state that:\n\n1. r + s = -b/a (Sum of roots)\n2. r × s = c/a (Product of roots)\n\nThese formulas can be derived from the factored form of the quadratic equation:\na(x - r)(x - s) = 0\n\nExpanding this expression:\nax² - a(r + s)x + ars = 0\n\nComparing with the standard form ax² + bx + c = 0, we get:\n-a(r + s) = b, which gives us r + s = -b/a\nars = c, which gives us r × s = c/a\n\nVieta's Formulas work for all types of roots, including real, rational, irrational, and complex roots. They provide a direct connection between the coefficients of the equation and the properties of its roots without requiring us to solve the equation explicitly.",
-    "example": "Let's examine a quadratic equation x² - 5x + 6 = 0 and verify Vieta's Formulas.\n\nFirst, we'll solve the equation to find its roots:\nx² - 5x + 6 = 0\n(x - 2)(x - 3) = 0\nx = 2 or x = 3\n\nNow, let's verify Vieta's Formulas:\n\n1. Sum of roots: r + s = 2 + 3 = 5\n   According to Vieta's Formula: r + s = -b/a = -(-5)/1 = 5 ✓\n\n2. Product of roots: r × s = 2 × 3 = 6\n   According to Vieta's Formula: r × s = c/a = 6/1 = 6 ✓\n\nLet's try another example: 2x² + 7x + 3 = 0\n\nUsing Vieta's Formulas directly:\n1. Sum of roots: r + s = -b/a = -7/2\n2. Product of roots: r × s = c/a = 3/2\n\nWe can verify this by solving the equation using the quadratic formula:\nx = (-7 ± √(49 - 24))/4 = (-7 ± √25)/4 = (-7 ± 5)/4\nx = -3 or x = -1/2\n\nIndeed, (-3) + (-1/2) = -7/2 and (-3) × (-1/2) = 3/2, confirming Vieta's Formulas.",
-    "key_point": "Vieta's Formulas provide a powerful tool for working with quadratic equations. They allow us to:\n1. Find a quadratic equation when given its roots\n2. Determine properties of the roots (such as their sum and product) without solving the equation\n3. Simplify the process of finding equations with specific root characteristics\n\nRemember the key relationships for a quadratic equation ax² + bx + c = 0 with roots r and s:\n- Sum of roots: r + s = -b/a\n- Product of roots: r × s = c/a"
+    "problem": "For each of the following quadratic equations:\n1. Determine the discriminant\n2. Describe the nature of the roots\n3. Find the roots\n\nEquations:\na) x\u00b2 + 6x + 9 = 0\nb) 2x\u00b2 - 5x - 3 = 0\nc) x\u00b2 + x + 1 = 0",
+    "steps": [
+      "Step 1: For equation a) x\u00b2 + 6x + 9 = 0, identify the coefficients: a = 1, b = 6, c = 9.",
+      "Step 2: Calculate the discriminant for equation a):\n\u0394 = b\u00b2 - 4ac\n\u0394 = 6\u00b2 - 4(1)(9)\n\u0394 = 36 - 36\n\u0394 = 0",
+      "Step 3: Since \u0394 = 0, equation a) has one repeated real root (a double root). The root is x = -b/(2a) = -6/(2(1)) = -3. We can verify this is correct by factoring: x\u00b2 + 6x + 9 = (x + 3)\u00b2.",
+      "Step 4: For equation b) 2x\u00b2 - 5x - 3 = 0, identify the coefficients: a = 2, b = -5, c = -3.",
+      "Step 5: Calculate the discriminant for equation b):\n\u0394 = b\u00b2 - 4ac\n\u0394 = (-5)\u00b2 - 4(2)(-3)\n\u0394 = 25 + 24\n\u0394 = 49",
+      "Step 6: Since \u0394 = 49 > 0, equation b) has two distinct real roots. Using the quadratic formula:\nx = (-b \u00b1 \u221a\u0394)/(2a)\nx = (5 \u00b1 \u221a49)/(2(2))\nx = (5 \u00b1 7)/4\nx = 3 or x = -1/2\nWe can verify by factoring: 2x\u00b2 - 5x - 3 = (2x - 3)(x + 1) = 0.",
+      "Step 7: For equation c) x\u00b2 + x + 1 = 0, identify the coefficients: a = 1, b = 1, c = 1.",
+      "Step 8: Calculate the discriminant for equation c):\n\u0394 = b\u00b2 - 4ac\n\u0394 = 1\u00b2 - 4(1)(1)\n\u0394 = 1 - 4\n\u0394 = -3",
+      "Step 9: Since \u0394 = -3 < 0, equation c) has two complex conjugate roots. Using the quadratic formula:\nx = (-b \u00b1 i\u221a|\u0394|)/(2a)\nx = (-1 \u00b1 i\u221a3)/(2(1))\nx = -1/2 \u00b1 (\u221a3/2)i\nThese are complex numbers with real part -1/2 and imaginary part \u00b1\u221a3/2."
+    ],
+    "explanation": "The discriminant not only tells us the nature of the roots but also helps us determine the most efficient method for finding them:\n\n1. When \u0394 = 0 (zero discriminant):\n   - The equation has one repeated root: x = -b/(2a)\n   - The quadratic expression is a perfect square trinomial: a(x + b/(2a))\u00b2\n   - Example: x\u00b2 + 6x + 9 = (x + 3)\u00b2\n\n2. When \u0394 > 0 (positive discriminant):\n   - The equation has two distinct real roots\n   - If \u0394 is a perfect square, the roots are rational and the expression can be factored with rational coefficients\n   - If \u0394 is not a perfect square, the roots are irrational\n   - Example: 2x\u00b2 - 5x - 3 = (2x - 3)(x + 1)\n\n3. When \u0394 < 0 (negative discriminant):\n   - The equation has two complex conjugate roots\n   - The expression cannot be factored with real coefficients\n   - Example: x\u00b2 + x + 1 cannot be factored with real numbers"
   },
   "interactive": {
-    "question": "For the quadratic equation 3x² - 2x - 8 = 0, what is the product of its roots?",
+    "question": "For the equation 3x\u00b2 - 2x + 5 = 0, what is the discriminant and what type of roots does the equation have?",
     "options": [
-      "-8/3",
-      "2/3",
-      "-2/3"
+      "\u0394 = -56; two complex conjugate roots",
+      "\u0394 = 56; two distinct real roots",
+      "\u0394 = 0; one repeated real root"
     ],
     "correct": 0
   }

@@ -3,25 +3,24 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_7",
   "type": "worked_example",
-  "title": "Completing the Square with a ≠ 1",
+  "title": "Converting to Vertex Form to Find Maximum/Minimum",
   "duration": 120,
   "content": {
-    "problem": "Rewrite the quadratic expression 2x² - 12x + 5 by completing the square.",
+    "problem": "Find the maximum or minimum value of the quadratic function f(x) = 3x\u00b2 - 12x + 14 by converting to vertex form.",
     "steps": [
-      "Step 1: Factor out the leading coefficient from the first two terms\n2x² - 12x + 5 = 2(x² - 6x) + 5",
-      "Step 2: Complete the square inside the parentheses\nFor x² - 6x, take half of -6, which is -3, and square it: (-3)² = 9\n2(x² - 6x) + 5 = 2(x² - 6x + 9 - 9) + 5\n= 2((x - 3)² - 9) + 5",
-      "Step 3: Distribute the leading coefficient\n2((x - 3)² - 9) + 5 = 2(x - 3)² - 18 + 5",
-      "Step 4: Simplify the constant terms\n2(x - 3)² - 18 + 5 = 2(x - 3)² - 13",
-      "Step 5: Verify by expanding\n2(x - 3)² - 13 = 2(x² - 6x + 9) - 13\n= 2x² - 12x + 18 - 13\n= 2x² - 12x + 5 ✓"
+      "Step 1: Factor out the leading coefficient from the first two terms\nf(x) = 3(x\u00b2 - 4x) + 14",
+      "Step 2: Complete the square inside the parentheses\nTo complete the square for x\u00b2 - 4x, take half the coefficient of x, square it, and add and subtract it\nHalf of -4 is -2, and (-2)\u00b2 = 4\nf(x) = 3(x\u00b2 - 4x + 4 - 4) + 14\nf(x) = 3((x - 2)\u00b2 - 4) + 14",
+      "Step 3: Distribute and simplify\nf(x) = 3(x - 2)\u00b2 - 12 + 14\nf(x) = 3(x - 2)\u00b2 + 2",
+      "Step 4: Identify the vertex and determine the maximum or minimum value\nThe function is now in vertex form f(x) = a(x - h)\u00b2 + k with a = 3, h = 2, k = 2\nSince a > 0, the function has a minimum value\nThe minimum value is 2, occurring at x = 2"
     ],
-    "explanation": "When the leading coefficient is not 1, we first factor it out from the x² and x terms. Then we complete the square on the expression inside the parentheses, and finally distribute the leading coefficient and simplify. This approach works for any quadratic expression."
+    "explanation": "Converting a quadratic function from standard form to vertex form by completing the square is a powerful technique for finding the maximum or minimum value. Once in vertex form, the maximum or minimum value is clearly visible as the constant term k."
   },
   "interactive": {
-    "question": "What is the result of completing the square for 3x² + 12x - 7?",
+    "question": "What is the minimum value of g(x) = 2x\u00b2 + 8x + 10?",
     "options": [
-      "3(x + 2)² - 19",
-      "3(x + 2)² + 5",
-      "(3x + 2)² - 7"
+      "2",
+      "10",
+      "8"
     ],
     "correct": 0
   }

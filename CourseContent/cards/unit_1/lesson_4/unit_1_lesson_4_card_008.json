@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_4",
   "type": "concept_intro",
-  "title": "Graphical Interpretation of Function Notation",
+  "title": "Real-World Applications of Functions",
   "duration": 120,
   "content": {
-    "explanation": "Function notation has a direct graphical interpretation. For a function f(x), the value f(a) represents the y-coordinate of the point on the graph where x = a.\n\nFor example, if f(3) = 7, this means that the point (3, 7) lies on the graph of the function f.\n\nSimilarly, to find f(a) from a graph, locate x = a on the x-axis, move vertically to the graph, and read the corresponding y-value.",
-    "example": "If you see a point (2, 5) on the graph of function g, this means that g(2) = 5.",
-    "key_point": "The graph of a function is a visual representation of all its input-output pairs. Every point (x, y) on the graph can be written as (x, f(x))."
+    "explanation": "Functions are all around us in everyday life. They model relationships between quantities in the real world.\n\nFor example:\n- The cost of a cab ride as a function of distance traveled\n- The height of a thrown ball as a function of time\n- The temperature of a cup of coffee as a function of time since brewing\n\nIn each case, one quantity (the output) depends on another quantity (the input) in a predictable way.",
+    "example": "The function C(g) = 3.79g represents the cost C in dollars to buy g gallons of gasoline at $3.79 per gallon.\n\nDomain: g \u2265 0 (you can't buy a negative amount of gas)\nRange: C \u2265 0 (the cost can't be negative)",
+    "key_point": "In real-world contexts, the domain and range often have practical limitations. For instance, time can't be negative, or a person's height can't be 20 feet."
   },
   "interactive": {
-    "question": "If the point (4, -3) lies on the graph of function h, what is h(4)?",
+    "question": "A cell phone plan costs $20 per month plus $0.10 per text message. If the function C(t) represents the monthly cost when sending t text messages, what is C(50)?",
     "options": [
-      "-3",
-      "4",
-      "7"
+      "$25",
+      "$20.50",
+      "$70"
     ],
     "correct": 0
   }

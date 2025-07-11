@@ -3,26 +3,24 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_6",
   "type": "worked_example",
-  "title": "Maximizing Area: The Rectangle Problem",
+  "title": "Converting from Standard Form to Vertex Form",
   "duration": 120,
   "content": {
-    "problem": "A farmer has 100 meters of fencing to enclose a rectangular field. What dimensions will maximize the area of the field?",
+    "problem": "Convert the quadratic function f(x) = 2x\u00b2 - 12x + 19 to vertex form and identify the vertex.",
     "steps": [
-      "Step 1: Define variables and write equations\nLet x = width of the rectangle\nLet y = length of the rectangle\nPerimeter equation: 2x + 2y = 100\nSolve for y: y = (100 - 2x)/2 = 50 - x",
-      "Step 2: Write the area as a function of one variable\nArea = x·y = x(50 - x) = 50x - x²",
-      "Step 3: Identify this as a quadratic function and find its maximum\nA(x) = 50x - x² = -x² + 50x\nThis is a quadratic function with a = -1 < 0, so it has a maximum value\nThe maximum occurs at x = -b/(2a) = -(50)/(2(-1)) = 50/2 = 25",
-      "Step 4: Find the corresponding value of y\ny = 50 - x = 50 - 25 = 25",
-      "Step 5: Calculate the maximum area\nArea = x·y = 25·25 = 625 square meters",
-      "Step 6: State the answer\nThe dimensions that maximize the area are 25 meters by 25 meters, giving a maximum area of 625 square meters"
+      "Step 1: Factor out the leading coefficient (a) from the first two terms\nf(x) = 2(x\u00b2 - 6x) + 19",
+      "Step 2: Complete the square inside the parentheses\nTo complete the square for x\u00b2 - 6x, take half the coefficient of x, square it, and add and subtract it\nHalf of -6 is -3, and (-3)\u00b2 = 9\nf(x) = 2(x\u00b2 - 6x + 9 - 9) + 19\nf(x) = 2((x - 3)\u00b2 - 9) + 19",
+      "Step 3: Distribute and simplify\nf(x) = 2(x - 3)\u00b2 - 18 + 19\nf(x) = 2(x - 3)\u00b2 + 1",
+      "Step 4: Identify the vertex from the vertex form\nThe vertex form is f(x) = a(x - h)\u00b2 + k where (h, k) is the vertex\nComparing with our result: h = 3, k = 1\nSo the vertex is (3, 1)"
     ],
-    "explanation": "This is a classic optimization problem. By expressing the area as a function of one variable, we create a quadratic function whose maximum value gives us the optimal solution. Notice that the maximum area is achieved when the rectangle is a square, which is a general principle for fixed-perimeter problems."
+    "explanation": "Converting to vertex form by completing the square allows us to easily identify the vertex. This method works for any quadratic function and is especially useful when the vertex isn't easily found using the formula."
   },
   "interactive": {
-    "question": "A rectangular garden with a perimeter of 60 meters will have its maximum area when its dimensions are:",
+    "question": "What is the vertex form of g(x) = 3x\u00b2 + 12x + 8?",
     "options": [
-      "15m × 15m",
-      "20m × 10m",
-      "30m × 0m"
+      "g(x) = 3(x + 2)\u00b2 - 4",
+      "g(x) = 3(x - 2)\u00b2 + 4",
+      "g(x) = 3(x + 2)\u00b2 + 4"
     ],
     "correct": 0
   }

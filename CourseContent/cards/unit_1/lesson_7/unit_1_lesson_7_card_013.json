@@ -2,20 +2,27 @@
   "id": "unit_1_lesson_7_card_013",
   "unit_id": "unit_1",
   "lesson_id": "lesson_7",
-  "type": "concept_intro",
-  "title": "Common Errors in Completing the Square",
+  "type": "worked_example",
+  "title": "Minimizing Distance: The Shortest Path Problem",
   "duration": 120,
   "content": {
-    "explanation": "When completing the square, students often make several common errors:\n\n1. Forgetting to take half of the coefficient of x before squaring\n2. Adding the square term but forgetting to subtract it as well\n3. Not factoring out the leading coefficient when a ≠ 1\n4. Errors in simplifying the constant terms\n5. Forgetting to apply the same operations to both sides of an equation\n\nBeing aware of these common mistakes can help you avoid them and successfully complete the square.",
-    "example": "Incorrect: x² + 6x becomes (x + 6)² - 36\nCorrect: x² + 6x becomes (x + 3)² - 9 (half of 6 is 3, and 3² = 9)\n\nIncorrect: 2x² - 12x + 5 becomes 2(x - 6)² + 5\nCorrect: 2x² - 12x + 5 becomes 2(x - 3)² - 13 (factor out 2, then half of -6 is -3)",
-    "key_point": "Always double-check your work when completing the square. Verify that your answer is correct by expanding the vertex form back to standard form and confirming that it matches the original expression."
+    "problem": "A lifeguard on a beach is at point A, which is 30 meters from the water's edge. She needs to reach point B, which is 50 meters down the beach and 40 meters into the water. If she can run at 8 m/s on the sand and swim at 3 m/s in the water, at what point should she enter the water to reach point B in the minimum time?",
+    "steps": [
+      "Step 1: Define variables and set up the problem\nLet x = distance along the beach from point A to where she enters the water\nThe remaining distance along the beach to point B is (50 - x)\nThe distance she swims is \u221a((50 - x)\u00b2 + 40\u00b2) = \u221a((50 - x)\u00b2 + 1600)",
+      "Step 2: Write the time function\nTime = (Distance on sand / Speed on sand) + (Distance in water / Speed in water)\nT(x) = x/8 + \u221a((50 - x)\u00b2 + 1600)/3",
+      "Step 3: This is not a quadratic function, but we can still find its minimum using calculus\nThe minimum occurs when the derivative equals zero\nSolving T'(x) = 0 gives x \u2248 20 meters",
+      "Step 4: Verify this is a minimum by checking the second derivative or by testing nearby values\nTesting confirms that x \u2248 20 gives a minimum time",
+      "Step 5: Calculate the minimum time\nT(20) = 20/8 + \u221a((50 - 20)\u00b2 + 1600)/3\nT(20) = 2.5 + \u221a(900 + 1600)/3\nT(20) = 2.5 + \u221a2500/3\nT(20) = 2.5 + 50/3\nT(20) \u2248 19.17 seconds",
+      "Step 6: State the answer\nThe lifeguard should run 20 meters along the beach before entering the water to reach point B in the minimum time of about 19.17 seconds"
+    ],
+    "explanation": "This problem illustrates how optimization can be applied to find the most efficient path between two points when traveling through different media. While the resulting function is not quadratic, the principle of finding where the derivative equals zero to locate the minimum value still applies."
   },
   "interactive": {
-    "question": "Which of the following is the correct result of completing the square for 3x² - 18x + 7?",
+    "question": "A person at point A needs to reach point C, which is across a river. Point B is the closest point on the river to A, and point D is the closest point on the river to C. If the person can walk faster than they can swim, they should:",
     "options": [
-      "3(x - 3)² - 20",
-      "3(x - 6)² + 7",
-      "(3x - 9)² + 7"
+      "Enter the river at a point between B and D",
+      "Walk directly from A to C through the river",
+      "Walk to point B, then swim directly to C"
     ],
     "correct": 0
   }

@@ -3,23 +3,26 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_3",
   "type": "worked_example",
-  "title": "Domain Restrictions with Radical Functions",
-  "duration": 120,
+  "title": "Substitution with Binomial Expressions",
+  "duration": 200,
   "content": {
-    "problem": "Find the domain and range of the function f(x) = √(x - 5).",
+    "problem": "Factor: 2(x + 3)\u00b2 - 7(x + 3) + 3",
     "steps": [
-      "Step 1: Identify domain restrictions\nSince we can't take the square root of a negative number, we need x - 5 ≥ 0\nx ≥ 5",
-      "Step 2: Express the domain using interval notation\nDomain = {x | x ≥ 5} = [5, ∞)",
-      "Step 3: Determine the range\nWhen x = 5, f(5) = √(5 - 5) = √0 = 0\nAs x increases beyond 5, f(x) increases without bound\nSo the range is [0, ∞)"
+      "Step 1: Identify the repeating pattern\nNotice that (x + 3) appears twice",
+      "Step 2: Make the substitution\nLet u = (x + 3)",
+      "Step 3: Rewrite in terms of u\n2(x + 3)\u00b2 - 7(x + 3) + 3 = 2u\u00b2 - 7u + 3",
+      "Step 4: Factor using AC method\nac = 2 \u00d7 3 = 6, need factors that multiply to 6 and add to -7\nFactors: -6 and -1\n2u\u00b2 - 6u - u + 3 = 2u(u - 3) - 1(u - 3) = (2u - 1)(u - 3)",
+      "Step 5: Substitute back\n(2u - 1)(u - 3) = (2(x + 3) - 1)((x + 3) - 3)",
+      "Step 6: Simplify\n= (2x + 6 - 1)(x + 3 - 3) = (2x + 5)(x) = x(2x + 5)"
     ],
-    "explanation": "For radical functions with even roots (like square roots), the expression under the radical must be non-negative. This creates a natural restriction on the domain."
+    "explanation": "When you see the same binomial expression repeated, substitution can simplify the problem dramatically."
   },
   "interactive": {
-    "question": "What is the domain of g(x) = √(8 - 2x)?",
+    "question": "What would be a good substitution for 3(2x - 1)\u00b2 + 5(2x - 1) - 2?",
     "options": [
-      "x ≤ 4",
-      "x ≥ 4",
-      "x ≤ 8"
+      "u = (2x - 1)",
+      "u = 2x",
+      "u = x - 1"
     ],
     "correct": 0
   }

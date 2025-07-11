@@ -2,39 +2,21 @@
   "id": "unit_1_lesson_11_card_013",
   "unit_id": "unit_1",
   "lesson_id": "lesson_11",
-  "type": "worked_example",
-  "title": "Finding a Quadratic Equation from a Graph",
+  "type": "concept_intro",
+  "title": "The Discriminant and the Quadratic Formula",
   "duration": 120,
   "content": {
-    "problem": "Find the quadratic function f(x) = ax² + bx + c based on the following graphical information:\n\n1. A parabola with x-intercepts at -2 and 3, and y-intercept at -6\n2. A parabola with vertex at (1, -4) and passing through the point (3, 0)\n3. A parabola with x-intercepts at 2 and 2 (repeated root), and passing through the point (0, 4)",
-    "steps": [
-      "Step 1: For problem 1, the x-intercepts are at x = -2 and x = 3, which means these are the roots of the quadratic function.",
-      "Step 2: We can write the function in factored form as f(x) = a(x - (-2))(x - 3) = a(x + 2)(x - 3).",
-      "Step 3: Expand this expression: f(x) = a(x² - 3x + 2x - 6) = a(x² - x - 6).",
-      "Step 4: We're also given that the y-intercept is -6, which means f(0) = -6.",
-      "Step 5: Substitute x = 0 into our expression: f(0) = a(0² - 0 - 6) = -6a = -6.",
-      "Step 6: Solving for a: a = 1.",
-      "Step 7: Therefore, the quadratic function is f(x) = x² - x - 6.",
-      "Step 8: For problem 2, the vertex is at (1, -4), so we can write the function in vertex form: f(x) = a(x - 1)² - 4.",
-      "Step 9: We're also given that the parabola passes through the point (3, 0), so f(3) = 0.",
-      "Step 10: Substitute x = 3 into our expression: 0 = a(3 - 1)² - 4 = 4a - 4.",
-      "Step 11: Solving for a: 4a = 4, so a = 1.",
-      "Step 12: Therefore, the quadratic function is f(x) = (x - 1)² - 4 = x² - 2x + 1 - 4 = x² - 2x - 3.",
-      "Step 13: For problem 3, the x-intercept at x = 2 is a repeated root, which means the function can be written as f(x) = a(x - 2)².",
-      "Step 14: We're also given that the parabola passes through the point (0, 4), so f(0) = 4.",
-      "Step 15: Substitute x = 0 into our expression: 4 = a(0 - 2)² = 4a.",
-      "Step 16: Solving for a: a = 1.",
-      "Step 17: Therefore, the quadratic function is f(x) = (x - 2)² = x² - 4x + 4."
-    ],
-    "explanation": "When finding a quadratic equation from graphical information, we use different approaches depending on what information is provided:\n\n1. From x-intercepts (roots):\n   - If we know the roots r and s, we can write f(x) = a(x - r)(x - s)\n   - We need one additional piece of information (like a y-intercept or another point) to find a\n\n2. From the vertex and a point:\n   - If we know the vertex (h, k), we can write f(x) = a(x - h)² + k\n   - We need one additional point to find a\n\n3. From a repeated root and a point:\n   - If we know a repeated root r, we can write f(x) = a(x - r)²\n   - We need one additional point to find a\n\nKey graphical features and their mathematical significance:\n\n- x-intercepts: These are the roots of the equation f(x) = 0\n- y-intercept: This is the value of f(0)\n- Vertex: This is the maximum or minimum point of the parabola at x = -b/(2a)\n\nBy identifying these key features from a graph, we can determine the equation of the quadratic function without having to solve a system of equations."
+    "explanation": "The discriminant is an integral part of the quadratic formula and provides important insights into the nature of the solutions before we even complete the calculation.\n\nRecall that for a quadratic equation ax\u00b2 + bx + c = 0, the quadratic formula gives the solutions as:\n\nx = (-b \u00b1 \u221a(b\u00b2 - 4ac))/(2a)\n\nThe expression under the square root, b\u00b2 - 4ac, is the discriminant (\u0394). The value of the discriminant directly affects how we proceed with the quadratic formula:\n\n1. When \u0394 > 0:\n   - The square root term \u221a\u0394 is a real number\n   - We get two distinct real solutions: x = (-b + \u221a\u0394)/(2a) and x = (-b - \u221a\u0394)/(2a)\n   - If \u0394 is a perfect square, the solutions are rational (assuming a, b, c are rational)\n   - If \u0394 is not a perfect square, the solutions are irrational\n\n2. When \u0394 = 0:\n   - The square root term \u221a\u0394 = 0\n   - The quadratic formula simplifies to x = -b/(2a)\n   - We get one repeated real solution (a double root)\n\n3. When \u0394 < 0:\n   - The square root term \u221a\u0394 involves the square root of a negative number\n   - We need to use complex numbers: \u221a\u0394 = i\u221a|\u0394| where i = \u221a(-1)\n   - We get two complex conjugate solutions: x = (-b + i\u221a|\u0394|)/(2a) and x = (-b - i\u221a|\u0394|)/(2a)\n\nUnderstanding the discriminant allows us to anticipate the nature of the solutions before carrying out the full calculation, which can save time and provide insights into the problem being solved.",
+    "example": "Let's examine how the discriminant affects the solutions for three different quadratic equations:\n\n1. 2x\u00b2 - 7x + 3 = 0\n   Discriminant: \u0394 = (-7)\u00b2 - 4(2)(3) = 49 - 24 = 25\n   Since \u0394 = 25 > 0 and is a perfect square, we expect two rational solutions.\n   Using the quadratic formula: x = (7 \u00b1 \u221a25)/(2(2)) = (7 \u00b1 5)/4\n   x = 3 or x = 1/2\n\n2. x\u00b2 - 6x + 9 = 0\n   Discriminant: \u0394 = (-6)\u00b2 - 4(1)(9) = 36 - 36 = 0\n   Since \u0394 = 0, we expect one repeated solution.\n   Using the quadratic formula: x = 6/(2(1)) = 3\n   The solution is x = 3 (with multiplicity 2)\n\n3. x\u00b2 + 2x + 5 = 0\n   Discriminant: \u0394 = 2\u00b2 - 4(1)(5) = 4 - 20 = -16\n   Since \u0394 = -16 < 0, we expect two complex conjugate solutions.\n   Using the quadratic formula: x = (-2 \u00b1 \u221a(-16))/(2(1)) = (-2 \u00b1 4i)/2 = -1 \u00b1 2i\n   The solutions are x = -1 + 2i and x = -1 - 2i",
+    "key_point": "The discriminant provides a quick way to determine the nature of the solutions to a quadratic equation before applying the full quadratic formula. This can guide our approach to solving the equation and interpreting the results in context."
   },
   "interactive": {
-    "question": "A parabola has x-intercepts at -1 and 4, and its y-intercept is 4. What is the equation of this parabola?",
+    "question": "For the equation 3x\u00b2 - 2x + 5 = 0, what is the discriminant and what does it tell you about the solutions?",
     "options": [
-      "f(x) = x² - 3x - 4",
-      "f(x) = -x² + 3x + 4",
-      "f(x) = x² + 3x - 4"
+      "\u0394 = -56; the equation has two complex conjugate solutions",
+      "\u0394 = 56; the equation has two distinct real solutions",
+      "\u0394 = 0; the equation has one repeated real solution"
     ],
-    "correct": 1
+    "correct": 0
   }
 }

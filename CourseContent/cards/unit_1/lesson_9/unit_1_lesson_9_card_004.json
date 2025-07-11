@@ -3,28 +3,24 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_9",
   "type": "worked_example",
-  "title": "Solving Quadratics by Factoring: Complex Cases",
+  "title": "Simplifying Radicals with Variables",
   "duration": 120,
   "content": {
-    "problem": "Solve the following quadratic equations by factoring:\n1. 2x² - 5x - 3 = 0\n2. 6x² - 7x - 3 = 0\n3. 3x² - 12 = 0",
+    "problem": "Simplify the following radical expressions: \n1. \u221a(8x\u00b3y\u2075) \n2. \u00b3\u221a(16x\u2075y\u2076)",
     "steps": [
-      "Step 1: For 2x² - 5x - 3 = 0, we need to find factors of the form (ax + b)(cx + d) where ac = 2 and bd = -3, and ad + bc = -5.\nSince a and c must multiply to give 2, the possibilities are a = 1, c = 2 or a = 2, c = 1.\nSince b and d must multiply to give -3, the possibilities are b = 1, d = -3 or b = -1, d = 3 or b = 3, d = -1 or b = -3, d = 1.",
-      "Step 2: Try different combinations to find the one that gives ad + bc = -5.\nIf a = 1, c = 2, b = 3, d = -1: ad + bc = 1(-1) + 3(2) = -1 + 6 = 5 (wrong sign)\nIf a = 1, c = 2, b = -3, d = 1: ad + bc = 1(1) + (-3)(2) = 1 - 6 = -5 (correct!)\nSo the factorization is (x - 3)(2x + 1).",
-      "Step 3: Apply the zero product property.\n(x - 3)(2x + 1) = 0\nx - 3 = 0 or 2x + 1 = 0\nx = 3 or x = -1/2\nSo the solutions are x = 3 or x = -1/2.",
-      "Step 4: For 6x² - 7x - 3 = 0, we need factors of the form (ax + b)(cx + d) where ac = 6 and bd = -3, and ad + bc = -7.\nPossible pairs for ac = 6: (1,6), (2,3), (3,2), (6,1)\nPossible pairs for bd = -3: (1,-3), (-1,3), (3,-1), (-3,1)",
-      "Step 5: Try combinations to find the one that gives ad + bc = -7.\nIf a = 2, c = 3, b = 1, d = -3: ad + bc = 2(-3) + 1(3) = -6 + 3 = -3 (wrong)\nIf a = 3, c = 2, b = -1, d = 3: ad + bc = 3(3) + (-1)(2) = 9 - 2 = 7 (wrong sign)\nIf a = 3, c = 2, b = 1, d = -3: ad + bc = 3(-3) + 1(2) = -9 + 2 = -7 (correct!)\nSo the factorization is (3x + 1)(2x - 3).",
-      "Step 6: Apply the zero product property.\n(3x + 1)(2x - 3) = 0\n3x + 1 = 0 or 2x - 3 = 0\nx = -1/3 or x = 3/2\nSo the solutions are x = -1/3 or x = 3/2.",
-      "Step 7: For 3x² - 12 = 0, first rearrange to standard form.\n3x² - 12 = 0\n3x² = 12\nx² = 4",
-      "Step 8: This is now in the form x² = d, which we can solve using the square root method.\nx = ±√4 = ±2\nSo the solutions are x = 2 or x = -2.\nAlternatively, we could factor: 3x² - 12 = 3(x² - 4) = 3(x - 2)(x + 2) = 0, giving the same solutions."
+      "Step 1: For \u221a(8x\u00b3y\u2075), identify the perfect square factors in each term.\n8 = 4 \u00d7 2 = 2\u00b2 \u00d7 2\nx\u00b3 = x\u00b2 \u00d7 x\ny\u2075 = y\u2074 \u00d7 y = (y\u00b2)\u00b2 \u00d7 y",
+      "Step 2: Apply the product property of radicals.\n\u221a(8x\u00b3y\u2075) = \u221a(2\u00b2 \u00d7 2 \u00d7 x\u00b2 \u00d7 x \u00d7 y\u2074 \u00d7 y)\n= \u221a(2\u00b2) \u00d7 \u221a(x\u00b2) \u00d7 \u221a(y\u2074) \u00d7 \u221a(2xy)\n= 2 \u00d7 x \u00d7 y\u00b2 \u00d7 \u221a(2xy)",
+      "Step 3: For \u00b3\u221a(16x\u2075y\u2076), identify the perfect cube factors in each term.\n16 = 8 \u00d7 2 = 2\u00b3 \u00d7 2\nx\u2075 = x\u00b3 \u00d7 x\u00b2 = (x)\u00b3 \u00d7 x\u00b2\ny\u2076 = y\u2076 = (y\u00b2)\u00b3",
+      "Step 4: Apply the product property of radicals.\n\u00b3\u221a(16x\u2075y\u2076) = \u00b3\u221a(2\u00b3 \u00d7 2 \u00d7 x\u00b3 \u00d7 x\u00b2 \u00d7 (y\u00b2)\u00b3)\n= \u00b3\u221a(2\u00b3) \u00d7 \u00b3\u221a(x\u00b3) \u00d7 \u00b3\u221a((y\u00b2)\u00b3) \u00d7 \u00b3\u221a(2x\u00b2)\n= 2 \u00d7 x \u00d7 y\u00b2 \u00d7 \u00b3\u221a(2x\u00b2)"
     ],
-    "explanation": "When factoring quadratics with a leading coefficient other than 1 (i.e., ax² + bx + c where a ≠ 1), we need to find factors of the form (px + q)(rx + s) where:\n\n1. pr = a (the coefficient of x²)\n2. qs = c (the constant term)\n3. ps + qr = b (the coefficient of x)\n\nThis often requires trying different combinations of factors until we find the correct one. Alternatively, we can use the AC method:\n\n1. Multiply a × c\n2. Find two numbers that multiply to give a × c and add to give b\n3. Split the middle term using these numbers\n4. Factor by grouping\n\nFor equations that can be simplified to the form x² = d, the square root method provides a direct approach."
+    "explanation": "When simplifying radicals with variables, we apply the same principles as with numbers, but we need to pay attention to the exponents of each variable.\n\nFor square roots (index 2):\n- Variables with even exponents can be simplified (e.g., \u221a(x\u2076) = x\u00b3)\n- Variables with odd exponents leave a remainder (e.g., \u221a(x\u2075) = x\u00b2 \u00d7 \u221ax)\n\nFor cube roots (index 3):\n- Variables with exponents divisible by 3 can be simplified (e.g., \u00b3\u221a(x\u2076) = x\u00b2)\n- Variables with other exponents leave a remainder (e.g., \u00b3\u221a(x\u2075) = x\u00b9 \u00d7 \u00b3\u221a(x\u00b2))\n\nIn general, for a radical with index n, we divide the exponent by n and extract the quotient, leaving the remainder under the radical."
   },
   "interactive": {
-    "question": "What are the solutions to the equation 3x² + 10x - 8 = 0?",
+    "question": "Which of the following is the simplified form of \u221a(18x\u2074y\u2077)?",
     "options": [
-      "x = 2/3 or x = -4",
-      "x = -2/3 or x = 4",
-      "x = 4/3 or x = -2"
+      "3x\u00b2y\u00b3\u221a(2y)",
+      "3x\u00b2y\u00b3\u221a(2x)",
+      "9x\u00b2y\u00b3\u221a(2y)"
     ],
     "correct": 0
   }

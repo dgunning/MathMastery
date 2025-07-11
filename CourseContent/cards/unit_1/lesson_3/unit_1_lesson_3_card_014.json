@@ -3,23 +3,25 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_3",
   "type": "worked_example",
-  "title": "Domain and Range from Tables",
-  "duration": 120,
+  "title": "Difference of Cubes Example",
+  "duration": 190,
   "content": {
-    "problem": "A function is represented by the following table of values:\nx | -2 | -1 | 0 | 1 | 2 | 3\ny | 4  | 1  | 0 | 1 | 4 | 9\nDetermine: a) if this represents a function, b) the domain, and c) the range.",
+    "problem": "Factor: 8x\u00b3 - 125",
     "steps": [
-      "Step 1: Determine if this is a function\nCheck if any x-value appears more than once with different y-values\nEach x-value appears exactly once, so this is a function",
-      "Step 2: Find the domain\nThe domain consists of all x-values in the table\nDomain = {-2, -1, 0, 1, 2, 3}",
-      "Step 3: Find the range\nThe range consists of all y-values in the table\nRange = {0, 1, 4, 9}"
+      "Step 1: Recognize as difference of cubes\n8x\u00b3 - 125 = (2x)\u00b3 - 5\u00b3",
+      "Step 2: Identify a and b\na = 2x, b = 5",
+      "Step 3: Apply difference of cubes formula\na\u00b3 - b\u00b3 = (a - b)(a\u00b2 + ab + b\u00b2)",
+      "Step 4: Substitute our values\n(2x - 5)((2x)\u00b2 + (2x)(5) + 5\u00b2)",
+      "Step 5: Simplify\n(2x - 5)(4x\u00b2 + 10x + 25)"
     ],
-    "explanation": "When working with a function given as a table of values, the domain is the set of all input values shown, and the range is the set of all output values. Note that some y-values may appear multiple times (like 1 and 4 in this example)."
+    "explanation": "Notice the plus sign in the middle of the second factor - this is the key difference from sum of cubes."
   },
   "interactive": {
-    "question": "For the function represented by the table:\nx | 5 | 10 | 15 | 20\ny | 25 | 50 | 75 | 25\nWhat is the range?",
+    "question": "What is the first term of the second factor in x\u00b3 - 64?",
     "options": [
-      "{25, 50, 75}",
-      "{5, 10, 15, 20}",
-      "{25, 50, 75, 100}"
+      "x\u00b2",
+      "4x\u00b2",
+      "x\u2074"
     ],
     "correct": 0
   }

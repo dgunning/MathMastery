@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_14_card_004",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_14",
+  "type": "concept_intro",
+  "title": "Systems of Equations Review",
+  "duration": 180,
+  "content": {
+    "explanation": "A system of equations consists of two or more equations that are solved simultaneously. For linear systems in two variables, there are three possible outcomes:\n\n1. One unique solution: The lines intersect at exactly one point\n2. No solution: The lines are parallel (inconsistent system)\n3. Infinitely many solutions: The lines are identical (dependent system)\n\nMethods for solving linear systems include:\n\n1. Substitution: Solve one equation for a variable and substitute into the other\n2. Elimination: Add or subtract equations to eliminate a variable\n3. Graphing: Find the intersection point of the graphs",
+    "example": "Solve the system:\n2x + 3y = 12\nx - y = 1\n\nUsing elimination:\nStep 1: Multiply the second equation by 3\n2x + 3y = 12\n3x - 3y = 3\n\nStep 2: Add the equations\n5x = 15\n\nStep 3: Solve for x\nx = 3\n\nStep 4: Substitute back to find y\n3 - y = 1\ny = 2\n\nThe solution is (3, 2)",
+    "key_point": "When solving systems of equations, choose the most efficient method based on the equations. Elimination works well when coefficients can be easily matched, while substitution is better when a variable has a coefficient of 1."
+  },
+  "interactive": {
+    "question": "What is the solution to the system\nx + 2y = 7\n2x - y = 1",
+    "options": [
+      "(3, 2)",
+      "(2, 3)",
+      "(1, 3)"
+    ],
+    "correct": 0
+  }
+}

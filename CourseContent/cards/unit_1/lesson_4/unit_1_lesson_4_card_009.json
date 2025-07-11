@@ -3,22 +3,24 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_4",
   "type": "worked_example",
-  "title": "Finding Input Values from Output Values",
+  "title": "Domain and Range Restrictions in Real-World Problems",
   "duration": 120,
   "content": {
-    "problem": "For the function f(x) = 2x - 5, find all values of x such that f(x) = 7.",
+    "problem": "A rectangular garden has a perimeter of 24 meters. If the length of the garden is x meters, express the width as a function of x, and determine the domain and range of this function.",
     "steps": [
-      "Step 1: Set up an equation using the given information\nf(x) = 7\n2x - 5 = 7",
-      "Step 2: Solve for x\n2x - 5 = 7\n2x = 12\nx = 6"
+      "Step 1: Set up an equation using the perimeter formula\nPerimeter = 2(length) + 2(width) = 24\n2x + 2w = 24\nwhere w is the width",
+      "Step 2: Solve for w in terms of x\n2w = 24 - 2x\nw = 12 - x\nSo the function is w(x) = 12 - x",
+      "Step 3: Determine the domain based on physical constraints\nBoth length and width must be positive: x > 0 and w > 0\nSince w = 12 - x, we need 12 - x > 0\nThis gives us x < 12\nCombining these constraints: 0 < x < 12",
+      "Step 4: Determine the range\nSince w = 12 - x and 0 < x < 12\nWhen x approaches 0, w approaches 12\nWhen x approaches 12, w approaches 0\nSo the range is 0 < w < 12"
     ],
-    "explanation": "When we're asked to find x such that f(x) equals a specific value, we're essentially solving for the input that produces a given output. This is the inverse process of evaluating a function."
+    "explanation": "In real-world problems, the domain and range often have practical constraints. For this garden problem, both dimensions must be positive, which restricts both the domain and range."
   },
   "interactive": {
-    "question": "For g(x) = x² + 3, what value(s) of x give g(x) = 12?",
+    "question": "A rectangular field has an area of 100 square meters. If the width is w meters, and the length is expressed as a function of w, what is the domain of this function based on physical constraints?",
     "options": [
-      "x = 3 or x = -3",
-      "x = 3 only",
-      "x = 9"
+      "w > 0",
+      "w \u2265 0",
+      "w > 100"
     ],
     "correct": 0
   }

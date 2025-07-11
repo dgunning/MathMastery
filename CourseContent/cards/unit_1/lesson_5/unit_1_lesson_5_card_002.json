@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_5",
   "type": "concept_intro",
-  "title": "Understanding the Vertex",
+  "title": "Evaluating Functions",
   "duration": 120,
   "content": {
-    "explanation": "The vertex of a parabola is the point where the parabola changes direction. It's either the lowest point (if the parabola opens upward) or the highest point (if the parabola opens downward).\n\nThe vertex is important because it represents:\n- The minimum or maximum value of the function\n- The axis of symmetry of the parabola\n- Often, a key point in real-world applications (like maximum height of a projectile)",
-    "example": "For the function f(x) = x² - 6x + 8:\n- The parabola opens upward (a > 0)\n- The vertex is the minimum point\n- We'll learn how to find this vertex in the following cards",
-    "key_point": "The x-coordinate of the vertex is also the axis of symmetry of the parabola. If you fold the graph along this vertical line, the two halves of the parabola would match perfectly."
+    "explanation": "To evaluate a function at a specific value, we substitute that value for every occurrence of the variable in the function definition.\n\nFor example, if f(x) = x\u00b2 - 3x + 4, to find f(2), we substitute 2 for every x in the expression:\nf(2) = 2\u00b2 - 3(2) + 4 = 4 - 6 + 4 = 2",
+    "example": "If h(t) = 5t - t\u00b2, then h(3) = 5(3) - 3\u00b2 = 15 - 9 = 6",
+    "key_point": "When evaluating functions, be careful with the order of operations. Complete all operations within parentheses first, then exponents, followed by multiplication/division, and finally addition/subtraction."
   },
   "interactive": {
-    "question": "What does the vertex represent for a quadratic function with a negative leading coefficient (a < 0)?",
+    "question": "If p(x) = x\u00b3 - 2x + 5, what is p(-1)?",
     "options": [
-      "The maximum value of the function",
-      "The minimum value of the function",
-      "The y-intercept of the function"
+      "2",
+      "4",
+      "8"
     ],
     "correct": 0
   }

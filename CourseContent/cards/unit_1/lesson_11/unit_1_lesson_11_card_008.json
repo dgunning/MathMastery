@@ -3,31 +3,29 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_11",
   "type": "worked_example",
-  "title": "Finding a Quadratic Equation with a Specific Point",
+  "title": "Finding Values for a Specific Discriminant",
   "duration": 120,
   "content": {
-    "problem": "Find the quadratic function f(x) = ax² + bx + c that satisfies the given conditions:\n\n1. Roots: 3 and -2, passes through the point (1, 5)\n2. Roots: 4 and 4, passes through the point (2, -8)\n3. Roots: 1 + i and 1 - i, passes through the point (2, 3)",
+    "problem": "Solve the following problems involving specific discriminant values:\n\n1. Find the value of k such that the equation x\u00b2 + kx + 4 = 0 has exactly one real solution.\n\n2. For what values of p will the equation 2x\u00b2 + px + 3 = 0 have two distinct real solutions?\n\n3. Find the value of m such that the discriminant of the equation x\u00b2 + mx + 9 = 0 equals 25.",
     "steps": [
-      "Step 1: For problem 1, since the roots are 3 and -2, we can write the function in factored form as f(x) = a(x - 3)(x - (-2)) = a(x - 3)(x + 2).",
-      "Step 2: Expand this expression: f(x) = a(x² + 2x - 3x - 6) = a(x² - x - 6).",
-      "Step 3: Use the condition that f(1) = 5: 5 = a(1² - 1 - 6) = a(-6), which gives us a = -5/6.",
-      "Step 4: Therefore, the quadratic function is f(x) = (-5/6)(x² - x - 6) = (-5/6)x² + (5/6)x + 5.",
-      "Step 5: For problem 2, since the roots are both 4 (a repeated root), we can write the function in factored form as f(x) = a(x - 4)².",
-      "Step 6: Use the condition that f(2) = -8: -8 = a(2 - 4)² = a(4), which gives us a = -2.",
-      "Step 7: Therefore, the quadratic function is f(x) = -2(x - 4)² = -2x² + 16x - 32.",
-      "Step 8: For problem 3, since the roots are 1 + i and 1 - i, we can write the function in factored form as f(x) = a(x - (1 + i))(x - (1 - i)).",
-      "Step 9: Expand this expression: f(x) = a((x - 1) - i)((x - 1) + i) = a((x - 1)² - i²) = a((x - 1)² + 1) = a(x² - 2x + 1 + 1) = a(x² - 2x + 2).",
-      "Step 10: Use the condition that f(2) = 3: 3 = a(2² - 2(2) + 2) = a(4 - 4 + 2) = a(2), which gives us a = 3/2.",
-      "Step 11: Therefore, the quadratic function is f(x) = (3/2)(x² - 2x + 2) = (3/2)x² - 3x + 3."
+      "Step 1: For a quadratic equation to have exactly one real solution, its discriminant must be zero: \u0394 = b\u00b2 - 4ac = 0.",
+      "Step 2: For the equation x\u00b2 + kx + 4 = 0, identify the coefficients: a = 1, b = k, c = 4.",
+      "Step 3: Set up the discriminant equation and solve for k:\nk\u00b2 - 4(1)(4) = 0\nk\u00b2 - 16 = 0\nk\u00b2 = 16\nk = \u00b14\nSo k = 4 or k = -4 will make the equation have exactly one real solution.",
+      "Step 4: For a quadratic equation to have two distinct real solutions, its discriminant must be positive: \u0394 = b\u00b2 - 4ac > 0.",
+      "Step 5: For the equation 2x\u00b2 + px + 3 = 0, identify the coefficients: a = 2, b = p, c = 3.",
+      "Step 6: Set up the discriminant inequality and solve for p:\np\u00b2 - 4(2)(3) > 0\np\u00b2 - 24 > 0\np\u00b2 > 24\np < -\u221a24 or p > \u221a24\np < -2\u221a6 or p > 2\u221a6\nSo the equation will have two distinct real solutions when p < -2\u221a6 or p > 2\u221a6.",
+      "Step 7: For the equation x\u00b2 + mx + 9 = 0 to have a discriminant of 25, we need: \u0394 = b\u00b2 - 4ac = 25.",
+      "Step 8: Identify the coefficients: a = 1, b = m, c = 9.",
+      "Step 9: Set up the equation and solve for m:\nm\u00b2 - 4(1)(9) = 25\nm\u00b2 - 36 = 25\nm\u00b2 = 61\nm = \u00b1\u221a61\nSo m = \u221a61 or m = -\u221a61 will make the discriminant equal to 25."
     ],
-    "explanation": "When finding a quadratic function that has specific roots and passes through a given point, we follow these steps:\n\n1. Use the roots to write the function in factored form: f(x) = a(x - r₁)(x - r₂)\n   - If the roots are complex conjugates r = p ± qi, use f(x) = a((x - p)² + q²)\n   - If there's a repeated root r, use f(x) = a(x - r)²\n\n2. Expand the factored form to get f(x) = a(x² + bx + c)\n\n3. Use the given point (x₀, y₀) to find the value of a:\n   y₀ = a(x₀² + bx₀ + c)\n   a = y₀/(x₀² + bx₀ + c)\n\n4. Substitute the value of a back into the expanded form to get the final function\n\nThis method works because:\n- The factored form guarantees that the function has the required roots\n- The scaling factor a is determined by the additional point constraint\n- The resulting function is unique (there is exactly one quadratic function with given roots and passing through a specific point)\n\nWhen working with complex roots, remember that a quadratic function with real coefficients will always have complex roots in conjugate pairs (p + qi and p - qi)."
+    "explanation": "When solving problems involving specific discriminant values, we use the discriminant formula \u0394 = b\u00b2 - 4ac and set up equations or inequalities based on the desired conditions:\n\n1. For exactly one real solution (repeated root): \u0394 = 0\n   - This leads to an equation: b\u00b2 - 4ac = 0\n   - Solve for the unknown parameter\n\n2. For two distinct real solutions: \u0394 > 0\n   - This leads to an inequality: b\u00b2 - 4ac > 0\n   - Solve for the unknown parameter\n\n3. For no real solutions (complex roots): \u0394 < 0\n   - This leads to an inequality: b\u00b2 - 4ac < 0\n   - Solve for the unknown parameter\n\n4. For a specific discriminant value: \u0394 = k\n   - This leads to an equation: b\u00b2 - 4ac = k\n   - Solve for the unknown parameter\n\nThese problems often involve solving quadratic equations or inequalities in the unknown parameter."
   },
   "interactive": {
-    "question": "A quadratic function f(x) has roots -1 and 3, and passes through the point (2, 10). What is the function f(x)?",
+    "question": "For what value(s) of k will the equation 3x\u00b2 + kx - 2 = 0 have exactly one real solution?",
     "options": [
-      "f(x) = 2x² - 4x - 6",
-      "f(x) = 2x² + 4x - 6",
-      "f(x) = 2x² - 4x + 6"
+      "k = \u00b14\u221a6/3",
+      "k = \u00b14\u221a3",
+      "k = \u00b12\u221a6"
     ],
     "correct": 0
   }

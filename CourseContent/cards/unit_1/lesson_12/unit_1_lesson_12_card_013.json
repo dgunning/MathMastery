@@ -3,35 +3,38 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_12",
   "type": "worked_example",
-  "title": "Worked Example: Real-World Applications",
+  "title": "Finding a Quadratic Equation from a Graph",
   "duration": 120,
   "content": {
-    "problem": "Solve the following real-world problems using linear-quadratic systems:\n\n1. A farmer has 200 meters of fencing to enclose a rectangular field adjacent to a straight river. If the river forms one side of the rectangle (so no fencing is needed along that side), what dimensions will maximize the area of the field?\n\n2. A company manufactures and sells x units of a product. The cost function is C(x) = x² + 40x + 300, and the revenue function is R(x) = 100x. How many units should be produced to break even?\n\n3. A ball is thrown upward from the ground with an initial velocity of 48 feet per second. At the same moment, another ball is dropped from a height of 64 feet. When will the two balls meet?",
+    "problem": "Find the quadratic function f(x) = ax\u00b2 + bx + c based on the following graphical information:\n\n1. A parabola with x-intercepts at -2 and 3, and y-intercept at -6\n2. A parabola with vertex at (1, -4) and passing through the point (3, 0)\n3. A parabola with x-intercepts at 2 and 2 (repeated root), and passing through the point (0, 4)",
     "steps": [
-      "Step 1: For problem 1, let's define our variables. Let x be the length of the field along the river, and y be the width perpendicular to the river.",
-      "Step 2: Since the river forms one side, we only need fencing for three sides. The perimeter constraint gives us:\nx + 2y = 200\nSolving for y: y = (200 - x)/2 = 100 - x/2",
-      "Step 3: The area of the field is A = xy. We want to maximize this area.\nA = x(100 - x/2) = 100x - x²/2",
-      "Step 4: To find the maximum area, we take the derivative of A with respect to x and set it equal to zero.\ndA/dx = 100 - x = 0\nx = 100",
-      "Step 5: With x = 100, we find y = 100 - 100/2 = 50.",
-      "Step 6: Therefore, the dimensions that maximize the area are 100 meters along the river and 50 meters perpendicular to the river. The maximum area is A = 100 × 50 = 5000 square meters.",
-      "Step 7: For problem 2, we need to find where revenue equals cost (break-even point).\nR(x) = C(x)\n100x = x² + 40x + 300\n0 = x² - 60x + 300",
-      "Step 8: Solve this quadratic equation using the quadratic formula.\na = 1, b = -60, c = 300\nx = (60 ± √(3600 - 1200))/2 = (60 ± √2400)/2 = (60 ± 48.99)/2",
-      "Step 9: x ≈ 54.5 or x ≈ 5.5\nSince we can only produce a whole number of units, the company needs to produce either 6 units or 55 units to break even.",
-      "Step 10: Let's verify these solutions:\nFor x = 6: R(6) = 100(6) = 600, C(6) = 6² + 40(6) + 300 = 36 + 240 + 300 = 576\nFor x = 55: R(55) = 100(55) = 5500, C(55) = 55² + 40(55) + 300 = 3025 + 2200 + 300 = 5525\nThese are close but not exact due to rounding. The exact break-even points are at x = 5 + √15 ≈ 5.87 and x = 5 - √15 ≈ 54.13.",
-      "Step 11: For problem 3, let's define the height functions for both balls.\nFor the first ball (thrown upward): h₁ = 48t - 16t²\nFor the second ball (dropped): h₂ = 64 - 16t²",
-      "Step 12: The balls meet when h₁ = h₂:\n48t - 16t² = 64 - 16t²\n48t = 64\nt = 64/48 = 4/3 seconds",
-      "Step 13: Let's verify this solution by finding the height at t = 4/3 seconds:\nh₁ = 48(4/3) - 16(4/3)² = 64 - 16(16/9) = 64 - 256/9 = (576 - 256)/9 = 320/9 ≈ 35.56 feet\nh₂ = 64 - 16(4/3)² = 64 - 16(16/9) = 64 - 256/9 = (576 - 256)/9 = 320/9 ≈ 35.56 feet",
-      "Step 14: Therefore, the balls meet at t = 4/3 seconds (or approximately 1.33 seconds) at a height of 320/9 feet (approximately 35.56 feet)."
+      "Step 1: For problem 1, the x-intercepts are at x = -2 and x = 3, which means these are the roots of the quadratic function.",
+      "Step 2: We can write the function in factored form as f(x) = a(x - (-2))(x - 3) = a(x + 2)(x - 3).",
+      "Step 3: Expand this expression: f(x) = a(x\u00b2 - 3x + 2x - 6) = a(x\u00b2 - x - 6).",
+      "Step 4: We're also given that the y-intercept is -6, which means f(0) = -6.",
+      "Step 5: Substitute x = 0 into our expression: f(0) = a(0\u00b2 - 0 - 6) = -6a = -6.",
+      "Step 6: Solving for a: a = 1.",
+      "Step 7: Therefore, the quadratic function is f(x) = x\u00b2 - x - 6.",
+      "Step 8: For problem 2, the vertex is at (1, -4), so we can write the function in vertex form: f(x) = a(x - 1)\u00b2 - 4.",
+      "Step 9: We're also given that the parabola passes through the point (3, 0), so f(3) = 0.",
+      "Step 10: Substitute x = 3 into our expression: 0 = a(3 - 1)\u00b2 - 4 = 4a - 4.",
+      "Step 11: Solving for a: 4a = 4, so a = 1.",
+      "Step 12: Therefore, the quadratic function is f(x) = (x - 1)\u00b2 - 4 = x\u00b2 - 2x + 1 - 4 = x\u00b2 - 2x - 3.",
+      "Step 13: For problem 3, the x-intercept at x = 2 is a repeated root, which means the function can be written as f(x) = a(x - 2)\u00b2.",
+      "Step 14: We're also given that the parabola passes through the point (0, 4), so f(0) = 4.",
+      "Step 15: Substitute x = 0 into our expression: 4 = a(0 - 2)\u00b2 = 4a.",
+      "Step 16: Solving for a: a = 1.",
+      "Step 17: Therefore, the quadratic function is f(x) = (x - 2)\u00b2 = x\u00b2 - 4x + 4."
     ],
-    "explanation": "These examples demonstrate how linear-quadratic systems arise in various real-world contexts:\n\n1. Optimization Problems\n   - Many optimization problems involve finding the maximum or minimum value of a quadratic function subject to a linear constraint\n   - The method involves expressing one variable in terms of the other using the linear constraint, then substituting into the quadratic function\n   - Taking the derivative and setting it equal to zero finds the optimal value\n\n2. Break-Even Analysis\n   - When cost and revenue functions are set equal to each other, we get a linear-quadratic system\n   - The solutions represent the break-even points where revenue equals cost\n   - In business contexts, we often need to consider additional constraints like whole number quantities\n\n3. Motion Problems\n   - Objects in motion often follow quadratic paths due to gravity\n   - When two objects' paths are set equal, we get a linear-quadratic system\n   - The solutions represent the times when the objects are at the same position\n\nIn all these applications, it's crucial to:\n- Clearly define what the variables represent\n- Set up the equations based on the physical or economic principles involved\n- Solve the resulting system using appropriate algebraic methods\n- Interpret the solutions in the context of the original problem\n- Verify that the solutions make physical or practical sense"
+    "explanation": "When finding a quadratic equation from graphical information, we use different approaches depending on what information is provided:\n\n1. From x-intercepts (roots):\n   - If we know the roots r and s, we can write f(x) = a(x - r)(x - s)\n   - We need one additional piece of information (like a y-intercept or another point) to find a\n\n2. From the vertex and a point:\n   - If we know the vertex (h, k), we can write f(x) = a(x - h)\u00b2 + k\n   - We need one additional point to find a\n\n3. From a repeated root and a point:\n   - If we know a repeated root r, we can write f(x) = a(x - r)\u00b2\n   - We need one additional point to find a\n\nKey graphical features and their mathematical significance:\n\n- x-intercepts: These are the roots of the equation f(x) = 0\n- y-intercept: This is the value of f(0)\n- Vertex: This is the maximum or minimum point of the parabola at x = -b/(2a)\n\nBy identifying these key features from a graph, we can determine the equation of the quadratic function without having to solve a system of equations."
   },
   "interactive": {
-    "question": "A rectangular garden with a perimeter of 40 meters is to be divided into two equal parts by a fence parallel to one of the sides. If the total length of fencing used (including the perimeter) is 50 meters, what are the dimensions of the garden?",
+    "question": "A parabola has x-intercepts at -1 and 4, and its y-intercept is 4. What is the equation of this parabola?",
     "options": [
-      "10 meters by 10 meters",
-      "15 meters by 5 meters",
-      "12 meters by 8 meters"
+      "f(x) = x\u00b2 - 3x - 4",
+      "f(x) = -x\u00b2 + 3x + 4",
+      "f(x) = x\u00b2 + 3x - 4"
     ],
-    "correct": 2
+    "correct": 1
   }
 }

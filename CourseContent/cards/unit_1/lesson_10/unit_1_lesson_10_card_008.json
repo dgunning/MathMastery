@@ -3,29 +3,30 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_10",
   "type": "worked_example",
-  "title": "Finding Values for a Specific Discriminant",
+  "title": "Solving Quadratic Equations by Completing the Square",
   "duration": 120,
   "content": {
-    "problem": "Solve the following problems involving specific discriminant values:\n\n1. Find the value of k such that the equation x² + kx + 4 = 0 has exactly one real solution.\n\n2. For what values of p will the equation 2x² + px + 3 = 0 have two distinct real solutions?\n\n3. Find the value of m such that the discriminant of the equation x² + mx + 9 = 0 equals 25.",
+    "problem": "Solve the following quadratic equations by completing the square:\n1. x\u00b2 + 6x + 8 = 0\n2. x\u00b2 - 4x - 5 = 0\n3. 2x\u00b2 - 12x + 10 = 0",
     "steps": [
-      "Step 1: For a quadratic equation to have exactly one real solution, its discriminant must be zero: Δ = b² - 4ac = 0.",
-      "Step 2: For the equation x² + kx + 4 = 0, identify the coefficients: a = 1, b = k, c = 4.",
-      "Step 3: Set up the discriminant equation and solve for k:\nk² - 4(1)(4) = 0\nk² - 16 = 0\nk² = 16\nk = ±4\nSo k = 4 or k = -4 will make the equation have exactly one real solution.",
-      "Step 4: For a quadratic equation to have two distinct real solutions, its discriminant must be positive: Δ = b² - 4ac > 0.",
-      "Step 5: For the equation 2x² + px + 3 = 0, identify the coefficients: a = 2, b = p, c = 3.",
-      "Step 6: Set up the discriminant inequality and solve for p:\np² - 4(2)(3) > 0\np² - 24 > 0\np² > 24\np < -√24 or p > √24\np < -2√6 or p > 2√6\nSo the equation will have two distinct real solutions when p < -2√6 or p > 2√6.",
-      "Step 7: For the equation x² + mx + 9 = 0 to have a discriminant of 25, we need: Δ = b² - 4ac = 25.",
-      "Step 8: Identify the coefficients: a = 1, b = m, c = 9.",
-      "Step 9: Set up the equation and solve for m:\nm² - 4(1)(9) = 25\nm² - 36 = 25\nm² = 61\nm = ±√61\nSo m = √61 or m = -√61 will make the discriminant equal to 25."
+      "Step 1: For x\u00b2 + 6x + 8 = 0, move the constant term to the right side.\nx\u00b2 + 6x = -8",
+      "Step 2: Complete the square on the left side. To do this, take half the coefficient of x, square it, and add it to both sides.\nHalf the coefficient of x is 6/2 = 3, and 3\u00b2 = 9.\nx\u00b2 + 6x + 9 = -8 + 9\n(x + 3)\u00b2 = 1",
+      "Step 3: Take the square root of both sides.\nx + 3 = \u00b11\nx = -3 \u00b1 1\nx = -2 or x = -4",
+      "Step 4: For x\u00b2 - 4x - 5 = 0, move the constant term to the right side.\nx\u00b2 - 4x = 5",
+      "Step 5: Complete the square. Half the coefficient of x is -4/2 = -2, and (-2)\u00b2 = 4.\nx\u00b2 - 4x + 4 = 5 + 4\n(x - 2)\u00b2 = 9",
+      "Step 6: Take the square root of both sides.\nx - 2 = \u00b13\nx = 2 \u00b1 3\nx = 5 or x = -1",
+      "Step 7: For 2x\u00b2 - 12x + 10 = 0, first divide all terms by 2 to make the coefficient of x\u00b2 equal to 1.\nx\u00b2 - 6x + 5 = 0",
+      "Step 8: Move the constant term to the right side.\nx\u00b2 - 6x = -5",
+      "Step 9: Complete the square. Half the coefficient of x is -6/2 = -3, and (-3)\u00b2 = 9.\nx\u00b2 - 6x + 9 = -5 + 9\n(x - 3)\u00b2 = 4",
+      "Step 10: Take the square root of both sides.\nx - 3 = \u00b12\nx = 3 \u00b1 2\nx = 5 or x = 1"
     ],
-    "explanation": "When solving problems involving specific discriminant values, we use the discriminant formula Δ = b² - 4ac and set up equations or inequalities based on the desired conditions:\n\n1. For exactly one real solution (repeated root): Δ = 0\n   - This leads to an equation: b² - 4ac = 0\n   - Solve for the unknown parameter\n\n2. For two distinct real solutions: Δ > 0\n   - This leads to an inequality: b² - 4ac > 0\n   - Solve for the unknown parameter\n\n3. For no real solutions (complex roots): Δ < 0\n   - This leads to an inequality: b² - 4ac < 0\n   - Solve for the unknown parameter\n\n4. For a specific discriminant value: Δ = k\n   - This leads to an equation: b² - 4ac = k\n   - Solve for the unknown parameter\n\nThese problems often involve solving quadratic equations or inequalities in the unknown parameter."
+    "explanation": "Completing the square is a method for solving quadratic equations by rewriting the quadratic expression as a perfect square trinomial plus or minus a constant. The general steps are:\n\n1. Ensure the coefficient of x\u00b2 is 1 (divide all terms by the leading coefficient if necessary)\n2. Move the constant term to the right side of the equation\n3. Complete the square on the left side by:\n   a. Taking half the coefficient of x and squaring it\n   b. Adding this value to both sides of the equation\n   c. Rewriting the left side as a perfect square trinomial (x + p)\u00b2\n4. Take the square root of both sides\n5. Solve for x\n\nThis method is particularly useful for:\n- Deriving the quadratic formula\n- Converting from standard form to vertex form\n- Understanding the geometric meaning of the solutions"
   },
   "interactive": {
-    "question": "For what value(s) of k will the equation 3x² + kx - 2 = 0 have exactly one real solution?",
+    "question": "What are the solutions to x\u00b2 + 8x + 12 = 0 using completing the square?",
     "options": [
-      "k = ±4√6/3",
-      "k = ±4√3",
-      "k = ±2√6"
+      "x = -6 or x = -2",
+      "x = -4 \u00b1 2",
+      "x = -4 \u00b1 2\u221a2"
     ],
     "correct": 0
   }

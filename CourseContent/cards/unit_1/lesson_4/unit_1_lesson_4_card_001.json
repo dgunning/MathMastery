@@ -3,20 +3,20 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_4",
   "type": "concept_intro",
-  "title": "Introduction to Function Notation",
+  "title": "What is a Function?",
   "duration": 120,
   "content": {
-    "explanation": "Function notation is a way to write functions in a compact form. Instead of writing 'y equals' for a function, we use f(x) to represent the output value when x is the input.\n\nFor example, instead of writing y = 2x + 3, we write f(x) = 2x + 3.\n\nThe notation f(x) is read as 'f of x' and represents the value of the function at x.",
-    "example": "If f(x) = x² + 1, then f(3) means 'the value of the function when x = 3'.\nf(3) = 3² + 1 = 9 + 1 = 10",
-    "key_point": "Function notation f(x) doesn't mean f times x. It's a way of naming the function (f) and showing what happens when we input a specific value (x)."
+    "explanation": "A function is a special relationship between inputs and outputs where each input has exactly one output.\n\nThink of a function as a machine: you put something in, and you get exactly one thing out. The key rule is that the same input always gives the same output.\n\nFor example, the rule 'multiply by 2' is a function because each number you put in gives exactly one result.",
+    "example": "If f is the 'multiply by 2' function, then:\nf(3) = 6\nf(0) = 0\nf(-4) = -8\n\nEach input gives exactly one output.",
+    "key_point": "The defining characteristic of a function is that each input value corresponds to exactly one output value. If an input could give multiple different outputs, it's not a function."
   },
   "interactive": {
-    "question": "If g(x) = 3x - 5, what is g(4)?",
+    "question": "Which of these is NOT a function?",
     "options": [
-      "7",
-      "12",
-      "-1"
+      "A rule that assigns each person their age",
+      "A rule that assigns each person their favorite colors",
+      "A rule that assigns each number its square"
     ],
-    "correct": 0
+    "correct": 1
   }
 }

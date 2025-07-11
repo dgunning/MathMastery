@@ -3,24 +3,27 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_8",
   "type": "worked_example",
-  "title": "Simplifying Radicals",
+  "title": "Completing the Square with a Constant Term",
   "duration": 120,
   "content": {
-    "problem": "Simplify the following radical expressions: \n1. √75 \n2. ³√54",
+    "problem": "Rewrite the quadratic expression x\u00b2 + 6x + 5 by completing the square.",
     "steps": [
-      "Step 1: For √75, find the largest perfect square factor of 75.\n75 = 25 × 3 = 5² × 3",
-      "Step 2: Apply the product property of radicals.\n√75 = √(5² × 3) = √(5²) × √3 = 5 × √3 = 5√3",
-      "Step 3: For ³√54, find the largest perfect cube factor of 54.\n54 = 27 × 2 = 3³ × 2",
-      "Step 4: Apply the product property of radicals.\n³√54 = ³√(3³ × 2) = ³√(3³) × ³√2 = 3 × ³√2 = 3³√2"
+      "Step 1: Identify the coefficient of x, which is 6",
+      "Step 2: Take half of this coefficient: 6 \u00f7 2 = 3",
+      "Step 3: Square this value: 3\u00b2 = 9",
+      "Step 4: Add and subtract this value to maintain equality\nx\u00b2 + 6x + 5 = x\u00b2 + 6x + 9 - 9 + 5",
+      "Step 5: Rewrite the first three terms as a perfect square trinomial\nx\u00b2 + 6x + 9 - 9 + 5 = (x + 3)\u00b2 - 9 + 5",
+      "Step 6: Simplify the constant terms\n(x + 3)\u00b2 - 9 + 5 = (x + 3)\u00b2 - 4",
+      "Step 7: Verify by expanding\n(x + 3)\u00b2 - 4 = x\u00b2 + 6x + 9 - 4 = x\u00b2 + 6x + 5 \u2713"
     ],
-    "explanation": "To simplify a radical expression, we look for factors of the radicand that are perfect powers matching the index of the radical. For square roots, we look for perfect square factors. For cube roots, we look for perfect cube factors.\n\nThe goal is to extract as many factors as possible from under the radical sign. A radical is considered simplified when:\n1. The radicand has no factor that is a perfect power matching the index\n2. There are no fractions under the radical sign\n3. There are no radicals in the denominator"
+    "explanation": "When completing the square for an expression that includes a constant term, we follow the same process as before but must account for the original constant term in our final simplification. This allows us to rewrite any quadratic expression in the form (x + p)\u00b2 + q."
   },
   "interactive": {
-    "question": "Which of the following is the simplified form of √50?",
+    "question": "What is the result of completing the square for x\u00b2 - 8x + 10?",
     "options": [
-      "5√2",
-      "2√5",
-      "25√2"
+      "(x - 4)\u00b2 - 6",
+      "(x - 4)\u00b2 + 6",
+      "(x + 4)\u00b2 - 6"
     ],
     "correct": 0
   }

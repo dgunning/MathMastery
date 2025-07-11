@@ -2,20 +2,26 @@
   "id": "unit_1_lesson_8_card_012",
   "unit_id": "unit_1",
   "lesson_id": "lesson_8",
-  "type": "concept_intro",
-  "title": "Domain Restrictions with Radicals",
+  "type": "worked_example",
+  "title": "Real-World Application: Revenue Optimization",
   "duration": 120,
   "content": {
-    "explanation": "When working with radical functions, it's essential to understand domain restrictions. The domain of a function is the set of all input values (x-values) for which the function is defined.\n\nFor radical functions, the key domain restrictions are:\n\n1. For even-indexed roots (square root, fourth root, etc.):\n   - The radicand (expression under the radical) must be non-negative\n   - Domain restriction: radicand ≥ 0\n\n2. For odd-indexed roots (cube root, fifth root, etc.):\n   - The radicand can be any real number\n   - No domain restriction based on sign\n\n3. For rational expressions involving radicals:\n   - Avoid division by zero\n   - Domain restriction: denominator ≠ 0\n\nDetermining the domain is crucial for correctly analyzing, graphing, and solving problems involving radical functions.",
-    "example": "Examples of finding domains for radical functions:\n\n1. f(x) = √(x - 3)\n   Domain restriction: x - 3 ≥ 0\n   Solving: x ≥ 3\n   Domain: [3, ∞)\n\n2. g(x) = ³√(2x + 1)\n   Since this is a cube root (odd index), there's no restriction on the sign of the radicand\n   Domain: All real numbers, or (-∞, ∞)\n\n3. h(x) = 1/√x\n   Domain restrictions:\n   - x > 0 (for the square root to be defined)\n   - √x ≠ 0 (to avoid division by zero)\n   Since √x = 0 only when x = 0, and we already have x > 0, the domain is (0, ∞)\n\n4. k(x) = √(x² - 4)\n   Domain restriction: x² - 4 ≥ 0\n   Solving: x² ≥ 4\n   x ≤ -2 or x ≥ 2\n   Domain: (-∞, -2] ∪ [2, ∞)",
-    "key_point": "Always check domain restrictions when working with radical expressions. These restrictions affect every aspect of working with radical functions, from simplifying expressions to solving equations and graphing."
+    "problem": "A company sells x items at a price of p = 50 - 0.5x dollars per item. The revenue R is given by R(x) = x\u00b7p = x(50 - 0.5x) = 50x - 0.5x\u00b2. Use completing the square to find how many items should be sold to maximize revenue, and what is the maximum revenue.",
+    "steps": [
+      "Step 1: Rewrite the revenue function to prepare for completing the square\nR(x) = 50x - 0.5x\u00b2\nR(x) = -0.5x\u00b2 + 50x\nR(x) = -0.5(x\u00b2 - 100x)",
+      "Step 2: Complete the square inside the parentheses\nFor x\u00b2 - 100x, take half of -100, which is -50, and square it: (-50)\u00b2 = 2500\nR(x) = -0.5(x\u00b2 - 100x + 2500 - 2500)\nR(x) = -0.5((x - 50)\u00b2 - 2500)",
+      "Step 3: Distribute the leading coefficient\nR(x) = -0.5(x - 50)\u00b2 + 0.5(2500)\nR(x) = -0.5(x - 50)\u00b2 + 1250",
+      "Step 4: Identify the vertex from the vertex form\nComparing with R(x) = a(x - h)\u00b2 + k, we have a = -0.5, h = 50, k = 1250\nSo the vertex is at (50, 1250)",
+      "Step 5: Interpret the result\nThe company should sell 50 items to maximize revenue, and the maximum revenue is $1250"
+    ],
+    "explanation": "In economics, quadratic functions often model revenue or profit. By completing the square, we can convert the revenue function to vertex form, which directly gives us the optimal number of items to sell (the h-value) and the maximum revenue (the k-value)."
   },
   "interactive": {
-    "question": "What is the domain of the function f(x) = √(9 - x²)?",
+    "question": "A theater charges x dollars per ticket and sells (200 - 4x) tickets at that price. What ticket price maximizes revenue?",
     "options": [
-      "[-3, 3]",
-      "[-9, 9]",
-      "All real numbers"
+      "$25",
+      "$50",
+      "$100"
     ],
     "correct": 0
   }

@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_9",
   "type": "concept_intro",
-  "title": "Review: Solving Quadratic Equations",
+  "title": "Radicals Review and Connections",
   "duration": 120,
   "content": {
-    "explanation": "Let's review the key concepts and methods for solving quadratic equations:\n\n1. Standard Form:\n   - A quadratic equation can be written as ax² + bx + c = 0, where a ≠ 0\n   - The first step in solving is often to rearrange the equation into this form\n\n2. Solution Methods:\n   - Factoring: Write as (px + q)(rx + s) = 0, then set each factor equal to zero\n   - Quadratic Formula: x = (-b ± √(b² - 4ac))/(2a)\n   - Completing the Square: Rewrite as (x + p)² = q, then take square roots\n   - Square Root Method: For equations in the form x² = k, x = ±√k\n   - Graphical Method: Find x-intercepts of the corresponding function\n\n3. The Discriminant (b² - 4ac):\n   - Positive: Two distinct real roots\n   - Zero: One repeated real root\n   - Negative: Two complex conjugate roots\n\n4. Types of Solutions:\n   - Rational: Can be expressed as a fraction of integers\n   - Irrational: Real numbers that cannot be expressed as fractions\n   - Complex: Numbers involving i = √(-1)\n\n5. Connections to Graphs:\n   - Roots correspond to x-intercepts of the parabola\n   - Vertex is at x = -b/(2a)\n   - Axis of symmetry passes through the vertex\n\n6. Applications:\n   - Geometric problems (areas, Pythagorean theorem)\n   - Motion problems (projectile motion, distance-rate-time)\n   - Number problems (products, consecutive integers)\n   - Optimization problems (maximum/minimum values)",
-    "example": "Comprehensive Example: Solve x² - 6x + 8 = 0 using multiple methods.\n\n1. Factoring Method:\n   x² - 6x + 8 = 0\n   (x - 4)(x - 2) = 0\n   x = 4 or x = 2\n\n2. Quadratic Formula:\n   x = (6 ± √(36 - 32))/2\n   x = (6 ± √4)/2\n   x = (6 ± 2)/2\n   x = 4 or x = 2\n\n3. Completing the Square:\n   x² - 6x + 8 = 0\n   x² - 6x = -8\n   x² - 6x + 9 = -8 + 9\n   (x - 3)² = 1\n   x - 3 = ±1\n   x = 4 or x = 2\n\n4. Graphical Interpretation:\n   - The parabola y = x² - 6x + 8 crosses the x-axis at x = 2 and x = 4\n   - The vertex is at (3, -1)\n   - The axis of symmetry is the line x = 3\n   - The discriminant is 36 - 32 = 4 > 0, confirming two distinct real roots",
-    "key_point": "Mastering quadratic equations is fundamental to success in algebra and higher mathematics. The ability to choose and apply the most efficient solution method for a given problem is a valuable skill. Remember that each method has its strengths, and often the nature of the problem will suggest which approach is most appropriate."
+    "explanation": "Let's review the key concepts about working with radicals:\n\n1. Radical Basics:\n   - A radical expression contains a radical symbol (\u221a) representing a root\n   - The radicand is the expression under the radical symbol\n   - The index indicates which root (square root, cube root, etc.)\n\n2. Properties of Radicals:\n   - Product Property: \u207f\u221a(a \u00d7 b) = \u207f\u221aa \u00d7 \u207f\u221ab\n   - Quotient Property: \u207f\u221a(a \u00f7 b) = \u207f\u221aa \u00f7 \u207f\u221ab\n   - Power Property: \u207f\u221a(a^m) = (\u207f\u221aa)^m\n\n3. Simplifying Radicals:\n   - Extract perfect powers matching the index\n   - For variables, divide exponents by the index\n\n4. Operations with Radicals:\n   - Add/subtract like radicals by combining coefficients\n   - Multiply radicals using the product property\n   - Divide radicals and rationalize denominators when needed\n\n5. Radical-Exponent Connection:\n   - \u207f\u221aa = a^(1/n)\n   - \u207f\u221a(a^m) = a^(m/n)\n\n6. Domain Considerations:\n   - Even-indexed radicals require non-negative radicands\n   - Odd-indexed radicals allow any real number radicand\n\n7. Solving Radical Equations:\n   - Isolate the radical\n   - Raise both sides to appropriate power\n   - Check for extraneous solutions",
+    "example": "Comprehensive Example: Simplify \u221a12 + \u221a27 - \u221a75\n\n1. Simplify each radical:\n   \u221a12 = \u221a(4 \u00d7 3) = 2\u221a3\n   \u221a27 = \u221a(9 \u00d7 3) = 3\u221a3\n   \u221a75 = \u221a(25 \u00d7 3) = 5\u221a3\n\n2. Combine like terms:\n   2\u221a3 + 3\u221a3 - 5\u221a3 = 0\n\nThe expression simplifies to 0.\n\nThis example demonstrates simplifying radicals and combining like terms, two fundamental skills in working with radical expressions.",
+    "key_point": "Radicals connect to many areas of mathematics, including:\n- Quadratic equations and the quadratic formula\n- Distance formula in coordinate geometry\n- Trigonometric functions and the Pythagorean identity\n- Complex numbers\n- Exponential and logarithmic functions\n\nMastering radicals provides essential tools for solving a wide range of mathematical problems and understanding more advanced topics."
   },
   "interactive": {
-    "question": "Which of the following statements is NOT true about quadratic equations?",
+    "question": "Which of the following is NOT a valid property of radicals?",
     "options": [
-      "The sum of the roots equals b/a",
-      "The product of the roots equals c/a",
-      "The axis of symmetry occurs at x = -b/(2a)"
+      "\u221a(a + b) = \u221aa + \u221ab",
+      "\u221a(a \u00d7 b) = \u221aa \u00d7 \u221ab",
+      "\u221a(a^n) = (\u221aa)^n"
     ],
     "correct": 0
   }

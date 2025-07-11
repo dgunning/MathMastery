@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_13_card_003",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_13",
+  "type": "concept_intro",
+  "title": "Substitution Method for Solving Linear-Quadratic Systems",
+  "duration": 120,
+  "content": {
+    "explanation": "The substitution method is one of the most efficient algebraic techniques for solving linear-quadratic systems. It involves expressing one variable in terms of the other using the linear equation, and then substituting this expression into the quadratic equation.\n\nSteps for the substitution method:\n\n1. Solve the linear equation for one variable (typically y)\n   - For a linear equation in the form y = mx + b, y is already isolated\n   - For other forms like ax + by + c = 0, solve for y: y = (-ax - c)/b\n\n2. Substitute this expression into the quadratic equation\n   - Replace all occurrences of the isolated variable in the quadratic equation\n   - This results in an equation with only one variable\n\n3. Solve the resulting quadratic equation\n   - Arrange in standard form: ax\u00b2 + bx + c = 0\n   - Solve using factoring, the quadratic formula, or completing the square\n\n4. Find the corresponding values of the other variable\n   - Substitute each solution back into the linear equation\n   - This gives you the complete ordered pairs (x, y)\n\n5. Verify the solutions\n   - Check that each ordered pair satisfies both original equations\n\nThe substitution method is particularly effective for linear-quadratic systems because:\n- It reduces the system to a single quadratic equation in one variable\n- It works well when one equation is already solved for a variable\n- It generally leads to exact solutions, including irrational or complex values",
+    "example": "Let's solve the following linear-quadratic system using the substitution method:\n\ny = 2x - 3         (linear equation)\ny = x\u00b2 - 4x + 5    (quadratic equation)\n\nStep 1: The linear equation is already solved for y as y = 2x - 3.\n\nStep 2: Substitute this expression for y into the quadratic equation:\n2x - 3 = x\u00b2 - 4x + 5\n\nStep 3: Solve the resulting quadratic equation:\n2x - 3 = x\u00b2 - 4x + 5\n0 = x\u00b2 - 6x + 8\n0 = (x - 4)(x - 2)\nx = 4 or x = 2\n\nStep 4: Find the corresponding y-values by substituting each x-value into the linear equation:\nFor x = 4: y = 2(4) - 3 = 8 - 3 = 5\nFor x = 2: y = 2(2) - 3 = 4 - 3 = 1\n\nStep 5: Verify the solutions:\nFor the point (4, 5):\n- Linear equation: 5 = 2(4) - 3 = 5 \u2713\n- Quadratic equation: 5 = 4\u00b2 - 4(4) + 5 = 16 - 16 + 5 = 5 \u2713\n\nFor the point (2, 1):\n- Linear equation: 1 = 2(2) - 3 = 1 \u2713\n- Quadratic equation: 1 = 2\u00b2 - 4(2) + 5 = 4 - 8 + 5 = 1 \u2713\n\nTherefore, the solutions to the system are the points (4, 5) and (2, 1).",
+    "key_point": "When using the substitution method for linear-quadratic systems:\n\n1. Always start by using the linear equation to express one variable in terms of the other\n\n2. The resulting quadratic equation will have the form ax\u00b2 + bx + c = 0, which can be solved using standard techniques\n\n3. Remember that you can get 0, 1, or 2 real solutions:\n   - 0 solutions: The discriminant b\u00b2 - 4ac is negative\n   - 1 solution: The discriminant b\u00b2 - 4ac is zero\n   - 2 solutions: The discriminant b\u00b2 - 4ac is positive\n\n4. Always verify your solutions by checking that they satisfy both original equations\n\n5. The substitution method generally provides exact solutions, making it more precise than the graphical method"
+  },
+  "interactive": {
+    "question": "When solving a linear-quadratic system using substitution, what is the first step you should take?",
+    "options": [
+      "Solve the linear equation for one variable",
+      "Graph both equations",
+      "Set the two equations equal to each other"
+    ],
+    "correct": 0
+  }
+}

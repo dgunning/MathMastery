@@ -3,35 +3,32 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_11",
   "type": "worked_example",
-  "title": "Finding a Quadratic Equation with a Given Sum and Product of Roots",
+  "title": "Discriminant and Parabola Position",
   "duration": 120,
   "content": {
-    "problem": "Find the quadratic equation in standard form (ax² + bx + c = 0) for each of the following conditions:\n\n1. The sum of the roots is 6 and the product of the roots is 8, with a = 1\n2. The sum of the roots is -3 and the product of the roots is -10, with a = 2\n3. The sum of the roots is 0 and the product of the roots is 25, with a = 3",
+    "problem": "For each of the following quadratic functions:\n1. Calculate the discriminant\n2. Determine the position of the parabola relative to the x-axis\n3. Find the vertex of the parabola\n\nFunctions:\na) f(x) = 2x\u00b2 - 4x - 6\nb) f(x) = 3x\u00b2 + 6x + 3\nc) f(x) = -x\u00b2 + 6x - 9",
     "steps": [
-      "Step 1: We'll use Vieta's Formulas to solve these problems. For a quadratic equation ax² + bx + c = 0 with roots r and s:\n- r + s = -b/a (Sum of roots)\n- r × s = c/a (Product of roots)",
-      "Step 2: For problem 1, we have sum of roots = 6, product of roots = 8, and a = 1.",
-      "Step 3: Using the first formula: r + s = -b/a, so 6 = -b/1, which gives us b = -6.",
-      "Step 4: Using the second formula: r × s = c/a, so 8 = c/1, which gives us c = 8.",
-      "Step 5: Therefore, the quadratic equation is x² - 6x + 8 = 0.",
-      "Step 6: We can verify this by finding the roots using the quadratic formula:\nx = (6 ± √(36 - 32))/2 = (6 ± √4)/2 = (6 ± 2)/2 = 4 or 2\nIndeed, 4 + 2 = 6 and 4 × 2 = 8.",
-      "Step 7: For problem 2, we have sum of roots = -3, product of roots = -10, and a = 2.",
-      "Step 8: Using the first formula: r + s = -b/a, so -3 = -b/2, which gives us b = 6.",
-      "Step 9: Using the second formula: r × s = c/a, so -10 = c/2, which gives us c = -20.",
-      "Step 10: Therefore, the quadratic equation is 2x² + 6x - 20 = 0, which can be simplified to x² + 3x - 10 = 0.",
-      "Step 11: For problem 3, we have sum of roots = 0, product of roots = 25, and a = 3.",
-      "Step 12: Using the first formula: r + s = -b/a, so 0 = -b/3, which gives us b = 0.",
-      "Step 13: Using the second formula: r × s = c/a, so 25 = c/3, which gives us c = 75.",
-      "Step 14: Therefore, the quadratic equation is 3x² + 0x + 75 = 0, which can be simplified to 3x² + 75 = 0 or x² + 25 = 0.",
-      "Step 15: We can verify this by noting that the roots must be 5i and -5i (since their sum is 0 and their product is 25). These are indeed the roots of x² + 25 = 0."
+      "Step 1: For function a) f(x) = 2x\u00b2 - 4x - 6, identify the coefficients: a = 2, b = -4, c = -6.",
+      "Step 2: Calculate the discriminant for function a):\n\u0394 = b\u00b2 - 4ac\n\u0394 = (-4)\u00b2 - 4(2)(-6)\n\u0394 = 16 + 48\n\u0394 = 64",
+      "Step 3: Since \u0394 = 64 > 0, the parabola crosses the x-axis at two distinct points. The roots are:\nx = (-b \u00b1 \u221a\u0394)/(2a)\nx = (4 \u00b1 \u221a64)/(2(2))\nx = (4 \u00b1 8)/4\nx = 3 or x = -1\nSo the parabola crosses the x-axis at x = -1 and x = 3.",
+      "Step 4: The vertex of the parabola occurs at x = -b/(2a) = -(-4)/(2(2)) = 4/4 = 1.\nThe y-coordinate of the vertex is f(1) = 2(1)\u00b2 - 4(1) - 6 = 2 - 4 - 6 = -8.\nSo the vertex is at (1, -8).",
+      "Step 5: For function b) f(x) = 3x\u00b2 + 6x + 3, identify the coefficients: a = 3, b = 6, c = 3.",
+      "Step 6: Calculate the discriminant for function b):\n\u0394 = b\u00b2 - 4ac\n\u0394 = 6\u00b2 - 4(3)(3)\n\u0394 = 36 - 36\n\u0394 = 0",
+      "Step 7: Since \u0394 = 0, the parabola touches the x-axis at exactly one point. The root is:\nx = -b/(2a) = -6/(2(3)) = -6/6 = -1\nSo the parabola touches the x-axis at x = -1.",
+      "Step 8: The vertex of the parabola occurs at x = -b/(2a) = -6/(2(3)) = -1.\nThe y-coordinate of the vertex is f(-1) = 3(-1)\u00b2 + 6(-1) + 3 = 3 - 6 + 3 = 0.\nSo the vertex is at (-1, 0), which is also the point where the parabola touches the x-axis.",
+      "Step 9: For function c) f(x) = -x\u00b2 + 6x - 9, identify the coefficients: a = -1, b = 6, c = -9.",
+      "Step 10: Calculate the discriminant for function c):\n\u0394 = b\u00b2 - 4ac\n\u0394 = 6\u00b2 - 4(-1)(-9)\n\u0394 = 36 - 36\n\u0394 = 0",
+      "Step 11: Since \u0394 = 0, the parabola touches the x-axis at exactly one point. The root is:\nx = -b/(2a) = -6/(2(-1)) = -6/(-2) = 3\nSo the parabola touches the x-axis at x = 3.",
+      "Step 12: The vertex of the parabola occurs at x = -b/(2a) = -6/(2(-1)) = 3.\nThe y-coordinate of the vertex is f(3) = -(3)\u00b2 + 6(3) - 9 = -9 + 18 - 9 = 0.\nSo the vertex is at (3, 0), which is also the point where the parabola touches the x-axis.\nNote that since a < 0, this parabola opens downward, and the vertex is the highest point on the parabola."
     ],
-    "explanation": "Finding a quadratic equation from the sum and product of its roots is a direct application of Vieta's Formulas. The process involves these steps:\n\n1. Identify the given information: sum of roots (r + s), product of roots (r × s), and the leading coefficient (a).\n\n2. Apply Vieta's Formulas to find the coefficients b and c:\n   - b = -a(r + s) [from r + s = -b/a]\n   - c = a(r × s) [from r × s = c/a]\n\n3. Write the quadratic equation in standard form: ax² + bx + c = 0.\n\nSpecial cases to note:\n\n- When the sum of roots is 0 (r + s = 0), the coefficient of x (b) is 0, resulting in an equation of the form ax² + c = 0.\n\n- When the product of roots is 0 (r × s = 0), the constant term (c) is 0, resulting in an equation of the form ax² + bx = 0, which has 0 as one of its roots.\n\n- When the product of roots is positive and the sum of roots is 0, the roots must be complex conjugates of the form ±bi, where b is a real number.\n\nThis method works even when you don't know the actual roots, making it a powerful tool for constructing quadratic equations with specific properties."
+    "explanation": "The discriminant provides key information about the position of a parabola relative to the x-axis:\n\n1. When \u0394 > 0:\n   - The parabola crosses the x-axis at two distinct points\n   - If a > 0, the parabola opens upward and has a minimum value\n   - If a < 0, the parabola opens downward and has a maximum value\n\n2. When \u0394 = 0:\n   - The parabola touches the x-axis at exactly one point\n   - This point is also the vertex of the parabola\n   - The quadratic function can be written in the form f(x) = a(x - h)\u00b2\n\n3. When \u0394 < 0:\n   - The parabola doesn't intersect the x-axis\n   - If a > 0, the parabola lies entirely above the x-axis\n   - If a < 0, the parabola lies entirely below the x-axis\n\nThe vertex of the parabola always occurs at x = -b/(2a), regardless of the discriminant. The y-coordinate of the vertex is related to the discriminant by the formula f(-b/(2a)) = -\u0394/(4a)."
   },
   "interactive": {
-    "question": "What is the quadratic equation with sum of roots = -5 and product of roots = 6, with a = 1?",
+    "question": "A quadratic function f(x) = 2x\u00b2 - 8x + 7 has discriminant \u0394 = 8. What is the vertex of the parabola and how does the parabola intersect the x-axis?",
     "options": [
-      "x² + 5x + 6 = 0",
-      "x² - 5x + 6 = 0",
-      "x² + 5x - 6 = 0"
+      "Vertex at (2, -1); crosses the x-axis at two distinct points",
+      "Vertex at (2, 0); touches the x-axis at one point",
+      "Vertex at (2, -1); doesn't intersect the x-axis"
     ],
     "correct": 0
   }

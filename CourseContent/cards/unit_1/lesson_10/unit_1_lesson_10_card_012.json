@@ -3,32 +3,33 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_10",
   "type": "worked_example",
-  "title": "The Discriminant in Optimization Problems",
+  "title": "Geometric Applications of Quadratic Equations",
   "duration": 120,
   "content": {
-    "problem": "Solve the following optimization problems using the discriminant:\n\n1. A farmer has 100 meters of fencing to enclose a rectangular garden along a straight river. If no fencing is needed along the river, find the dimensions of the garden that will maximize the enclosed area.\n\n2. A company's profit function (in thousands of dollars) for producing x units of a product is given by P(x) = -2x² + 120x - 1000. Determine whether the company can make a profit, and if so, find the range of production levels that will result in a profit.",
+    "problem": "Solve the following geometric problems using quadratic equations:\n\n1. The hypotenuse of a right triangle is 13 cm. If one leg is 7 cm longer than the other, find the lengths of both legs.\n\n2. A square picture frame has an outer edge of 24 cm and an inner edge of 16 cm. What is the width of the frame?",
     "steps": [
-      "Step 1: For the garden problem, let's define the variables. Let x be the length of the garden along the river, and y be the width perpendicular to the river.",
-      "Step 2: Since no fencing is needed along the river, the perimeter constraint is: x + 2y = 100. Solving for y: y = (100 - x)/2.",
-      "Step 3: The area of the garden is A = xy = x((100 - x)/2) = (100x - x²)/2.",
-      "Step 4: To maximize the area, we find the critical point by taking the derivative and setting it equal to zero:\ndA/dx = (100 - 2x)/2 = 0\n100 - 2x = 0\nx = 50",
-      "Step 5: The second derivative is d²A/dx² = -1 < 0, confirming this is a maximum. So the length along the river should be x = 50 meters.",
-      "Step 6: The width is y = (100 - 50)/2 = 25 meters. The maximum area is A = 50 × 25 = 1250 square meters.",
-      "Step 7: For the profit problem, the company makes a profit when P(x) > 0, so we need to solve the inequality: -2x² + 120x - 1000 > 0.",
-      "Step 8: Let's calculate the discriminant of the quadratic equation -2x² + 120x - 1000 = 0:\nΔ = 120² - 4(-2)(-1000) = 14400 - 8000 = 6400 = 80²",
-      "Step 9: Since Δ > 0, the equation has two distinct real roots. Using the quadratic formula:\nx = (-120 ± √6400)/(-4) = (120 ± 80)/4\nx = 50 ± 20\nx = 30 or x = 70",
-      "Step 10: Since the leading coefficient is negative (-2), the parabola opens downward, so the profit function is positive between the roots. Therefore, the company makes a profit when 30 < x < 70.",
-      "Step 11: To verify, we can check the profit at x = 50 (midway between the roots):\nP(50) = -2(50)² + 120(50) - 1000 = -5000 + 6000 - 1000 = 0\nThis confirms that the maximum profit occurs at x = 50 units, with the profit being positive for production levels between 30 and 70 units."
+      "Step 1: For the right triangle problem, let's define our variables. Let x represent the length of the shorter leg. Then x + 7 represents the length of the longer leg.",
+      "Step 2: Use the Pythagorean theorem to set up an equation. In a right triangle, the sum of the squares of the legs equals the square of the hypotenuse.\nx\u00b2 + (x + 7)\u00b2 = 13\u00b2",
+      "Step 3: Expand the equation.\nx\u00b2 + x\u00b2 + 14x + 49 = 169\n2x\u00b2 + 14x + 49 = 169",
+      "Step 4: Simplify and rearrange to standard form.\n2x\u00b2 + 14x + 49 - 169 = 0\n2x\u00b2 + 14x - 120 = 0",
+      "Step 5: Divide all terms by 2 to simplify.\nx\u00b2 + 7x - 60 = 0",
+      "Step 6: Solve by factoring. We need to find two numbers that multiply to give -60 and add to give 7.\nThe factors of -60 include: (1,-60), (-1,60), (2,-30), (-2,30), (3,-20), (-3,20), (4,-15), (-4,15), (5,-12), (-5,12), (6,-10), (-6,10).\nChecking the sums: (-5) + 12 = 7.\nSo the factorization is (x - 5)(x + 12) = 0.",
+      "Step 7: Solve for x.\nx = 5 or x = -12\nSince we're finding the length of a leg in a triangle, x must be positive. So x = 5 cm is the only valid solution.\nThe shorter leg is 5 cm, and the longer leg is 5 + 7 = 12 cm.\nVerification: 5\u00b2 + 12\u00b2 = 25 + 144 = 169 = 13\u00b2 \u2713",
+      "Step 8: For the square picture frame problem, let's define our variable. Let w represent the width of the frame.",
+      "Step 9: The outer edge of the frame forms a square with side length 24 cm. The inner edge forms a square with side length 24 - 2w cm (since the width of the frame is subtracted from both sides).",
+      "Step 10: Wait, let's reconsider. If the outer edge is 24 cm and the inner edge is 16 cm, these must be the side lengths of the outer and inner squares respectively. So the width of the frame is (24 - 16)/2 = 4 cm.\nBut let's solve this algebraically to practice using quadratic equations.",
+      "Step 11: Let x be the side length of the inner square. Then the outer square has side length x + 2w, where w is the width of the frame.\nGiven information: x + 2w = 24 and x = 16.",
+      "Step 12: Substitute x = 16 into the first equation.\n16 + 2w = 24\n2w = 8\nw = 4 cm\nSo the width of the frame is 4 cm."
     ],
-    "explanation": "In optimization problems involving quadratic functions, the discriminant provides valuable information about the existence and nature of optimal solutions:\n\n1. For maximizing a quadratic function f(x) = ax² + bx + c where a < 0:\n   - The maximum value occurs at x = -b/(2a)\n   - The maximum value is f(-b/(2a)) = -Δ/(4a) + c\n   - If we need to find where f(x) > k for some constant k, we solve the inequality ax² + bx + (c - k) > 0\n   - The discriminant of the equation ax² + bx + (c - k) = 0 determines whether solutions exist\n\n2. For minimizing a quadratic function f(x) = ax² + bx + c where a > 0:\n   - The minimum value occurs at x = -b/(2a)\n   - The minimum value is f(-b/(2a)) = -Δ/(4a) + c\n   - If we need to find where f(x) < k for some constant k, we solve the inequality ax² + bx + (c - k) < 0\n   - The discriminant of the equation ax² + bx + (c - k) = 0 determines whether solutions exist\n\n3. In constrained optimization problems with quadratic objective functions:\n   - We often reduce the problem to a single-variable quadratic function after substituting the constraint\n   - The discriminant helps determine whether the optimal solution is attainable within the constraints\n\nThe sign of the discriminant tells us about the feasibility of the optimization problem:\n- If Δ > 0, there are two distinct x-values where the function equals a given value\n- If Δ = 0, there is exactly one x-value where the function equals a given value\n- If Δ < 0, there are no x-values where the function equals a given value"
+    "explanation": "Geometric problems often lead to quadratic equations, especially when they involve:\n\n1. Pythagorean theorem: a\u00b2 + b\u00b2 = c\u00b2 for right triangles\n2. Area and perimeter relationships\n3. Similar triangles and proportions\n4. Circles and their properties\n\nWhen solving geometric problems:\n\n1. Draw a diagram and label the known and unknown quantities\n2. Define variables for the unknown quantities\n3. Use geometric formulas and relationships to set up equations\n4. Solve the resulting equations\n5. Verify that the solutions make sense in the context of the problem\n6. Remember that negative solutions may not be valid for physical measurements\n\nThe Pythagorean theorem is particularly useful in generating quadratic equations, as it involves squared terms. When combined with other constraints on the sides of a triangle, it typically leads to a quadratic equation."
   },
   "interactive": {
-    "question": "A company's revenue function (in dollars) is R(x) = 50x - 0.5x², where x is the number of items sold. The cost function is C(x) = 20x + 500. For what range of values of x will the company make a profit?",
+    "question": "A rectangular field has a perimeter of 100 meters and an area of 600 square meters. What are the dimensions of the field?",
     "options": [
-      "10 < x < 40",
-      "20 < x < 80",
-      "x > 20"
+      "20 meters by 30 meters",
+      "25 meters by 25 meters",
+      "15 meters by 35 meters"
     ],
-    "correct": 2
+    "correct": 0
   }
 }

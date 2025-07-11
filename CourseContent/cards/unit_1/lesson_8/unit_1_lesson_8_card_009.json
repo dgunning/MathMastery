@@ -2,26 +2,20 @@
   "id": "unit_1_lesson_8_card_009",
   "unit_id": "unit_1",
   "lesson_id": "lesson_8",
-  "type": "worked_example",
-  "title": "Converting Between Radical and Exponential Form",
+  "type": "concept_intro",
+  "title": "Completing the Square and the Quadratic Formula",
   "duration": 120,
   "content": {
-    "problem": "Convert the following expressions between radical and exponential form, and simplify:\n1. Convert 5^(3/4) to radical form\n2. Convert ⁵√x^7 to exponential form\n3. Simplify √x × ⁴√x^3 using exponential form",
-    "steps": [
-      "Step 1: For 5^(3/4), use the relationship a^(m/n) = ⁿ√(a^m).\n5^(3/4) = ⁴√(5^3) = ⁴√125",
-      "Step 2: For ⁵√x^7, use the relationship ⁿ√(a^m) = a^(m/n).\n⁵√x^7 = x^(7/5)",
-      "Step 3: For √x × ⁴√x^3, first convert both to exponential form.\n√x = x^(1/2)\n⁴√x^3 = x^(3/4)",
-      "Step 4: Apply the product rule of exponents.\nx^(1/2) × x^(3/4) = x^(1/2 + 3/4) = x^(5/4)",
-      "Step 5: Convert back to radical form if needed.\nx^(5/4) = ⁴√x^5 = ⁴√(x^4 × x) = x × ⁴√x"
-    ],
-    "explanation": "Converting between radical and exponential forms allows us to apply the laws of exponents to simplify expressions. The key relationships are:\n\n1. ⁿ√a = a^(1/n)\n2. ⁿ√(a^m) = a^(m/n)\n3. a^(m/n) = ⁿ√(a^m) = (ⁿ√a)^m\n\nWhen simplifying expressions with different radicals, converting to exponential form often makes the process more straightforward, as we can apply the familiar rules of exponents and then convert back to radical form if necessary."
+    "explanation": "The quadratic formula x = (-b \u00b1 \u221a(b\u00b2 - 4ac))/(2a) can actually be derived using the completing the square method. Understanding this connection helps us see why the formula works.\n\nStarting with the standard form ax\u00b2 + bx + c = 0, we can apply completing the square to derive the quadratic formula:\n\n1. Divide all terms by a: x\u00b2 + (b/a)x + (c/a) = 0\n2. Move the constant term: x\u00b2 + (b/a)x = -(c/a)\n3. Complete the square: (x + (b/2a))\u00b2 - (b/2a)\u00b2 = -(c/a)\n4. Simplify: (x + (b/2a))\u00b2 = (b\u00b2/4a\u00b2) - (c/a)\n5. Combine fractions: (x + (b/2a))\u00b2 = (b\u00b2 - 4ac)/(4a\u00b2)\n6. Take the square root: x + (b/2a) = \u00b1\u221a(b\u00b2 - 4ac)/(2a)\n7. Solve for x: x = -b/(2a) \u00b1 \u221a(b\u00b2 - 4ac)/(2a)\n8. Factor: x = (-b \u00b1 \u221a(b\u00b2 - 4ac))/(2a)",
+    "example": "For the equation 2x\u00b2 - 6x + 3 = 0:\n\nUsing the quadratic formula with a = 2, b = -6, c = 3:\nx = (-(-6) \u00b1 \u221a((-6)\u00b2 - 4(2)(3)))/(2(2))\nx = (6 \u00b1 \u221a(36 - 24))/4\nx = (6 \u00b1 \u221a12)/4\nx = (6 \u00b1 2\u221a3)/4\nx = 3/2 \u00b1 \u221a3/2",
+    "key_point": "Completing the square is not just a technique for solving specific quadratic equations\u2014it's the foundation for the general quadratic formula that works for all quadratic equations."
   },
   "interactive": {
-    "question": "Which of the following is equal to 8^(2/3)?",
+    "question": "Which of the following is NOT a benefit of understanding the connection between completing the square and the quadratic formula?",
     "options": [
-      "4",
-      "³√64",
-      "²√8"
+      "It eliminates the need to memorize the quadratic formula",
+      "It provides insight into why the quadratic formula works",
+      "It helps us understand the role of the discriminant b\u00b2 - 4ac"
     ],
     "correct": 0
   }

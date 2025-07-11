@@ -2,33 +2,20 @@
   "id": "unit_1_lesson_9_card_012",
   "unit_id": "unit_1",
   "lesson_id": "lesson_9",
-  "type": "worked_example",
-  "title": "Geometric Applications of Quadratic Equations",
+  "type": "concept_intro",
+  "title": "Domain Restrictions with Radicals",
   "duration": 120,
   "content": {
-    "problem": "Solve the following geometric problems using quadratic equations:\n\n1. The hypotenuse of a right triangle is 13 cm. If one leg is 7 cm longer than the other, find the lengths of both legs.\n\n2. A square picture frame has an outer edge of 24 cm and an inner edge of 16 cm. What is the width of the frame?",
-    "steps": [
-      "Step 1: For the right triangle problem, let's define our variables. Let x represent the length of the shorter leg. Then x + 7 represents the length of the longer leg.",
-      "Step 2: Use the Pythagorean theorem to set up an equation. In a right triangle, the sum of the squares of the legs equals the square of the hypotenuse.\nx² + (x + 7)² = 13²",
-      "Step 3: Expand the equation.\nx² + x² + 14x + 49 = 169\n2x² + 14x + 49 = 169",
-      "Step 4: Simplify and rearrange to standard form.\n2x² + 14x + 49 - 169 = 0\n2x² + 14x - 120 = 0",
-      "Step 5: Divide all terms by 2 to simplify.\nx² + 7x - 60 = 0",
-      "Step 6: Solve by factoring. We need to find two numbers that multiply to give -60 and add to give 7.\nThe factors of -60 include: (1,-60), (-1,60), (2,-30), (-2,30), (3,-20), (-3,20), (4,-15), (-4,15), (5,-12), (-5,12), (6,-10), (-6,10).\nChecking the sums: (-5) + 12 = 7.\nSo the factorization is (x - 5)(x + 12) = 0.",
-      "Step 7: Solve for x.\nx = 5 or x = -12\nSince we're finding the length of a leg in a triangle, x must be positive. So x = 5 cm is the only valid solution.\nThe shorter leg is 5 cm, and the longer leg is 5 + 7 = 12 cm.\nVerification: 5² + 12² = 25 + 144 = 169 = 13² ✓",
-      "Step 8: For the square picture frame problem, let's define our variable. Let w represent the width of the frame.",
-      "Step 9: The outer edge of the frame forms a square with side length 24 cm. The inner edge forms a square with side length 24 - 2w cm (since the width of the frame is subtracted from both sides).",
-      "Step 10: Wait, let's reconsider. If the outer edge is 24 cm and the inner edge is 16 cm, these must be the side lengths of the outer and inner squares respectively. So the width of the frame is (24 - 16)/2 = 4 cm.\nBut let's solve this algebraically to practice using quadratic equations.",
-      "Step 11: Let x be the side length of the inner square. Then the outer square has side length x + 2w, where w is the width of the frame.\nGiven information: x + 2w = 24 and x = 16.",
-      "Step 12: Substitute x = 16 into the first equation.\n16 + 2w = 24\n2w = 8\nw = 4 cm\nSo the width of the frame is 4 cm."
-    ],
-    "explanation": "Geometric problems often lead to quadratic equations, especially when they involve:\n\n1. Pythagorean theorem: a² + b² = c² for right triangles\n2. Area and perimeter relationships\n3. Similar triangles and proportions\n4. Circles and their properties\n\nWhen solving geometric problems:\n\n1. Draw a diagram and label the known and unknown quantities\n2. Define variables for the unknown quantities\n3. Use geometric formulas and relationships to set up equations\n4. Solve the resulting equations\n5. Verify that the solutions make sense in the context of the problem\n6. Remember that negative solutions may not be valid for physical measurements\n\nThe Pythagorean theorem is particularly useful in generating quadratic equations, as it involves squared terms. When combined with other constraints on the sides of a triangle, it typically leads to a quadratic equation."
+    "explanation": "When working with radical functions, it's essential to understand domain restrictions. The domain of a function is the set of all input values (x-values) for which the function is defined.\n\nFor radical functions, the key domain restrictions are:\n\n1. For even-indexed roots (square root, fourth root, etc.):\n   - The radicand (expression under the radical) must be non-negative\n   - Domain restriction: radicand \u2265 0\n\n2. For odd-indexed roots (cube root, fifth root, etc.):\n   - The radicand can be any real number\n   - No domain restriction based on sign\n\n3. For rational expressions involving radicals:\n   - Avoid division by zero\n   - Domain restriction: denominator \u2260 0\n\nDetermining the domain is crucial for correctly analyzing, graphing, and solving problems involving radical functions.",
+    "example": "Examples of finding domains for radical functions:\n\n1. f(x) = \u221a(x - 3)\n   Domain restriction: x - 3 \u2265 0\n   Solving: x \u2265 3\n   Domain: [3, \u221e)\n\n2. g(x) = \u00b3\u221a(2x + 1)\n   Since this is a cube root (odd index), there's no restriction on the sign of the radicand\n   Domain: All real numbers, or (-\u221e, \u221e)\n\n3. h(x) = 1/\u221ax\n   Domain restrictions:\n   - x > 0 (for the square root to be defined)\n   - \u221ax \u2260 0 (to avoid division by zero)\n   Since \u221ax = 0 only when x = 0, and we already have x > 0, the domain is (0, \u221e)\n\n4. k(x) = \u221a(x\u00b2 - 4)\n   Domain restriction: x\u00b2 - 4 \u2265 0\n   Solving: x\u00b2 \u2265 4\n   x \u2264 -2 or x \u2265 2\n   Domain: (-\u221e, -2] \u222a [2, \u221e)",
+    "key_point": "Always check domain restrictions when working with radical expressions. These restrictions affect every aspect of working with radical functions, from simplifying expressions to solving equations and graphing."
   },
   "interactive": {
-    "question": "A rectangular field has a perimeter of 100 meters and an area of 600 square meters. What are the dimensions of the field?",
+    "question": "What is the domain of the function f(x) = \u221a(9 - x\u00b2)?",
     "options": [
-      "20 meters by 30 meters",
-      "25 meters by 25 meters",
-      "15 meters by 35 meters"
+      "[-3, 3]",
+      "[-9, 9]",
+      "All real numbers"
     ],
     "correct": 0
   }

@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_14_card_009",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_14",
+  "type": "worked_example",
+  "title": "Connecting Quadratics and Systems",
+  "duration": 240,
+  "content": {
+    "problem": "A rectangular garden has a perimeter of 26 meters. If the area of the garden is 40 square meters:\n\n1. Write a system of equations to represent this scenario.\n2. Solve the system to find the dimensions of the garden.\n3. If a rectangular flower bed is placed in the center of the garden leaving a uniform border of 1 meter all around, what is the area of the flower bed?",
+    "solution": "Step 1: Define variables and write the system of equations.\nLet l = length of the garden in meters\nLet w = width of the garden in meters\n\nFrom the perimeter, we have:\n2l + 2w = 26\nl + w = 13 ... Equation 1\n\nFrom the area, we have:\nA = l × w = 40 ... Equation 2\n\nStep 2: Solve the system of equations.\nFrom Equation 1: l = 13 - w\n\nSubstitute into Equation 2:\n(13 - w) × w = 40\n13w - w² = 40\n-w² + 13w - 40 = 0\nw² - 13w + 40 = 0\n\nUse the quadratic formula to solve for w:\nw = (-b ± √(b² - 4ac))/(2a)\nw = (13 ± √(13² - 4 × 1 × 40))/(2 × 1)\nw = (13 ± √(169 - 160))/2\nw = (13 ± √9)/2\nw = (13 ± 3)/2\nw = 8 or w = 5\n\nFor w = 8: l = 13 - 8 = 5\nFor w = 5: l = 13 - 5 = 8\n\nSo the garden dimensions are 8 meters × 5 meters.\n\nStep 3: Find the area of the flower bed.\nIf there is a uniform border of 1 meter all around, the flower bed dimensions are:\nLength = 8 - 2 = 6 meters (subtracting 1 meter from each side)\nWidth = 5 - 2 = 3 meters\n\nArea of flower bed = 6 × 3 = 18 square meters",
+    "insight": "This problem demonstrates the power of combining different mathematical techniques. We started with a system of equations from the constraints (perimeter and area), which led to a quadratic equation. By solving this quadratic and interpreting the results in context, we were able to determine the garden dimensions and answer follow-up questions about the flower bed."
+  },
+  "interactive": {
+    "question": "If a similar garden has a perimeter of 28 meters and an area of 48 square meters, what are its dimensions?",
+    "options": [
+      "8 meters × 6 meters",
+      "10 meters × 4 meters",
+      "9 meters × 5 meters"
+    ],
+    "correct": 0
+  }
+}

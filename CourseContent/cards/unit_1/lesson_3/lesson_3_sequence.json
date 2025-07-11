@@ -1,9 +1,9 @@
 {
   "unit_id": "unit_1",
   "lesson_id": "lesson_3",
-  "lesson_name": "Functions, Domain, and Range",
-  "total_cards": 15,
-  "estimated_duration": 1800,
+  "lesson_name": "Advanced Factoring Methods",
+  "total_cards": 18,
+  "estimated_duration": 2280,
   "sequence": [
     "unit_1_lesson_3_card_001",
     "unit_1_lesson_3_card_002",
@@ -19,10 +19,13 @@
     "unit_1_lesson_3_card_012",
     "unit_1_lesson_3_card_013",
     "unit_1_lesson_3_card_014",
-    "unit_1_lesson_3_card_015"
+    "unit_1_lesson_3_card_015",
+    "unit_1_lesson_3_card_016",
+    "unit_1_lesson_3_card_017",
+    "unit_1_lesson_3_card_018"
   ],
   "card_types": {
-    "worked_example": 9,
-    "concept_intro": 6
+    "worked_example": 8,
+    "concept_intro": 4
   }
 }

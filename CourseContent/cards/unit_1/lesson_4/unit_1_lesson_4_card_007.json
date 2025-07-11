@@ -3,23 +3,22 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_4",
   "type": "worked_example",
-  "title": "Evaluating Piecewise Functions",
+  "title": "Finding Domain and Range from Graphs",
   "duration": 120,
   "content": {
-    "problem": "Evaluate the function f(x) = {\n  x² - 4 if x ≤ 1\n  3x - 2 if x > 1\n}\nat x = -2, x = 1, and x = 3.",
+    "problem": "Find the domain and range of the function shown in the graph of a parabola opening downward with vertex at (2, 5) and x-intercepts at (0, 0) and (4, 0).",
     "steps": [
-      "Step 1: Evaluate f(-2)\nSince -2 ≤ 1, we use the first piece: f(x) = x² - 4\nf(-2) = (-2)² - 4 = 4 - 4 = 0",
-      "Step 2: Evaluate f(1)\nSince 1 ≤ 1, we use the first piece: f(x) = x² - 4\nf(1) = 1² - 4 = 1 - 4 = -3",
-      "Step 3: Evaluate f(3)\nSince 3 > 1, we use the second piece: f(x) = 3x - 2\nf(3) = 3(3) - 2 = 9 - 2 = 7"
+      "Step 1: To find the domain, look at all possible x-values on the graph.\nThe graph extends horizontally from x = 0 to x = 4.\nSo the domain is [0, 4].",
+      "Step 2: To find the range, look at all possible y-values on the graph.\nThe lowest y-value is 0 (at the x-intercepts).\nThe highest y-value is 5 (at the vertex).\nSo the range is [0, 5]."
     ],
-    "explanation": "When evaluating piecewise functions, the key is to carefully check which condition applies to your input value. Pay special attention to boundary points and whether inequalities are strict (< or >) or inclusive (≤ or ≥)."
+    "explanation": "When finding domain and range from a graph, the domain is the set of all x-coordinates and the range is the set of all y-coordinates. For a parabola opening downward, the maximum y-value occurs at the vertex."
   },
   "interactive": {
-    "question": "For h(x) = {\n  |x| if x < 0\n  x² if 0 ≤ x ≤ 2\n  4 if x > 2\n}\nWhat is h(0)?",
+    "question": "A function is graphed as a semicircle centered at the origin with radius 3, in the upper half of the coordinate plane. What is its range?",
     "options": [
-      "0",
-      "4",
-      "undefined"
+      "[0, 3]",
+      "[-3, 3]",
+      "[-3, 0]"
     ],
     "correct": 0
   }

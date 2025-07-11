@@ -3,20 +3,20 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_2",
   "type": "concept_intro",
-  "title": "Advanced Factoring: When Coefficients Aren't 1",
-  "duration": 180,
+  "title": "Introduction to Factoring",
+  "duration": 120,
   "content": {
-    "explanation": "You've already learned to factor simple trinomials like x² + 5x + 6 = (x + 2)(x + 3). But what happens when the coefficient in front of x² isn't 1?\n\nFor example: 2x² + 7x + 3\n\nThe '2' in front of x² makes this more challenging because we can't just find two numbers that multiply to give the constant term. We need a new strategy.",
-    "example": "Think of it like unpacking a more complex box - you need additional tools when the contents are more complicated.",
-    "key_point": "When the leading coefficient (the number in front of x²) is not 1, we need special techniques like the AC method or factoring by grouping."
+    "explanation": "Factoring is the process of breaking down an expression into a product of simpler expressions. It's like breaking down a number into its prime factors.\n\nFor example, the number 12 can be factored as 3 × 4, or even further as 2 × 2 × 3.\n\nIn algebra, we do the same thing with expressions like x² + 5x + 6, breaking them down into simpler expressions that multiply to give the original.",
+    "example": "Just as 12 = 3 × 4, the expression x² + 5x + 6 = (x + 2)(x + 3)",
+    "key_point": "Factoring is the reverse of multiplication. We start with an expression and find what simpler expressions can be multiplied together to create it."
   },
   "interactive": {
-    "question": "Which of these trinomials would require advanced factoring techniques?",
+    "question": "Which of these is an example of factoring?",
     "options": [
-      "x² + 8x + 15",
-      "3x² + 10x + 8", 
-      "x² - 9"
+      "5x + 10 = 5(x + 2)",
+      "2(x + 3) = 2x + 6",
+      "x² + 2x = x(x + 2)"
     ],
-    "correct": 1
+    "correct": 0
   }
 }

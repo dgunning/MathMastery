@@ -3,25 +3,26 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_7",
   "type": "worked_example",
-  "title": "Real-World Application: Revenue Optimization",
+  "title": "Minimizing Material: Box Design",
   "duration": 120,
   "content": {
-    "problem": "A company sells x items at a price of p = 50 - 0.5x dollars per item. The revenue R is given by R(x) = x·p = x(50 - 0.5x) = 50x - 0.5x². Use completing the square to find how many items should be sold to maximize revenue, and what is the maximum revenue.",
+    "problem": "A company wants to create an open-top box from a 16 cm \u00d7 16 cm square piece of cardboard by cutting equal-sized squares from each corner and folding up the sides. What size squares should be cut from the corners to maximize the volume of the box?",
     "steps": [
-      "Step 1: Rewrite the revenue function to prepare for completing the square\nR(x) = 50x - 0.5x²\nR(x) = -0.5x² + 50x\nR(x) = -0.5(x² - 100x)",
-      "Step 2: Complete the square inside the parentheses\nFor x² - 100x, take half of -100, which is -50, and square it: (-50)² = 2500\nR(x) = -0.5(x² - 100x + 2500 - 2500)\nR(x) = -0.5((x - 50)² - 2500)",
-      "Step 3: Distribute the leading coefficient\nR(x) = -0.5(x - 50)² + 0.5(2500)\nR(x) = -0.5(x - 50)² + 1250",
-      "Step 4: Identify the vertex from the vertex form\nComparing with R(x) = a(x - h)² + k, we have a = -0.5, h = 50, k = 1250\nSo the vertex is at (50, 1250)",
-      "Step 5: Interpret the result\nThe company should sell 50 items to maximize revenue, and the maximum revenue is $1250"
+      "Step 1: Define variables and write equations\nLet x = side length of the square cut from each corner (in cm)\nThe base of the box will be (16 - 2x) \u00d7 (16 - 2x)\nThe height of the box will be x",
+      "Step 2: Write the volume as a function of x\nVolume = length \u00d7 width \u00d7 height\nV(x) = (16 - 2x)(16 - 2x)(x)\nV(x) = (16 - 2x)\u00b2(x)\nV(x) = (256 - 64x + 4x\u00b2)(x)\nV(x) = 256x - 64x\u00b2 + 4x\u00b3",
+      "Step 3: Find the critical points by taking the derivative (we'll use a shortcut)\nFor a cubic function like this, we need to find where the derivative equals zero\nThe derivative of V(x) is V'(x) = 256 - 128x + 12x\u00b2\nSetting V'(x) = 0: 256 - 128x + 12x\u00b2 = 0\nSolving this quadratic equation gives x \u2248 2.67 or x \u2248 8\nSince x = 8 would make the box dimensions negative, x \u2248 2.67 is our only valid critical point",
+      "Step 4: Verify this is a maximum by checking the second derivative or by testing nearby values\nTesting confirms that x \u2248 2.67 gives a maximum volume",
+      "Step 5: Calculate the maximum volume\nV(2.67) = 256(2.67) - 64(2.67)\u00b2 + 4(2.67)\u00b3 \u2248 683.43 - 456.53 + 76.10 \u2248 303 cubic cm",
+      "Step 6: State the answer\nSquares of approximately 2.67 cm should be cut from each corner to maximize the volume at about 303 cubic cm"
     ],
-    "explanation": "In economics, quadratic functions often model revenue or profit. By completing the square, we can convert the revenue function to vertex form, which directly gives us the optimal number of items to sell (the h-value) and the maximum revenue (the k-value)."
+    "explanation": "This problem involves maximizing a cubic function, which is slightly more complex than a quadratic. However, the principle is the same: we find the critical points where the derivative equals zero, then determine which critical point gives the maximum value."
   },
   "interactive": {
-    "question": "A theater charges x dollars per ticket and sells (200 - 4x) tickets at that price. What ticket price maximizes revenue?",
+    "question": "A box with an open top is to be made from a 20 cm \u00d7 20 cm square piece of cardboard by cutting equal squares from the corners and folding up the sides. What size squares should be cut to maximize the volume?",
     "options": [
-      "$25",
-      "$50",
-      "$100"
+      "3.33 cm",
+      "5 cm",
+      "2.5 cm"
     ],
     "correct": 0
   }

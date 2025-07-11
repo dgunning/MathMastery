@@ -3,20 +3,20 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_3",
   "type": "concept_intro",
-  "title": "Determining if a Relation is a Function",
-  "duration": 120,
+  "title": "Sum and Difference of Cubes",
+  "duration": 200,
   "content": {
-    "explanation": "There are several ways to determine if a relation is a function:\n\n1. From ordered pairs: Check if any input (x-value) appears more than once with different outputs.\n\n2. From a graph: Apply the vertical line test - if any vertical line intersects the graph more than once, it's not a function.\n\n3. From a mapping diagram: Check if any input connects to more than one output.",
-    "example": "Consider the relation {(1, 2), (3, 4), (5, 6), (1, 7)}.\nThe input 1 appears twice with different outputs (2 and 7).\nTherefore, this relation is not a function.",
-    "key_point": "A function is a special relation where each input has exactly one output. The key is to check for duplicate inputs with different outputs."
+    "explanation": "There are special patterns for factoring expressions involving cubes:\n\nSum of cubes: a\u00b3 + b\u00b3 = (a + b)(a\u00b2 - ab + b\u00b2)\nDifference of cubes: a\u00b3 - b\u00b3 = (a - b)(a\u00b2 + ab + b\u00b2)\n\nMemory trick for signs in the second factor:\n\u2022 Sum of cubes \u2192 minus in the middle\n\u2022 Difference of cubes \u2192 plus in the middle",
+    "example": "x\u00b3 + 8 = x\u00b3 + 2\u00b3 = (x + 2)(x\u00b2 - 2x + 4)\n8x\u00b3 - 27 = (2x)\u00b3 - 3\u00b3 = (2x - 3)(4x\u00b2 + 6x + 9)",
+    "key_point": "First recognize if you have perfect cubes, then apply the appropriate formula."
   },
   "interactive": {
-    "question": "Which of these relations is a function?",
+    "question": "Which formula applies to x\u00b3 - 125?",
     "options": [
-      "y = x²",
-      "x = y²",
-      "x² + y² = 25"
+      "Sum of cubes: (a + b)(a\u00b2 - ab + b\u00b2)",
+      "Difference of cubes: (a - b)(a\u00b2 + ab + b\u00b2)",
+      "Neither, it's not a perfect cube"
     ],
-    "correct": 0
+    "correct": 1
   }
 }

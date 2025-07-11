@@ -2,20 +2,33 @@
   "id": "unit_1_lesson_10_card_013",
   "unit_id": "unit_1",
   "lesson_id": "lesson_10",
-  "type": "concept_intro",
-  "title": "The Discriminant and the Quadratic Formula",
+  "type": "worked_example",
+  "title": "Motion Problems with Quadratic Equations",
   "duration": 120,
   "content": {
-    "explanation": "The discriminant is an integral part of the quadratic formula and provides important insights into the nature of the solutions before we even complete the calculation.\n\nRecall that for a quadratic equation ax² + bx + c = 0, the quadratic formula gives the solutions as:\n\nx = (-b ± √(b² - 4ac))/(2a)\n\nThe expression under the square root, b² - 4ac, is the discriminant (Δ). The value of the discriminant directly affects how we proceed with the quadratic formula:\n\n1. When Δ > 0:\n   - The square root term √Δ is a real number\n   - We get two distinct real solutions: x = (-b + √Δ)/(2a) and x = (-b - √Δ)/(2a)\n   - If Δ is a perfect square, the solutions are rational (assuming a, b, c are rational)\n   - If Δ is not a perfect square, the solutions are irrational\n\n2. When Δ = 0:\n   - The square root term √Δ = 0\n   - The quadratic formula simplifies to x = -b/(2a)\n   - We get one repeated real solution (a double root)\n\n3. When Δ < 0:\n   - The square root term √Δ involves the square root of a negative number\n   - We need to use complex numbers: √Δ = i√|Δ| where i = √(-1)\n   - We get two complex conjugate solutions: x = (-b + i√|Δ|)/(2a) and x = (-b - i√|Δ|)/(2a)\n\nUnderstanding the discriminant allows us to anticipate the nature of the solutions before carrying out the full calculation, which can save time and provide insights into the problem being solved.",
-    "example": "Let's examine how the discriminant affects the solutions for three different quadratic equations:\n\n1. 2x² - 7x + 3 = 0\n   Discriminant: Δ = (-7)² - 4(2)(3) = 49 - 24 = 25\n   Since Δ = 25 > 0 and is a perfect square, we expect two rational solutions.\n   Using the quadratic formula: x = (7 ± √25)/(2(2)) = (7 ± 5)/4\n   x = 3 or x = 1/2\n\n2. x² - 6x + 9 = 0\n   Discriminant: Δ = (-6)² - 4(1)(9) = 36 - 36 = 0\n   Since Δ = 0, we expect one repeated solution.\n   Using the quadratic formula: x = 6/(2(1)) = 3\n   The solution is x = 3 (with multiplicity 2)\n\n3. x² + 2x + 5 = 0\n   Discriminant: Δ = 2² - 4(1)(5) = 4 - 20 = -16\n   Since Δ = -16 < 0, we expect two complex conjugate solutions.\n   Using the quadratic formula: x = (-2 ± √(-16))/(2(1)) = (-2 ± 4i)/2 = -1 ± 2i\n   The solutions are x = -1 + 2i and x = -1 - 2i",
-    "key_point": "The discriminant provides a quick way to determine the nature of the solutions to a quadratic equation before applying the full quadratic formula. This can guide our approach to solving the equation and interpreting the results in context."
+    "problem": "Solve the following motion problems using quadratic equations:\n\n1. A ball is thrown upward from ground level with an initial velocity of 24 meters per second. The height h (in meters) of the ball after t seconds is given by h = -4.9t\u00b2 + 24t. How long will it take for the ball to return to the ground?\n\n2. A motorboat travels 24 km upstream and then returns. The speed of the current is 2 km/h. If the total trip takes 6 hours, what is the speed of the boat in still water?",
+    "steps": [
+      "Step 1: For the ball problem, we need to find when the ball returns to the ground, which means h = 0.\nh = -4.9t\u00b2 + 24t = 0",
+      "Step 2: Factor out t from the equation.\nt(-4.9t + 24) = 0",
+      "Step 3: Set each factor equal to zero and solve for t.\nt = 0 or -4.9t + 24 = 0\nt = 0 or t = 24/4.9 \u2248 4.9 seconds",
+      "Step 4: Interpret the solutions. t = 0 represents the initial time when the ball is thrown, and t \u2248 4.9 seconds is when the ball returns to the ground. So it takes about 4.9 seconds for the ball to return to the ground.",
+      "Step 5: For the motorboat problem, let's define our variable. Let v represent the speed of the boat in still water (in km/h).",
+      "Step 6: Calculate the boat's speed in each direction:\n- Upstream speed: v - 2 km/h (boat speed minus current)\n- Downstream speed: v + 2 km/h (boat speed plus current)",
+      "Step 7: Calculate the time for each part of the journey:\n- Time upstream = Distance / Speed = 24 / (v - 2) hours\n- Time downstream = Distance / Speed = 24 / (v + 2) hours",
+      "Step 8: Set up an equation based on the total trip time of 6 hours.\n24/(v - 2) + 24/(v + 2) = 6",
+      "Step 9: Find a common denominator for the fractions.\n[24(v + 2) + 24(v - 2)]/[(v - 2)(v + 2)] = 6\n[24v + 48 + 24v - 48]/[(v - 2)(v + 2)] = 6\n48v/[(v - 2)(v + 2)] = 6",
+      "Step 10: Multiply both sides by (v - 2)(v + 2).\n48v = 6(v - 2)(v + 2)\n48v = 6(v\u00b2 - 4)\n48v = 6v\u00b2 - 24\n0 = 6v\u00b2 - 48v - 24\n0 = v\u00b2 - 8v - 4",
+      "Step 11: Solve this quadratic equation using the quadratic formula.\nv = [8 \u00b1 \u221a(64 + 16)]/2\nv = [8 \u00b1 \u221a80]/2\nv = [8 \u00b1 4\u221a5]/2\nv = 4 \u00b1 2\u221a5",
+      "Step 12: Evaluate the two solutions.\nv \u2248 4 + 4.47 \u2248 8.47 km/h or v \u2248 4 - 4.47 \u2248 -0.47 km/h\nSince the speed must be positive and greater than the current speed (2 km/h) for the boat to make progress upstream, the only valid solution is v \u2248 8.47 km/h.\nSo the speed of the boat in still water is about 8.5 km/h."
+    ],
+    "explanation": "Motion problems often lead to quadratic equations, particularly in these scenarios:\n\n1. Projectile motion: Objects thrown upward or at an angle are affected by gravity, creating a parabolic path described by a quadratic function. The standard formula is h = -4.9t\u00b2 + v\u2080t + h\u2080, where v\u2080 is initial velocity and h\u2080 is initial height.\n\n2. Distance-rate-time problems: When rates vary or when comparing round trips, the relationship between distance, rate, and time (d = rt) can lead to quadratic equations.\n\n3. Relative motion: Problems involving objects moving toward or away from each other often involve quadratic relationships.\n\nWhen solving motion problems:\n1. Define variables clearly\n2. Identify the relevant physical formulas\n3. Set up equations based on the given information\n4. Solve the resulting quadratic equation\n5. Interpret solutions in the context of the problem\n6. Discard any solutions that don't make physical sense (e.g., negative time values)"
   },
   "interactive": {
-    "question": "For the equation 3x² - 2x + 5 = 0, what is the discriminant and what does it tell you about the solutions?",
+    "question": "A stone is thrown upward from a height of 5 meters with an initial velocity of 15 meters per second. The height h (in meters) of the stone after t seconds is given by h = -4.9t\u00b2 + 15t + 5. After how many seconds will the stone reach its maximum height?",
     "options": [
-      "Δ = -56; the equation has two complex conjugate solutions",
-      "Δ = 56; the equation has two distinct real solutions",
-      "Δ = 0; the equation has one repeated real solution"
+      "1.5 seconds",
+      "3 seconds",
+      "2.5 seconds"
     ],
     "correct": 0
   }

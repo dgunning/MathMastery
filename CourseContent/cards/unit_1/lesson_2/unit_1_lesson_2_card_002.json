@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_2",
   "type": "concept_intro",
-  "title": "The AC Method Strategy",
-  "duration": 150,
+  "title": "Finding the Greatest Common Factor (GCF)",
+  "duration": 120,
   "content": {
-    "explanation": "The AC method is a systematic way to factor trinomials when the leading coefficient isn't 1. Here's the strategy:\n\n1. Multiply the first coefficient (a) by the last coefficient (c)\n2. Find two numbers that multiply to give ac and add to give the middle coefficient (b)\n3. Use these numbers to split the middle term\n4. Factor by grouping\n\nThis method works because it transforms the problem into something we already know how to solve.",
-    "example": "For 2x² + 7x + 3:\na = 2, c = 3, so ac = 6\nWe need two numbers that multiply to 6 and add to 7\nThose numbers are 1 and 6!",
-    "key_point": "The AC method converts any trinomial factoring problem into a grouping problem, which we already know how to solve."
+    "explanation": "The Greatest Common Factor (GCF) is the largest factor that divides all terms in an expression. Finding the GCF is the first step in many factoring problems.\n\nTo find the GCF of a polynomial:\n\n1. Find the GCF of all coefficients (the numbers)\n2. Find the common variables with the lowest exponents\n3. Multiply these together",
+    "example": "To find the GCF of 12x³y² and 18x²y⁴:\n\n1. GCF of 12 and 18 is 6\n2. Common variables with lowest exponents: x² and y²\n3. GCF = 6x²y²",
+    "key_point": "Always look for the GCF first before trying other factoring methods. Factoring out the GCF often simplifies the remaining expression and makes further factoring easier."
   },
   "interactive": {
-    "question": "For the trinomial 3x² + 14x + 8, what is the value of ac?",
+    "question": "What is the GCF of 24x⁴y³ and 16x²y⁵?",
     "options": [
-      "24",
-      "11",
-      "14"
+      "8x²y³",
+      "4x²y³",
+      "8x²y⁵"
     ],
     "correct": 0
   }

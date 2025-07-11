@@ -2,29 +2,20 @@
   "id": "unit_1_lesson_10_card_009",
   "unit_id": "unit_1",
   "lesson_id": "lesson_10",
-  "type": "worked_example",
-  "title": "Discriminant in Quadratic Inequalities",
+  "type": "concept_intro",
+  "title": "Comparing Solution Methods",
   "duration": 120,
   "content": {
-    "problem": "Use the discriminant to help solve the following quadratic inequalities:\n\n1. x² - 4x + 5 > 0\n\n2. 2x² - 3x - 2 ≤ 0\n\n3. -x² + 6x - 9 ≥ 0",
-    "steps": [
-      "Step 1: For inequality 1, x² - 4x + 5 > 0, first calculate the discriminant to determine the nature of the roots of the corresponding equation x² - 4x + 5 = 0.\nΔ = (-4)² - 4(1)(5) = 16 - 20 = -4 < 0",
-      "Step 2: Since Δ < 0, the equation x² - 4x + 5 = 0 has no real roots. The parabola y = x² - 4x + 5 doesn't cross the x-axis and, since a = 1 > 0, the parabola opens upward. Therefore, the function value is always positive.\nSo the solution to x² - 4x + 5 > 0 is all real numbers, or (-∞, ∞).",
-      "Step 3: For inequality 2, 2x² - 3x - 2 ≤ 0, calculate the discriminant of the equation 2x² - 3x - 2 = 0.\nΔ = (-3)² - 4(2)(-2) = 9 + 16 = 25 > 0",
-      "Step 4: Since Δ > 0, the equation has two distinct real roots. Using the quadratic formula:\nx = (3 ± √25)/(2(2)) = (3 ± 5)/4\nx = 2 or x = -1/2\nThese are the x-intercepts of the parabola y = 2x² - 3x - 2.",
-      "Step 5: Since a = 2 > 0, the parabola opens upward, so the function value is negative (≤ 0) between the roots.\nSo the solution to 2x² - 3x - 2 ≤ 0 is [-1/2, 2].",
-      "Step 6: For inequality 3, -x² + 6x - 9 ≥ 0, calculate the discriminant of the equation -x² + 6x - 9 = 0.\nΔ = 6² - 4(-1)(-9) = 36 - 36 = 0",
-      "Step 7: Since Δ = 0, the equation has one repeated real root. Using x = -b/(2a):\nx = -6/(2(-1)) = 3\nThis is the x-intercept of the parabola y = -x² + 6x - 9.",
-      "Step 8: Since a = -1 < 0, the parabola opens downward, and the vertex is the highest point. Since the parabola touches the x-axis at x = 3 (the vertex), the function value is non-positive for all x except at x = 3, where it equals zero.\nSo the solution to -x² + 6x - 9 ≥ 0 is the single point {3}."
-    ],
-    "explanation": "The discriminant is a valuable tool for solving quadratic inequalities because it helps determine the nature and position of the roots, which are the boundaries of the solution intervals.\n\nThe general approach for solving a quadratic inequality ax² + bx + c ⋚ 0 is:\n\n1. Calculate the discriminant Δ = b² - 4ac to determine the number of real roots\n2. Find the roots (if any) using the quadratic formula or factoring\n3. Determine the sign of the leading coefficient a\n4. Use the roots to divide the number line into intervals\n5. Test each interval to determine where the inequality is satisfied\n\nKey patterns to remember:\n\n1. If Δ < 0 (no real roots):\n   - If a > 0, the inequality ax² + bx + c > 0 is satisfied for all real numbers\n   - If a < 0, the inequality ax² + bx + c < 0 is satisfied for all real numbers\n\n2. If Δ = 0 (one repeated root r):\n   - If a > 0, the inequality ax² + bx + c > 0 is satisfied for all x ≠ r\n   - If a < 0, the inequality ax² + bx + c < 0 is satisfied for all x ≠ r\n\n3. If Δ > 0 (two distinct roots r₁ < r₂):\n   - If a > 0, the inequality ax² + bx + c > 0 is satisfied for x < r₁ or x > r₂\n   - If a < 0, the inequality ax² + bx + c < 0 is satisfied for x < r₁ or x > r₂"
+    "explanation": "When solving quadratic equations, we have several methods at our disposal. Choosing the most efficient method depends on the specific equation and context. Let's compare the main methods:\n\n1. Factoring:\n   - Advantages: Quick and direct when factors are easy to find; shows the connection between roots and factors\n   - Disadvantages: Not all quadratics factor nicely with rational coefficients\n   - Best for: Equations with integer or simple rational roots\n\n2. Quadratic Formula:\n   - Advantages: Works for any quadratic equation; gives exact solutions including irrational and complex numbers\n   - Disadvantages: Involves more calculation; may require simplifying radicals\n   - Best for: General-purpose solving when factoring isn't obvious\n\n3. Completing the Square:\n   - Advantages: Reveals the vertex form; useful for graphing; helps understand the structure of the equation\n   - Disadvantages: More steps than other methods; potential for arithmetic errors\n   - Best for: Converting to vertex form; deriving the quadratic formula; some geometric problems\n\n4. Square Root Method:\n   - Advantages: Very quick for equations in the form x\u00b2 = k\n   - Disadvantages: Limited applicability\n   - Best for: Equations that can be easily reduced to x\u00b2 = k\n\n5. Graphical Method:\n   - Advantages: Provides visual understanding; gives approximate solutions when exact values are difficult\n   - Disadvantages: May lack precision; requires graphing tools\n   - Best for: Visualizing solutions; checking other methods; approximate solutions",
+    "example": "Let's solve x\u00b2 - 5x + 6 = 0 using different methods and compare:\n\n1. Factoring:\n   x\u00b2 - 5x + 6 = 0\n   (x - 2)(x - 3) = 0\n   x = 2 or x = 3\n   Time: Quick if you recognize the factors\n\n2. Quadratic Formula (a = 1, b = -5, c = 6):\n   x = (-(-5) \u00b1 \u221a((-5)\u00b2 - 4(1)(6)))/(2(1))\n   x = (5 \u00b1 \u221a(25 - 24))/2\n   x = (5 \u00b1 1)/2\n   x = 3 or x = 2\n   Time: Longer, but systematic\n\n3. Completing the Square:\n   x\u00b2 - 5x + 6 = 0\n   x\u00b2 - 5x = -6\n   x\u00b2 - 5x + (5/2)\u00b2 = -6 + (5/2)\u00b2\n   (x - 5/2)\u00b2 = -6 + 25/4\n   (x - 5/2)\u00b2 = 1/4\n   x - 5/2 = \u00b11/2\n   x = 5/2 \u00b1 1/2\n   x = 3 or x = 2\n   Time: Longest, but shows the structure\n\nFor this particular equation, factoring is clearly the most efficient method.",
+    "key_point": "There is no single 'best' method for solving all quadratic equations. A skilled problem solver should be comfortable with all methods and able to choose the most appropriate one for a given situation. Sometimes, it's even useful to solve the same equation using different methods as a way to check your work."
   },
   "interactive": {
-    "question": "What is the solution set for the inequality x² + 2x - 8 < 0?",
+    "question": "Which method would be most efficient for solving 2x\u00b2 - 7 = 0?",
     "options": [
-      "(-4, 2)",
-      "(-∞, -4) ∪ (2, ∞)",
-      "[-4, 2]"
+      "Square Root Method",
+      "Factoring",
+      "Completing the Square"
     ],
     "correct": 0
   }

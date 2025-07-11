@@ -3,28 +3,27 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_8",
   "type": "worked_example",
-  "title": "Solving Equations with Radicals",
+  "title": "Graphing Quadratics Using Vertex Form",
   "duration": 120,
   "content": {
-    "problem": "Solve the following radical equations:\n1. √(2x - 3) = 5\n2. √x + 2 = x - 4",
+    "problem": "Convert f(x) = x\u00b2 + 4x - 12 to vertex form by completing the square, and then use the vertex form to sketch the graph.",
     "steps": [
-      "Step 1: For √(2x - 3) = 5, isolate the radical on one side (already done).",
-      "Step 2: Square both sides of the equation to eliminate the radical.\n(√(2x - 3))² = 5²\n2x - 3 = 25",
-      "Step 3: Solve for x.\n2x - 3 = 25\n2x = 28\nx = 14",
-      "Step 4: Check the solution by substituting back into the original equation.\n√(2(14) - 3) = √(28 - 3) = √25 = 5 ✓",
-      "Step 5: For √x + 2 = x - 4, rearrange to isolate the radical.\n√x = x - 6",
-      "Step 6: Square both sides to eliminate the radical.\n(√x)² = (x - 6)²\nx = x² - 12x + 36",
-      "Step 7: Rearrange to standard form and solve the quadratic equation.\n0 = x² - 13x + 36\n0 = (x - 9)(x - 4)\nx = 9 or x = 4",
-      "Step 8: Check both solutions in the original equation.\nFor x = 9: √9 + 2 = 3 + 2 = 5 and 9 - 4 = 5 ✓\nFor x = 4: √4 + 2 = 2 + 2 = 4 and 4 - 4 = 0 ✗\nSo x = 9 is the only valid solution."
+      "Step 1: Complete the square to find the vertex form\nf(x) = x\u00b2 + 4x - 12\nf(x) = (x\u00b2 + 4x) - 12\nf(x) = (x\u00b2 + 4x + 4 - 4) - 12\nf(x) = (x + 2)\u00b2 - 4 - 12\nf(x) = (x + 2)\u00b2 - 16",
+      "Step 2: Identify the vertex from the vertex form\nComparing with f(x) = a(x - h)\u00b2 + k, we have a = 1, h = -2, k = -16\nSo the vertex is (-2, -16)",
+      "Step 3: Determine the direction of opening\nSince a = 1 > 0, the parabola opens upward\nThis means the vertex is a minimum point",
+      "Step 4: Find additional points by substituting values\nLet's try x = -1 and x = -3 (one unit away from the vertex in each direction)\nf(-1) = (-1 + 2)\u00b2 - 16 = 1\u00b2 - 16 = -15\nf(-3) = (-3 + 2)\u00b2 - 16 = (-1)\u00b2 - 16 = -15",
+      "Step 5: Find the y-intercept by evaluating f(0)\nf(0) = (0 + 2)\u00b2 - 16 = 4 - 16 = -12",
+      "Step 6: Find the x-intercepts by solving f(x) = 0\n(x + 2)\u00b2 - 16 = 0\n(x + 2)\u00b2 = 16\nx + 2 = \u00b14\nx = -2 \u00b1 4\nx = 2 or x = -6",
+      "Step 7: Plot the points (-6, 0), (-3, -15), (-2, -16), (-1, -15), (0, -12), and (2, 0), and connect them with a smooth parabola"
     ],
-    "explanation": "When solving equations involving radicals, the key strategy is to isolate the radical term and then raise both sides of the equation to a power that eliminates the radical.\n\nHowever, this process can introduce extraneous solutions that don't satisfy the original equation. This happens because squaring both sides creates an equivalent equation only when both sides are non-negative.\n\nTherefore, it's crucial to check all potential solutions in the original equation to verify they are valid. This verification step is not optional—it's an essential part of the solution process."
+    "explanation": "Converting a quadratic function to vertex form through completing the square makes graphing much easier. The vertex form immediately gives us the vertex, which is the key point of the parabola. From there, we can find additional points to complete the graph."
   },
   "interactive": {
-    "question": "What is the solution to the equation √(3x + 1) = x?",
+    "question": "What are the x-intercepts of the function g(x) = (x - 3)\u00b2 - 9?",
     "options": [
-      "x = 1",
-      "x = -1",
-      "x = 2"
+      "x = 0 and x = 6",
+      "x = 3 \u00b1 3",
+      "x = 3 only"
     ],
     "correct": 0
   }

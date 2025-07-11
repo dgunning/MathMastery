@@ -3,26 +3,24 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_7",
   "type": "worked_example",
-  "title": "Basic Steps of Completing the Square",
+  "title": "Finding Maximum/Minimum Values from Standard Form",
   "duration": 120,
   "content": {
-    "problem": "Complete the square for the expression x² + 8x.",
+    "problem": "Find the maximum or minimum value of the quadratic function f(x) = -2x\u00b2 + 12x - 10.",
     "steps": [
-      "Step 1: Identify the coefficient of x, which is 8",
-      "Step 2: Take half of this coefficient: 8 ÷ 2 = 4",
-      "Step 3: Square this value: 4² = 16",
-      "Step 4: Add and subtract this value to maintain equality\nx² + 8x = x² + 8x + 16 - 16",
-      "Step 5: Rewrite the first three terms as a perfect square trinomial\nx² + 8x + 16 - 16 = (x + 4)² - 16",
-      "Step 6: Verify by expanding\n(x + 4)² - 16 = x² + 8x + 16 - 16 = x² + 8x ✓"
+      "Step 1: Identify whether the function has a maximum or minimum value\nSince a = -2 < 0, the parabola opens downward and has a maximum value",
+      "Step 2: Find the x-coordinate of the vertex using x = -b/(2a)\nx = -(12)/(2(-2)) = -12/(-4) = 3",
+      "Step 3: Calculate the maximum value by evaluating f(3)\nf(3) = -2(3)\u00b2 + 12(3) - 10\nf(3) = -2(9) + 36 - 10\nf(3) = -18 + 36 - 10\nf(3) = 8",
+      "Step 4: State the answer\nThe maximum value of the function is 8, which occurs at x = 3"
     ],
-    "explanation": "Completing the square involves adding the square of half the coefficient of x to create a perfect square trinomial. To maintain the equality, we must also subtract the same value. This technique allows us to rewrite quadratic expressions in a form that's easier to analyze."
+    "explanation": "For any quadratic function in standard form, we can find its maximum or minimum value by first finding the x-coordinate of the vertex using the formula x = -b/(2a), and then evaluating the function at that point."
   },
   "interactive": {
-    "question": "What is the result of completing the square for x² - 6x?",
+    "question": "What is the minimum value of g(x) = 3x\u00b2 - 24x + 50?",
     "options": [
-      "(x - 3)² - 9",
-      "(x - 3)² + 9",
-      "(x + 3)² - 9"
+      "2",
+      "50",
+      "-22"
     ],
     "correct": 0
   }

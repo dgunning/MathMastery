@@ -3,26 +3,26 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_8",
   "type": "worked_example",
-  "title": "Dividing Radicals and Rationalizing Denominators",
+  "title": "Solving Quadratic Equations by Completing the Square",
   "duration": 120,
   "content": {
-    "problem": "Simplify the following expressions by rationalizing the denominator:\n1. 4/√3\n2. √8/√6\n3. 5/(2 + √5)",
+    "problem": "Solve the quadratic equation x\u00b2 - 6x + 5 = 0 by completing the square.",
     "steps": [
-      "Step 1: For 4/√3, multiply both numerator and denominator by √3 to rationalize the denominator.\n4/√3 = (4 × √3)/(√3 × √3) = 4√3/3",
-      "Step 2: For √8/√6, first use the quotient property of radicals.\n√8/√6 = √(8/6) = √(4/3) = √4/√3 = 2/√3",
-      "Step 3: Now rationalize the denominator as in Step 1.\n2/√3 = (2 × √3)/(√3 × √3) = 2√3/3",
-      "Step 4: For 5/(2 + √5), multiply both numerator and denominator by the conjugate of the denominator (2 - √5).\n5/(2 + √5) = 5(2 - √5)/((2 + √5)(2 - √5))",
-      "Step 5: Expand the denominator using the difference of squares formula: (a + b)(a - b) = a² - b².\n(2 + √5)(2 - √5) = 2² - (√5)² = 4 - 5 = -1",
-      "Step 6: Expand the numerator and simplify.\n5(2 - √5)/(-1) = (10 - 5√5)/(-1) = -10 + 5√5"
+      "Step 1: Rearrange the equation to get zero on one side (already done)",
+      "Step 2: Complete the square for the left side\nFor x\u00b2 - 6x, take half of -6, which is -3, and square it: (-3)\u00b2 = 9\nx\u00b2 - 6x + 5 = 0\nx\u00b2 - 6x + 9 - 9 + 5 = 0\n(x - 3)\u00b2 - 9 + 5 = 0\n(x - 3)\u00b2 - 4 = 0",
+      "Step 3: Isolate the squared term\n(x - 3)\u00b2 = 4",
+      "Step 4: Take the square root of both sides\n\u221a(x - 3)\u00b2 = \u00b1\u221a4\nx - 3 = \u00b12",
+      "Step 5: Solve for x\nx - 3 = 2 or x - 3 = -2\nx = 5 or x = 1",
+      "Step 6: Verify the solutions\nFor x = 5: 5\u00b2 - 6(5) + 5 = 25 - 30 + 5 = 0 \u2713\nFor x = 1: 1\u00b2 - 6(1) + 5 = 1 - 6 + 5 = 0 \u2713"
     ],
-    "explanation": "Rationalizing the denominator is a technique used to eliminate radicals from the denominator of a fraction. This is done for two main reasons:\n\n1. Historically, it was easier to calculate decimal approximations without radicals in the denominator\n2. It's a standard form that makes expressions easier to compare and work with\n\nThe process involves multiplying both the numerator and denominator by an appropriate expression:\n\n- For a single radical (like √a), multiply by that same radical\n- For a binomial involving a radical (like a + √b), multiply by its conjugate (a - √b)\n\nThe key is that whatever we multiply the denominator by, we must also multiply the numerator by to maintain equality."
+    "explanation": "Completing the square is a powerful method for solving quadratic equations, especially when the quadratic expression cannot be easily factored. By converting to the form (x - h)\u00b2 = r, we can use the square root property to find the solutions."
   },
   "interactive": {
-    "question": "Which of the following is the simplified form of 3/√12 after rationalizing the denominator?",
+    "question": "What are the solutions to the equation x\u00b2 + 8x + 15 = 0 using completing the square?",
     "options": [
-      "3√3/6",
-      "√3/2",
-      "3√12/12"
+      "x = -3 or x = -5",
+      "x = 3 or x = 5",
+      "x = -4 \u00b1 1"
     ],
     "correct": 0
   }

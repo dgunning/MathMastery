@@ -3,26 +3,24 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_6",
   "type": "worked_example",
-  "title": "Minimizing Material: Box Design",
+  "title": "Finding a Quadratic Function from its Vertex and a Point",
   "duration": 120,
   "content": {
-    "problem": "A company wants to create an open-top box from a 16 cm × 16 cm square piece of cardboard by cutting equal-sized squares from each corner and folding up the sides. What size squares should be cut from the corners to maximize the volume of the box?",
+    "problem": "Find the equation of a quadratic function in the form f(x) = a(x - h)\u00b2 + k that has its vertex at (2, -3) and passes through the point (4, 5).",
     "steps": [
-      "Step 1: Define variables and write equations\nLet x = side length of the square cut from each corner (in cm)\nThe base of the box will be (16 - 2x) × (16 - 2x)\nThe height of the box will be x",
-      "Step 2: Write the volume as a function of x\nVolume = length × width × height\nV(x) = (16 - 2x)(16 - 2x)(x)\nV(x) = (16 - 2x)²(x)\nV(x) = (256 - 64x + 4x²)(x)\nV(x) = 256x - 64x² + 4x³",
-      "Step 3: Find the critical points by taking the derivative (we'll use a shortcut)\nFor a cubic function like this, we need to find where the derivative equals zero\nThe derivative of V(x) is V'(x) = 256 - 128x + 12x²\nSetting V'(x) = 0: 256 - 128x + 12x² = 0\nSolving this quadratic equation gives x ≈ 2.67 or x ≈ 8\nSince x = 8 would make the box dimensions negative, x ≈ 2.67 is our only valid critical point",
-      "Step 4: Verify this is a maximum by checking the second derivative or by testing nearby values\nTesting confirms that x ≈ 2.67 gives a maximum volume",
-      "Step 5: Calculate the maximum volume\nV(2.67) = 256(2.67) - 64(2.67)² + 4(2.67)³ ≈ 683.43 - 456.53 + 76.10 ≈ 303 cubic cm",
-      "Step 6: State the answer\nSquares of approximately 2.67 cm should be cut from each corner to maximize the volume at about 303 cubic cm"
+      "Step 1: Start with the vertex form of the quadratic function\nf(x) = a(x - h)\u00b2 + k\nSince the vertex is at (2, -3), we have h = 2 and k = -3\nf(x) = a(x - 2)\u00b2 - 3",
+      "Step 2: Use the given point (4, 5) to find the value of a\nSince the point (4, 5) lies on the function, we have f(4) = 5\n5 = a(4 - 2)\u00b2 - 3\n5 = a(4) - 3\n8 = 4a\na = 2",
+      "Step 3: Write the final equation by substituting the value of a\nf(x) = 2(x - 2)\u00b2 - 3",
+      "Step 4: Expand the equation if needed (optional)\nf(x) = 2(x\u00b2 - 4x + 4) - 3\nf(x) = 2x\u00b2 - 8x + 8 - 3\nf(x) = 2x\u00b2 - 8x + 5"
     ],
-    "explanation": "This problem involves maximizing a cubic function, which is slightly more complex than a quadratic. However, the principle is the same: we find the critical points where the derivative equals zero, then determine which critical point gives the maximum value."
+    "explanation": "When given the vertex and another point on a parabola, we can use the vertex form and substitute the known point to find the value of a. This approach is often simpler than trying to find three points and solving a system of equations."
   },
   "interactive": {
-    "question": "A box with an open top is to be made from a 20 cm × 20 cm square piece of cardboard by cutting equal squares from the corners and folding up the sides. What size squares should be cut to maximize the volume?",
+    "question": "What is the equation of a quadratic function with vertex at (-1, 4) that passes through the point (2, -5)?",
     "options": [
-      "3.33 cm",
-      "5 cm",
-      "2.5 cm"
+      "f(x) = -3(x + 1)\u00b2 + 4",
+      "f(x) = 3(x + 1)\u00b2 + 4",
+      "f(x) = -3(x - 1)\u00b2 + 4"
     ],
     "correct": 0
   }

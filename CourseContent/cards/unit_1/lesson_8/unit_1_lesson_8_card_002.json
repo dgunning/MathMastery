@@ -2,20 +2,27 @@
   "id": "unit_1_lesson_8_card_002",
   "unit_id": "unit_1",
   "lesson_id": "lesson_8",
-  "type": "concept_intro",
-  "title": "Properties of Radicals",
+  "type": "worked_example",
+  "title": "Basic Steps of Completing the Square",
   "duration": 120,
   "content": {
-    "explanation": "Radicals follow several important properties that allow us to manipulate and simplify expressions. For any positive real numbers a and b, and any positive integer n:\n\n1. Product Property: ⁿ√(a × b) = ⁿ√a × ⁿ√b\n   This means the radical of a product equals the product of the radicals.\n\n2. Quotient Property: ⁿ√(a ÷ b) = ⁿ√a ÷ ⁿ√b\n   This means the radical of a quotient equals the quotient of the radicals.\n\n3. Power Property: ⁿ√(a^m) = (ⁿ√a)^m\n   This means the radical of a power equals the power of the radical.\n\n4. Root of a Root: ᵐ√(ⁿ√a) = ᵐⁿ√a\n   This means taking successive roots is equivalent to taking a single root with an index equal to the product of the indices.\n\n5. Exponent-Radical Relationship: ⁿ√a = a^(1/n)\n   This allows us to convert between radical and exponential forms.",
-    "example": "Examples of applying radical properties:\n\n1. Product Property: √(9 × 4) = √9 × √4 = 3 × 2 = 6\n\n2. Quotient Property: √(25 ÷ 9) = √25 ÷ √9 = 5 ÷ 3 = 5/3\n\n3. Power Property: √(x^4) = (√x)^4 = x^2\n\n4. Root of a Root: √(³√8) = ⁶√8 = ⁶√(2^3) = 2^(3/6) = 2^(1/2) = √2\n\n5. Exponent-Radical Relationship: ⁴√16 = 16^(1/4) = (2^4)^(1/4) = 2^(4/4) = 2^1 = 2",
-    "key_point": "These properties are essential for simplifying radical expressions and solving equations involving radicals. They allow us to break down complex radical expressions into simpler forms."
+    "problem": "Complete the square for the expression x\u00b2 + 8x.",
+    "steps": [
+      "Step 1: Identify the coefficient of x, which is 8",
+      "Step 2: Take half of this coefficient: 8 \u00f7 2 = 4",
+      "Step 3: Square this value: 4\u00b2 = 16",
+      "Step 4: Add and subtract this value to maintain equality\nx\u00b2 + 8x = x\u00b2 + 8x + 16 - 16",
+      "Step 5: Rewrite the first three terms as a perfect square trinomial\nx\u00b2 + 8x + 16 - 16 = (x + 4)\u00b2 - 16",
+      "Step 6: Verify by expanding\n(x + 4)\u00b2 - 16 = x\u00b2 + 8x + 16 - 16 = x\u00b2 + 8x \u2713"
+    ],
+    "explanation": "Completing the square involves adding the square of half the coefficient of x to create a perfect square trinomial. To maintain the equality, we must also subtract the same value. This technique allows us to rewrite quadratic expressions in a form that's easier to analyze."
   },
   "interactive": {
-    "question": "Which of the following is equal to √(16 × 9)?",
+    "question": "What is the result of completing the square for x\u00b2 - 6x?",
     "options": [
-      "12",
-      "√144",
-      "√16 + √9"
+      "(x - 3)\u00b2 - 9",
+      "(x - 3)\u00b2 + 9",
+      "(x + 3)\u00b2 - 9"
     ],
     "correct": 0
   }

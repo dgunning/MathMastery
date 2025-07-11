@@ -2,20 +2,33 @@
   "id": "unit_1_lesson_12_card_003",
   "unit_id": "unit_1",
   "lesson_id": "lesson_12",
-  "type": "concept_intro",
-  "title": "Substitution Method for Solving Linear-Quadratic Systems",
+  "type": "worked_example",
+  "title": "Finding a Quadratic Equation from Complex Roots",
   "duration": 120,
   "content": {
-    "explanation": "The substitution method is one of the most efficient algebraic techniques for solving linear-quadratic systems. It involves expressing one variable in terms of the other using the linear equation, and then substituting this expression into the quadratic equation.\n\nSteps for the substitution method:\n\n1. Solve the linear equation for one variable (typically y)\n   - For a linear equation in the form y = mx + b, y is already isolated\n   - For other forms like ax + by + c = 0, solve for y: y = (-ax - c)/b\n\n2. Substitute this expression into the quadratic equation\n   - Replace all occurrences of the isolated variable in the quadratic equation\n   - This results in an equation with only one variable\n\n3. Solve the resulting quadratic equation\n   - Arrange in standard form: ax² + bx + c = 0\n   - Solve using factoring, the quadratic formula, or completing the square\n\n4. Find the corresponding values of the other variable\n   - Substitute each solution back into the linear equation\n   - This gives you the complete ordered pairs (x, y)\n\n5. Verify the solutions\n   - Check that each ordered pair satisfies both original equations\n\nThe substitution method is particularly effective for linear-quadratic systems because:\n- It reduces the system to a single quadratic equation in one variable\n- It works well when one equation is already solved for a variable\n- It generally leads to exact solutions, including irrational or complex values",
-    "example": "Let's solve the following linear-quadratic system using the substitution method:\n\ny = 2x - 3         (linear equation)\ny = x² - 4x + 5    (quadratic equation)\n\nStep 1: The linear equation is already solved for y as y = 2x - 3.\n\nStep 2: Substitute this expression for y into the quadratic equation:\n2x - 3 = x² - 4x + 5\n\nStep 3: Solve the resulting quadratic equation:\n2x - 3 = x² - 4x + 5\n0 = x² - 6x + 8\n0 = (x - 4)(x - 2)\nx = 4 or x = 2\n\nStep 4: Find the corresponding y-values by substituting each x-value into the linear equation:\nFor x = 4: y = 2(4) - 3 = 8 - 3 = 5\nFor x = 2: y = 2(2) - 3 = 4 - 3 = 1\n\nStep 5: Verify the solutions:\nFor the point (4, 5):\n- Linear equation: 5 = 2(4) - 3 = 5 ✓\n- Quadratic equation: 5 = 4² - 4(4) + 5 = 16 - 16 + 5 = 5 ✓\n\nFor the point (2, 1):\n- Linear equation: 1 = 2(2) - 3 = 1 ✓\n- Quadratic equation: 1 = 2² - 4(2) + 5 = 4 - 8 + 5 = 1 ✓\n\nTherefore, the solutions to the system are the points (4, 5) and (2, 1).",
-    "key_point": "When using the substitution method for linear-quadratic systems:\n\n1. Always start by using the linear equation to express one variable in terms of the other\n\n2. The resulting quadratic equation will have the form ax² + bx + c = 0, which can be solved using standard techniques\n\n3. Remember that you can get 0, 1, or 2 real solutions:\n   - 0 solutions: The discriminant b² - 4ac is negative\n   - 1 solution: The discriminant b² - 4ac is zero\n   - 2 solutions: The discriminant b² - 4ac is positive\n\n4. Always verify your solutions by checking that they satisfy both original equations\n\n5. The substitution method generally provides exact solutions, making it more precise than the graphical method"
+    "problem": "Find the quadratic equation in standard form (ax\u00b2 + bx + c = 0) with the given complex roots:\n\n1. Roots: 2 + 3i and 2 - 3i, with a = 1\n2. Roots: -1 + i and -1 - i, with a = 2\n3. Roots: 4 + 5i and 4 - 5i, with a = 3",
+    "steps": [
+      "Step 1: For a quadratic equation with roots r and s, we can write it in factored form as a(x - r)(x - s) = 0. When the roots are complex conjugates, the resulting equation will have real coefficients.",
+      "Step 2: For problem 1, with roots 2 + 3i and 2 - 3i and a = 1, the factored form is (x - (2 + 3i))(x - (2 - 3i)) = 0.",
+      "Step 3: Let's expand this expression: (x - (2 + 3i))(x - (2 - 3i)) = (x - 2 - 3i)(x - 2 + 3i).",
+      "Step 4: Multiply these binomials: (x - 2 - 3i)(x - 2 + 3i) = (x - 2)\u00b2 - (3i)\u00b2.",
+      "Step 5: Simplify: (x - 2)\u00b2 - (3i)\u00b2 = (x - 2)\u00b2 - (3)\u00b2(-1) = (x - 2)\u00b2 + 9 = x\u00b2 - 4x + 4 + 9 = x\u00b2 - 4x + 13.",
+      "Step 6: Therefore, the quadratic equation is x\u00b2 - 4x + 13 = 0.",
+      "Step 7: For problem 2, with roots -1 + i and -1 - i and a = 2, the factored form is 2(x - (-1 + i))(x - (-1 - i)) = 2(x + 1 - i)(x + 1 + i).",
+      "Step 8: Using the same pattern as before: 2(x + 1 - i)(x + 1 + i) = 2((x + 1)\u00b2 - i\u00b2) = 2((x + 1)\u00b2 + 1) = 2(x\u00b2 + 2x + 1 + 1) = 2(x\u00b2 + 2x + 2).",
+      "Step 9: Therefore, the quadratic equation is 2x\u00b2 + 4x + 4 = 0, which can be simplified to x\u00b2 + 2x + 2 = 0.",
+      "Step 10: For problem 3, with roots 4 + 5i and 4 - 5i and a = 3, the factored form is 3(x - (4 + 5i))(x - (4 - 5i)) = 3(x - 4 - 5i)(x - 4 + 5i).",
+      "Step 11: Expand: 3(x - 4 - 5i)(x - 4 + 5i) = 3((x - 4)\u00b2 - (5i)\u00b2) = 3((x - 4)\u00b2 + 25) = 3(x\u00b2 - 8x + 16 + 25) = 3(x\u00b2 - 8x + 41).",
+      "Step 12: Therefore, the quadratic equation is 3x\u00b2 - 24x + 123 = 0."
+    ],
+    "explanation": "When finding a quadratic equation from complex roots, there are a few important principles to remember:\n\n1. Complex roots always come in conjugate pairs (a + bi and a - bi) for quadratic equations with real coefficients.\n\n2. The product of complex conjugates (a + bi)(a - bi) follows a special pattern:\n   (a + bi)(a - bi) = a\u00b2 + b\u00b2\n   This is because (a + bi)(a - bi) = a\u00b2 - (bi)\u00b2 = a\u00b2 - b\u00b2(-1) = a\u00b2 + b\u00b2\n\n3. When expanding (x - (a + bi))(x - (a - bi)), we get:\n   (x - a - bi)(x - a + bi) = (x - a)\u00b2 - (bi)\u00b2 = (x - a)\u00b2 + b\u00b2\n\n4. The resulting quadratic equation will always have real coefficients, even though the roots are complex.\n\n5. We can verify our work by checking that the discriminant (b\u00b2 - 4ac) is negative, which confirms that the equation has complex roots.\n\nAlternatively, we can use the relationships between coefficients and roots:\n- If the roots are a + bi and a - bi, then their sum is 2a and their product is a\u00b2 + b\u00b2\n- For a quadratic equation ax\u00b2 + bx + c = 0:\n  - b = -a(sum of roots) = -2aa\n  - c = a(product of roots) = a(a\u00b2 + b\u00b2)"
   },
   "interactive": {
-    "question": "When solving a linear-quadratic system using substitution, what is the first step you should take?",
+    "question": "What is the quadratic equation with roots 1 + 2i and 1 - 2i, with a = 1?",
     "options": [
-      "Solve the linear equation for one variable",
-      "Graph both equations",
-      "Set the two equations equal to each other"
+      "x\u00b2 - 2x + 5 = 0",
+      "x\u00b2 + 2x + 5 = 0",
+      "x\u00b2 - 2x - 5 = 0"
     ],
     "correct": 0
   }

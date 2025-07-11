@@ -2,25 +2,20 @@
   "id": "unit_1_lesson_5_card_012",
   "unit_id": "unit_1",
   "lesson_id": "lesson_5",
-  "type": "worked_example",
-  "title": "Finding a Quadratic Function from its Vertex and a Point",
+  "type": "concept_intro",
+  "title": "Different Names for the Same Function",
   "duration": 120,
   "content": {
-    "problem": "Find the equation of a quadratic function in the form f(x) = a(x - h)² + k that has its vertex at (2, -3) and passes through the point (4, 5).",
-    "steps": [
-      "Step 1: Start with the vertex form of the quadratic function\nf(x) = a(x - h)² + k\nSince the vertex is at (2, -3), we have h = 2 and k = -3\nf(x) = a(x - 2)² - 3",
-      "Step 2: Use the given point (4, 5) to find the value of a\nSince the point (4, 5) lies on the function, we have f(4) = 5\n5 = a(4 - 2)² - 3\n5 = a(4) - 3\n8 = 4a\na = 2",
-      "Step 3: Write the final equation by substituting the value of a\nf(x) = 2(x - 2)² - 3",
-      "Step 4: Expand the equation if needed (optional)\nf(x) = 2(x² - 4x + 4) - 3\nf(x) = 2x² - 8x + 8 - 3\nf(x) = 2x² - 8x + 5"
-    ],
-    "explanation": "When given the vertex and another point on a parabola, we can use the vertex form and substitute the known point to find the value of a. This approach is often simpler than trying to find three points and solving a system of equations."
+    "explanation": "The letter used in function notation is arbitrary - it's just a name we give to the function. The same function can be written with different letters.\n\nFor example, these all represent the same function:\nf(x) = 2x + 3\ng(t) = 2t + 3\nh(u) = 2u + 3\n\nSimilarly, we can use different letters for the input variable, as long as we're consistent within the function definition.",
+    "example": "If f(x) = x\u00b2 - 4x + 7, we could also write this as f(p) = p\u00b2 - 4p + 7 or even g(x) = x\u00b2 - 4x + 7. All these represent the same mathematical relationship.",
+    "key_point": "What matters in a function is the relationship between inputs and outputs, not the specific letters used to represent them. However, in context, certain letters may be chosen to have specific meaning (like t for time)."
   },
   "interactive": {
-    "question": "What is the equation of a quadratic function with vertex at (-1, 4) that passes through the point (2, -5)?",
+    "question": "Which of these is equivalent to f(x) = 3x - 5?",
     "options": [
-      "f(x) = -3(x + 1)² + 4",
-      "f(x) = 3(x + 1)² + 4",
-      "f(x) = -3(x - 1)² + 4"
+      "h(z) = 3z - 5",
+      "g(x) = 3x + 5",
+      "f(y) = 5y - 3"
     ],
     "correct": 0
   }

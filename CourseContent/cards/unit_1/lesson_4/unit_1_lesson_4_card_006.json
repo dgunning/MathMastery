@@ -2,20 +2,24 @@
   "id": "unit_1_lesson_4_card_006",
   "unit_id": "unit_1",
   "lesson_id": "lesson_4",
-  "type": "concept_intro",
-  "title": "Introduction to Piecewise Functions",
+  "type": "worked_example",
+  "title": "Finding Domain and Range from Algebraic Expressions",
   "duration": 120,
   "content": {
-    "explanation": "A piecewise function is defined by different formulas for different parts of its domain.\n\nWe write piecewise functions using curly braces with conditions that specify which formula to use for which input values.\n\nFor example:\nf(x) = {\n  x² if x ≥ 0\n  -x if x < 0\n}\n\nThis means we use x² when x is non-negative, and -x when x is negative.",
-    "example": "For the piecewise function above:\nf(3) = 3² = 9 (since 3 ≥ 0)\nf(-2) = -(-2) = 2 (since -2 < 0)",
-    "key_point": "When evaluating piecewise functions, first determine which piece applies to your input value by checking the conditions, then use the corresponding formula."
+    "problem": "Find the domain and range of the function f(x) = \u221a(16 - x\u00b2)",
+    "steps": [
+      "Step 1: To find the domain, identify values of x that make the function undefined.\nSince we can't take the square root of a negative number, we need 16 - x\u00b2 \u2265 0",
+      "Step 2: Solve the inequality 16 - x\u00b2 \u2265 0\nx\u00b2 \u2264 16\n-4 \u2264 x \u2264 4\nSo the domain is [-4, 4]",
+      "Step 3: To find the range, analyze what values f(x) can take.\nWhen x = 0, f(0) = \u221a16 = 4 (maximum value)\nWhen x = \u00b14, f(\u00b14) = \u221a(16 - 16) = \u221a0 = 0 (minimum value)\nSince f(x) is the square root of a non-negative number, the range is [0, 4]"
+    ],
+    "explanation": "For functions involving square roots, the expression under the radical must be non-negative to be in the domain. For this function, as x moves away from 0 in either direction, the value of f(x) decreases from 4 to 0."
   },
   "interactive": {
-    "question": "For g(x) = {\n  2x + 1 if x > 0\n  5 if x = 0\n  3x - 2 if x < 0\n}\nWhat is g(-3)?",
+    "question": "What is the domain of the function h(x) = \u221a(x - 3)?",
     "options": [
-      "-11",
-      "5",
-      "-7"
+      "x \u2265 3",
+      "x \u2264 3",
+      "All real numbers"
     ],
     "correct": 0
   }

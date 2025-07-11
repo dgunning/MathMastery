@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_8",
   "type": "concept_intro",
-  "title": "Introduction to Radicals",
+  "title": "Introduction to Completing the Square",
   "duration": 120,
   "content": {
-    "explanation": "A radical expression is a mathematical expression that contains a radical symbol (√). The radical symbol represents the operation of taking a root of a number or expression.\n\nThe most common radical is the square root (√), which gives a value that, when multiplied by itself, equals the number under the radical. For example, √9 = 3 because 3² = 9.\n\nThe general form of a radical is ⁿ√x, where:\n- n is the index (or order) of the radical\n- x is the radicand (the expression under the radical symbol)\n\nWhen n = 2 (square root), the index is typically omitted: √x instead of ²√x.\n\nOther common radicals include:\n- Cube root: ³√x (the value that, when cubed, equals x)\n- Fourth root: ⁴√x (the value that, when raised to the fourth power, equals x)",
-    "example": "Examples of radical expressions:\n\n1. √16 = 4 (because 4² = 16)\n2. ³√27 = 3 (because 3³ = 27)\n3. ⁴√16 = 2 (because 2⁴ = 16)\n4. √x² + 9 (a radical expression with a variable)\n\nRadicals can also be expressed using fractional exponents:\n- √x = x^(1/2)\n- ³√x = x^(1/3)\n- ⁿ√x = x^(1/n)",
-    "key_point": "Radicals are the inverse operations of exponents. Just as exponents represent repeated multiplication, radicals represent finding what value, when raised to a power, gives the radicand."
+    "explanation": "Completing the square is an algebraic technique used to rewrite a quadratic expression in the form (x + p)\u00b2 + q. This method allows us to convert a quadratic function from standard form (ax\u00b2 + bx + c) to vertex form (a(x - h)\u00b2 + k).\n\nThe vertex form is particularly useful because it directly reveals the vertex (h, k) of the parabola, which is the maximum or minimum point of the quadratic function.\n\nCompleting the square is based on the pattern of perfect square trinomials:\nx\u00b2 + 2px + p\u00b2 = (x + p)\u00b2",
+    "example": "Consider the perfect square trinomial: x\u00b2 + 6x + 9\n\nWe can rewrite this as (x + 3)\u00b2 because:\n(x + 3)\u00b2 = x\u00b2 + 2(3)x + 3\u00b2 = x\u00b2 + 6x + 9\n\nThe key insight is that the coefficient of x (which is 6) is twice the value of p (which is 3), and the constant term (which is 9) is p\u00b2 (which is 3\u00b2).",
+    "key_point": "To complete the square for an expression x\u00b2 + bx, we add (b/2)\u00b2 to create a perfect square trinomial. This is the foundation of the completing the square method."
   },
   "interactive": {
-    "question": "Which of the following is equal to √49?",
+    "question": "Which of the following is a perfect square trinomial?",
     "options": [
-      "7",
-      "8",
-      "6"
+      "x\u00b2 + 10x + 25",
+      "x\u00b2 + 5x + 25",
+      "x\u00b2 + 10x + 5"
     ],
     "correct": 0
   }

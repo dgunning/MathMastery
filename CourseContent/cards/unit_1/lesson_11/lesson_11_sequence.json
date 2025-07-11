@@ -1,7 +1,7 @@
 {
   "unit_id": "unit_1",
   "lesson_id": "lesson_11",
-  "lesson_name": "Determining a Quadratic Equation from its Roots",
+  "lesson_name": "The Discriminant",
   "total_cards": 15,
   "estimated_duration": 1800,
   "sequence": [
@@ -22,7 +22,7 @@
     "unit_1_lesson_11_card_015"
   ],
   "card_types": {
-    "concept_intro": 5,
-    "worked_example": 10
+    "worked_example": 8,
+    "concept_intro": 7
   }
 }

@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_3",
   "type": "concept_intro",
-  "title": "What is a Function?",
-  "duration": 120,
+  "title": "Advanced Factoring: When Coefficients Aren't 1",
+  "duration": 180,
   "content": {
-    "explanation": "A function is a special relationship between inputs and outputs where each input has exactly one output.\n\nThink of a function as a machine: you put something in, and you get exactly one thing out. The key rule is that the same input always gives the same output.\n\nFor example, the rule 'multiply by 2' is a function because each number you put in gives exactly one result.",
-    "example": "If f is the 'multiply by 2' function, then:\nf(3) = 6\nf(0) = 0\nf(-4) = -8\n\nEach input gives exactly one output.",
-    "key_point": "The defining characteristic of a function is that each input value corresponds to exactly one output value. If an input could give multiple different outputs, it's not a function."
+    "explanation": "You've already learned to factor simple trinomials like x\u00b2 + 5x + 6 = (x + 2)(x + 3). But what happens when the coefficient in front of x\u00b2 isn't 1?\n\nFor example: 2x\u00b2 + 7x + 3\n\nThe '2' in front of x\u00b2 makes this more challenging because we can't just find two numbers that multiply to give the constant term. We need a new strategy.",
+    "example": "Think of it like unpacking a more complex box - you need additional tools when the contents are more complicated.",
+    "key_point": "When the leading coefficient (the number in front of x\u00b2) is not 1, we need special techniques like the AC method or factoring by grouping."
   },
   "interactive": {
-    "question": "Which of these is NOT a function?",
+    "question": "Which of these trinomials would require advanced factoring techniques?",
     "options": [
-      "A rule that assigns each person their age",
-      "A rule that assigns each person their favorite colors",
-      "A rule that assigns each number its square"
+      "x\u00b2 + 8x + 15",
+      "3x\u00b2 + 10x + 8",
+      "x\u00b2 - 9"
     ],
     "correct": 1
   }

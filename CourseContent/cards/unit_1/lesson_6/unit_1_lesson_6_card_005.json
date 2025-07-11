@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_6",
   "type": "concept_intro",
-  "title": "Real-World Applications of Maximum and Minimum Values",
+  "title": "Vertex Form of a Quadratic Function",
   "duration": 120,
   "content": {
-    "explanation": "Maximum and minimum values of quadratic functions have many important real-world applications:\n\n1. Maximizing profit or revenue in business\n2. Minimizing costs in manufacturing or operations\n3. Finding the maximum height of a projectile\n4. Determining optimal dimensions for area or volume problems\n5. Analyzing the peak or trough of data that follows a quadratic pattern\n\nIn these applications, the vertex of the parabola represents the optimal solution to the problem.",
-    "example": "A company's profit function is P(x) = -2x² + 120x - 1000, where x is the number of items produced.\n\nSince a = -2 < 0, this function has a maximum value.\nThe maximum occurs at x = -b/(2a) = -(120)/(2(-2)) = 120/4 = 30.\nThe maximum profit is P(30) = -2(30)² + 120(30) - 1000 = -1800 + 3600 - 1000 = $800.\n\nSo the company should produce 30 items to maximize profit at $800.",
-    "key_point": "In optimization problems, we're often looking for the maximum or minimum value of a quadratic function. The x-coordinate of the vertex tells us the input that optimizes the outcome, and the y-coordinate tells us the optimal value."
+    "explanation": "The vertex form of a quadratic function is:\n\nf(x) = a(x - h)\u00b2 + k\n\nwhere (h, k) is the vertex of the parabola and a determines whether the parabola opens upward (a > 0) or downward (a < 0).\n\nThis form is particularly useful because it immediately tells us the vertex without requiring any calculations.",
+    "example": "For the function f(x) = 2(x - 3)\u00b2 + 4:\n- The vertex is at (3, 4)\n- Since a = 2 > 0, the parabola opens upward\n- This is a minimum point",
+    "key_point": "Converting a quadratic function from standard form (ax\u00b2 + bx + c) to vertex form allows us to easily identify the vertex. This conversion can be done by completing the square, which we'll explore in later lessons."
   },
   "interactive": {
-    "question": "A farmer has 200 meters of fencing to enclose a rectangular field adjacent to a straight river. If no fencing is needed along the river, what dimensions will maximize the area of the field?",
+    "question": "What is the vertex of the quadratic function f(x) = -3(x + 2)\u00b2 - 5?",
     "options": [
-      "100m × 50m",
-      "200m × 100m",
-      "50m × 50m"
+      "(-2, -5)",
+      "(2, -5)",
+      "(-2, 5)"
     ],
     "correct": 0
   }

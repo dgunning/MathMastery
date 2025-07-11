@@ -1,7 +1,7 @@
 {
   "unit_id": "unit_1",
   "lesson_id": "lesson_8",
-  "lesson_name": "Working with Radicals",
+  "lesson_name": "Completing the Square",
   "total_cards": 15,
   "estimated_duration": 1800,
   "sequence": [
@@ -22,7 +22,7 @@
     "unit_1_lesson_8_card_015"
   ],
   "card_types": {
-    "concept_intro": 4,
-    "worked_example": 11
+    "worked_example": 10,
+    "concept_intro": 5
   }
 }

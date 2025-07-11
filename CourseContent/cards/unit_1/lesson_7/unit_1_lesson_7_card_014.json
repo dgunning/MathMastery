@@ -2,26 +2,20 @@
   "id": "unit_1_lesson_7_card_014",
   "unit_id": "unit_1",
   "lesson_id": "lesson_7",
-  "type": "worked_example",
-  "title": "Completing the Square with Fractions",
+  "type": "concept_intro",
+  "title": "Technology Connections: Finding Maximum and Minimum Values",
   "duration": 120,
   "content": {
-    "problem": "Convert the quadratic function f(x) = 2x² - 3x + 1 to vertex form by completing the square.",
-    "steps": [
-      "Step 1: Factor out the leading coefficient from the first two terms\nf(x) = 2(x² - 3x/2) + 1",
-      "Step 2: Complete the square inside the parentheses\nFor x² - 3x/2, take half of -3/2, which is -3/4, and square it: (-3/4)² = 9/16\nf(x) = 2(x² - 3x/2 + 9/16 - 9/16) + 1\nf(x) = 2((x - 3/4)² - 9/16) + 1",
-      "Step 3: Distribute the leading coefficient\nf(x) = 2(x - 3/4)² - 2(9/16) + 1\nf(x) = 2(x - 3/4)² - 18/16 + 1",
-      "Step 4: Simplify the constant terms\nf(x) = 2(x - 3/4)² - 18/16 + 16/16\nf(x) = 2(x - 3/4)² - 2/16\nf(x) = 2(x - 3/4)² - 1/8",
-      "Step 5: Verify by expanding\n2(x - 3/4)² - 1/8 = 2(x² - 3x/2 + 9/16) - 1/8\n= 2x² - 3x + 18/16 - 2/16\n= 2x² - 3x + 16/16\n= 2x² - 3x + 1 ✓"
-    ],
-    "explanation": "Completing the square with fractions requires careful attention to detail, especially when finding half of the coefficient of x and when squaring that value. The process is the same as with integers, but the arithmetic can be more challenging."
+    "explanation": "Graphing calculators and software can help us find maximum and minimum values of quadratic functions quickly and accurately. Most graphing calculators have built-in features to find these critical points:\n\n1. Graph the quadratic function\n2. Use the 'maximum' or 'minimum' feature (often found in the CALC or MATH menu)\n3. Specify a search range that includes the vertex\n4. The calculator will display the coordinates of the maximum or minimum point\n\nThis technology is especially useful for complex problems or when the coefficients lead to decimal values that are difficult to calculate by hand.",
+    "example": "To find the minimum value of f(x) = 2.5x\u00b2 - 7.3x + 4.2 using a graphing calculator:\n\n1. Enter the function and graph it\n2. Select the minimum feature from the calculator menu\n3. Choose a search range (e.g., from x = 0 to x = 3)\n4. The calculator will show that the minimum occurs at approximately x = 1.46 with a value of about -1.13",
+    "key_point": "While it's important to understand the mathematical concepts behind finding maximum and minimum values, technology can be a powerful tool for solving complex problems efficiently. Always verify calculator results with estimation to ensure they make sense."
   },
   "interactive": {
-    "question": "What is the vertex form of g(x) = 4x² + 6x + 5?",
+    "question": "When using a graphing calculator to find the maximum value of a quadratic function, which of the following is NOT necessary?",
     "options": [
-      "g(x) = 4(x + 3/4)² + 23/4",
-      "g(x) = 4(x + 6/8)² + 5",
-      "g(x) = 4(x + 3/4)² + 5"
+      "Converting the function to vertex form first",
+      "Graphing the function",
+      "Selecting an appropriate search range"
     ],
     "correct": 0
   }

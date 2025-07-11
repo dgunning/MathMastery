@@ -3,32 +3,30 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_11",
   "type": "worked_example",
-  "title": "Finding a Quadratic Equation from Complex Roots",
+  "title": "Calculating the Discriminant",
   "duration": 120,
   "content": {
-    "problem": "Find the quadratic equation in standard form (ax² + bx + c = 0) with the given complex roots:\n\n1. Roots: 2 + 3i and 2 - 3i, with a = 1\n2. Roots: -1 + i and -1 - i, with a = 2\n3. Roots: 4 + 5i and 4 - 5i, with a = 3",
+    "problem": "Calculate the discriminant for each of the following quadratic equations and determine the nature of the roots:\n1. 2x\u00b2 - 7x + 3 = 0\n2. 4x\u00b2 - 12x + 9 = 0\n3. 3x\u00b2 + 2x + 5 = 0",
     "steps": [
-      "Step 1: For a quadratic equation with roots r and s, we can write it in factored form as a(x - r)(x - s) = 0. When the roots are complex conjugates, the resulting equation will have real coefficients.",
-      "Step 2: For problem 1, with roots 2 + 3i and 2 - 3i and a = 1, the factored form is (x - (2 + 3i))(x - (2 - 3i)) = 0.",
-      "Step 3: Let's expand this expression: (x - (2 + 3i))(x - (2 - 3i)) = (x - 2 - 3i)(x - 2 + 3i).",
-      "Step 4: Multiply these binomials: (x - 2 - 3i)(x - 2 + 3i) = (x - 2)² - (3i)².",
-      "Step 5: Simplify: (x - 2)² - (3i)² = (x - 2)² - (3)²(-1) = (x - 2)² + 9 = x² - 4x + 4 + 9 = x² - 4x + 13.",
-      "Step 6: Therefore, the quadratic equation is x² - 4x + 13 = 0.",
-      "Step 7: For problem 2, with roots -1 + i and -1 - i and a = 2, the factored form is 2(x - (-1 + i))(x - (-1 - i)) = 2(x + 1 - i)(x + 1 + i).",
-      "Step 8: Using the same pattern as before: 2(x + 1 - i)(x + 1 + i) = 2((x + 1)² - i²) = 2((x + 1)² + 1) = 2(x² + 2x + 1 + 1) = 2(x² + 2x + 2).",
-      "Step 9: Therefore, the quadratic equation is 2x² + 4x + 4 = 0, which can be simplified to x² + 2x + 2 = 0.",
-      "Step 10: For problem 3, with roots 4 + 5i and 4 - 5i and a = 3, the factored form is 3(x - (4 + 5i))(x - (4 - 5i)) = 3(x - 4 - 5i)(x - 4 + 5i).",
-      "Step 11: Expand: 3(x - 4 - 5i)(x - 4 + 5i) = 3((x - 4)² - (5i)²) = 3((x - 4)² + 25) = 3(x² - 8x + 16 + 25) = 3(x² - 8x + 41).",
-      "Step 12: Therefore, the quadratic equation is 3x² - 24x + 123 = 0."
+      "Step 1: Recall that for a quadratic equation ax\u00b2 + bx + c = 0, the discriminant is calculated using the formula \u0394 = b\u00b2 - 4ac.",
+      "Step 2: For the equation 2x\u00b2 - 7x + 3 = 0, identify the coefficients: a = 2, b = -7, c = 3.",
+      "Step 3: Calculate the discriminant:\n\u0394 = (-7)\u00b2 - 4(2)(3)\n\u0394 = 49 - 24\n\u0394 = 25",
+      "Step 4: Since \u0394 = 25 > 0, the equation 2x\u00b2 - 7x + 3 = 0 has two distinct real roots.",
+      "Step 5: For the equation 4x\u00b2 - 12x + 9 = 0, identify the coefficients: a = 4, b = -12, c = 9.",
+      "Step 6: Calculate the discriminant:\n\u0394 = (-12)\u00b2 - 4(4)(9)\n\u0394 = 144 - 144\n\u0394 = 0",
+      "Step 7: Since \u0394 = 0, the equation 4x\u00b2 - 12x + 9 = 0 has one repeated real root (a double root).",
+      "Step 8: For the equation 3x\u00b2 + 2x + 5 = 0, identify the coefficients: a = 3, b = 2, c = 5.",
+      "Step 9: Calculate the discriminant:\n\u0394 = 2\u00b2 - 4(3)(5)\n\u0394 = 4 - 60\n\u0394 = -56",
+      "Step 10: Since \u0394 = -56 < 0, the equation 3x\u00b2 + 2x + 5 = 0 has two complex conjugate roots."
     ],
-    "explanation": "When finding a quadratic equation from complex roots, there are a few important principles to remember:\n\n1. Complex roots always come in conjugate pairs (a + bi and a - bi) for quadratic equations with real coefficients.\n\n2. The product of complex conjugates (a + bi)(a - bi) follows a special pattern:\n   (a + bi)(a - bi) = a² + b²\n   This is because (a + bi)(a - bi) = a² - (bi)² = a² - b²(-1) = a² + b²\n\n3. When expanding (x - (a + bi))(x - (a - bi)), we get:\n   (x - a - bi)(x - a + bi) = (x - a)² - (bi)² = (x - a)² + b²\n\n4. The resulting quadratic equation will always have real coefficients, even though the roots are complex.\n\n5. We can verify our work by checking that the discriminant (b² - 4ac) is negative, which confirms that the equation has complex roots.\n\nAlternatively, we can use the relationships between coefficients and roots:\n- If the roots are a + bi and a - bi, then their sum is 2a and their product is a² + b²\n- For a quadratic equation ax² + bx + c = 0:\n  - b = -a(sum of roots) = -2aa\n  - c = a(product of roots) = a(a² + b²)"
+    "explanation": "When calculating the discriminant, it's important to correctly identify the coefficients a, b, and c from the standard form of the quadratic equation ax\u00b2 + bx + c = 0.\n\nCommon errors to avoid:\n1. Forgetting the sign of the coefficients (especially for b)\n2. Using coefficients from an equation that is not in standard form\n3. Arithmetic errors in the calculation\n\nThe discriminant provides immediate information about the nature of the roots:\n- Positive discriminant: Two distinct real roots\n- Zero discriminant: One repeated real root\n- Negative discriminant: Two complex conjugate roots\n\nThis information is valuable for analyzing quadratic equations without solving them completely."
   },
   "interactive": {
-    "question": "What is the quadratic equation with roots 1 + 2i and 1 - 2i, with a = 1?",
+    "question": "What is the discriminant of the equation 5x\u00b2 - 6x - 2 = 0, and what does it tell you about the roots?",
     "options": [
-      "x² - 2x + 5 = 0",
-      "x² + 2x + 5 = 0",
-      "x² - 2x - 5 = 0"
+      "\u0394 = 76; two distinct real roots",
+      "\u0394 = 56; two distinct real roots",
+      "\u0394 = -56; two complex conjugate roots"
     ],
     "correct": 0
   }

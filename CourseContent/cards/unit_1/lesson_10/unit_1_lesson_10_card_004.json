@@ -3,29 +3,28 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_10",
   "type": "worked_example",
-  "title": "Using the Discriminant to Determine Root Types",
+  "title": "Solving Quadratics by Factoring: Complex Cases",
   "duration": 120,
   "content": {
-    "problem": "For each of the following quadratic equations:\n1. Determine the discriminant\n2. Describe the nature of the roots\n3. Find the roots\n\nEquations:\na) x² + 6x + 9 = 0\nb) 2x² - 5x - 3 = 0\nc) x² + x + 1 = 0",
+    "problem": "Solve the following quadratic equations by factoring:\n1. 2x\u00b2 - 5x - 3 = 0\n2. 6x\u00b2 - 7x - 3 = 0\n3. 3x\u00b2 - 12 = 0",
     "steps": [
-      "Step 1: For equation a) x² + 6x + 9 = 0, identify the coefficients: a = 1, b = 6, c = 9.",
-      "Step 2: Calculate the discriminant for equation a):\nΔ = b² - 4ac\nΔ = 6² - 4(1)(9)\nΔ = 36 - 36\nΔ = 0",
-      "Step 3: Since Δ = 0, equation a) has one repeated real root (a double root). The root is x = -b/(2a) = -6/(2(1)) = -3. We can verify this is correct by factoring: x² + 6x + 9 = (x + 3)².",
-      "Step 4: For equation b) 2x² - 5x - 3 = 0, identify the coefficients: a = 2, b = -5, c = -3.",
-      "Step 5: Calculate the discriminant for equation b):\nΔ = b² - 4ac\nΔ = (-5)² - 4(2)(-3)\nΔ = 25 + 24\nΔ = 49",
-      "Step 6: Since Δ = 49 > 0, equation b) has two distinct real roots. Using the quadratic formula:\nx = (-b ± √Δ)/(2a)\nx = (5 ± √49)/(2(2))\nx = (5 ± 7)/4\nx = 3 or x = -1/2\nWe can verify by factoring: 2x² - 5x - 3 = (2x - 3)(x + 1) = 0.",
-      "Step 7: For equation c) x² + x + 1 = 0, identify the coefficients: a = 1, b = 1, c = 1.",
-      "Step 8: Calculate the discriminant for equation c):\nΔ = b² - 4ac\nΔ = 1² - 4(1)(1)\nΔ = 1 - 4\nΔ = -3",
-      "Step 9: Since Δ = -3 < 0, equation c) has two complex conjugate roots. Using the quadratic formula:\nx = (-b ± i√|Δ|)/(2a)\nx = (-1 ± i√3)/(2(1))\nx = -1/2 ± (√3/2)i\nThese are complex numbers with real part -1/2 and imaginary part ±√3/2."
+      "Step 1: For 2x\u00b2 - 5x - 3 = 0, we need to find factors of the form (ax + b)(cx + d) where ac = 2 and bd = -3, and ad + bc = -5.\nSince a and c must multiply to give 2, the possibilities are a = 1, c = 2 or a = 2, c = 1.\nSince b and d must multiply to give -3, the possibilities are b = 1, d = -3 or b = -1, d = 3 or b = 3, d = -1 or b = -3, d = 1.",
+      "Step 2: Try different combinations to find the one that gives ad + bc = -5.\nIf a = 1, c = 2, b = 3, d = -1: ad + bc = 1(-1) + 3(2) = -1 + 6 = 5 (wrong sign)\nIf a = 1, c = 2, b = -3, d = 1: ad + bc = 1(1) + (-3)(2) = 1 - 6 = -5 (correct!)\nSo the factorization is (x - 3)(2x + 1).",
+      "Step 3: Apply the zero product property.\n(x - 3)(2x + 1) = 0\nx - 3 = 0 or 2x + 1 = 0\nx = 3 or x = -1/2\nSo the solutions are x = 3 or x = -1/2.",
+      "Step 4: For 6x\u00b2 - 7x - 3 = 0, we need factors of the form (ax + b)(cx + d) where ac = 6 and bd = -3, and ad + bc = -7.\nPossible pairs for ac = 6: (1,6), (2,3), (3,2), (6,1)\nPossible pairs for bd = -3: (1,-3), (-1,3), (3,-1), (-3,1)",
+      "Step 5: Try combinations to find the one that gives ad + bc = -7.\nIf a = 2, c = 3, b = 1, d = -3: ad + bc = 2(-3) + 1(3) = -6 + 3 = -3 (wrong)\nIf a = 3, c = 2, b = -1, d = 3: ad + bc = 3(3) + (-1)(2) = 9 - 2 = 7 (wrong sign)\nIf a = 3, c = 2, b = 1, d = -3: ad + bc = 3(-3) + 1(2) = -9 + 2 = -7 (correct!)\nSo the factorization is (3x + 1)(2x - 3).",
+      "Step 6: Apply the zero product property.\n(3x + 1)(2x - 3) = 0\n3x + 1 = 0 or 2x - 3 = 0\nx = -1/3 or x = 3/2\nSo the solutions are x = -1/3 or x = 3/2.",
+      "Step 7: For 3x\u00b2 - 12 = 0, first rearrange to standard form.\n3x\u00b2 - 12 = 0\n3x\u00b2 = 12\nx\u00b2 = 4",
+      "Step 8: This is now in the form x\u00b2 = d, which we can solve using the square root method.\nx = \u00b1\u221a4 = \u00b12\nSo the solutions are x = 2 or x = -2.\nAlternatively, we could factor: 3x\u00b2 - 12 = 3(x\u00b2 - 4) = 3(x - 2)(x + 2) = 0, giving the same solutions."
     ],
-    "explanation": "The discriminant not only tells us the nature of the roots but also helps us determine the most efficient method for finding them:\n\n1. When Δ = 0 (zero discriminant):\n   - The equation has one repeated root: x = -b/(2a)\n   - The quadratic expression is a perfect square trinomial: a(x + b/(2a))²\n   - Example: x² + 6x + 9 = (x + 3)²\n\n2. When Δ > 0 (positive discriminant):\n   - The equation has two distinct real roots\n   - If Δ is a perfect square, the roots are rational and the expression can be factored with rational coefficients\n   - If Δ is not a perfect square, the roots are irrational\n   - Example: 2x² - 5x - 3 = (2x - 3)(x + 1)\n\n3. When Δ < 0 (negative discriminant):\n   - The equation has two complex conjugate roots\n   - The expression cannot be factored with real coefficients\n   - Example: x² + x + 1 cannot be factored with real numbers"
+    "explanation": "When factoring quadratics with a leading coefficient other than 1 (i.e., ax\u00b2 + bx + c where a \u2260 1), we need to find factors of the form (px + q)(rx + s) where:\n\n1. pr = a (the coefficient of x\u00b2)\n2. qs = c (the constant term)\n3. ps + qr = b (the coefficient of x)\n\nThis often requires trying different combinations of factors until we find the correct one. Alternatively, we can use the AC method:\n\n1. Multiply a \u00d7 c\n2. Find two numbers that multiply to give a \u00d7 c and add to give b\n3. Split the middle term using these numbers\n4. Factor by grouping\n\nFor equations that can be simplified to the form x\u00b2 = d, the square root method provides a direct approach."
   },
   "interactive": {
-    "question": "For the equation 3x² - 2x + 5 = 0, what is the discriminant and what type of roots does the equation have?",
+    "question": "What are the solutions to the equation 3x\u00b2 + 10x - 8 = 0?",
     "options": [
-      "Δ = -56; two complex conjugate roots",
-      "Δ = 56; two distinct real roots",
-      "Δ = 0; one repeated real root"
+      "x = 2/3 or x = -4",
+      "x = -2/3 or x = 4",
+      "x = 4/3 or x = -2"
     ],
     "correct": 0
   }

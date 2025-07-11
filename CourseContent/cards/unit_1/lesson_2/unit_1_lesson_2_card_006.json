@@ -2,21 +2,12 @@
   "id": "unit_1_lesson_2_card_006",
   "unit_id": "unit_1",
   "lesson_id": "lesson_2",
-  "type": "quick_check",
-  "title": "Quick Check: Your Turn",
-  "duration": 150,
+  "type": "worked_example",
+  "title": "Factoring Perfect Square Trinomials",
+  "duration": 120,
   "content": {
-    "problem": "Now try one yourself! Factor: 4x² + 12x + 9",
-    "explanation": "Use the AC method:\n1. Find ac\n2. Find the factor pair that adds to the middle coefficient\n3. Split the middle term\n4. Factor by grouping\n\nTake your time and work through each step systematically.",
-    "key_point": "This is a perfect square trinomial - you might notice a pattern once you factor it!"
-  },
-  "interactive": {
-    "question": "What is the factored form of 4x² + 12x + 9?",
-    "options": [
-      "(2x + 3)(2x + 3)",
-      "(4x + 3)(x + 3)", 
-      "(2x + 9)(2x + 1)"
-    ],
-    "correct": 0
+    "problem": "[Template problem for Factoring Perfect Square Trinomials]",
+    "solution": "[Step-by-step solution]",
+    "insight": "[Key insight from this example]"
   }
 }

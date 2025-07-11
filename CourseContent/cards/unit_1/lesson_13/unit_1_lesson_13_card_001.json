@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_13_card_001",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_13",
+  "type": "concept_intro",
+  "title": "Introduction to Linear-Quadratic Systems",
+  "duration": 120,
+  "content": {
+    "explanation": "A linear-quadratic system consists of two equations: one linear equation and one quadratic equation. These systems represent the intersection of a line and a parabola in the coordinate plane.\n\nThe general form of a linear-quadratic system is:\n\n```\ny = mx + b         (linear equation)\ny = ax\u00b2 + bx + c    (quadratic equation)\n```\n\nWhere:\n- m and b are constants in the linear equation\n- a, b, and c are constants in the quadratic equation (with a \u2260 0)\n\nSolving a linear-quadratic system means finding the coordinates (x, y) that satisfy both equations simultaneously. Geometrically, these are the points where the line intersects the parabola.\n\nA linear-quadratic system can have:\n- 0 solutions (when the line and parabola don't intersect)\n- 1 solution (when the line is tangent to the parabola)\n- 2 solutions (when the line intersects the parabola at two distinct points)\n\nThere are three main methods for solving linear-quadratic systems:\n\n1. Graphical method: Graph both equations and identify the points of intersection\n2. Substitution method: Substitute the expression for y from the linear equation into the quadratic equation\n3. Elimination method: Subtract one equation from the other to eliminate the y variable\n\nLinear-quadratic systems have many real-world applications, including:\n- Modeling motion of objects\n- Finding break-even points in economics\n- Solving geometric problems involving areas and perimeters\n- Optimization problems",
+    "example": "Consider the linear-quadratic system:\n\ny = 2x - 1         (linear equation)\ny = x\u00b2 - 2x + 3    (quadratic equation)\n\nTo solve this system, we need to find the values of x and y that satisfy both equations simultaneously.\n\nUsing the substitution method:\n1. Since both equations express y, we can set them equal to each other:\n   2x - 1 = x\u00b2 - 2x + 3\n\n2. Rearrange to standard form:\n   0 = x\u00b2 - 4x + 4\n   0 = (x - 2)\u00b2\n\n3. Solve for x:\n   (x - 2)\u00b2 = 0\n   x = 2\n\n4. Substitute this x-value back into either original equation to find y:\n   y = 2(2) - 1 = 4 - 1 = 3\n\nThe solution to this system is the point (2, 3).\n\nGeometrically, this means the line y = 2x - 1 is tangent to the parabola y = x\u00b2 - 2x + 3 at the point (2, 3).",
+    "key_point": "When solving linear-quadratic systems:\n\n1. Recognize that you're finding the intersection points of a line and a parabola\n\n2. Choose the most appropriate method based on the specific equations:\n   - Graphical method is useful for visualization but may lack precision\n   - Substitution method is generally the most straightforward approach\n   - Elimination method can be efficient when the equations are in specific forms\n\n3. Remember that you can have 0, 1, or 2 solutions\n\n4. Always verify your solutions by substituting them back into both original equations\n\n5. In real-world problems, consider whether all mathematical solutions are valid in the context of the problem"
+  },
+  "interactive": {
+    "question": "How many solutions are possible for a linear-quadratic system?",
+    "options": [
+      "0, 1, or 2 solutions",
+      "Exactly 1 solution",
+      "Exactly 2 solutions"
+    ],
+    "correct": 0
+  }
+}

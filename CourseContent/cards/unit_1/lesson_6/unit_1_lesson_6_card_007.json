@@ -3,24 +3,24 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_6",
   "type": "worked_example",
-  "title": "Minimizing Cost: Manufacturing Optimization",
+  "title": "Real-World Application: Maximum Height",
   "duration": 120,
   "content": {
-    "problem": "A company manufactures smartphones. The daily cost function (in dollars) for producing x smartphones is C(x) = 0.02x² - 8x + 1000. How many smartphones should be produced daily to minimize the cost, and what is the minimum cost?",
+    "problem": "A ball is thrown upward from a height of 6 feet with an initial velocity of 32 feet per second. The height h(t) of the ball after t seconds is given by h(t) = -16t\u00b2 + 32t + 6. Find the maximum height reached by the ball and the time at which it occurs.",
     "steps": [
-      "Step 1: Identify that this is a quadratic function with a > 0, so it has a minimum value\nC(x) = 0.02x² - 8x + 1000, where a = 0.02, b = -8, c = 1000",
-      "Step 2: Find the x-coordinate of the vertex using x = -b/(2a)\nx = -(-8)/(2(0.02)) = 8/0.04 = 200 smartphones",
-      "Step 3: Calculate the minimum cost by evaluating C(200)\nC(200) = 0.02(200)² - 8(200) + 1000\nC(200) = 0.02(40,000) - 1,600 + 1,000\nC(200) = 800 - 1,600 + 1,000\nC(200) = $200",
-      "Step 4: State the answer\nThe company should produce 200 smartphones daily to minimize the cost, and the minimum cost is $200"
+      "Step 1: Identify that this is a quadratic function with a < 0, so it has a maximum value at the vertex\nh(t) = -16t\u00b2 + 32t + 6, where a = -16, b = 32, c = 6",
+      "Step 2: Find the t-coordinate of the vertex using t = -b/(2a)\nt = -(32)/(2(-16)) = 32/32 = 1 second",
+      "Step 3: Find the maximum height by evaluating h(1)\nh(1) = -16(1)\u00b2 + 32(1) + 6\nh(1) = -16 + 32 + 6\nh(1) = 22 feet",
+      "Step 4: State the answer\nThe ball reaches its maximum height of 22 feet after 1 second"
     ],
-    "explanation": "In manufacturing, cost functions often follow a quadratic pattern due to economies of scale (decreasing costs as production increases) combined with capacity constraints (increasing costs at high volumes). Finding the minimum of this function helps companies optimize their production levels."
+    "explanation": "In physics, quadratic functions often model the height of projectiles under gravity. The vertex represents the maximum height and the time at which it occurs. The negative coefficient of t\u00b2 reflects the downward force of gravity."
   },
   "interactive": {
-    "question": "A factory's daily cost function (in dollars) for producing x units is C(x) = 0.5x² - 60x + 2500. What is the minimum daily cost?",
+    "question": "A rocket is launched with the height function h(t) = -4.9t\u00b2 + 40t + 10, where h is in meters and t is in seconds. What is the maximum height reached by the rocket?",
     "options": [
-      "$700",
-      "$2500",
-      "$1800"
+      "91.3 meters",
+      "50 meters",
+      "81.6 meters"
     ],
     "correct": 0
   }

@@ -2,21 +2,21 @@
   "id": "unit_1_lesson_3_card_004",
   "unit_id": "unit_1",
   "lesson_id": "lesson_3",
-  "type": "concept_intro",
-  "title": "The Vertical Line Test",
-  "duration": 120,
+  "type": "practice",
+  "title": "Finding Factor Pairs",
+  "duration": 180,
   "content": {
-    "explanation": "The vertical line test is a visual way to determine if a graph represents a function.\n\nIf any vertical line intersects the graph at more than one point, then the graph does not represent a function.\n\nThis is because a vertical line represents all points with the same x-value. If it intersects the graph multiple times, that means one x-value has multiple y-values, which violates the definition of a function.",
-    "example": "A straight line always passes the vertical line test because any vertical line will intersect it exactly once.\n\nA circle fails the vertical line test because a vertical line through the center intersects the circle at two points.",
-    "key_point": "The vertical line test is based on the definition of a function: each input (x-value) must have exactly one output (y-value)."
+    "explanation": "Once you have the ac value, you need to find two numbers that multiply to give ac AND add to give the middle coefficient (b).\n\nThis is often the trickiest step, so let's practice systematically listing factor pairs.",
+    "problem": "For 3x\u00b2 + 14x + 8:\n\u2022 ac = 24\n\u2022 We need factors of 24 that add to 14\n\nFactor pairs of 24:\n1 \u00d7 24 \u2192 1 + 24 = 25\n2 \u00d7 12 \u2192 2 + 12 = 14 \u2713\n3 \u00d7 8 \u2192 3 + 8 = 11\n4 \u00d7 6 \u2192 4 + 6 = 10",
+    "key_point": "Be systematic! List all factor pairs until you find the one that adds to the middle coefficient."
   },
   "interactive": {
-    "question": "Which of these graphs represents a function?",
+    "question": "For 2x\u00b2 + 9x + 10 (where ac = 20), which factor pair adds to 9?",
     "options": [
-      "A parabola opening upward (like y = x²)",
-      "A circle (like x² + y² = 25)",
-      "A horizontal figure-8 shape"
+      "1 and 20",
+      "4 and 5",
+      "2 and 10"
     ],
-    "correct": 0
+    "correct": 1
   }
 }

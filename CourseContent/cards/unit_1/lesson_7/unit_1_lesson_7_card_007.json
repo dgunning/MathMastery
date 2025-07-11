@@ -3,26 +3,24 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_7",
   "type": "worked_example",
-  "title": "Solving Quadratic Equations by Completing the Square",
+  "title": "Minimizing Cost: Manufacturing Optimization",
   "duration": 120,
   "content": {
-    "problem": "Solve the quadratic equation x² - 6x + 5 = 0 by completing the square.",
+    "problem": "A company manufactures smartphones. The daily cost function (in dollars) for producing x smartphones is C(x) = 0.02x\u00b2 - 8x + 1000. How many smartphones should be produced daily to minimize the cost, and what is the minimum cost?",
     "steps": [
-      "Step 1: Rearrange the equation to get zero on one side (already done)",
-      "Step 2: Complete the square for the left side\nFor x² - 6x, take half of -6, which is -3, and square it: (-3)² = 9\nx² - 6x + 5 = 0\nx² - 6x + 9 - 9 + 5 = 0\n(x - 3)² - 9 + 5 = 0\n(x - 3)² - 4 = 0",
-      "Step 3: Isolate the squared term\n(x - 3)² = 4",
-      "Step 4: Take the square root of both sides\n√(x - 3)² = ±√4\nx - 3 = ±2",
-      "Step 5: Solve for x\nx - 3 = 2 or x - 3 = -2\nx = 5 or x = 1",
-      "Step 6: Verify the solutions\nFor x = 5: 5² - 6(5) + 5 = 25 - 30 + 5 = 0 ✓\nFor x = 1: 1² - 6(1) + 5 = 1 - 6 + 5 = 0 ✓"
+      "Step 1: Identify that this is a quadratic function with a > 0, so it has a minimum value\nC(x) = 0.02x\u00b2 - 8x + 1000, where a = 0.02, b = -8, c = 1000",
+      "Step 2: Find the x-coordinate of the vertex using x = -b/(2a)\nx = -(-8)/(2(0.02)) = 8/0.04 = 200 smartphones",
+      "Step 3: Calculate the minimum cost by evaluating C(200)\nC(200) = 0.02(200)\u00b2 - 8(200) + 1000\nC(200) = 0.02(40,000) - 1,600 + 1,000\nC(200) = 800 - 1,600 + 1,000\nC(200) = $200",
+      "Step 4: State the answer\nThe company should produce 200 smartphones daily to minimize the cost, and the minimum cost is $200"
     ],
-    "explanation": "Completing the square is a powerful method for solving quadratic equations, especially when the quadratic expression cannot be easily factored. By converting to the form (x - h)² = r, we can use the square root property to find the solutions."
+    "explanation": "In manufacturing, cost functions often follow a quadratic pattern due to economies of scale (decreasing costs as production increases) combined with capacity constraints (increasing costs at high volumes). Finding the minimum of this function helps companies optimize their production levels."
   },
   "interactive": {
-    "question": "What are the solutions to the equation x² + 8x + 15 = 0 using completing the square?",
+    "question": "A factory's daily cost function (in dollars) for producing x units is C(x) = 0.5x\u00b2 - 60x + 2500. What is the minimum daily cost?",
     "options": [
-      "x = -3 or x = -5",
-      "x = 3 or x = 5",
-      "x = -4 ± 1"
+      "$700",
+      "$2500",
+      "$1800"
     ],
     "correct": 0
   }

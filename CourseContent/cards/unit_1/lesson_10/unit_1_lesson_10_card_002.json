@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_10",
   "type": "concept_intro",
-  "title": "The Discriminant and Types of Roots",
+  "title": "Methods for Solving Quadratic Equations",
   "duration": 120,
   "content": {
-    "explanation": "The discriminant (Δ = b² - 4ac) of a quadratic equation ax² + bx + c = 0 determines the number and type of roots the equation has. There are three possible cases:\n\n1. Positive Discriminant (Δ > 0):\n   - The equation has two distinct real roots\n   - The roots are given by x = (-b ± √Δ)/(2a)\n   - On a graph, the parabola crosses the x-axis at two different points\n\n2. Zero Discriminant (Δ = 0):\n   - The equation has one repeated real root (a double root)\n   - The root is given by x = -b/(2a)\n   - On a graph, the parabola touches (is tangent to) the x-axis at exactly one point\n   - The equation can be written as a perfect square: a(x - r)²\n\n3. Negative Discriminant (Δ < 0):\n   - The equation has two complex conjugate roots\n   - The roots are given by x = (-b ± i√|Δ|)/(2a), where i = √(-1)\n   - On a graph, the parabola doesn't intersect the x-axis at all\n\nThe discriminant also provides information about whether the quadratic expression can be factored with real numbers. If Δ ≥ 0, the expression can be factored with real coefficients; if Δ < 0, it cannot.",
-    "example": "Let's examine three quadratic equations with different discriminants:\n\n1. x² - 5x + 6 = 0\n   Discriminant: Δ = (-5)² - 4(1)(6) = 25 - 24 = 1 > 0\n   This equation has two distinct real roots: x = 2 and x = 3\n   The factored form is (x - 2)(x - 3) = 0\n\n2. x² - 6x + 9 = 0\n   Discriminant: Δ = (-6)² - 4(1)(9) = 36 - 36 = 0\n   This equation has one repeated root: x = 3\n   The factored form is (x - 3)² = 0\n\n3. x² + x + 1 = 0\n   Discriminant: Δ = 1² - 4(1)(1) = 1 - 4 = -3 < 0\n   This equation has two complex conjugate roots: x = -1/2 ± i√3/2\n   The expression cannot be factored using real numbers",
-    "key_point": "The sign of the discriminant immediately tells you the nature of the roots without requiring you to solve the equation completely. This makes it a valuable tool for analyzing quadratic equations and their corresponding functions."
+    "explanation": "There are several methods for solving quadratic equations, each with its own advantages and appropriate situations:\n\n1. Factoring Method:\n   - Best for equations that can be easily factored\n   - Works well when the solutions are rational numbers\n   - Based on the zero product property: if ab = 0, then either a = 0 or b = 0\n\n2. Quadratic Formula:\n   - Works for any quadratic equation\n   - Especially useful when factoring is difficult or impossible\n   - Formula: x = (-b \u00b1 \u221a(b\u00b2 - 4ac))/(2a) for ax\u00b2 + bx + c = 0\n\n3. Completing the Square:\n   - Converts the quadratic to vertex form\n   - Useful for understanding the derivation of the quadratic formula\n   - Helps connect algebraic and geometric interpretations\n\n4. Graphical Method:\n   - Visualizes the solutions as x-intercepts of the parabola\n   - Provides approximate solutions when exact values are difficult to compute\n   - Helps understand the nature of the solutions\n\n5. Square Root Method:\n   - Used for equations in the form x\u00b2 = d\n   - Solutions are x = \u00b1\u221ad",
+    "example": "Consider the equation x\u00b2 - 5x + 6 = 0:\n\n1. Factoring: x\u00b2 - 5x + 6 = (x - 2)(x - 3) = 0, so x = 2 or x = 3\n\n2. Quadratic Formula: With a = 1, b = -5, c = 6\n   x = (-(-5) \u00b1 \u221a((-5)\u00b2 - 4(1)(6)))/(2(1))\n   x = (5 \u00b1 \u221a(25 - 24))/2\n   x = (5 \u00b1 \u221a1)/2\n   x = (5 \u00b1 1)/2\n   x = 3 or x = 2\n\n3. Completing the Square:\n   x\u00b2 - 5x + 6 = 0\n   x\u00b2 - 5x = -6\n   x\u00b2 - 5x + (5/2)\u00b2 = -6 + (5/2)\u00b2\n   (x - 5/2)\u00b2 = -6 + 25/4\n   (x - 5/2)\u00b2 = 1/4\n   x - 5/2 = \u00b11/2\n   x = 5/2 \u00b1 1/2\n   x = 3 or x = 2",
+    "key_point": "The choice of method depends on the specific equation and context. Factoring is often quickest when possible, but the quadratic formula always works and is especially useful for equations that don't factor easily. Understanding all methods provides flexibility in problem-solving."
   },
   "interactive": {
-    "question": "A quadratic equation has a discriminant of -16. Which statement is true about its roots?",
+    "question": "Which method would be most efficient for solving 2x\u00b2 - 7x + 3 = 0?",
     "options": [
-      "The equation has two complex conjugate roots",
-      "The equation has two distinct real roots",
-      "The equation has one repeated real root"
+      "Quadratic Formula",
+      "Square Root Method",
+      "Factoring by inspection"
     ],
     "correct": 0
   }

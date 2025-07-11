@@ -2,23 +2,20 @@
   "id": "unit_1_lesson_3_card_007",
   "unit_id": "unit_1",
   "lesson_id": "lesson_3",
-  "type": "worked_example",
-  "title": "Finding Domain and Range from Graphs",
-  "duration": 120,
+  "type": "concept_intro",
+  "title": "Introduction to Factoring by Substitution",
+  "duration": 180,
   "content": {
-    "problem": "Find the domain and range of the function shown in the graph of a parabola opening downward with vertex at (2, 5) and x-intercepts at (0, 0) and (4, 0).",
-    "steps": [
-      "Step 1: To find the domain, look at all possible x-values on the graph.\nThe graph extends horizontally from x = 0 to x = 4.\nSo the domain is [0, 4].",
-      "Step 2: To find the range, look at all possible y-values on the graph.\nThe lowest y-value is 0 (at the x-intercepts).\nThe highest y-value is 5 (at the vertex).\nSo the range is [0, 5]."
-    ],
-    "explanation": "When finding domain and range from a graph, the domain is the set of all x-coordinates and the range is the set of all y-coordinates. For a parabola opening downward, the maximum y-value occurs at the vertex."
+    "explanation": "Sometimes expressions look complex, but we can make them simpler by treating certain parts as a single variable. This is called substitution.\n\nFor example, x\u2074 - 5x\u00b2 + 4 looks complicated, but if we let u = x\u00b2, it becomes:\nu\u00b2 - 5u + 4\n\nThis is much easier to factor!",
+    "example": "Think of substitution like using a nickname for a long name - it makes everything simpler to work with.",
+    "key_point": "Substitution transforms complex-looking problems into familiar ones we already know how to solve."
   },
   "interactive": {
-    "question": "A function is graphed as a semicircle centered at the origin with radius 3, in the upper half of the coordinate plane. What is its range?",
+    "question": "If we substitute u = x\u00b2 in the expression x\u2074 + 3x\u00b2 - 10, what do we get?",
     "options": [
-      "[0, 3]",
-      "[-3, 3]",
-      "[-3, 0]"
+      "u\u00b2 + 3u - 10",
+      "u\u2074 + 3u\u00b2 - 10",
+      "x\u00b2 + 3x - 10"
     ],
     "correct": 0
   }

@@ -3,24 +3,23 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_5",
   "type": "worked_example",
-  "title": "Real-World Application: Maximum Height",
+  "title": "Evaluating Piecewise Functions",
   "duration": 120,
   "content": {
-    "problem": "A ball is thrown upward from a height of 6 feet with an initial velocity of 32 feet per second. The height h(t) of the ball after t seconds is given by h(t) = -16t² + 32t + 6. Find the maximum height reached by the ball and the time at which it occurs.",
+    "problem": "Evaluate the function f(x) = {\n  x\u00b2 - 4 if x \u2264 1\n  3x - 2 if x > 1\n}\nat x = -2, x = 1, and x = 3.",
     "steps": [
-      "Step 1: Identify that this is a quadratic function with a < 0, so it has a maximum value at the vertex\nh(t) = -16t² + 32t + 6, where a = -16, b = 32, c = 6",
-      "Step 2: Find the t-coordinate of the vertex using t = -b/(2a)\nt = -(32)/(2(-16)) = 32/32 = 1 second",
-      "Step 3: Find the maximum height by evaluating h(1)\nh(1) = -16(1)² + 32(1) + 6\nh(1) = -16 + 32 + 6\nh(1) = 22 feet",
-      "Step 4: State the answer\nThe ball reaches its maximum height of 22 feet after 1 second"
+      "Step 1: Evaluate f(-2)\nSince -2 \u2264 1, we use the first piece: f(x) = x\u00b2 - 4\nf(-2) = (-2)\u00b2 - 4 = 4 - 4 = 0",
+      "Step 2: Evaluate f(1)\nSince 1 \u2264 1, we use the first piece: f(x) = x\u00b2 - 4\nf(1) = 1\u00b2 - 4 = 1 - 4 = -3",
+      "Step 3: Evaluate f(3)\nSince 3 > 1, we use the second piece: f(x) = 3x - 2\nf(3) = 3(3) - 2 = 9 - 2 = 7"
     ],
-    "explanation": "In physics, quadratic functions often model the height of projectiles under gravity. The vertex represents the maximum height and the time at which it occurs. The negative coefficient of t² reflects the downward force of gravity."
+    "explanation": "When evaluating piecewise functions, the key is to carefully check which condition applies to your input value. Pay special attention to boundary points and whether inequalities are strict (< or >) or inclusive (\u2264 or \u2265)."
   },
   "interactive": {
-    "question": "A rocket is launched with the height function h(t) = -4.9t² + 40t + 10, where h is in meters and t is in seconds. What is the maximum height reached by the rocket?",
+    "question": "For h(x) = {\n  |x| if x < 0\n  x\u00b2 if 0 \u2264 x \u2264 2\n  4 if x > 2\n}\nWhat is h(0)?",
     "options": [
-      "91.3 meters",
-      "50 meters",
-      "81.6 meters"
+      "0",
+      "4",
+      "undefined"
     ],
     "correct": 0
   }

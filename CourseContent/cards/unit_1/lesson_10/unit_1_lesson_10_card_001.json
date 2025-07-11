@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_10",
   "type": "concept_intro",
-  "title": "Introduction to the Discriminant",
+  "title": "Introduction to Quadratic Equations",
   "duration": 120,
   "content": {
-    "explanation": "The discriminant is a key component of the quadratic formula that provides important information about the solutions to a quadratic equation without having to solve the equation completely.\n\nFor a quadratic equation in standard form ax² + bx + c = 0, the discriminant is defined as:\n\nΔ = b² - 4ac\n\nWhere:\n- a is the coefficient of x²\n- b is the coefficient of x\n- c is the constant term\n\nThe discriminant appears under the radical sign in the quadratic formula:\nx = (-b ± √(b² - 4ac))/(2a)\n\nThe value of the discriminant determines the nature of the roots (solutions) of the quadratic equation. This makes it a powerful tool for analyzing quadratic expressions without performing complete calculations.",
-    "example": "Consider the quadratic equation 2x² - 5x + 3 = 0.\n\nTo find the discriminant:\n1. Identify the coefficients: a = 2, b = -5, c = 3\n2. Calculate Δ = b² - 4ac\n   Δ = (-5)² - 4(2)(3)\n   Δ = 25 - 24\n   Δ = 1\n\nSince the discriminant is positive (Δ = 1), this equation has two distinct real roots.\n\nWe can verify this by solving the equation:\nx = (5 ± √1)/(2(2))\nx = (5 ± 1)/4\nx = 6/4 or x = 4/4\nx = 3/2 or x = 1\n\nIndeed, the equation has two distinct real roots: x = 3/2 and x = 1.",
-    "key_point": "The discriminant provides a quick way to determine the nature of the roots of a quadratic equation without solving the equation completely. It is an essential tool for analyzing quadratic expressions and their graphs."
+    "explanation": "A quadratic equation is an equation that can be written in the standard form ax\u00b2 + bx + c = 0, where a, b, and c are constants, and a \u2260 0.\n\nQuadratic equations are characterized by having a variable raised to the second power as the highest power. They are fundamental in mathematics and have numerous applications in physics, engineering, economics, and other fields.\n\nSome key points about quadratic equations:\n\n1. They can have at most two real solutions (roots)\n2. Their graphs are parabolas\n3. The solutions represent the x-intercepts of the parabola\n4. The solutions can be real or complex numbers\n5. The solutions can be rational or irrational numbers",
+    "example": "Examples of quadratic equations:\n\n1. x\u00b2 - 5x + 6 = 0 (standard form with a = 1, b = -5, c = 6)\n2. 2x\u00b2 = 8 (can be rewritten as 2x\u00b2 - 8 = 0)\n3. x(x + 3) = 4 (can be expanded to x\u00b2 + 3x - 4 = 0)\n4. (x - 2)(x + 3) = 0 (factored form of x\u00b2 + x - 6 = 0)\n\nNon-examples (not quadratic equations):\n1. x\u00b3 - 2x + 1 = 0 (cubic equation)\n2. x - 3 = 0 (linear equation)\n3. x\u2074 - 16 = 0 (quartic equation)",
+    "key_point": "Solving quadratic equations means finding the values of the variable that make the equation true. These values are called the roots or solutions of the equation. There are several methods for solving quadratic equations, including factoring, using the quadratic formula, completing the square, and graphing."
   },
   "interactive": {
-    "question": "What is the discriminant of the quadratic equation 3x² + 2x - 1 = 0?",
+    "question": "Which of the following is a quadratic equation?",
     "options": [
-      "16",
-      "4",
-      "12"
+      "x\u00b2 - 7x + 12 = 0",
+      "2x - 5 = 0",
+      "x\u00b3 + x = 7"
     ],
     "correct": 0
   }

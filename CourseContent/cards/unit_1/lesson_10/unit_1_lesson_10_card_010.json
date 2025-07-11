@@ -2,21 +2,30 @@
   "id": "unit_1_lesson_10_card_010",
   "unit_id": "unit_1",
   "lesson_id": "lesson_10",
-  "type": "concept_intro",
-  "title": "The Discriminant in Applications",
+  "type": "worked_example",
+  "title": "Solving Quadratic Equations in Non-Standard Form",
   "duration": 120,
   "content": {
-    "explanation": "The discriminant is a powerful tool for analyzing real-world problems that can be modeled by quadratic equations. In many applications, the value of the discriminant provides important information about the physical situation being modeled.\n\nHere are some common applications where the discriminant plays a crucial role:\n\n1. Projectile Motion:\n   - The quadratic equation h(t) = -4.9t² + v₀t + h₀ models the height h of a projectile at time t\n   - The discriminant Δ = v₀² + 19.6h₀ determines whether the projectile hits the ground (Δ > 0), touches the ground exactly once (Δ = 0), or never reaches the ground (Δ < 0)\n   - If Δ > 0, the two roots represent the times when the projectile is at height zero\n\n2. Optimization Problems:\n   - When finding the maximum or minimum value of a quadratic function, the discriminant determines whether the optimal value is attained at a single point (typical case) or along a line (degenerate case)\n   - In constrained optimization with quadratic objective functions, the discriminant helps determine the nature of the solution space\n\n3. Electrical Circuits:\n   - In RLC circuits, the discriminant of the characteristic equation determines whether the circuit is overdamped (Δ > 0), critically damped (Δ = 0), or underdamped (Δ < 0)\n   - This affects how the circuit responds to inputs and whether oscillations occur\n\n4. Economics:\n   - In quadratic cost or revenue functions, the discriminant helps determine break-even points\n   - For quadratic utility functions, the discriminant affects the existence and nature of optimal consumption bundles\n\n5. Geometric Applications:\n   - When finding the intersection of a line and a parabola, the discriminant determines whether there are two, one, or zero intersection points\n   - In coordinate geometry, the discriminant helps analyze the relative positions of curves\n\nIn these applications, analyzing the discriminant often provides insights into the physical feasibility or mathematical behavior of the system being studied.",
-    "example": "A ball is thrown upward from a height of 1.5 meters with an initial velocity of 14 m/s. The height h (in meters) of the ball after t seconds is given by:\n\nh(t) = -4.9t² + 14t + 1.5\n\nTo determine when the ball hits the ground (h = 0), we solve:\n-4.9t² + 14t + 1.5 = 0\n\nThe discriminant is:\nΔ = 14² - 4(-4.9)(1.5)\nΔ = 196 + 29.4\nΔ = 225.4 > 0\n\nSince Δ > 0, the ball hits the ground at two different times (once on the way up and once on the way down). Using the quadratic formula:\n\nt = (-14 ± √225.4)/(-9.8)\nt = (-14 ± 15.01)/(-9.8)\n\nThis gives t ≈ -0.10 or t ≈ 2.96\n\nSince time cannot be negative in this context, the ball hits the ground after approximately 2.96 seconds.\n\nIf the discriminant had been zero, the ball would have touched the ground exactly once (e.g., if thrown horizontally from ground level). If the discriminant had been negative, the ball would never have reached the ground (e.g., if thrown from a height with insufficient velocity).",
-    "key_point": "In real-world applications, the discriminant often has a physical interpretation related to the feasibility or behavior of the system being modeled. Analyzing the discriminant can provide insights into the nature of the solution without having to solve the quadratic equation completely."
+    "problem": "Solve the following quadratic equations that are not in standard form:\n1. x(x - 3) = 10\n2. (x - 2)\u00b2 = 9\n3. 1/x + 1/(x+2) = 1",
+    "steps": [
+      "Step 1: For x(x - 3) = 10, first expand the left side.\nx(x - 3) = 10\nx\u00b2 - 3x = 10",
+      "Step 2: Rearrange to standard form by moving all terms to one side.\nx\u00b2 - 3x - 10 = 0",
+      "Step 3: Solve by factoring. Find two numbers that multiply to give -10 and add to give -3.\nThe factors of -10 are: (1,-10), (-1,10), (2,-5), (-2,5).\nChecking the sums: 1 + (-10) = -9, (-1) + 10 = 9, 2 + (-5) = -3, (-2) + 5 = 3.\nThe pair (2,-5) works since 2 \u00d7 (-5) = -10 and 2 + (-5) = -3.",
+      "Step 4: Factor and solve.\nx\u00b2 - 3x - 10 = 0\n(x + 2)(x - 5) = 0\nx = -2 or x = 5",
+      "Step 5: For (x - 2)\u00b2 = 9, use the square root method directly.\n(x - 2)\u00b2 = 9\nx - 2 = \u00b13\nx = 2 \u00b1 3\nx = 5 or x = -1",
+      "Step 6: For 1/x + 1/(x+2) = 1, find a common denominator for the fractions on the left.\nThe common denominator is x(x+2).\n1/x + 1/(x+2) = 1\n(x+2)/[x(x+2)] + x/[x(x+2)] = 1\n(x+2+x)/[x(x+2)] = 1\n(2x+2)/[x(x+2)] = 1",
+      "Step 7: Multiply both sides by the common denominator x(x+2).\n2x+2 = x(x+2)\n2x+2 = x\u00b2 + 2x\n2x+2 - x\u00b2 - 2x = 0\n-x\u00b2 + 2 = 0\nx\u00b2 = 2\nx = \u00b1\u221a2",
+      "Step 8: Check the solutions in the original equation to ensure they don't create division by zero.\nFor x = \u221a2: Both denominators are non-zero, so \u221a2 is a valid solution.\nFor x = -\u221a2: We need to check if x+2 = 0. Since -\u221a2 + 2 \u2248 0.59, which is not zero, -\u221a2 is also a valid solution.\nSo the solutions are x = \u221a2 or x = -\u221a2."
+    ],
+    "explanation": "Quadratic equations often appear in forms that are not immediately recognizable as ax\u00b2 + bx + c = 0. Common non-standard forms include:\n\n1. Equations with algebraic expressions: p(x) \u00d7 q(x) = r\n2. Equations with perfect square expressions: (x - h)\u00b2 = k\n3. Rational equations that lead to quadratics\n4. Equations with radicals that, when squared, lead to quadratics\n\nThe general strategy for solving these equations is:\n\n1. Manipulate the equation to get it into standard form\n2. Solve using any appropriate method (factoring, quadratic formula, etc.)\n3. Check all solutions in the original equation to identify any extraneous solutions\n\nFor equations in the form (x - h)\u00b2 = k, the square root method provides a direct path to the solutions: x = h \u00b1 \u221ak."
   },
   "interactive": {
-    "question": "A projectile is launched from ground level with an initial velocity. Its height (in meters) after t seconds is given by h(t) = -4.9t² + vt, where v is the initial velocity. What must be true about v for the projectile to reach a maximum height of at least 10 meters?",
+    "question": "What are the solutions to the equation x(2x + 3) = 5?",
     "options": [
-      "v ≥ 7 m/s",
-      "v > 9.8 m/s",
-      "v > 14 m/s"
+      "x = 1 or x = -5/2",
+      "x = -1 or x = 5/2",
+      "x = 5 or x = -1/2"
     ],
-    "correct": 1
+    "correct": 0
   }
 }

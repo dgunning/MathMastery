@@ -1,0 +1,21 @@
+{
+  "id": "unit_1_lesson_14_card_005",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_14",
+  "type": "worked_example",
+  "title": "Combined Skills Problem: Functions and Quadratics",
+  "duration": 240,
+  "content": {
+    "problem": "A projectile is launched with an initial velocity. Its height h(t) in meters after t seconds is given by the function h(t) = -4.9t² + 24.5t + 1.5.\n\n1. Find the maximum height reached by the projectile.\n2. At what time does the projectile hit the ground?\n3. What is the height of the projectile after 2 seconds?",
+    "solution": "Step 1: Find the maximum height by finding the vertex of the quadratic function.\nThe function h(t) = -4.9t² + 24.5t + 1.5 has a = -4.9, b = 24.5, and c = 1.5.\n\nThe t-coordinate of the vertex is at t = -b/(2a) = -(24.5)/[2(-4.9)] = 24.5/9.8 = 2.5 seconds\n\nThe maximum height is h(2.5):\nh(2.5) = -4.9(2.5)² + 24.5(2.5) + 1.5\nh(2.5) = -4.9(6.25) + 61.25 + 1.5\nh(2.5) = -30.625 + 61.25 + 1.5\nh(2.5) = 32.125 meters\n\nStep 2: Find when the projectile hits the ground (h(t) = 0)\nSolve: -4.9t² + 24.5t + 1.5 = 0\n\nUsing the quadratic formula: t = (-b ± √(b² - 4ac))/(2a)\nt = (-24.5 ± √(24.5² - 4 × (-4.9) × 1.5))/(2 × (-4.9))\nt = (-24.5 ± √(600.25 + 29.4))/(-9.8)\nt = (-24.5 ± √629.65)/(-9.8)\nt = (-24.5 ± 25.09)/(-9.8)\n\nt = (-24.5 + 25.09)/(-9.8) ≈ -0.06 seconds (before launch, not valid)\nt = (-24.5 - 25.09)/(-9.8) ≈ 5.06 seconds\n\nThe projectile hits the ground after about 5.06 seconds.\n\nStep 3: Find the height after 2 seconds by evaluating h(2)\nh(2) = -4.9(2)² + 24.5(2) + 1.5\nh(2) = -4.9(4) + 49 + 1.5\nh(2) = -19.6 + 49 + 1.5\nh(2) = 30.9 meters"
+  },
+  "interactive": {
+    "question": "If the same projectile is launched from a platform that is 10 meters high instead of 1.5 meters, what would be the new time (in seconds) when the projectile hits the ground? (Assume the function becomes h(t) = -4.9t² + 24.5t + 10)",
+    "options": [
+      "5.47 seconds",
+      "5.06 seconds",
+      "5.26 seconds"
+    ],
+    "correct": 0
+  }
+}

@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_6",
   "type": "concept_intro",
-  "title": "Maximum and Minimum Values of Quadratic Functions",
+  "title": "Introduction to Parabolas",
   "duration": 120,
   "content": {
-    "explanation": "Every quadratic function has either a maximum or a minimum value, which occurs at the vertex of its parabola.\n\nFor a quadratic function f(x) = ax² + bx + c:\n- If a > 0, the parabola opens upward and has a minimum value at the vertex\n- If a < 0, the parabola opens downward and has a maximum value at the vertex\n\nThe value of the function at the vertex is the maximum or minimum value of the function.",
-    "example": "For f(x) = 2x² - 8x + 7:\n- Since a = 2 > 0, the parabola opens upward and has a minimum value\n- The vertex is at x = -b/(2a) = -(-8)/(2(2)) = 8/4 = 2\n- The minimum value is f(2) = 2(2)² - 8(2) + 7 = 8 - 16 + 7 = -1",
-    "key_point": "The sign of the leading coefficient 'a' tells us whether the quadratic function has a maximum (a < 0) or minimum (a > 0) value."
+    "explanation": "A parabola is the graph of a quadratic function, which has the form f(x) = ax\u00b2 + bx + c, where a, b, and c are constants and a \u2260 0.\n\nThe shape of a parabola is determined by the value of a:\n- If a > 0, the parabola opens upward (like a cup)\n- If a < 0, the parabola opens downward (like an inverted cup)\n\nThe absolute value of a affects how wide or narrow the parabola is. A larger |a| creates a narrower parabola.",
+    "example": "Consider these functions:\nf(x) = x\u00b2 (opens upward, standard width)\ng(x) = 3x\u00b2 (opens upward, narrower)\nh(x) = -0.5x\u00b2 (opens downward, wider)",
+    "key_point": "Every parabola has a special point called the vertex, which is either the minimum point (if the parabola opens upward) or the maximum point (if the parabola opens downward)."
   },
   "interactive": {
-    "question": "The function g(x) = -3x² + 12x - 8 has:",
+    "question": "Which of these quadratic functions has a parabola that opens downward?",
     "options": [
-      "A maximum value",
-      "A minimum value",
-      "Neither a maximum nor a minimum value"
+      "f(x) = -2x\u00b2 + 4x - 1",
+      "g(x) = x\u00b2 - 5x + 6",
+      "h(x) = 3x\u00b2 + 2x - 7"
     ],
     "correct": 0
   }

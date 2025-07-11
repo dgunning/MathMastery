@@ -1,9 +1,9 @@
 {
   "unit_id": "unit_1",
   "lesson_id": "lesson_4",
-  "lesson_name": "Functions and Function Notation",
-  "total_cards": 12,
-  "estimated_duration": 1440,
+  "lesson_name": "Functions, Domain, and Range",
+  "total_cards": 15,
+  "estimated_duration": 1800,
   "sequence": [
     "unit_1_lesson_4_card_001",
     "unit_1_lesson_4_card_002",
@@ -16,10 +16,13 @@
     "unit_1_lesson_4_card_009",
     "unit_1_lesson_4_card_010",
     "unit_1_lesson_4_card_011",
-    "unit_1_lesson_4_card_012"
+    "unit_1_lesson_4_card_012",
+    "unit_1_lesson_4_card_013",
+    "unit_1_lesson_4_card_014",
+    "unit_1_lesson_4_card_015"
   ],
   "card_types": {
-    "worked_example": 9,
-    "concept_intro": 6
+    "worked_example": 8,
+    "concept_intro": 7
   }
 }

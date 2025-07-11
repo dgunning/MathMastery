@@ -1,7 +1,7 @@
 {
   "unit_id": "unit_1",
   "lesson_id": "lesson_6",
-  "lesson_name": "Maximum and Minimum Values",
+  "lesson_name": "Vertex of a Parabola",
   "total_cards": 15,
   "estimated_duration": 1800,
   "sequence": [
@@ -22,7 +22,7 @@
     "unit_1_lesson_6_card_015"
   ],
   "card_types": {
-    "worked_example": 9,
-    "concept_intro": 6
+    "worked_example": 7,
+    "concept_intro": 8
   }
 }

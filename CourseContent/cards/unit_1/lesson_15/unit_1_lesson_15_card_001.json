@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_15_card_001",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_15",
+  "type": "concept_intro",
+  "title": "Review Topic 1",
+  "duration": 180,
+  "content": {
+    "explanation": "[Content for Unit 1 Review and Practice Test (Part 2) - Review Topic 1]",
+    "example": "[Example content]",
+    "key_point": "[Key point about this topic]"
+  },
+  "interactive": {
+    "question": "[Question about Unit 1 Review and Practice Test (Part 2) topic 1]",
+    "options": [
+      "[Option 1]",
+      "[Option 2]",
+      "[Option 3]"
+    ],
+    "correct": 0
+  }
+}

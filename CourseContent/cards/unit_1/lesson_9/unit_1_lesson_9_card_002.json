@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_9",
   "type": "concept_intro",
-  "title": "Methods for Solving Quadratic Equations",
+  "title": "Properties of Radicals",
   "duration": 120,
   "content": {
-    "explanation": "There are several methods for solving quadratic equations, each with its own advantages and appropriate situations:\n\n1. Factoring Method:\n   - Best for equations that can be easily factored\n   - Works well when the solutions are rational numbers\n   - Based on the zero product property: if ab = 0, then either a = 0 or b = 0\n\n2. Quadratic Formula:\n   - Works for any quadratic equation\n   - Especially useful when factoring is difficult or impossible\n   - Formula: x = (-b ± √(b² - 4ac))/(2a) for ax² + bx + c = 0\n\n3. Completing the Square:\n   - Converts the quadratic to vertex form\n   - Useful for understanding the derivation of the quadratic formula\n   - Helps connect algebraic and geometric interpretations\n\n4. Graphical Method:\n   - Visualizes the solutions as x-intercepts of the parabola\n   - Provides approximate solutions when exact values are difficult to compute\n   - Helps understand the nature of the solutions\n\n5. Square Root Method:\n   - Used for equations in the form x² = d\n   - Solutions are x = ±√d",
-    "example": "Consider the equation x² - 5x + 6 = 0:\n\n1. Factoring: x² - 5x + 6 = (x - 2)(x - 3) = 0, so x = 2 or x = 3\n\n2. Quadratic Formula: With a = 1, b = -5, c = 6\n   x = (-(-5) ± √((-5)² - 4(1)(6)))/(2(1))\n   x = (5 ± √(25 - 24))/2\n   x = (5 ± √1)/2\n   x = (5 ± 1)/2\n   x = 3 or x = 2\n\n3. Completing the Square:\n   x² - 5x + 6 = 0\n   x² - 5x = -6\n   x² - 5x + (5/2)² = -6 + (5/2)²\n   (x - 5/2)² = -6 + 25/4\n   (x - 5/2)² = 1/4\n   x - 5/2 = ±1/2\n   x = 5/2 ± 1/2\n   x = 3 or x = 2",
-    "key_point": "The choice of method depends on the specific equation and context. Factoring is often quickest when possible, but the quadratic formula always works and is especially useful for equations that don't factor easily. Understanding all methods provides flexibility in problem-solving."
+    "explanation": "Radicals follow several important properties that allow us to manipulate and simplify expressions. For any positive real numbers a and b, and any positive integer n:\n\n1. Product Property: \u207f\u221a(a \u00d7 b) = \u207f\u221aa \u00d7 \u207f\u221ab\n   This means the radical of a product equals the product of the radicals.\n\n2. Quotient Property: \u207f\u221a(a \u00f7 b) = \u207f\u221aa \u00f7 \u207f\u221ab\n   This means the radical of a quotient equals the quotient of the radicals.\n\n3. Power Property: \u207f\u221a(a^m) = (\u207f\u221aa)^m\n   This means the radical of a power equals the power of the radical.\n\n4. Root of a Root: \u1d50\u221a(\u207f\u221aa) = \u1d50\u207f\u221aa\n   This means taking successive roots is equivalent to taking a single root with an index equal to the product of the indices.\n\n5. Exponent-Radical Relationship: \u207f\u221aa = a^(1/n)\n   This allows us to convert between radical and exponential forms.",
+    "example": "Examples of applying radical properties:\n\n1. Product Property: \u221a(9 \u00d7 4) = \u221a9 \u00d7 \u221a4 = 3 \u00d7 2 = 6\n\n2. Quotient Property: \u221a(25 \u00f7 9) = \u221a25 \u00f7 \u221a9 = 5 \u00f7 3 = 5/3\n\n3. Power Property: \u221a(x^4) = (\u221ax)^4 = x^2\n\n4. Root of a Root: \u221a(\u00b3\u221a8) = \u2076\u221a8 = \u2076\u221a(2^3) = 2^(3/6) = 2^(1/2) = \u221a2\n\n5. Exponent-Radical Relationship: \u2074\u221a16 = 16^(1/4) = (2^4)^(1/4) = 2^(4/4) = 2^1 = 2",
+    "key_point": "These properties are essential for simplifying radical expressions and solving equations involving radicals. They allow us to break down complex radical expressions into simpler forms."
   },
   "interactive": {
-    "question": "Which method would be most efficient for solving 2x² - 7x + 3 = 0?",
+    "question": "Which of the following is equal to \u221a(16 \u00d7 9)?",
     "options": [
-      "Quadratic Formula",
-      "Square Root Method",
-      "Factoring by inspection"
+      "12",
+      "\u221a144",
+      "\u221a16 + \u221a9"
     ],
     "correct": 0
   }

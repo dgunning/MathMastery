@@ -2,20 +2,23 @@
   "id": "unit_1_lesson_5_card_009",
   "unit_id": "unit_1",
   "lesson_id": "lesson_5",
-  "type": "concept_intro",
-  "title": "Axis of Symmetry",
+  "type": "worked_example",
+  "title": "Finding Input Values from Output Values",
   "duration": 120,
   "content": {
-    "explanation": "Every parabola has a line of symmetry that passes through its vertex. This line is called the axis of symmetry.\n\nFor a quadratic function f(x) = ax² + bx + c, the axis of symmetry is the vertical line:\n\nx = -b/(2a)\n\nThis is the same as the x-coordinate of the vertex. If you fold the graph along this line, the two halves of the parabola match exactly.",
-    "example": "For the function f(x) = 2x² - 8x + 7:\n- The x-coordinate of the vertex is x = -(-8)/(2(2)) = 8/4 = 2\n- The axis of symmetry is the vertical line x = 2\n- Points equidistant from this line have the same y-value, e.g., f(1) = f(3)",
-    "key_point": "The axis of symmetry helps us understand the behavior of the parabola. For any point on the parabola, there's a corresponding point on the other side of the axis with the same height."
+    "problem": "For the function f(x) = 2x - 5, find all values of x such that f(x) = 7.",
+    "steps": [
+      "Step 1: Set up an equation using the given information\nf(x) = 7\n2x - 5 = 7",
+      "Step 2: Solve for x\n2x - 5 = 7\n2x = 12\nx = 6"
+    ],
+    "explanation": "When we're asked to find x such that f(x) equals a specific value, we're essentially solving for the input that produces a given output. This is the inverse process of evaluating a function."
   },
   "interactive": {
-    "question": "What is the axis of symmetry for the parabola y = -3x² + 12x - 7?",
+    "question": "For g(x) = x\u00b2 + 3, what value(s) of x give g(x) = 12?",
     "options": [
-      "x = 2",
-      "x = -2",
-      "x = 4"
+      "x = 3 or x = -3",
+      "x = 3 only",
+      "x = 9"
     ],
     "correct": 0
   }

@@ -1,9 +1,9 @@
 {
   "unit_id": "unit_1",
   "lesson_id": "lesson_2",
-  "lesson_name": "Advanced Factoring Methods",
-  "total_cards": 18,
-  "estimated_duration": 2280,
+  "lesson_name": "Basic Factoring Techniques",
+  "total_cards": 10,
+  "estimated_duration": 1200,
   "sequence": [
     "unit_1_lesson_2_card_001",
     "unit_1_lesson_2_card_002",
@@ -14,18 +14,10 @@
     "unit_1_lesson_2_card_007",
     "unit_1_lesson_2_card_008",
     "unit_1_lesson_2_card_009",
-    "unit_1_lesson_2_card_010",
-    "unit_1_lesson_2_card_011",
-    "unit_1_lesson_2_card_012",
-    "unit_1_lesson_2_card_013",
-    "unit_1_lesson_2_card_014",
-    "unit_1_lesson_2_card_015",
-    "unit_1_lesson_2_card_016",
-    "unit_1_lesson_2_card_017",
-    "unit_1_lesson_2_card_018"
+    "unit_1_lesson_2_card_010"
   ],
   "card_types": {
-    "worked_example": 11,
-    "concept_intro": 7
+    "worked_example": 6,
+    "concept_intro": 4
   }
 }

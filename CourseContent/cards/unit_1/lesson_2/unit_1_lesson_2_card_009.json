@@ -3,27 +3,11 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_2",
   "type": "worked_example",
-  "title": "Negative Coefficients in AC Method",
-  "duration": 210,
+  "title": "Factoring Strategy Selection",
+  "duration": 120,
   "content": {
-    "problem": "Factor: 3x² - 10x + 8",
-    "steps": [
-      "Step 1: Calculate ac = 3 × 8 = 24",
-      "Step 2: Find factors of 24 that add to -10\nFactors of 24: ±1×±24, ±2×±12, ±3×±8, ±4×±6\nWe need: (-4) + (-6) = -10 ✓ and (-4) × (-6) = 24 ✓",
-      "Step 3: Split the middle term using -4 and -6\n3x² - 10x + 8 = 3x² - 4x - 6x + 8",
-      "Step 4: Group the terms\n= (3x² - 4x) + (-6x + 8)",
-      "Step 5: Factor each group\n= x(3x - 4) - 2(3x - 4)",
-      "Step 6: Factor out the common binomial\n= (3x - 4)(x - 2)"
-    ],
-    "explanation": "When dealing with negative middle coefficients, remember that both factors need to be negative to give a positive product and negative sum."
-  },
-  "interactive": {
-    "question": "Why do we need both -4 and -6 to be negative?",
-    "options": [
-      "To get a negative sum and positive product",
-      "To make the math easier",
-      "Because the constant term is positive"
-    ],
-    "correct": 0
+    "problem": "[Template problem for Factoring Strategy Selection]",
+    "solution": "[Step-by-step solution]",
+    "insight": "[Key insight from this example]"
   }
 }

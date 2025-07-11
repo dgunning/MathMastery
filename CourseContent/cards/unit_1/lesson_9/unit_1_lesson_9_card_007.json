@@ -3,25 +3,26 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_9",
   "type": "worked_example",
-  "title": "Solving Quadratics with Complex Roots",
+  "title": "Dividing Radicals and Rationalizing Denominators",
   "duration": 120,
   "content": {
-    "problem": "Solve the following quadratic equations that have complex roots:\n1. x² + 4 = 0\n2. x² + 2x + 5 = 0\n3. 2x² - 4x + 5 = 0",
+    "problem": "Simplify the following expressions by rationalizing the denominator:\n1. 4/\u221a3\n2. \u221a8/\u221a6\n3. 5/(2 + \u221a5)",
     "steps": [
-      "Step 1: For x² + 4 = 0, rearrange to standard form: x² = -4.\nUsing the square root method: x = ±√(-4) = ±2i, where i = √(-1) is the imaginary unit.\nSo the solutions are x = 2i or x = -2i.",
-      "Step 2: For x² + 2x + 5 = 0, we'll use the quadratic formula with a = 1, b = 2, c = 5.\nFirst, calculate the discriminant: b² - 4ac = 2² - 4(1)(5) = 4 - 20 = -16\nSince the discriminant is negative, the equation has complex roots.",
-      "Step 3: Substitute into the quadratic formula:\nx = (-2 ± √(-16))/(2(1))\nx = (-2 ± 4i)/2\nx = -1 ± 2i\nSo the solutions are x = -1 + 2i or x = -1 - 2i.",
-      "Step 4: For 2x² - 4x + 5 = 0, we'll use the quadratic formula with a = 2, b = -4, c = 5.\nFirst, calculate the discriminant: b² - 4ac = (-4)² - 4(2)(5) = 16 - 40 = -24\nSince the discriminant is negative, the equation has complex roots.",
-      "Step 5: Substitute into the quadratic formula:\nx = (-(-4) ± √(-24))/(2(2))\nx = (4 ± √24 · i)/4\nx = (4 ± 2√6 · i)/4\nx = 1 ± (√6/2)i\nSo the solutions are x = 1 + (√6/2)i or x = 1 - (√6/2)i."
+      "Step 1: For 4/\u221a3, multiply both numerator and denominator by \u221a3 to rationalize the denominator.\n4/\u221a3 = (4 \u00d7 \u221a3)/(\u221a3 \u00d7 \u221a3) = 4\u221a3/3",
+      "Step 2: For \u221a8/\u221a6, first use the quotient property of radicals.\n\u221a8/\u221a6 = \u221a(8/6) = \u221a(4/3) = \u221a4/\u221a3 = 2/\u221a3",
+      "Step 3: Now rationalize the denominator as in Step 1.\n2/\u221a3 = (2 \u00d7 \u221a3)/(\u221a3 \u00d7 \u221a3) = 2\u221a3/3",
+      "Step 4: For 5/(2 + \u221a5), multiply both numerator and denominator by the conjugate of the denominator (2 - \u221a5).\n5/(2 + \u221a5) = 5(2 - \u221a5)/((2 + \u221a5)(2 - \u221a5))",
+      "Step 5: Expand the denominator using the difference of squares formula: (a + b)(a - b) = a\u00b2 - b\u00b2.\n(2 + \u221a5)(2 - \u221a5) = 2\u00b2 - (\u221a5)\u00b2 = 4 - 5 = -1",
+      "Step 6: Expand the numerator and simplify.\n5(2 - \u221a5)/(-1) = (10 - 5\u221a5)/(-1) = -10 + 5\u221a5"
     ],
-    "explanation": "When a quadratic equation has a negative discriminant (b² - 4ac < 0), it has no real solutions. Instead, it has two complex conjugate solutions of the form α ± βi, where:\n\n- α = -b/(2a) is the real part\n- β = √|b² - 4ac|/(2a) is the coefficient of the imaginary part\n- i = √(-1) is the imaginary unit\n\nComplex roots always come in conjugate pairs (if α + βi is a root, then α - βi is also a root).\n\nAlthough complex roots don't have a direct geometric interpretation on the real number line, they are important in mathematics and have applications in physics, engineering, and other fields. On the graph of a quadratic function, complex roots indicate that the parabola does not intersect the x-axis."
+    "explanation": "Rationalizing the denominator is a technique used to eliminate radicals from the denominator of a fraction. This is done for two main reasons:\n\n1. Historically, it was easier to calculate decimal approximations without radicals in the denominator\n2. It's a standard form that makes expressions easier to compare and work with\n\nThe process involves multiplying both the numerator and denominator by an appropriate expression:\n\n- For a single radical (like \u221aa), multiply by that same radical\n- For a binomial involving a radical (like a + \u221ab), multiply by its conjugate (a - \u221ab)\n\nThe key is that whatever we multiply the denominator by, we must also multiply the numerator by to maintain equality."
   },
   "interactive": {
-    "question": "What are the solutions to the equation x² + 6x + 10 = 0?",
+    "question": "Which of the following is the simplified form of 3/\u221a12 after rationalizing the denominator?",
     "options": [
-      "x = -3 ± i",
-      "x = -3 ± 2i",
-      "x = -3 ± √7i"
+      "3\u221a3/6",
+      "\u221a3/2",
+      "3\u221a12/12"
     ],
     "correct": 0
   }

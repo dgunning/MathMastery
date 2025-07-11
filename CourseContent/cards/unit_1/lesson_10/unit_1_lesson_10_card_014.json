@@ -2,34 +2,20 @@
   "id": "unit_1_lesson_10_card_014",
   "unit_id": "unit_1",
   "lesson_id": "lesson_10",
-  "type": "worked_example",
-  "title": "Solving Quadratic Equations with the Discriminant",
+  "type": "concept_intro",
+  "title": "Connecting Roots to Graphs of Quadratic Functions",
   "duration": 120,
   "content": {
-    "problem": "Use the discriminant to determine the most efficient method for solving each of the following quadratic equations, and then solve them:\n\n1. 2x² - 7x + 3 = 0\n\n2. 9x² - 12x + 4 = 0\n\n3. 3x² - 2x + 5 = 0",
-    "steps": [
-      "Step 1: For equation 1, 2x² - 7x + 3 = 0, calculate the discriminant:\nΔ = (-7)² - 4(2)(3) = 49 - 24 = 25",
-      "Step 2: Since Δ = 25 > 0 and is a perfect square (5²), the equation has two rational roots. Factoring is likely the most efficient method.",
-      "Step 3: To factor 2x² - 7x + 3, we need to find two numbers p and q such that p + q = -7 and pq = 2 × 3 = 6.\nThe numbers -6 and -1 satisfy these conditions: -6 + (-1) = -7 and (-6)(-1) = 6.",
-      "Step 4: Therefore, 2x² - 7x + 3 = (2x - 6)(x - 1/2) = 2(x - 3)(x - 1/2).",
-      "Step 5: Setting each factor equal to zero: x - 3 = 0 or x - 1/2 = 0.\nSo x = 3 or x = 1/2 are the solutions.",
-      "Step 6: For equation 2, 9x² - 12x + 4 = 0, calculate the discriminant:\nΔ = (-12)² - 4(9)(4) = 144 - 144 = 0",
-      "Step 7: Since Δ = 0, the equation has one repeated root. The solution is x = -b/(2a) = -(-12)/(2(9)) = 12/18 = 2/3.",
-      "Step 8: We can verify this by rewriting the equation as a perfect square:\n9x² - 12x + 4 = 9(x² - 4x/3 + 4/9) = 9(x - 2/3)²",
-      "Step 9: Therefore, the solution is x = 2/3 (with multiplicity 2).",
-      "Step 10: For equation 3, 3x² - 2x + 5 = 0, calculate the discriminant:\nΔ = (-2)² - 4(3)(5) = 4 - 60 = -56",
-      "Step 11: Since Δ = -56 < 0, the equation has two complex conjugate roots. We must use the quadratic formula.",
-      "Step 12: Using the quadratic formula: x = (2 ± √(-56))/(2(3)) = (2 ± 2√14i)/6 = (1 ± √14i)/3",
-      "Step 13: Therefore, the solutions are x = (1 + √14i)/3 and x = (1 - √14i)/3."
-    ],
-    "explanation": "The discriminant helps us choose the most efficient method for solving a quadratic equation:\n\n1. When Δ > 0 and is a perfect square:\n   - The equation has two rational roots\n   - Factoring is often the most efficient method\n   - The quadratic formula will also work but may involve more calculation\n\n2. When Δ > 0 but is not a perfect square:\n   - The equation has two irrational roots\n   - The quadratic formula is usually the most efficient method\n   - Factoring will involve irrational coefficients, which is typically avoided\n\n3. When Δ = 0:\n   - The equation has one repeated root\n   - The solution is x = -b/(2a)\n   - The expression can be rewritten as a perfect square: a(x - r)²\n\n4. When Δ < 0:\n   - The equation has two complex conjugate roots\n   - The quadratic formula with complex numbers is necessary\n   - Factoring over real numbers is not possible\n\nBy calculating the discriminant first, we can choose the most appropriate method and anticipate the nature of the solutions, making the solving process more efficient."
+    "explanation": "The solutions (or roots) of a quadratic equation ax\u00b2 + bx + c = 0 have a direct geometric interpretation on the graph of the corresponding quadratic function f(x) = ax\u00b2 + bx + c.\n\nKey connections between roots and graphs:\n\n1. X-intercepts: The roots of the equation are precisely the x-coordinates where the parabola crosses the x-axis (where f(x) = 0).\n\n2. Number of roots and graph position:\n   - Two distinct real roots: The parabola crosses the x-axis at two different points\n   - One repeated real root: The parabola touches (is tangent to) the x-axis at exactly one point\n   - No real roots: The parabola doesn't intersect the x-axis at all\n\n3. Discriminant and graph:\n   - If b\u00b2 - 4ac > 0: The parabola crosses the x-axis twice\n   - If b\u00b2 - 4ac = 0: The parabola touches the x-axis once\n   - If b\u00b2 - 4ac < 0: The parabola doesn't intersect the x-axis\n\n4. Sum and product of roots:\n   - If r and s are the roots, then r + s = -b/a and r \u00d7 s = c/a\n   - The axis of symmetry of the parabola occurs at x = -b/(2a), which is the average of the roots\n   - The vertex occurs at x = -b/(2a), with y-coordinate f(-b/(2a))\n\n5. Factored form: If r and s are the roots, the quadratic can be written as f(x) = a(x - r)(x - s)",
+    "example": "Consider the quadratic function f(x) = x\u00b2 - 5x + 6 and its corresponding equation x\u00b2 - 5x + 6 = 0.\n\n1. Solving the equation by factoring:\n   x\u00b2 - 5x + 6 = 0\n   (x - 2)(x - 3) = 0\n   x = 2 or x = 3\n\n2. Graphical interpretation:\n   - The parabola crosses the x-axis at x = 2 and x = 3\n   - The axis of symmetry is at x = -b/(2a) = -(-5)/(2(1)) = 5/2 = 2.5\n   - The vertex is at (2.5, f(2.5)) = (2.5, -0.25)\n   - The parabola opens upward (since a = 1 > 0)\n\n3. Using the discriminant:\n   - b\u00b2 - 4ac = (-5)\u00b2 - 4(1)(6) = 25 - 24 = 1 > 0\n   - This confirms that the equation has two distinct real roots\n\n4. The factored form of the function is:\n   f(x) = (x - 2)(x - 3)\n\n5. The sum of roots is 2 + 3 = 5 = -b/a\n   The product of roots is 2 \u00d7 3 = 6 = c/a",
+    "key_point": "Understanding the connection between the algebraic solutions of a quadratic equation and the geometric features of its graph provides powerful insights. This connection allows us to predict the shape and position of a parabola from its equation, and conversely, to determine properties of the equation from the graph."
   },
   "interactive": {
-    "question": "Which method would be most efficient for solving the equation 4x² - 12x + 9 = 0?",
+    "question": "A quadratic function has roots at x = -1 and x = 4. Which of the following could be its equation?",
     "options": [
-      "Rewriting as a perfect square trinomial",
-      "Using the quadratic formula",
-      "Factoring into two binomials with real coefficients"
+      "f(x) = x\u00b2 - 3x - 4",
+      "f(x) = x\u00b2 + 3x - 4",
+      "f(x) = x\u00b2 - 3x + 4"
     ],
     "correct": 0
   }

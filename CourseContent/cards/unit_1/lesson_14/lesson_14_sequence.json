@@ -1,0 +1,23 @@
+{
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_14",
+  "lesson_name": "Unit 1 Review and Practice Test",
+  "total_cards": 10,
+  "estimated_duration": 1800,
+  "sequence": [
+    "unit_1_lesson_14_card_001",
+    "unit_1_lesson_14_card_002",
+    "unit_1_lesson_14_card_003",
+    "unit_1_lesson_14_card_004",
+    "unit_1_lesson_14_card_005",
+    "unit_1_lesson_14_card_006",
+    "unit_1_lesson_14_card_007",
+    "unit_1_lesson_14_card_008",
+    "unit_1_lesson_14_card_009",
+    "unit_1_lesson_14_card_010"
+  ],
+  "card_types": {
+    "worked_example": 6,
+    "concept_intro": 4
+  }
+}

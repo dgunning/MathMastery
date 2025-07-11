@@ -2,28 +2,20 @@
   "id": "unit_1_lesson_7_card_010",
   "unit_id": "unit_1",
   "lesson_id": "lesson_7",
-  "type": "worked_example",
-  "title": "Graphing Quadratics Using Vertex Form",
+  "type": "concept_intro",
+  "title": "Maximum/Minimum Values and the Discriminant",
   "duration": 120,
   "content": {
-    "problem": "Convert f(x) = x² + 4x - 12 to vertex form by completing the square, and then use the vertex form to sketch the graph.",
-    "steps": [
-      "Step 1: Complete the square to find the vertex form\nf(x) = x² + 4x - 12\nf(x) = (x² + 4x) - 12\nf(x) = (x² + 4x + 4 - 4) - 12\nf(x) = (x + 2)² - 4 - 12\nf(x) = (x + 2)² - 16",
-      "Step 2: Identify the vertex from the vertex form\nComparing with f(x) = a(x - h)² + k, we have a = 1, h = -2, k = -16\nSo the vertex is (-2, -16)",
-      "Step 3: Determine the direction of opening\nSince a = 1 > 0, the parabola opens upward\nThis means the vertex is a minimum point",
-      "Step 4: Find additional points by substituting values\nLet's try x = -1 and x = -3 (one unit away from the vertex in each direction)\nf(-1) = (-1 + 2)² - 16 = 1² - 16 = -15\nf(-3) = (-3 + 2)² - 16 = (-1)² - 16 = -15",
-      "Step 5: Find the y-intercept by evaluating f(0)\nf(0) = (0 + 2)² - 16 = 4 - 16 = -12",
-      "Step 6: Find the x-intercepts by solving f(x) = 0\n(x + 2)² - 16 = 0\n(x + 2)² = 16\nx + 2 = ±4\nx = -2 ± 4\nx = 2 or x = -6",
-      "Step 7: Plot the points (-6, 0), (-3, -15), (-2, -16), (-1, -15), (0, -12), and (2, 0), and connect them with a smooth parabola"
-    ],
-    "explanation": "Converting a quadratic function to vertex form through completing the square makes graphing much easier. The vertex form immediately gives us the vertex, which is the key point of the parabola. From there, we can find additional points to complete the graph."
+    "explanation": "The discriminant (b\u00b2 - 4ac) of a quadratic function f(x) = ax\u00b2 + bx + c provides information about the relationship between the maximum/minimum value and the x-axis.\n\nFor a quadratic function with a maximum or minimum value k:\n\n- If k > 0 and a > 0, the discriminant is negative and the function has no real roots\n- If k < 0 and a < 0, the discriminant is negative and the function has no real roots\n- If k = 0, the discriminant is zero and the function has exactly one real root (a repeated root)\n- If k and a have opposite signs, the discriminant is positive and the function has two distinct real roots",
+    "example": "For f(x) = 2x\u00b2 - 8x + 10:\n- The vertex is at x = -b/(2a) = -(-8)/(2(2)) = 8/4 = 2\n- The minimum value is f(2) = 2(2)\u00b2 - 8(2) + 10 = 8 - 16 + 10 = 2\n- Since the minimum value k = 2 > 0 and a = 2 > 0, the discriminant should be negative\n- Indeed, the discriminant is b\u00b2 - 4ac = (-8)\u00b2 - 4(2)(10) = 64 - 80 = -16 < 0\n- This confirms that the function has no real roots",
+    "key_point": "The sign of the maximum/minimum value combined with the sign of the leading coefficient determines whether the quadratic function crosses the x-axis 0, 1, or 2 times."
   },
   "interactive": {
-    "question": "What are the x-intercepts of the function g(x) = (x - 3)² - 9?",
+    "question": "A quadratic function has a minimum value of -3 and opens upward. How many real roots does it have?",
     "options": [
-      "x = 0 and x = 6",
-      "x = 3 ± 3",
-      "x = 3 only"
+      "2",
+      "1",
+      "0"
     ],
     "correct": 0
   }

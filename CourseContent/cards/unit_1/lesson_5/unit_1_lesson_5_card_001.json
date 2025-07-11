@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_5",
   "type": "concept_intro",
-  "title": "Introduction to Parabolas",
+  "title": "Introduction to Function Notation",
   "duration": 120,
   "content": {
-    "explanation": "A parabola is the graph of a quadratic function, which has the form f(x) = ax² + bx + c, where a, b, and c are constants and a ≠ 0.\n\nThe shape of a parabola is determined by the value of a:\n- If a > 0, the parabola opens upward (like a cup)\n- If a < 0, the parabola opens downward (like an inverted cup)\n\nThe absolute value of a affects how wide or narrow the parabola is. A larger |a| creates a narrower parabola.",
-    "example": "Consider these functions:\nf(x) = x² (opens upward, standard width)\ng(x) = 3x² (opens upward, narrower)\nh(x) = -0.5x² (opens downward, wider)",
-    "key_point": "Every parabola has a special point called the vertex, which is either the minimum point (if the parabola opens upward) or the maximum point (if the parabola opens downward)."
+    "explanation": "Function notation is a way to write functions in a compact form. Instead of writing 'y equals' for a function, we use f(x) to represent the output value when x is the input.\n\nFor example, instead of writing y = 2x + 3, we write f(x) = 2x + 3.\n\nThe notation f(x) is read as 'f of x' and represents the value of the function at x.",
+    "example": "If f(x) = x\u00b2 + 1, then f(3) means 'the value of the function when x = 3'.\nf(3) = 3\u00b2 + 1 = 9 + 1 = 10",
+    "key_point": "Function notation f(x) doesn't mean f times x. It's a way of naming the function (f) and showing what happens when we input a specific value (x)."
   },
   "interactive": {
-    "question": "Which of these quadratic functions has a parabola that opens downward?",
+    "question": "If g(x) = 3x - 5, what is g(4)?",
     "options": [
-      "f(x) = -2x² + 4x - 1",
-      "g(x) = x² - 5x + 6",
-      "h(x) = 3x² + 2x - 7"
+      "7",
+      "12",
+      "-1"
     ],
     "correct": 0
   }

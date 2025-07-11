@@ -2,20 +2,25 @@
   "id": "unit_1_lesson_5_card_010",
   "unit_id": "unit_1",
   "lesson_id": "lesson_5",
-  "type": "concept_intro",
-  "title": "Vertex and Roots Relationship",
+  "type": "worked_example",
+  "title": "Function Notation with Algebraic Expressions",
   "duration": 120,
   "content": {
-    "explanation": "The vertex of a quadratic function provides important information about its roots (x-intercepts).\n\nFor a quadratic function f(x) = a(x - h)² + k with vertex (h, k):\n\n- If k = 0, the vertex is on the x-axis, and x = h is a repeated root\n- If k > 0 and a > 0, the parabola opens upward and doesn't cross the x-axis (no real roots)\n- If k > 0 and a < 0, the parabola opens downward and crosses the x-axis twice (two real roots)\n- If k < 0 and a > 0, the parabola opens upward and crosses the x-axis twice (two real roots)\n- If k < 0 and a < 0, the parabola opens downward and doesn't cross the x-axis (no real roots)",
-    "example": "For f(x) = 2(x - 3)² - 8:\n- The vertex is (3, -8)\n- Since k = -8 < 0 and a = 2 > 0, the parabola opens upward and crosses the x-axis twice\n- The parabola crosses the x-axis at two points on either side of x = 3",
-    "key_point": "The position of the vertex relative to the x-axis tells us about the number of real roots. If the vertex is above the x-axis and the parabola opens upward, or if the vertex is below the x-axis and the parabola opens downward, there are no real roots."
+    "problem": "If f(x) = 3x\u00b2 - 2x + 1, find f(a + h) - f(a).",
+    "steps": [
+      "Step 1: Find f(a + h) by substituting (a + h) for x\nf(a + h) = 3(a + h)\u00b2 - 2(a + h) + 1",
+      "Step 2: Expand (a + h)\u00b2\nf(a + h) = 3(a\u00b2 + 2ah + h\u00b2) - 2(a + h) + 1\nf(a + h) = 3a\u00b2 + 6ah + 3h\u00b2 - 2a - 2h + 1",
+      "Step 3: Find f(a) by substituting a for x\nf(a) = 3a\u00b2 - 2a + 1",
+      "Step 4: Calculate f(a + h) - f(a)\nf(a + h) - f(a) = (3a\u00b2 + 6ah + 3h\u00b2 - 2a - 2h + 1) - (3a\u00b2 - 2a + 1)\nf(a + h) - f(a) = 6ah + 3h\u00b2 - 2h\nf(a + h) - f(a) = h(6a + 3h - 2)"
+    ],
+    "explanation": "This type of expression is important in calculus when finding the derivative of a function. It represents the change in the function's value when the input changes from a to a + h."
   },
   "interactive": {
-    "question": "A quadratic function has its vertex at (4, -9) and opens upward. How many real roots does it have?",
+    "question": "If g(x) = x\u00b2 + 4x, what is g(a + h) - g(a) simplified?",
     "options": [
-      "2",
-      "1",
-      "0"
+      "h(2a + h + 4)",
+      "2ah + h\u00b2",
+      "h(2a + h)"
     ],
     "correct": 0
   }

@@ -3,15 +3,15 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_6",
   "type": "concept_intro",
-  "title": "Maximum/Minimum Values and the Discriminant",
+  "title": "Vertex and Roots Relationship",
   "duration": 120,
   "content": {
-    "explanation": "The discriminant (b² - 4ac) of a quadratic function f(x) = ax² + bx + c provides information about the relationship between the maximum/minimum value and the x-axis.\n\nFor a quadratic function with a maximum or minimum value k:\n\n- If k > 0 and a > 0, the discriminant is negative and the function has no real roots\n- If k < 0 and a < 0, the discriminant is negative and the function has no real roots\n- If k = 0, the discriminant is zero and the function has exactly one real root (a repeated root)\n- If k and a have opposite signs, the discriminant is positive and the function has two distinct real roots",
-    "example": "For f(x) = 2x² - 8x + 10:\n- The vertex is at x = -b/(2a) = -(-8)/(2(2)) = 8/4 = 2\n- The minimum value is f(2) = 2(2)² - 8(2) + 10 = 8 - 16 + 10 = 2\n- Since the minimum value k = 2 > 0 and a = 2 > 0, the discriminant should be negative\n- Indeed, the discriminant is b² - 4ac = (-8)² - 4(2)(10) = 64 - 80 = -16 < 0\n- This confirms that the function has no real roots",
-    "key_point": "The sign of the maximum/minimum value combined with the sign of the leading coefficient determines whether the quadratic function crosses the x-axis 0, 1, or 2 times."
+    "explanation": "The vertex of a quadratic function provides important information about its roots (x-intercepts).\n\nFor a quadratic function f(x) = a(x - h)\u00b2 + k with vertex (h, k):\n\n- If k = 0, the vertex is on the x-axis, and x = h is a repeated root\n- If k > 0 and a > 0, the parabola opens upward and doesn't cross the x-axis (no real roots)\n- If k > 0 and a < 0, the parabola opens downward and crosses the x-axis twice (two real roots)\n- If k < 0 and a > 0, the parabola opens upward and crosses the x-axis twice (two real roots)\n- If k < 0 and a < 0, the parabola opens downward and doesn't cross the x-axis (no real roots)",
+    "example": "For f(x) = 2(x - 3)\u00b2 - 8:\n- The vertex is (3, -8)\n- Since k = -8 < 0 and a = 2 > 0, the parabola opens upward and crosses the x-axis twice\n- The parabola crosses the x-axis at two points on either side of x = 3",
+    "key_point": "The position of the vertex relative to the x-axis tells us about the number of real roots. If the vertex is above the x-axis and the parabola opens upward, or if the vertex is below the x-axis and the parabola opens downward, there are no real roots."
   },
   "interactive": {
-    "question": "A quadratic function has a minimum value of -3 and opens upward. How many real roots does it have?",
+    "question": "A quadratic function has its vertex at (4, -9) and opens upward. How many real roots does it have?",
     "options": [
       "2",
       "1",

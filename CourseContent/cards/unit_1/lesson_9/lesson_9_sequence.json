@@ -1,7 +1,7 @@
 {
   "unit_id": "unit_1",
   "lesson_id": "lesson_9",
-  "lesson_name": "Solving Quadratic Equations by Factoring and Formula",
+  "lesson_name": "Working with Radicals",
   "total_cards": 15,
   "estimated_duration": 1800,
   "sequence": [
@@ -22,7 +22,7 @@
     "unit_1_lesson_9_card_015"
   ],
   "card_types": {
-    "concept_intro": 6,
-    "worked_example": 9
+    "worked_example": 10,
+    "concept_intro": 5
   }
 }

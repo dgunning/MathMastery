@@ -3,24 +3,25 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_8",
   "type": "worked_example",
-  "title": "Simplifying Radicals with Variables",
+  "title": "Completing the Square with a \u2260 1",
   "duration": 120,
   "content": {
-    "problem": "Simplify the following radical expressions: \n1. √(8x³y⁵) \n2. ³√(16x⁵y⁶)",
+    "problem": "Rewrite the quadratic expression 2x\u00b2 - 12x + 5 by completing the square.",
     "steps": [
-      "Step 1: For √(8x³y⁵), identify the perfect square factors in each term.\n8 = 4 × 2 = 2² × 2\nx³ = x² × x\ny⁵ = y⁴ × y = (y²)² × y",
-      "Step 2: Apply the product property of radicals.\n√(8x³y⁵) = √(2² × 2 × x² × x × y⁴ × y)\n= √(2²) × √(x²) × √(y⁴) × √(2xy)\n= 2 × x × y² × √(2xy)",
-      "Step 3: For ³√(16x⁵y⁶), identify the perfect cube factors in each term.\n16 = 8 × 2 = 2³ × 2\nx⁵ = x³ × x² = (x)³ × x²\ny⁶ = y⁶ = (y²)³",
-      "Step 4: Apply the product property of radicals.\n³√(16x⁵y⁶) = ³√(2³ × 2 × x³ × x² × (y²)³)\n= ³√(2³) × ³√(x³) × ³√((y²)³) × ³√(2x²)\n= 2 × x × y² × ³√(2x²)"
+      "Step 1: Factor out the leading coefficient from the first two terms\n2x\u00b2 - 12x + 5 = 2(x\u00b2 - 6x) + 5",
+      "Step 2: Complete the square inside the parentheses\nFor x\u00b2 - 6x, take half of -6, which is -3, and square it: (-3)\u00b2 = 9\n2(x\u00b2 - 6x) + 5 = 2(x\u00b2 - 6x + 9 - 9) + 5\n= 2((x - 3)\u00b2 - 9) + 5",
+      "Step 3: Distribute the leading coefficient\n2((x - 3)\u00b2 - 9) + 5 = 2(x - 3)\u00b2 - 18 + 5",
+      "Step 4: Simplify the constant terms\n2(x - 3)\u00b2 - 18 + 5 = 2(x - 3)\u00b2 - 13",
+      "Step 5: Verify by expanding\n2(x - 3)\u00b2 - 13 = 2(x\u00b2 - 6x + 9) - 13\n= 2x\u00b2 - 12x + 18 - 13\n= 2x\u00b2 - 12x + 5 \u2713"
     ],
-    "explanation": "When simplifying radicals with variables, we apply the same principles as with numbers, but we need to pay attention to the exponents of each variable.\n\nFor square roots (index 2):\n- Variables with even exponents can be simplified (e.g., √(x⁶) = x³)\n- Variables with odd exponents leave a remainder (e.g., √(x⁵) = x² × √x)\n\nFor cube roots (index 3):\n- Variables with exponents divisible by 3 can be simplified (e.g., ³√(x⁶) = x²)\n- Variables with other exponents leave a remainder (e.g., ³√(x⁵) = x¹ × ³√(x²))\n\nIn general, for a radical with index n, we divide the exponent by n and extract the quotient, leaving the remainder under the radical."
+    "explanation": "When the leading coefficient is not 1, we first factor it out from the x\u00b2 and x terms. Then we complete the square on the expression inside the parentheses, and finally distribute the leading coefficient and simplify. This approach works for any quadratic expression."
   },
   "interactive": {
-    "question": "Which of the following is the simplified form of √(18x⁴y⁷)?",
+    "question": "What is the result of completing the square for 3x\u00b2 + 12x - 7?",
     "options": [
-      "3x²y³√(2y)",
-      "3x²y³√(2x)",
-      "9x²y³√(2y)"
+      "3(x + 2)\u00b2 - 19",
+      "3(x + 2)\u00b2 + 5",
+      "(3x + 2)\u00b2 - 7"
     ],
     "correct": 0
   }

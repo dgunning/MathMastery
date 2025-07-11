@@ -3,27 +3,11 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_2",
   "type": "worked_example",
-  "title": "Splitting the Middle Term",
-  "duration": 200,
+  "title": "Factoring Trinomials with Leading Coefficient of 1",
+  "duration": 120,
   "content": {
-    "problem": "Factor: 3x² + 14x + 8",
-    "steps": [
-      "Step 1: Calculate ac = 3 × 8 = 24",
-      "Step 2: Find factors of 24 that add to 14\nFactors: 2 and 12 (since 2 × 12 = 24 and 2 + 12 = 14)",
-      "Step 3: Split the middle term using these numbers\n3x² + 14x + 8 = 3x² + 2x + 12x + 8",
-      "Step 4: Group the terms in pairs\n= (3x² + 2x) + (12x + 8)",
-      "Step 5: Factor out common factors from each group\n= x(3x + 2) + 4(3x + 2)",
-      "Step 6: Factor out the common binomial\n= (3x + 2)(x + 4)"
-    ],
-    "explanation": "The key insight is that we deliberately split 14x into 2x + 12x so that we could create groups with common factors."
-  },
-  "interactive": {
-    "question": "In step 5, what is the common binomial factor?",
-    "options": [
-      "(x + 4)",
-      "(3x + 2)",
-      "(x + 2)"
-    ],
-    "correct": 1
+    "problem": "[Template problem for Factoring Trinomials with Leading Coefficient of 1]",
+    "solution": "[Step-by-step solution]",
+    "insight": "[Key insight from this example]"
   }
 }

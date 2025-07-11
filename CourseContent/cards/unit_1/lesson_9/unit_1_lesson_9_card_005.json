@@ -2,20 +2,25 @@
   "id": "unit_1_lesson_9_card_005",
   "unit_id": "unit_1",
   "lesson_id": "lesson_9",
-  "type": "concept_intro",
-  "title": "The Quadratic Formula",
+  "type": "worked_example",
+  "title": "Adding and Subtracting Radicals",
   "duration": 120,
   "content": {
-    "explanation": "The quadratic formula is a universal method for solving any quadratic equation in the form ax² + bx + c = 0, where a ≠ 0.\n\nThe formula states that the solutions (roots) of a quadratic equation are:\n\nx = (-b ± √(b² - 4ac))/(2a)\n\nThis means there are potentially two solutions:\nx₁ = (-b + √(b² - 4ac))/(2a)\nx₂ = (-b - √(b² - 4ac))/(2a)\n\nThe expression b² - 4ac is called the discriminant and is denoted by Δ (delta). The discriminant determines the nature of the roots:\n\n1. If Δ > 0, the equation has two distinct real roots\n2. If Δ = 0, the equation has one repeated real root (a double root)\n3. If Δ < 0, the equation has two complex conjugate roots (no real roots)\n\nThe quadratic formula can be derived by completing the square on the general form of a quadratic equation.",
-    "example": "Let's derive the quadratic formula by completing the square:\n\nStarting with ax² + bx + c = 0 (where a ≠ 0):\n\n1. Divide all terms by a:\n   x² + (b/a)x + c/a = 0\n\n2. Move the constant term to the right side:\n   x² + (b/a)x = -c/a\n\n3. Complete the square on the left side by adding and subtracting (b/2a)²:\n   x² + (b/a)x + (b/2a)² - (b/2a)² = -c/a\n\n4. Simplify the left side to a perfect square trinomial:\n   (x + b/2a)² - b²/4a² = -c/a\n\n5. Add c/a to both sides:\n   (x + b/2a)² - b²/4a² + c/a = 0\n   (x + b/2a)² = b²/4a² - c/a\n   (x + b/2a)² = (b² - 4ac)/4a²\n\n6. Take the square root of both sides:\n   x + b/2a = ±√((b² - 4ac)/4a²)\n   x + b/2a = ±√(b² - 4ac)/2a\n\n7. Solve for x:\n   x = -b/2a ± √(b² - 4ac)/2a\n   x = (-b ± √(b² - 4ac))/2a",
-    "key_point": "The quadratic formula is the most versatile method for solving quadratic equations because it works for any quadratic equation, regardless of whether it can be factored easily. It directly provides the solutions without requiring factoring or other algebraic manipulations."
+    "problem": "Simplify the following expressions:\n1. 3\u221a12 + 2\u221a27\n2. 5\u221a20 - 2\u221a45 + \u221a5",
+    "steps": [
+      "Step 1: For 3\u221a12 + 2\u221a27, first simplify each radical.\n\u221a12 = \u221a(4 \u00d7 3) = \u221a4 \u00d7 \u221a3 = 2\u221a3\n\u221a27 = \u221a(9 \u00d7 3) = \u221a9 \u00d7 \u221a3 = 3\u221a3",
+      "Step 2: Substitute the simplified radicals into the original expression.\n3\u221a12 + 2\u221a27 = 3(2\u221a3) + 2(3\u221a3) = 6\u221a3 + 6\u221a3 = 12\u221a3",
+      "Step 3: For 5\u221a20 - 2\u221a45 + \u221a5, first simplify each radical.\n\u221a20 = \u221a(4 \u00d7 5) = \u221a4 \u00d7 \u221a5 = 2\u221a5\n\u221a45 = \u221a(9 \u00d7 5) = \u221a9 \u00d7 \u221a5 = 3\u221a5\n\u221a5 is already in simplified form",
+      "Step 4: Substitute the simplified radicals into the original expression.\n5\u221a20 - 2\u221a45 + \u221a5 = 5(2\u221a5) - 2(3\u221a5) + \u221a5\n= 10\u221a5 - 6\u221a5 + \u221a5\n= 5\u221a5"
+    ],
+    "explanation": "To add or subtract radical expressions, we need to identify like radicals - those with the same index and the same radicand after simplification.\n\nLike radicals can be combined by adding or subtracting their coefficients, similar to how we combine like terms in algebra.\n\nThe key steps are:\n1. Simplify each radical expression completely\n2. Identify like radicals (same index and same radicand)\n3. Combine like radicals by adding or subtracting their coefficients\n4. Leave unlike radicals as separate terms"
   },
   "interactive": {
-    "question": "What is the discriminant of the equation 3x² - 6x + 4 = 0?",
+    "question": "Which of the following is the simplified form of 2\u221a18 - 3\u221a8 + \u221a50?",
     "options": [
-      "-12",
-      "36",
-      "12"
+      "4\u221a2",
+      "5\u221a2",
+      "3\u221a2"
     ],
     "correct": 0
   }

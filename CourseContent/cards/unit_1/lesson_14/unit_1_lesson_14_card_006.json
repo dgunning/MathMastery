@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_14_card_006",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_14",
+  "type": "worked_example",
+  "title": "Combined Skills Problem: Systems and Applications",
+  "duration": 240,
+  "content": {
+    "problem": "A theater charges $12 for adult tickets and $8 for student tickets. For a particular show, 250 tickets were sold, and the total revenue was $2,580.\n\n1. Set up a system of equations to represent this situation.\n2. Solve the system to determine how many of each type of ticket was sold.\n3. If student ticket prices increase by $1.50, how much additional revenue would be generated from the same ticket sales?",
+    "solution": "Step 1: Define variables and set up the system of equations.\nLet a = number of adult tickets sold\nLet s = number of student tickets sold\n\nFrom the total number of tickets, we have:\na + s = 250 ... Equation 1\n\nFrom the total revenue, we have:\n12a + 8s = 2580 ... Equation 2\n\nStep 2: Solve the system of equations.\nFrom Equation 1: a = 250 - s\n\nSubstitute this into Equation 2:\n12(250 - s) + 8s = 2580\n3000 - 12s + 8s = 2580\n3000 - 4s = 2580\n-4s = 2580 - 3000\n-4s = -420\ns = 105\n\nSubstitute back to find a:\na = 250 - 105 = 145\n\nTherefore, 145 adult tickets and 105 student tickets were sold.\n\nStep 3: Calculate the additional revenue from the price increase.\nIf student ticket prices increase by $1.50, each student ticket now costs $8 + $1.50 = $9.50.\n\nAdditional revenue = Number of student tickets × Price increase\nAdditional revenue = 105 × $1.50 = $157.50\n\nVerification: Let's verify our answer to the original problem.\nTotal tickets: 145 + 105 = 250 ✓\nTotal revenue: 145 × $12 + 105 × $8 = $1,740 + $840 = $2,580 ✓",
+    "insight": "This problem demonstrates how systems of equations can model real-world scenarios involving constraints on both quantities and values. When solving such problems, identify what each variable represents, determine the constraints, and set up equations that capture these relationships."
+  },
+  "interactive": {
+    "question": "If the theater decides to increase adult ticket prices to $15 instead of increasing student ticket prices, what would be the new total revenue for the same ticket sales?",
+    "options": [
+      "$3,015",
+      "$2,985",
+      "$3,175"
+    ],
+    "correct": 0
+  }
+}

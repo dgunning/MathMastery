@@ -3,24 +3,26 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_3",
   "type": "worked_example",
-  "title": "Domain and Range Restrictions in Real-World Problems",
-  "duration": 120,
+  "title": "Negative Coefficients in AC Method",
+  "duration": 210,
   "content": {
-    "problem": "A rectangular garden has a perimeter of 24 meters. If the length of the garden is x meters, express the width as a function of x, and determine the domain and range of this function.",
+    "problem": "Factor: 3x\u00b2 - 10x + 8",
     "steps": [
-      "Step 1: Set up an equation using the perimeter formula\nPerimeter = 2(length) + 2(width) = 24\n2x + 2w = 24\nwhere w is the width",
-      "Step 2: Solve for w in terms of x\n2w = 24 - 2x\nw = 12 - x\nSo the function is w(x) = 12 - x",
-      "Step 3: Determine the domain based on physical constraints\nBoth length and width must be positive: x > 0 and w > 0\nSince w = 12 - x, we need 12 - x > 0\nThis gives us x < 12\nCombining these constraints: 0 < x < 12",
-      "Step 4: Determine the range\nSince w = 12 - x and 0 < x < 12\nWhen x approaches 0, w approaches 12\nWhen x approaches 12, w approaches 0\nSo the range is 0 < w < 12"
+      "Step 1: Calculate ac = 3 \u00d7 8 = 24",
+      "Step 2: Find factors of 24 that add to -10\nFactors of 24: \u00b11\u00d7\u00b124, \u00b12\u00d7\u00b112, \u00b13\u00d7\u00b18, \u00b14\u00d7\u00b16\nWe need: (-4) + (-6) = -10 \u2713 and (-4) \u00d7 (-6) = 24 \u2713",
+      "Step 3: Split the middle term using -4 and -6\n3x\u00b2 - 10x + 8 = 3x\u00b2 - 4x - 6x + 8",
+      "Step 4: Group the terms\n= (3x\u00b2 - 4x) + (-6x + 8)",
+      "Step 5: Factor each group\n= x(3x - 4) - 2(3x - 4)",
+      "Step 6: Factor out the common binomial\n= (3x - 4)(x - 2)"
     ],
-    "explanation": "In real-world problems, the domain and range often have practical constraints. For this garden problem, both dimensions must be positive, which restricts both the domain and range."
+    "explanation": "When dealing with negative middle coefficients, remember that both factors need to be negative to give a positive product and negative sum."
   },
   "interactive": {
-    "question": "A rectangular field has an area of 100 square meters. If the width is w meters, and the length is expressed as a function of w, what is the domain of this function based on physical constraints?",
+    "question": "Why do we need both -4 and -6 to be negative?",
     "options": [
-      "w > 0",
-      "w ≥ 0",
-      "w > 100"
+      "To get a negative sum and positive product",
+      "To make the math easier",
+      "Because the constant term is positive"
     ],
     "correct": 0
   }

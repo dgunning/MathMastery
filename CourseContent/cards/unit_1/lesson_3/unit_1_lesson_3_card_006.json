@@ -2,24 +2,20 @@
   "id": "unit_1_lesson_3_card_006",
   "unit_id": "unit_1",
   "lesson_id": "lesson_3",
-  "type": "worked_example",
-  "title": "Finding Domain and Range from Algebraic Expressions",
-  "duration": 120,
+  "type": "quick_check",
+  "title": "Quick Check: Your Turn",
+  "duration": 150,
   "content": {
-    "problem": "Find the domain and range of the function f(x) = √(16 - x²)",
-    "steps": [
-      "Step 1: To find the domain, identify values of x that make the function undefined.\nSince we can't take the square root of a negative number, we need 16 - x² ≥ 0",
-      "Step 2: Solve the inequality 16 - x² ≥ 0\nx² ≤ 16\n-4 ≤ x ≤ 4\nSo the domain is [-4, 4]",
-      "Step 3: To find the range, analyze what values f(x) can take.\nWhen x = 0, f(0) = √16 = 4 (maximum value)\nWhen x = ±4, f(±4) = √(16 - 16) = √0 = 0 (minimum value)\nSince f(x) is the square root of a non-negative number, the range is [0, 4]"
-    ],
-    "explanation": "For functions involving square roots, the expression under the radical must be non-negative to be in the domain. For this function, as x moves away from 0 in either direction, the value of f(x) decreases from 4 to 0."
+    "problem": "Now try one yourself! Factor: 4x\u00b2 + 12x + 9",
+    "explanation": "Use the AC method:\n1. Find ac\n2. Find the factor pair that adds to the middle coefficient\n3. Split the middle term\n4. Factor by grouping\n\nTake your time and work through each step systematically.",
+    "key_point": "This is a perfect square trinomial - you might notice a pattern once you factor it!"
   },
   "interactive": {
-    "question": "What is the domain of the function h(x) = √(x - 3)?",
+    "question": "What is the factored form of 4x\u00b2 + 12x + 9?",
     "options": [
-      "x ≥ 3",
-      "x ≤ 3",
-      "All real numbers"
+      "(2x + 3)(2x + 3)",
+      "(4x + 3)(x + 3)",
+      "(2x + 9)(2x + 1)"
     ],
     "correct": 0
   }

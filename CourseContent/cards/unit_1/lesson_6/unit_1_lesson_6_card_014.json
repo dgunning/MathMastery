@@ -3,19 +3,19 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_6",
   "type": "concept_intro",
-  "title": "Technology Connections: Finding Maximum and Minimum Values",
+  "title": "Vertex and the Discriminant",
   "duration": 120,
   "content": {
-    "explanation": "Graphing calculators and software can help us find maximum and minimum values of quadratic functions quickly and accurately. Most graphing calculators have built-in features to find these critical points:\n\n1. Graph the quadratic function\n2. Use the 'maximum' or 'minimum' feature (often found in the CALC or MATH menu)\n3. Specify a search range that includes the vertex\n4. The calculator will display the coordinates of the maximum or minimum point\n\nThis technology is especially useful for complex problems or when the coefficients lead to decimal values that are difficult to calculate by hand.",
-    "example": "To find the minimum value of f(x) = 2.5x² - 7.3x + 4.2 using a graphing calculator:\n\n1. Enter the function and graph it\n2. Select the minimum feature from the calculator menu\n3. Choose a search range (e.g., from x = 0 to x = 3)\n4. The calculator will show that the minimum occurs at approximately x = 1.46 with a value of about -1.13",
-    "key_point": "While it's important to understand the mathematical concepts behind finding maximum and minimum values, technology can be a powerful tool for solving complex problems efficiently. Always verify calculator results with estimation to ensure they make sense."
+    "explanation": "The vertex of a quadratic function is closely related to the discriminant (b\u00b2 - 4ac) and the nature of its roots.\n\nFor a quadratic function f(x) = ax\u00b2 + bx + c with vertex (h, k):\n\n- If k and a have opposite signs (k < 0 when a > 0, or k > 0 when a < 0), the function has two real roots\n- If k = 0, the function has a repeated root at x = h\n- If k and a have the same sign (k > 0 when a > 0, or k < 0 when a < 0), the function has no real roots\n\nThis corresponds to whether the discriminant is positive, zero, or negative.",
+    "example": "For f(x) = 2x\u00b2 - 8x + 7, the vertex is at (2, -1).\nSince k = -1 < 0 and a = 2 > 0 (opposite signs), the function has two real roots.\n\nIndeed, the discriminant is b\u00b2 - 4ac = (-8)\u00b2 - 4(2)(7) = 64 - 56 = 8 > 0, confirming two real roots.",
+    "key_point": "The position of the vertex relative to the x-axis (determined by the sign of k) combined with the direction of opening (determined by the sign of a) tells us whether a quadratic function crosses the x-axis 0, 1, or 2 times."
   },
   "interactive": {
-    "question": "When using a graphing calculator to find the maximum value of a quadratic function, which of the following is NOT necessary?",
+    "question": "A quadratic function has its vertex at (3, 5) and opens downward. What can we conclude about its roots?",
     "options": [
-      "Converting the function to vertex form first",
-      "Graphing the function",
-      "Selecting an appropriate search range"
+      "It has two distinct real roots",
+      "It has no real roots",
+      "It has exactly one real root"
     ],
     "correct": 0
   }

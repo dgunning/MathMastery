@@ -1,0 +1,22 @@
+{
+  "id": "unit_1_lesson_3_card_018",
+  "unit_id": "unit_1",
+  "lesson_id": "lesson_3",
+  "type": "connection",
+  "title": "Why Advanced Factoring Matters",
+  "duration": 160,
+  "content": {
+    "explanation": "Advanced factoring techniques are essential for:\n\n\u2022 Solving complex quadratic equations\n\u2022 Simplifying rational expressions\n\u2022 Finding x-intercepts of polynomial graphs\n\u2022 Calculus applications (finding critical points)\n\u2022 Engineering and physics problem-solving",
+    "example": "In physics, when modeling projectile motion, you might need to factor 4.9t\u00b2 + 20t - 15 = 0 to find when an object hits the ground.",
+    "key_point": "These skills build the foundation for advanced mathematics and real-world problem-solving."
+  },
+  "interactive": {
+    "question": "Which career field would most likely use advanced factoring?",
+    "options": [
+      "Graphic design",
+      "Engineering",
+      "Retail management"
+    ],
+    "correct": 1
+  }
+}

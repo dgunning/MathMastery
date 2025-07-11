@@ -3,35 +3,32 @@
   "unit_id": "unit_1",
   "lesson_id": "lesson_12",
   "type": "worked_example",
-  "title": "Worked Example: Systems with Different Numbers of Solutions",
+  "title": "Finding a Quadratic Equation with a Specific Point",
   "duration": 120,
   "content": {
-    "problem": "For each of the following linear-quadratic systems, determine the number of solutions and find them if they exist:\n\nSystem 1:\ny = 2x + 3\ny = x² - x + 2\n\nSystem 2:\ny = 4x - 3\ny = x² + 2x + 1\n\nSystem 3:\ny = -2x + 5\ny = x² - 4x + 9",
+    "problem": "Find the quadratic function f(x) = ax\u00b2 + bx + c that satisfies the given conditions:\n\n1. Roots: 3 and -2, passes through the point (1, 5)\n2. Roots: 4 and 4, passes through the point (2, -8)\n3. Roots: 1 + i and 1 - i, passes through the point (2, 3)",
     "steps": [
-      "Step 1: For System 1, we'll use the elimination method by setting the two expressions for y equal to each other.\n2x + 3 = x² - x + 2",
-      "Step 2: Rearrange into standard form.\n0 = x² - 3x - 1",
-      "Step 3: Calculate the discriminant to determine the number of solutions.\nDiscriminant = b² - 4ac = (-3)² - 4(1)(-1) = 9 + 4 = 13",
-      "Step 4: Since the discriminant is positive, System 1 has two real solutions. Let's find them using the quadratic formula.\nx = (3 ± √13)/2\nx₁ = (3 + √13)/2 ≈ 3.30\nx₂ = (3 - √13)/2 ≈ -0.30",
-      "Step 5: Find the corresponding y-values.\nFor x₁ = (3 + √13)/2: y₁ = 2((3 + √13)/2) + 3 = 3 + √13 + 3 = 6 + √13 ≈ 9.61\nFor x₂ = (3 - √13)/2: y₂ = 2((3 - √13)/2) + 3 = 3 - √13 + 3 = 6 - √13 ≈ 2.39",
-      "Step 6: Verify that these points satisfy both equations.\nFor ((3 + √13)/2, 6 + √13):\n- Linear equation: y = 2((3 + √13)/2) + 3 = 6 + √13 ✓\n- Quadratic equation: y = ((3 + √13)/2)² - ((3 + √13)/2) + 2 = (9 + 6√13 + 13)/4 - (3 + √13)/2 + 2 = (22 + 6√13)/4 - (6 + 2√13)/4 + 2 = (16 + 4√13)/4 + 2 = 4 + √13 + 2 = 6 + √13 ✓\nFor ((3 - √13)/2, 6 - √13):\n- Linear equation: y = 2((3 - √13)/2) + 3 = 6 - √13 ✓\n- Quadratic equation: y = ((3 - √13)/2)² - ((3 - √13)/2) + 2 = (9 - 6√13 + 13)/4 - (3 - √13)/2 + 2 = (22 - 6√13)/4 - (6 - 2√13)/4 + 2 = (16 - 4√13)/4 + 2 = 4 - √13 + 2 = 6 - √13 ✓\nSystem 1 has two solutions: ((3 + √13)/2, 6 + √13) and ((3 - √13)/2, 6 - √13).",
-      "Step 7: For System 2, we'll use the elimination method.\n4x - 3 = x² + 2x + 1",
-      "Step 8: Rearrange into standard form.\n0 = x² - 2x + 4",
-      "Step 9: Calculate the discriminant.\nDiscriminant = b² - 4ac = (-2)² - 4(1)(4) = 4 - 16 = -12",
-      "Step 10: Since the discriminant is negative, System 2 has no real solutions. This means the line and parabola don't intersect in the real coordinate plane.",
-      "Step 11: For System 3, we'll use the elimination method.\n-2x + 5 = x² - 4x + 9",
-      "Step 12: Rearrange into standard form.\n0 = x² - 2x + 4",
-      "Step 13: Calculate the discriminant.\nDiscriminant = b² - 4ac = (-2)² - 4(1)(4) = 4 - 16 = -12",
-      "Step 14: Since the discriminant is negative, System 3 has no real solutions. This means the line and parabola don't intersect in the real coordinate plane."
+      "Step 1: For problem 1, since the roots are 3 and -2, we can write the function in factored form as f(x) = a(x - 3)(x - (-2)) = a(x - 3)(x + 2).",
+      "Step 2: Expand this expression: f(x) = a(x\u00b2 + 2x - 3x - 6) = a(x\u00b2 - x - 6).",
+      "Step 3: Use the condition that f(1) = 5: 5 = a(1\u00b2 - 1 - 6) = a(-6), which gives us a = -5/6.",
+      "Step 4: Therefore, the quadratic function is f(x) = (-5/6)(x\u00b2 - x - 6) = (-5/6)x\u00b2 + (5/6)x + 5.",
+      "Step 5: For problem 2, since the roots are both 4 (a repeated root), we can write the function in factored form as f(x) = a(x - 4)\u00b2.",
+      "Step 6: Use the condition that f(2) = -8: -8 = a(2 - 4)\u00b2 = a(4), which gives us a = -2.",
+      "Step 7: Therefore, the quadratic function is f(x) = -2(x - 4)\u00b2 = -2x\u00b2 + 16x - 32.",
+      "Step 8: For problem 3, since the roots are 1 + i and 1 - i, we can write the function in factored form as f(x) = a(x - (1 + i))(x - (1 - i)).",
+      "Step 9: Expand this expression: f(x) = a((x - 1) - i)((x - 1) + i) = a((x - 1)\u00b2 - i\u00b2) = a((x - 1)\u00b2 + 1) = a(x\u00b2 - 2x + 1 + 1) = a(x\u00b2 - 2x + 2).",
+      "Step 10: Use the condition that f(2) = 3: 3 = a(2\u00b2 - 2(2) + 2) = a(4 - 4 + 2) = a(2), which gives us a = 3/2.",
+      "Step 11: Therefore, the quadratic function is f(x) = (3/2)(x\u00b2 - 2x + 2) = (3/2)x\u00b2 - 3x + 3."
     ],
-    "explanation": "These examples demonstrate the three possible cases for linear-quadratic systems:\n\n1. Two Real Solutions (System 1)\n   - The discriminant of the resulting quadratic equation is positive (b² - 4ac > 0)\n   - Geometrically, the line intersects the parabola at two distinct points\n   - The solutions may be irrational numbers involving square roots\n\n2. No Real Solutions (Systems 2 and 3)\n   - The discriminant of the resulting quadratic equation is negative (b² - 4ac < 0)\n   - Geometrically, the line doesn't intersect the parabola at any point\n   - The algebraic solutions are complex numbers, which don't represent points in the real coordinate plane\n\nThe third case (not shown in these examples) is when the system has exactly one solution, which occurs when the discriminant is zero (b² - 4ac = 0). In this case, the line is tangent to the parabola.\n\nThe discriminant test provides a quick way to determine the number of solutions without having to solve the entire system. This is particularly useful when you only need to know how many solutions exist rather than finding the exact solutions."
+    "explanation": "When finding a quadratic function that has specific roots and passes through a given point, we follow these steps:\n\n1. Use the roots to write the function in factored form: f(x) = a(x - r\u2081)(x - r\u2082)\n   - If the roots are complex conjugates r = p \u00b1 qi, use f(x) = a((x - p)\u00b2 + q\u00b2)\n   - If there's a repeated root r, use f(x) = a(x - r)\u00b2\n\n2. Expand the factored form to get f(x) = a(x\u00b2 + bx + c)\n\n3. Use the given point (x\u2080, y\u2080) to find the value of a:\n   y\u2080 = a(x\u2080\u00b2 + bx\u2080 + c)\n   a = y\u2080/(x\u2080\u00b2 + bx\u2080 + c)\n\n4. Substitute the value of a back into the expanded form to get the final function\n\nThis method works because:\n- The factored form guarantees that the function has the required roots\n- The scaling factor a is determined by the additional point constraint\n- The resulting function is unique (there is exactly one quadratic function with given roots and passing through a specific point)\n\nWhen working with complex roots, remember that a quadratic function with real coefficients will always have complex roots in conjugate pairs (p + qi and p - qi)."
   },
   "interactive": {
-    "question": "A linear-quadratic system leads to the quadratic equation 4x² + 4x + 1 = 0. How many solutions does the system have, and what are they?",
+    "question": "A quadratic function f(x) has roots -1 and 3, and passes through the point (2, 10). What is the function f(x)?",
     "options": [
-      "Two solutions: x = -1/2 and x = -1/2",
-      "One solution: x = -1/2",
-      "No real solutions"
+      "f(x) = 2x\u00b2 - 4x - 6",
+      "f(x) = 2x\u00b2 + 4x - 6",
+      "f(x) = 2x\u00b2 - 4x + 6"
     ],
-    "correct": 1
+    "correct": 0
   }
 }

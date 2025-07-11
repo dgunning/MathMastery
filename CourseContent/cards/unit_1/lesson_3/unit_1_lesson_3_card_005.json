@@ -2,21 +2,28 @@
   "id": "unit_1_lesson_3_card_005",
   "unit_id": "unit_1",
   "lesson_id": "lesson_3",
-  "type": "concept_intro",
-  "title": "Domain and Range of a Function",
-  "duration": 120,
+  "type": "worked_example",
+  "title": "Splitting the Middle Term",
+  "duration": 200,
   "content": {
-    "explanation": "The domain of a function is the set of all possible input values (x-values) for which the function is defined.\n\nThe range of a function is the set of all possible output values (y-values) that result from using the inputs in the domain.\n\nIn other words, the domain is what you can put into the function, and the range is what you can get out of it.",
-    "example": "For the function f(x) = x², the domain is all real numbers (any number can be squared).\nThe range is all non-negative real numbers (y ≥ 0) because a square is always zero or positive.",
-    "key_point": "When determining the domain of a function, look for values that would make the function undefined, such as division by zero or taking the square root of a negative number."
+    "problem": "Factor: 3x\u00b2 + 14x + 8",
+    "steps": [
+      "Step 1: Calculate ac = 3 \u00d7 8 = 24",
+      "Step 2: Find factors of 24 that add to 14\nFactors: 2 and 12 (since 2 \u00d7 12 = 24 and 2 + 12 = 14)",
+      "Step 3: Split the middle term using these numbers\n3x\u00b2 + 14x + 8 = 3x\u00b2 + 2x + 12x + 8",
+      "Step 4: Group the terms in pairs\n= (3x\u00b2 + 2x) + (12x + 8)",
+      "Step 5: Factor out common factors from each group\n= x(3x + 2) + 4(3x + 2)",
+      "Step 6: Factor out the common binomial\n= (3x + 2)(x + 4)"
+    ],
+    "explanation": "The key insight is that we deliberately split 14x into 2x + 12x so that we could create groups with common factors."
   },
   "interactive": {
-    "question": "What is the domain of the function g(x) = 1/(x-2)?",
+    "question": "In step 5, what is the common binomial factor?",
     "options": [
-      "All real numbers except x = 2",
-      "All real numbers",
-      "All real numbers except x = 0"
+      "(x + 4)",
+      "(3x + 2)",
+      "(x + 2)"
     ],
-    "correct": 0
+    "correct": 1
   }
 }
