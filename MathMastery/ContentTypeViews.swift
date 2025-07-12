@@ -231,7 +231,7 @@ struct MarkdownView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
                 Markdown(content)
-                    .markdownTheme(.gitHub)
+                    .markdownTheme(Theme.mathMastery.withMathMasteryBlockStyles())
                     .textSelection(.enabled)
                     .padding(.horizontal, 24)
                     .padding(.vertical, 20)
