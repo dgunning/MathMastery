@@ -125,17 +125,68 @@ Miles (m) | Cost C(m)
 **Activity: "Exploring Domain and Range with Technology"**
 
 Using Desmos.com or a graphing calculator:
-1. Graph y = x² and identify:
-   - Domain: all real numbers (−∞ to ∞)
-   - Range: y ≥ 0 (0 to ∞)
+**Analyze**: f(x) = x²
 
-2. Graph y = √x and identify:
-   - Domain: x ≥ 0
-   - Range: y ≥ 0
+> **Solution Walkthrough**
+> 
+> #### Step 1: Graph the function
+> - Create a coordinate system
+> - Plot several points: (−2, 4), (−1, 1), (0, 0), (1, 1), (2, 4)
+> - Connect the points to form a parabola opening upward
+>
+> #### Step 2: Determine the domain
+> - Ask: "What values can x be?"
+> - For f(x) = x², x can be any real number
+> - We can square any number, positive or negative
+> - Domain: all real numbers (−∞ to ∞)
+>
+> #### Step 3: Determine the range
+> - Ask: "What values can f(x) be?"
+> - The square of any number is always non-negative
+> - The smallest possible value is 0 (when x = 0)
+> - Range: y ≥ 0 (0 to ∞)
 
-3. Graph y = 1/x and identify:
-   - Domain: all real numbers except x = 0
-   - Range: all real numbers except y = 0
+**Analyze**: f(x) = √x
+
+> **Solution Walkthrough**
+> 
+> #### Step 1: Graph the function
+> - Create a coordinate system
+> - Plot several points: (0, 0), (1, 1), (4, 2), (9, 3), (16, 4)
+> - Connect the points to form a curved line
+>
+> #### Step 2: Determine the domain
+> - Ask: "What values can x be?"
+> - For f(x) = √x, we can only take square roots of non-negative numbers
+> - We cannot take square roots of negative numbers in the real number system
+> - Domain: x ≥ 0
+>
+> #### Step 3: Determine the range
+> - Ask: "What values can f(x) be?"
+> - The square root of a non-negative number is always non-negative
+> - Range: y ≥ 0
+
+**Analyze**: f(x) = 1/x
+
+> **Solution Walkthrough**
+> 
+> #### Step 1: Graph the function
+> - Create a coordinate system
+> - Plot several points for x > 0: (1, 1), (2, 0.5), (4, 0.25), (10, 0.1)
+> - Plot several points for x < 0: (-1, -1), (-2, -0.5), (-4, -0.25), (-10, -0.1)
+> - Connect the points to form a hyperbola with two separate branches
+>
+> #### Step 2: Determine the domain
+> - Ask: "What values can x be?"
+> - For f(x) = 1/x, we cannot divide by zero
+> - Therefore, x cannot equal 0
+> - Domain: all real numbers except x = 0
+>
+> #### Step 3: Determine the range
+> - Ask: "What values can f(x) be?"
+> - As x gets very close to 0 from either side, f(x) grows infinitely large (positive or negative)
+> - As |x| gets very large, f(x) approaches 0 but never equals 0
+> - Range: all real numbers except y = 0
 
 **Real-life domain and range scenarios:**
 
@@ -193,10 +244,25 @@ f(x) = { 2x + 1      if 2 ≤ x < 5
        { x² - 10     if x ≥ 5
 ```
 
-**Step-by-step walkthrough:**
-"To find f(3):
-1. Check which piece applies when x = 3
-2. Since 2 ≤ 3 < 5, we use the middle piece: f(3) = 2(3) + 1 = 7"
+**Evaluate**: f(3) for the piecewise function
+
+> **Solution Walkthrough**
+> 
+> #### Step 1: Determine which piece of the function applies
+> - We need to find which interval contains x = 3
+> - Check the three intervals: 
+>   - 0 ≤ x < 2? No, 3 is not less than 2
+>   - 2 ≤ x < 5? Yes, 3 is between 2 and 5
+>   - x ≥ 5? No, 3 is not greater than or equal to 5
+>
+> #### Step 2: Apply the correct function piece
+> - Since 2 ≤ 3 < 5, we use the middle piece: f(x) = 2x + 1
+> - Substitute x = 3 into this expression
+> - f(3) = 2(3) + 1 = 6 + 1 = 7
+>
+> #### Step 3: Verify the result
+> - Our answer is f(3) = 7
+> - This means when x = 3, the function output is 7
 
 **Tech tip:** "In Desmos, you can enter piecewise functions using curly braces and conditions:
 f(x) = {5: 0 ≤ x < 2, 2x + 1: 2 ≤ x < 5, x^2 - 10: x ≥ 5}"
@@ -208,6 +274,33 @@ f(x) = {5: 0 ≤ x < 2, 2x + 1: 2 ≤ x < 5, x^2 - 10: x ≥ 5}"
 - $60 plus $15 for each additional GB over 5 GB
 
 Write this as a piecewise function C(g) where g is gigabytes used."
+
+> **Solution Walkthrough**
+> 
+> #### Step 1: Define the function for the first range (0-2 GB)
+> - For 0 ≤ g ≤ 2, the cost is simply $30
+> - First piece: C(g) = 30 when 0 ≤ g ≤ 2
+>
+> #### Step 2: Define the function for the second range (2-5 GB)
+> - For 2 < g ≤ 5, the cost is $30 plus $10 for each GB over 2
+> - The amount over 2 GB is (g - 2)
+> - So we pay $30 + $10(g - 2)
+> - Simplifying: C(g) = 30 + 10(g - 2) = 30 + 10g - 20 = 10 + 10g
+> - Second piece: C(g) = 10 + 10g when 2 < g ≤ 5
+>
+> #### Step 3: Define the function for the third range (over 5 GB)
+> - For g > 5, the cost is $60 plus $15 for each GB over 5
+> - The amount over 5 GB is (g - 5)
+> - So we pay $60 + $15(g - 5)
+> - Simplifying: C(g) = 60 + 15(g - 5) = 60 + 15g - 75 = -15 + 15g
+> - Third piece: C(g) = -15 + 15g when g > 5
+>
+> #### Step 4: Write the complete piecewise function
+> ```
+>         { 30           if 0 ≤ g ≤ 2
+> C(g) =  { 10 + 10g     if 2 < g ≤ 5
+>         { -15 + 15g    if g > 5
+> ```
 
 ## Check for Understanding
 

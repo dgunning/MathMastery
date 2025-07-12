@@ -91,51 +91,159 @@ Step 4: The maximum value is 7, occurring at x = 2
 ### 4. Real-World Applications of Max/Min Values
 
 **Sports applications:**
-"When a basketball player shoots, the height of the ball after t seconds is given by h(t) = -16t² + 32t + 6, where h is in feet. To find the maximum height:
-1. a = -16, b = 32, c = 6
-2. t = -b/(2a) = -32/(-32) = 1 second
-3. h(1) = -16(1)² + 32(1) + 6 = -16 + 32 + 6 = 22 feet
-4. The ball reaches a maximum height of 22 feet after 1 second"
+**Find the maximum height**: When a basketball player shoots, the height of the ball after t seconds is given by h(t) = -16t² + 32t + 6, where h is in feet.
+
+> **Solution Walkthrough**
+> 
+> #### Step 1: Identify the coefficients of the quadratic function
+> - Looking at the function h(t) = -16t² + 32t + 6
+> - a = -16 (coefficient of t²)
+> - b = 32 (coefficient of t)
+> - c = 6 (constant term)
+> - Since a < 0, the parabola opens downward and has a maximum
+>
+> #### Step 2: Calculate the time at which the maximum height occurs
+> - For a quadratic function, the maximum or minimum occurs at t = -b/(2a)
+> - Substitute the values: t = -32/(2×(-16))
+> - Simplify: t = -32/(-32) = 1 second
+>
+> #### Step 3: Calculate the maximum height
+> - Substitute t = 1 into the height function
+> - h(1) = -16(1)² + 32(1) + 6
+> - h(1) = -16 + 32 + 6
+> - h(1) = 22 feet
+>
+> #### Step 4: State the final answer
+> - The ball reaches its maximum height of 22 feet after 1 second
 
 **Business applications:**
-"A company's profit function is P(x) = -2x² + 120x - 1000, where x is the number of items produced. To maximize profit:
-1. a = -2, b = 120, c = -1000
-2. x = -b/(2a) = -120/(-4) = 30 items
-3. P(30) = -2(30)² + 120(30) - 1000 = -1800 + 3600 - 1000 = 800
-4. The maximum profit is $800 when 30 items are produced"
+**Maximize profit**: A company's profit function is P(x) = -2x² + 120x - 1000, where x is the number of items produced.
+
+> **Solution Walkthrough**
+> 
+> #### Step 1: Identify the coefficients of the profit function
+> - Looking at the function P(x) = -2x² + 120x - 1000
+> - a = -2 (coefficient of x²)
+> - b = 120 (coefficient of x)
+> - c = -1000 (constant term)
+> - Since a < 0, the parabola opens downward and has a maximum
+>
+> #### Step 2: Calculate the production level that maximizes profit
+> - For a quadratic function, the maximum occurs at x = -b/(2a)
+> - Substitute the values: x = -120/(2×(-2))
+> - Simplify: x = -120/(-4) = 30 items
+>
+> #### Step 3: Calculate the maximum profit
+> - Substitute x = 30 into the profit function
+> - P(30) = -2(30)² + 120(30) - 1000
+> - P(30) = -2(900) + 3600 - 1000
+> - P(30) = -1800 + 3600 - 1000 = 800
+>
+> #### Step 4: State the final answer
+> - The company should produce 30 items to maximize profit
+> - The maximum profit is $800
 
 **Technology applications:**
-"The number of daily active users (in millions) for a new app t months after launch is modeled by N(t) = -0.5t² + 6t + 2. To find when the app reaches peak usage:
-1. a = -0.5, b = 6, c = 2
-2. t = -b/(2a) = -6/(-1) = 6 months
-3. N(6) = -0.5(6)² + 6(6) + 2 = -18 + 36 + 2 = 20
-4. The app reaches a maximum of 20 million daily users after 6 months"
+**Find the peak usage**: The number of daily active users (in millions) for a new app t months after launch is modeled by N(t) = -0.5t² + 6t + 2.
+
+> **Solution Walkthrough**
+> 
+> #### Step 1: Identify the coefficients of the quadratic function
+> - Looking at the function N(t) = -0.5t² + 6t + 2
+> - a = -0.5 (coefficient of t²)
+> - b = 6 (coefficient of t)
+> - c = 2 (constant term)
+> - Since a < 0, the parabola opens downward and has a maximum
+>
+> #### Step 2: Calculate the time at which usage reaches its peak
+> - For a quadratic function, the maximum occurs at t = -b/(2a)
+> - Substitute the values: t = -6/(2×(-0.5))
+> - Simplify: t = -6/(-1) = 6 months
+>
+> #### Step 3: Calculate the maximum number of users
+> - Substitute t = 6 into the usage function
+> - N(6) = -0.5(6)² + 6(6) + 2
+> - N(6) = -0.5(36) + 36 + 2
+> - N(6) = -18 + 36 + 2 = 20
+>
+> #### Step 4: State the final answer
+> - The app reaches its peak usage of 20 million daily active users after 6 months
+> - After this point, the number of active users will begin to decline
 
 ### 5. Optimization Problems
 
 **Simple explanation:** "Optimization means finding the best solution - often the maximum or minimum value of a function. Many real-world problems involve finding the optimal value."
 
 **Area optimization example:**
-"You have 100 feet of fencing to create a rectangular garden. What dimensions will maximize the area?
+**Optimization problem**: You have 100 feet of fencing to create a rectangular garden. What dimensions will maximize the area?
 
-Step 1: Let x = width, then (100 - 2x)/2 = length (since perimeter = 2×width + 2×length = 100)
-Step 2: Area = width × length = x × (50 - x) = 50x - x²
-Step 3: This is a quadratic function with a = -1, b = 50, c = 0
-Step 4: x = -b/(2a) = -50/(-2) = 25 feet
-Step 5: Length = 50 - 25 = 25 feet
-Step 6: Maximum area = 25 × 25 = 625 square feet
-Step 7: A square with sides of 25 feet maximizes the area"
+> **Solution Walkthrough**
+> 
+> #### Step 1: Express the area as a function of one variable
+> - Let x = width of the rectangular garden
+> - The perimeter equation: 2×width + 2×length = 100 feet of fencing
+> - Solve for length: length = (100 - 2x)/2 = 50 - x
+> - The area function: A(x) = width × length = x × (50 - x) = 50x - x²
+>
+> #### Step 2: Identify the type of function
+> - A(x) = 50x - x² = -x² + 50x + 0
+> - This is a quadratic function with a = -1, b = 50, c = 0
+> - Since a < 0, the function has a maximum value
+>
+> #### Step 3: Find the width that maximizes area
+> - The maximum occurs at x = -b/(2a)
+> - Substitute: x = -50/(2×(-1)) = 25 feet for width
+>
+> #### Step 4: Calculate the corresponding length
+> - Length = 50 - x = 50 - 25 = 25 feet
+>
+> #### Step 5: Calculate the maximum area
+> - Maximum area = 25 feet × 25 feet = 625 square feet
+>
+> #### Step 6: State the final answer
+> - The dimensions that maximize the garden area are 25 feet × 25 feet (a square)
+> - This gives a maximum area of 625 square feet
+> - Notice that for a fixed perimeter, a square always yields the maximum area
 
 **Revenue optimization example:**
-"A game developer finds that when they price their game at $10, they sell 5000 copies. For each $1 increase in price, they sell 250 fewer copies. What price maximizes revenue?
+**Optimization problem**: A game developer finds that when they price their game at $10, they sell 5000 copies. For each $1 increase in price, they sell 250 fewer copies. What price maximizes revenue?
 
-Step 1: Price = 10 + x (where x is the price increase in dollars)
-Step 2: Quantity sold = 5000 - 250x
-Step 3: Revenue = Price × Quantity = (10 + x)(5000 - 250x) = 50000 + 5000x - 2500x - 250x² = 50000 + 2500x - 250x²
-Step 4: This is a quadratic function with a = -250, b = 2500, c = 50000
-Step 5: x = -b/(2a) = -2500/(-500) = 5
-Step 6: Optimal price = $10 + $5 = $15
-Step 7: Maximum revenue = 50000 + 2500(5) - 250(25) = 50000 + 12500 - 6250 = $56,250"
+> **Solution Walkthrough**
+> 
+> #### Step 1: Set up variables and equations
+> - Let x = price increase in dollars above the base price of $10
+> - Actual price = 10 + x dollars
+> - Quantity sold = 5000 - 250x copies (decreases by 250 copies per dollar increase)
+>
+> #### Step 2: Create the revenue function
+> - Revenue = Price × Quantity sold
+> - R(x) = (10 + x)(5000 - 250x)
+> - R(x) = 50000 + 5000x - 2500x - 250x²
+> - R(x) = 50000 + 2500x - 250x²
+>
+> #### Step 3: Identify the coefficients of the quadratic function
+> - This is a quadratic function in the form R(x) = ax² + bx + c
+> - a = -250 (coefficient of x²)
+> - b = 2500 (coefficient of x)
+> - c = 50000 (constant term)
+> - Since a < 0, the parabola opens downward and has a maximum
+>
+> #### Step 4: Find the price increase that maximizes revenue
+> - The maximum occurs at x = -b/(2a)
+> - x = -2500/(2×(-250))
+> - x = -2500/(-500) = 5 dollars
+>
+> #### Step 5: Calculate the optimal price and quantity
+> - Optimal price = $10 + $5 = $15 per game
+> - Quantity sold at this price = 5000 - 250(5) = 5000 - 1250 = 3750 copies
+>
+> #### Step 6: Calculate the maximum revenue
+> - Maximum revenue = $15 × 3750 = $56,250
+> - Alternatively: R(5) = 50000 + 2500(5) - 250(5)² = 50000 + 12500 - 250(25) = 50000 + 12500 - 6250 = $56,250
+>
+> #### Step 7: State the final answer
+> - The game developer should price the game at $15 to maximize revenue
+> - At this price, 3750 copies will be sold, generating a maximum revenue of $56,250
 
 ### 6. Interpreting the Meaning of Max/Min Values in Context
 

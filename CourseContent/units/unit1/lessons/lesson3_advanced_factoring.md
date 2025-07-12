@@ -40,34 +40,62 @@
 4. Factor by grouping
 
 **Example walkthrough:**
-```
-Factor: 2x² + 7x + 3
 
-Step 1: Multiply a × c = 2 × 3 = 6
-Step 2: Find two numbers that multiply to 6 and add to 7
-        Those numbers are 1 and 6
-Step 3: Split the middle term: 2x² + x + 6x + 3
-Step 4: Factor by grouping:
-        (2x² + x) + (6x + 3)
-        x(2x + 1) + 3(2x + 1)
-        (2x + 1)(x + 3)
-```
+**Factor**: 2x² + 7x + 3
+
+> **Solution Walkthrough**
+>
+> #### Step 1: Identify and multiply the coefficients
+> - First coefficient (a) = 2
+> - Last coefficient (c) = 3
+> - a × c = 2 × 3 = 6
+>
+> #### Step 2: Find the special pair of numbers
+> - We need two numbers that multiply to give 6 and add to give 7
+> - Possible pairs that multiply to 6: (1,6), (2,3), (-1,-6), (-2,-3)
+> - The pair (1,6) works because 1 × 6 = 6 and 1 + 6 = 7
+>
+> #### Step 3: Split the middle term using these numbers
+> - Original expression: 2x² + 7x + 3
+> - Split middle term: 2x² + 1x + 6x + 3
+>
+> #### Step 4: Factor by grouping
+> - Group related terms: (2x² + 1x) + (6x + 3)
+> - Factor out common factors: x(2x + 1) + 3(2x + 1)
+> - Factor out the common binomial: (2x + 1)(x + 3)
+>
+> #### Answer
+> (2x + 1)(x + 3)
 
 **Method 2: Trial and error with the AC method**
 
 **Example walkthrough:**
-```
-Factor: 3x² - 10x + 8
 
-Step 1: Multiply a × c = 3 × 8 = 24
-Step 2: Find factors of 24 that add up to -10
-        Those factors are -4 and -6
-Step 3: Rewrite the middle term: 3x² - 4x - 6x + 8
-Step 4: Group and factor:
-        (3x² - 4x) + (-6x + 8)
-        x(3x - 4) - 2(3x - 4)
-        (3x - 4)(x - 2)
-```
+**Factor**: 3x² - 10x + 8
+
+> **Solution Walkthrough**
+>
+> #### Step 1: Identify and multiply the coefficients
+> - First coefficient (a) = 3
+> - Last coefficient (c) = 8
+> - a × c = 3 × 8 = 24
+>
+> #### Step 2: Find the special pair of numbers
+> - We need two numbers that multiply to give 24 and add to give -10
+> - Possible pairs that multiply to 24: (1,24), (2,12), (3,8), (4,6), (-1,-24), (-2,-12), (-3,-8), (-4,-6)
+> - The pair (-4,-6) works because (-4) × (-6) = 24 and (-4) + (-6) = -10
+>
+> #### Step 3: Split the middle term using these numbers
+> - Original expression: 3x² - 10x + 8
+> - Split middle term: 3x² - 4x - 6x + 8
+>
+> #### Step 4: Factor by grouping
+> - Group related terms: (3x² - 4x) + (-6x + 8)
+> - Factor out common factors: x(3x - 4) - 2(3x - 4)
+> - Factor out the common binomial: (3x - 4)(x - 2)
+>
+> #### Answer
+> (3x - 4)(x - 2)
 
 **Interactive activity:** "Let's try a few examples together, walking through each step:"
 1. 4x² + 15x + 9
@@ -79,26 +107,56 @@ Step 4: Group and factor:
 **Simple explanation:** "Sometimes expressions look complicated, but we can simplify them by treating certain parts as a single variable."
 
 **Example 1: Quadratic-like expressions**
-```
-Factor: x⁴ - 5x² + 4
 
-Step 1: Let u = x²
-Step 2: Rewrite as u² - 5u + 4
-Step 3: Factor this simpler expression: (u - 1)(u - 4)
-Step 4: Substitute back: (x² - 1)(x² - 4)
-Step 5: Further factor if possible: (x² - 1)(x² - 4) = (x + 1)(x - 1)(x + 2)(x - 2)
-```
+**Factor**: x⁴ - 5x² + 4
+
+> **Solution Walkthrough**
+> 
+> #### Step 1: Make a substitution
+> - Let u = x²
+> - This transforms the expression into a standard quadratic form
+>
+> #### Step 2: Rewrite the expression with the new variable
+> - Original: x⁴ - 5x² + 4
+> - With substitution: u² - 5u + 4
+>
+> #### Step 3: Factor the simplified expression
+> - Factor the quadratic: u² - 5u + 4
+> - This factors as: (u - 1)(u - 4)
+>
+> #### Step 4: Substitute back the original variable
+> - Replace u with x²: (x² - 1)(x² - 4)
+>
+> #### Step 5: Factor further if possible
+> - Factor x² - 1 = (x + 1)(x - 1) [difference of squares]
+> - Factor x² - 4 = (x + 2)(x - 2) [difference of squares]
+> - Final result: (x + 1)(x - 1)(x + 2)(x - 2)
 
 **Example 2: With a different substitution**
-```
-Factor: 2(x + 3)² - 7(x + 3) + 3
 
-Step 1: Let u = (x + 3)
-Step 2: Rewrite as 2u² - 7u + 3
-Step 3: Factor this simpler expression: (2u - 1)(u - 3)
-Step 4: Substitute back: (2(x + 3) - 1)((x + 3) - 3)
-Step 5: Simplify: (2x + 6 - 1)(x + 3 - 3) = (2x + 5)(x)
-```
+**Factor**: 2(x + 3)² - 7(x + 3) + 3
+
+> **Solution Walkthrough**
+> 
+> #### Step 1: Identify a repeated expression to substitute
+> - Notice the expression (x + 3) appears multiple times
+> - Let u = (x + 3)
+>
+> #### Step 2: Rewrite using the substitution
+> - Original: 2(x + 3)² - 7(x + 3) + 3
+> - With substitution: 2u² - 7u + 3
+>
+> #### Step 3: Factor the simplified expression
+> - Factor the quadratic: 2u² - 7u + 3
+> - This factors as: (2u - 1)(u - 3)
+>
+> #### Step 4: Substitute back the original expression
+> - Replace u with (x + 3): (2(x + 3) - 1)((x + 3) - 3)
+>
+> #### Step 5: Simplify the final expression
+> - Expand: (2x + 6 - 1)(x + 3 - 3)
+> - Combine like terms: (2x + 5)(x)
+> - Final result: x(2x + 5)
 
 ### 4. Factoring Sum and Difference of Cubes
 
@@ -109,21 +167,46 @@ Step 5: Simplify: (2x + 6 - 1)(x + 3 - 3) = (2x + 5)(x)
 - Sum of cubes: a³ + b³ = (a + b)(a² - ab + b²)
 
 **Example 1: Difference of cubes**
-```
-Factor: x³ - 27
 
-Step 1: Identify as x³ - 3³
-Step 2: Apply formula: (x - 3)(x² + 3x + 9)
-```
+**Factor**: x³ - 27
+
+> **Solution Walkthrough**
+> 
+> #### Step 1: Identify the expression as a difference of cubes
+> - Original: x³ - 27
+> - Rewrite as: x³ - 3³ (since 27 = 3³)
+>
+> #### Step 2: Apply the difference of cubes formula
+> - Formula: a³ - b³ = (a - b)(a² + ab + b²)
+> - Substitute a = x and b = 3
+> - Result: (x - 3)(x² + x⋅3 + 3²)
+>
+> #### Step 3: Simplify the final expression
+> - Compute: 3² = 9
+> - Final result: (x - 3)(x² + 3x + 9)
 
 **Example 2: Sum of cubes**
-```
-Factor: 8x³ + 125
 
-Step 1: Identify as 8x³ + 5³ = (2x)³ + 5³
-Step 2: Apply formula: (2x + 5)((2x)² - (2x)(5) + 5²)
-Step 3: Simplify: (2x + 5)(4x² - 10x + 25)
-```
+**Factor**: 8x³ + 125
+
+> **Solution Walkthrough**
+> 
+> #### Step 1: Identify the expression as a sum of cubes
+> - Original: 8x³ + 125
+> - Note that 8x³ = (2x)³ (since 2³ = 8)
+> - Note that 125 = 5³
+> - Rewrite as: (2x)³ + 5³
+>
+> #### Step 2: Apply the sum of cubes formula
+> - Formula: a³ + b³ = (a + b)(a² - ab + b²)
+> - Substitute a = 2x and b = 5
+> - Result: (2x + 5)((2x)² - (2x)(5) + 5²)
+>
+> #### Step 3: Simplify the final expression
+> - Compute: (2x)² = 4x²
+> - Compute: (2x)(5) = 10x
+> - Compute: 5² = 25
+> - Final result: (2x + 5)(4x² - 10x + 25)
 
 **Visual aid:** "Draw a diagram showing the pattern of signs in the factors of a³ - b³ and a³ + b³"
 

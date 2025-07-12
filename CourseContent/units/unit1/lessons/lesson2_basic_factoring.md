@@ -37,25 +37,49 @@
 
 **Example 1:**
 
-**Problem:** Factor: 6x³ + 9x² - 15x
+**Factor**: 6x³ + 9x² - 15x
 
-| Step | Description | Result |
-|:----:|:------------|:------:|
-| **1** | Find the GCF of coefficients | 6, 9, and 15 → **3** |
-| **2** | Find the GCF of variables | x³, x², and x → **x** |
-| **3** | Combine for overall GCF | **3x** |
-| **4** | Factor out the GCF | **3x(2x² + 3x - 5)** |
+> **Solution Walkthrough**
+> 
+> #### Step 1: Find the GCF of the coefficients
+> - Identify all coefficients: 6, 9, and 15
+> - Find their greatest common factor: 3
+>
+> #### Step 2: Find the GCF of the variables
+> - Identify all variable parts: x³, x², and x
+> - Find the variable with lowest power: x
+>
+> #### Step 3: Combine for the overall GCF
+> - Multiply coefficient GCF and variable GCF: 3 × x = 3x
+>
+> #### Step 4: Factor out the GCF from each term
+> - 6x³ ÷ 3x = 2x²
+> - 9x² ÷ 3x = 3x
+> - -15x ÷ 3x = -5
+> - Final result: 3x(2x² + 3x - 5)
 
 **Example 2:**
 
-**Problem:** Factor: 8y⁴ - 20y² + 12y
+**Factor**: 8y⁴ - 20y² + 12y
 
-| Step | Description | Result |
-|:----:|:------------|:------:|
-| **1** | Find the GCF of coefficients | 8, 20, and 12 → **4** |
-| **2** | Find the GCF of variables | y⁴, y², and y → **y** |
-| **3** | Combine for overall GCF | **4y** |
-| **4** | Factor out the GCF | **4y(2y³ - 5y + 3)** |
+> **Solution Walkthrough**
+> 
+> #### Step 1: Find the GCF of the coefficients
+> - Identify all coefficients: 8, 20, and 12
+> - Find their greatest common factor: 4
+>
+> #### Step 2: Find the GCF of the variables
+> - Identify all variable parts: y⁴, y², and y
+> - Find the variable with lowest power: y
+>
+> #### Step 3: Combine for the overall GCF
+> - Multiply coefficient GCF and variable GCF: 4 × y = 4y
+>
+> #### Step 4: Factor out the GCF from each term
+> - 8y⁴ ÷ 4y = 2y³
+> - -20y² ÷ 4y = -5y
+> - 12y ÷ 4y = 3
+> - Final result: 4y(2y³ - 5y + 3)
 
 ### 3. Factoring Special Patterns
 
@@ -65,23 +89,41 @@
 
 **Example:**
 
-**Problem:** Factor: x² - 16
+**Factor**: x² - 16
 
-| Step | Description | Result |
-|:----:|:------------|:------:|
-| **1** | Identify pattern: difference of squares | x² - 16 fits a² - b² pattern |
-| **2** | Identify a and b | a = **x**, b = **4** |
-| **3** | Apply formula: (a + b)(a - b) | **(x + 4)(x - 4)** |
+> **Solution Walkthrough**
+> 
+> #### Step 1: Identify the pattern
+> - Examine the expression: x² - 16
+> - Note that it matches the difference of squares pattern: a² - b²
+>
+> #### Step 2: Identify the values of a and b
+> - Since x² is the first squared term, a = x
+> - Since 16 is the second squared term and 16 = 4², b = 4
+>
+> #### Step 3: Apply the difference of squares formula
+> - Formula: a² - b² = (a + b)(a - b)
+> - Substitute a = x and b = 4
+> - Final result: (x + 4)(x - 4)
 
 **Example with variables:**
 
-**Problem:** Factor: 25y² - 49z²
+**Factor**: 25y² - 49z²
 
-| Step | Description | Result |
-|:----:|:------------|:------:|
-| **1** | Identify pattern: difference of squares | 25y² - 49z² fits a² - b² pattern |
-| **2** | Identify a and b | a = **5y**, b = **7z** |
-| **3** | Apply formula: (a + b)(a - b) | **(5y + 7z)(5y - 7z)** |
+> **Solution Walkthrough**
+> 
+> #### Step 1: Identify the pattern
+> - Examine the expression: 25y² - 49z²
+> - Note that it matches the difference of squares pattern: a² - b²
+>
+> #### Step 2: Identify the values of a and b
+> - Since 25y² is the first squared term and 25 = 5², a = 5y
+> - Since 49z² is the second squared term and 49 = 7², b = 7z
+>
+> #### Step 3: Apply the difference of squares formula
+> - Formula: a² - b² = (a + b)(a - b)
+> - Substitute a = 5y and b = 7z
+> - Final result: (5y + 7z)(5y - 7z)
 
 #### 3.2. Perfect Square Trinomials
 
@@ -89,25 +131,47 @@
 
 **Example:**
 
-**Problem:** Factor: x² + 6x + 9
+**Factor**: x² + 6x + 9
 
-| Step | Description | Result |
-|:----:|:------------|:------:|
-| **1** | Identify pattern: perfect square trinomial | x² + 6x + 9 fits a² + 2ab + b² pattern |
-| **2** | Identify a and b | a = **x**, b = **3** |
-| **3** | Apply formula: (a + b)² | **(x + 3)²** |
+> **Solution Walkthrough**
+> 
+> #### Step 1: Identify the pattern
+> - Examine the expression: x² + 6x + 9
+> - Note that it matches the perfect square trinomial pattern: a² + 2ab + b²
+>
+> #### Step 2: Identify the values of a and b
+> - Since x² is the first squared term, a = x
+> - The middle term 6x should equal 2ab
+> - If a = x, then 2ab = 2xb = 6x, so b = 3
+> - Verify the last term: b² = 3² = 9 ✓
+>
+> #### Step 3: Apply the perfect square trinomial formula
+> - Formula: a² + 2ab + b² = (a + b)²
+> - Substitute a = x and b = 3
+> - Final result: (x + 3)²
 
 **Pattern 2:** a² - 2ab + b² = (a - b)²
 
 **Example:**
 
-**Problem:** Factor: 4y² - 12y + 9
+**Factor**: 4y² - 12y + 9
 
-| Step | Description | Result |
-|:----:|:------------|:------:|
-| **1** | Identify pattern: perfect square trinomial | 4y² - 12y + 9 fits a² - 2ab + b² pattern |
-| **2** | Identify a and b | a = **2y**, b = **3** |
-| **3** | Apply formula: (a - b)² | **(2y - 3)²** |
+> **Solution Walkthrough**
+> 
+> #### Step 1: Identify the pattern
+> - Examine the expression: 4y² - 12y + 9
+> - Note that it matches the perfect square trinomial pattern: a² - 2ab + b²
+>
+> #### Step 2: Identify the values of a and b
+> - Since 4y² is the first squared term and 4 = 2², a = 2y
+> - The middle term -12y should equal -2ab
+> - If a = 2y, then -2ab = -2(2y)b = -4yb = -12y, so b = 3
+> - Verify the last term: b² = 3² = 9 ✓
+>
+> #### Step 3: Apply the perfect square trinomial formula
+> - Formula: a² - 2ab + b² = (a - b)²
+> - Substitute a = 2y and b = 3
+> - Final result: (2y - 3)²
 
 ### 4. Factoring Simple Trinomials (ax² + bx + c where a = 1)
 
@@ -120,33 +184,65 @@
 
 **Example 1:**
 
-**Problem:** Factor: x² + 5x + 6
+**Factor**: x² + 5x + 6
 
-| Step | Description | Result |
-|:----:|:------------|:------:|
-| **1** | Find factors of 6 | 1×6 = 6, **2×3 = 6** |
-| **2** | Check which pair adds to 5 | 2+3 = **5** ✓ |
-| **3** | Write in factored form | **(x + 2)(x + 3)** |
+> **Solution Walkthrough**
+> 
+> #### Step 1: Find the factors of the constant term
+> - The constant term is 6
+> - Find all factor pairs of 6: (1,6) and (2,3)
+>
+> #### Step 2: Determine which factor pair adds up to the coefficient of x
+> - The coefficient of x is 5
+> - Check: 1 + 6 = 7 (not correct)
+> - Check: 2 + 3 = 5 ✓
+>
+> #### Step 3: Write the factored expression
+> - Since the factors 2 and 3 work, write the binomial factors
+> - Note: both factors are positive since the constant term is positive and the coefficient of x is positive
+> - Final result: (x + 2)(x + 3)
 
 **Example 2:**
 
-**Problem:** Factor: x² - x - 6
+**Factor**: x² - x - 6
 
-| Step | Description | Result |
-|:----:|:------------|:------:|
-| **1** | Find factors of -6 | 2×(-3) = **-6**, (-2)×3 = -6 |
-| **2** | Check which pair adds to -1 | 2+(-3) = **-1** ✓ |
-| **3** | Write in factored form | **(x + 2)(x - 3)** |
+> **Solution Walkthrough**
+> 
+> #### Step 1: Find the factors of the constant term
+> - The constant term is -6
+> - Find factor pairs of -6: (1,-6), (-1,6), (2,-3), (-2,3)
+>
+> #### Step 2: Determine which factor pair adds up to the coefficient of x
+> - The coefficient of x is -1
+> - Check: 1 + (-6) = -5 (not correct)
+> - Check: (-1) + 6 = 5 (not correct)
+> - Check: 2 + (-3) = -1 ✓
+> - Check: (-2) + 3 = 1 (not correct)
+>
+> #### Step 3: Write the factored expression
+> - Since the factors 2 and -3 work, write the binomial factors
+> - Final result: (x + 2)(x - 3)
 
 **Example 3:**
 
-**Problem:** Factor: x² - 7x + 12
+**Factor**: x² - 7x + 12
 
-| Step | Description | Result |
-|:----:|:------------|:------:|
-| **1** | Find factors of 12 | 1×12 = 12, 2×6 = 12, **3×4 = 12** |
-| **2** | Check which pair adds to -7 | (-3)+(-4) = **-7** ✓ |
-| **3** | Write in factored form | **(x - 3)(x - 4)** |
+> **Solution Walkthrough**
+> 
+> #### Step 1: Find the factors of the constant term
+> - The constant term is 12
+> - Find all factor pairs of 12: (1,12), (2,6), (3,4)
+>
+> #### Step 2: Determine which factor pair adds up to the coefficient of x
+> - The coefficient of x is -7
+> - Since the constant term is positive and the coefficient of x is negative, we need two negative factors
+> - Check: (-1) + (-12) = -13 (not correct)
+> - Check: (-2) + (-6) = -8 (not correct)
+> - Check: (-3) + (-4) = -7 ✓
+>
+> #### Step 3: Write the factored expression
+> - Since the factors -3 and -4 work, write the binomial factors
+> - Final result: (x - 3)(x - 4)
 
 ### 5. Factoring by Grouping (Four Terms)
 
@@ -159,24 +255,47 @@
 
 **Example 1:**
 
-**Problem:** Factor: xy + 3x + 2y + 6
+**Factor**: xy + 3x + 2y + 6
 
-| Step | Description | Result |
-|:----:|:------------|:------:|
-| **1** | Group terms into pairs | **(xy + 3x) + (2y + 6)** |
-| **2** | Factor out GCF from each group | **x(y + 3) + 2(y + 3)** |
-| **3** | Factor out common binomial | **(y + 3)(x + 2)** |
+> **Solution Walkthrough**
+> 
+> #### Step 1: Group terms into pairs
+> - Original expression: xy + 3x + 2y + 6
+> - Group related terms: (xy + 3x) + (2y + 6)
+>
+> #### Step 2: Factor out the GCF from each group
+> - From the first group (xy + 3x), factor out x: x(y + 3)
+> - From the second group (2y + 6), factor out 2: 2(y + 3)
+> - Result after factoring each group: x(y + 3) + 2(y + 3)
+>
+> #### Step 3: Factor out the common binomial factor
+> - Notice that (y + 3) appears in both terms
+> - Factor out the common binomial: (y + 3)(x + 2)
+> - Final result: (y + 3)(x + 2)
 
 **Example 2:**
 
-**Problem:** Factor: x³ - 3x² - 4x + 12
+**Factor**: x³ - 3x² - 4x + 12
 
-| Step | Description | Result |
-|:----:|:------------|:------:|
-| **1** | Group terms into pairs | **(x³ - 3x²) + (-4x + 12)** |
-| **2** | Factor out GCF from each group | **x²(x - 3) - 4(x - 3)** |
-| **3** | Factor out common binomial | **(x - 3)(x² - 4)** |
-| **4** | Further factor the second term | **(x - 3)(x + 2)(x - 2)** |
+> **Solution Walkthrough**
+> 
+> #### Step 1: Group terms into pairs
+> - Original expression: x³ - 3x² - 4x + 12
+> - Group related terms: (x³ - 3x²) + (-4x + 12)
+>
+> #### Step 2: Factor out the GCF from each group
+> - From the first group (x³ - 3x²), factor out x²: x²(x - 3)
+> - From the second group (-4x + 12), factor out -4: -4(x - 3)
+> - Result after factoring each group: x²(x - 3) - 4(x - 3)
+>
+> #### Step 3: Factor out the common binomial factor
+> - Notice that (x - 3) appears in both terms
+> - Factor out the common binomial: (x - 3)(x² - 4)
+>
+> #### Step 4: Factor the remaining expression further
+> - The term (x² - 4) is a difference of squares
+> - Apply the difference of squares formula: (x - 3)[(x + 2)(x - 2)]
+> - Final result: (x - 3)(x + 2)(x - 2)
 
 ### 6. Factoring Strategy
 

@@ -15,6 +15,7 @@ extension Color {
     static let mmLightBackground = Color(red: 0.98, green: 0.98, blue: 1.0)
     static let mmLightSecondary = Color(red: 0.96, green: 0.97, blue: 0.98)
     static let mmLightBorder = Color(red: 0.88, green: 0.89, blue: 0.91)
+    static let mmCodeBackground = Color(red: 0.96, green: 0.97, blue: 0.98)
     
     // Dark background colors for dark mode
     static let mmDarkBackground = Color(red: 0.11, green: 0.11, blue: 0.12)
@@ -26,66 +27,45 @@ extension Color {
 extension Theme {
     /// The custom theme for MathMastery educational content
     public static var mathMastery: Theme {
-        Theme()
-            // Heading 1 style (blue)
-            .heading1 { configuration in
-                configuration.label
-                    .padding(.top, 16)
-                    .padding(.bottom, 8)
-                    .markdownTextStyle {
-                        FontWeight(.bold)
-                        FontSize(.em(1.75)) // ~28px
-                        ForegroundColor(.mmHeading1)
-                    }
-            }
-            // Heading 2 style (green)
-            .heading2 { configuration in
-                configuration.label
-                    .padding(.top, 12)
-                    .padding(.bottom, 6)
-                    .markdownTextStyle {
-                        FontWeight(.semibold)
-                        FontSize(.em(1.5)) // ~24px
-                        ForegroundColor(.mmHeading2)
-                    }
-            }
-            // Heading 3 style (purple)
-            .heading3 { configuration in
-                configuration.label
-                    .padding(.top, 10)
-                    .padding(.bottom, 4)
-                    .markdownTextStyle {
-                        FontWeight(.semibold)
-                        FontSize(.em(1.25)) // ~20px
-                        ForegroundColor(.mmHeading3)
-                    }
-            }
-            // Heading 4 style (pink)
-            .heading4 { configuration in
-                configuration.label
-                    .padding(.top, 8)
-                    .padding(.bottom, 2)
-                    .markdownTextStyle {
-                        FontWeight(.semibold)
-                        FontSize(.em(1.125)) // ~18px
-                        ForegroundColor(.mmHeading4)
-                    }
-            }
-            // Inline code style
-            .code { 
-                    FontFamilyVariant(.monospaced)
-                    FontSize(.em(0.85))
-            }
-            // Paragraph style
-            .paragraph { configuration in
-                configuration.label
-                    .padding(.bottom, 8)
-            }
-            // List items
-            .listItem { configuration in
-                configuration.label
-                    .padding(.top, 4)
-            }
+        let theme = Theme()
+            // Apply heading styles
+            .withMathMasteryHeadings()
+            // Apply block styles
+            .withMathMasteryBlockStyles()
+            // Apply inline code styles
+            .withInlineCodeStyles()
+            
+        return theme
+    }
+
+    // Inline code style
+    func withInlineCodeStyles() -> Theme {
+        self.code { 
+            FontFamilyVariant(.monospaced)
+            FontSize(.em(0.85))
+            BackgroundColor(.mmCodeBackground)
+            FontWeight(.medium)
+            //Padding(.horizontal, .em(0.2))
+            //BorderWidth(.px(1))x
+            //BorderColor(.mmLightBorder)
+            //BorderRadius(.px(4))
+        }
+    }
+    
+    // Paragraph style
+    func withParagraphStyles() -> Theme {
+        self.paragraph { configuration in
+            configuration.label
+                .padding(.bottom, 8)
+        }
+    }
+    
+    // List items
+    func withListItems() -> Theme {
+        self.listItem { configuration in
+            configuration.label
+                .padding(.top, 4)
+        }
     }
 }
 
@@ -108,18 +88,29 @@ extension Theme {
                 )
                 .padding(.vertical, 8)
             }
-            // Blockquote with accent border
+            // Enhanced blockquote with accent border - ideal for solution walkthroughs
             .blockquote { configuration in
-                HStack(spacing: 0) {
-                    Rectangle()
-                        .fill(Color.mmHeading1)
-                        .frame(width: 4)
+                VStack(alignment: .leading, spacing: 8) {
                     configuration.label
-                        .padding(.leading, 12)
-                        .padding([.top, .bottom], 8)
+                        .padding(.horizontal, 16)
+                        .padding(.vertical, 12)
                 }
-                .background(Color.mmHeading1.opacity(0.05))
-                .cornerRadius(4)
+                .background(Color.mmLightBackground)
+                .cornerRadius(8)
+                .overlay(
+                    HStack(spacing: 0) {
+                        Rectangle()
+                            .fill(Color.mmHeading1)
+                            .frame(width: 4)
+                        Spacer()
+                    }
+                    .mask(RoundedRectangle(cornerRadius: 8))
+                )
+                .overlay(
+                    RoundedRectangle(cornerRadius: 8)
+                        .stroke(Color.mmHeading1.opacity(0.3), lineWidth: 1)
+                )
+                .padding(.vertical, 12)
             }
             // Table with alternating row colors
             .table { configuration in
@@ -185,6 +176,8 @@ extension Theme {
                     }
             }
     }
+    
+
 }
 
 // MARK: - Backward Compatibility

@@ -45,22 +45,80 @@
 3. Simplify the expression following order of operations
 
 **Example with clear steps:**
-```
-If f(x) = 2x² - 3x + 4, find f(3)
+**Evaluate**: f(3) where f(x) = 2x² - 3x + 4
 
-Step 1: Replace x with 3 wherever x appears
-f(3) = 2(3)² - 3(3) + 4
+> **Solution Walkthrough**
+> 
+> #### Step 1: Identify the function rule
+> - The function is f(x) = 2x² - 3x + 4
+> - We need to find f(3), which means x = 3
+>
+> #### Step 2: Substitute the value into the function
+> - Replace every x with 3 in the expression
+> - f(3) = 2(3)² - 3(3) + 4
+>
+> #### Step 3: Evaluate using order of operations
+> - First calculate the exponent: 3² = 9
+> - f(3) = 2(9) - 3(3) + 4
+> - Multiply: 2(9) = 18 and 3(3) = 9
+> - f(3) = 18 - 9 + 4
+> - Add and subtract from left to right
+> - f(3) = 9 + 4 = 13
+>
+> #### Step 4: State the result
+> - When x = 3, the function value is f(3) = 13
 
-Step 2: Simplify following order of operations
-f(3) = 2(9) - 3(3) + 4
-f(3) = 18 - 9 + 4
-f(3) = 13
-```
+**Practice with Function Evaluation:**
 
-**Practice together:** "Let's try a few examples with the function g(x) = |x - 5| + 3"
-1. g(5) = |5 - 5| + 3 = 0 + 3 = 3
-2. g(8) = |8 - 5| + 3 = |3| + 3 = 3 + 3 = 6
-3. g(2) = |2 - 5| + 3 = |-3| + 3 = 3 + 3 = 6
+For the function g(x) = |x - 5| + 3, let's evaluate at several input values.
+
+> **Solution Walkthrough for g(5)**
+> 
+> #### Step 1: Substitute x = 5 into the function
+> - g(5) = |5 - 5| + 3
+>
+> #### Step 2: Evaluate the expression inside the absolute value symbols
+> - 5 - 5 = 0
+> - g(5) = |0| + 3
+>
+> #### Step 3: Apply the absolute value
+> - |0| = 0
+> - g(5) = 0 + 3 = 3
+>
+> #### Step 4: State the result
+> - When x = 5, the function value is g(5) = 3
+
+> **Solution Walkthrough for g(8)**
+> 
+> #### Step 1: Substitute x = 8 into the function
+> - g(8) = |8 - 5| + 3
+>
+> #### Step 2: Evaluate the expression inside the absolute value symbols
+> - 8 - 5 = 3
+> - g(8) = |3| + 3
+>
+> #### Step 3: Apply the absolute value
+> - |3| = 3 (since 3 is already positive)
+> - g(8) = 3 + 3 = 6
+>
+> #### Step 4: State the result
+> - When x = 8, the function value is g(8) = 6
+
+> **Solution Walkthrough for g(2)**
+> 
+> #### Step 1: Substitute x = 2 into the function
+> - g(2) = |2 - 5| + 3
+>
+> #### Step 2: Evaluate the expression inside the absolute value symbols
+> - 2 - 5 = -3
+> - g(2) = |-3| + 3
+>
+> #### Step 3: Apply the absolute value
+> - |-3| = 3 (the absolute value removes the negative sign)
+> - g(2) = 3 + 3 = 6
+>
+> #### Step 4: State the result
+> - When x = 2, the function value is g(2) = 6
 
 **Gaming application:** "If S(t) represents your game score after t minutes, and S(t) = 200t - 50:"
 - S(0) = 200(0) - 50 = -50 (You start with a penalty of 50 points)
@@ -124,8 +182,28 @@ Find B(3) and D(3)
 - G(m) = 0.05m gives gallons of gas used to drive m miles
 - C(g) = 3.50g gives cost in dollars to buy g gallons
 
-Find the cost to drive 200 miles by calculating C(G(200))"
-Solution: G(200) = 0.05(200) = 10 gallons, then C(10) = 3.50(10) = $35
+How much does it cost to drive 200 miles?"
+
+> **Solution Walkthrough**
+> 
+> #### Step 1: Find the amount of gas needed
+> - We use the function G(m) to find gallons needed for m miles
+> - G(200) = 0.05(200)
+> - G(200) = 10
+> - So 10 gallons of gas are needed to drive 200 miles
+>
+> #### Step 2: Find the cost of the required gas
+> - We use the function C(g) to find the cost for g gallons
+> - C(10) = 3.50(10)
+> - C(10) = $35
+>
+> #### Step 3: State the final answer
+> - It costs $35 to drive 200 miles
+>
+> #### Step 4: Function composition perspective
+> - This is actually a composition of functions: C(G(200))
+> - We first applied G to 200, then applied C to the result
+> - This type of calculation is common in multi-step real-world problems with Notation
 
 ### 6. Piecewise Functions with Notation
 
@@ -157,17 +235,37 @@ Write this as a piecewise function P(g) where g is gigabytes used, then find P(1
 **Simple explanation:** "When graphing a function f(x), we plot points (x, f(x)) for different values of x."
 
 **Example walkthrough:**
-"To graph f(x) = 2x - 1:
-1. Make a table of values:
-   | x | f(x) = 2x - 1 | Point (x, f(x)) |
-   |---|--------------|----------------|
-   | -1 | f(-1) = 2(-1) - 1 = -3 | (-1, -3) |
-   | 0 | f(0) = 2(0) - 1 = -1 | (0, -1) |
-   | 1 | f(1) = 2(1) - 1 = 1 | (1, 1) |
-   | 2 | f(2) = 2(2) - 1 = 3 | (2, 3) |
+**Graph**: f(x) = 2x - 1
 
-2. Plot these points on a coordinate plane
-3. Connect the points with a smooth line"
+> **Solution Walkthrough**
+> 
+> #### Step 1: Create a table of values
+> - Choose several x-values to substitute into the function
+> - For x = -1: f(-1) = 2(-1) - 1 = -2 - 1 = -3
+> - For x = 0: f(0) = 2(0) - 1 = 0 - 1 = -1
+> - For x = 1: f(1) = 2(1) - 1 = 2 - 1 = 1
+> - For x = 2: f(2) = 2(2) - 1 = 4 - 1 = 3
+> - Organize in a table:
+>
+> | x | f(x) = 2x - 1 | Point (x, f(x)) |
+> |---|--------------|----------------|
+> | -1 | -3 | (-1, -3) |
+> | 0 | -1 | (0, -1) |
+> | 1 | 1 | (1, 1) |
+> | 2 | 3 | (2, 3) |
+>
+> #### Step 2: Plot the points on a coordinate system
+> - Mark each point (x, f(x)) on the coordinate plane
+> - For example, for the point (0, -1), go 0 units right and 1 unit down
+>
+> #### Step 3: Connect the points with a straight line
+> - Since this is a linear function, the graph will be a straight line
+> - Draw a line passing through all plotted points
+>
+> #### Step 4: Interpret the graph
+> - The slope of 2 means the line rises 2 units for every 1 unit moved right
+> - The y-intercept of -1 means the line crosses the y-axis at (0, -1)
+> - Every point on this line represents an input-output pair for the function with a smooth line"
 
 **Technology integration:** "Use Desmos.com to graph functions and see how changing the formula affects the graph."
 
@@ -249,11 +347,111 @@ After covering the material, ask these questions:
    - When will the ball hit the ground? (Hint: find when h(t) = 0)
 
 **Solutions:**
-1. f(0) = 3, f(2) = 1, f(-1) = 10
-2. g(3) = 4, g(5) = 6, g(0) = 7
-3. C(10) = $130, C(25) = $250, n = 30 shirts
-4. h(-2) = -4, h(1) = 0, h(5) = 8
-5. Initial height = h(0) = 2 meters, h(2) = 21.4 meters, Ground impact at approximately t = 3.2 seconds
+
+> **Practice Problem 1 Solutions**
+> 
+> For f(x) = 2x² - 5x + 3:
+> 
+> #### Finding f(0)
+> - f(0) = 2(0)² - 5(0) + 3
+> - f(0) = 0 - 0 + 3
+> - f(0) = 3
+>
+> #### Finding f(2)
+> - f(2) = 2(2)² - 5(2) + 3
+> - f(2) = 2(4) - 10 + 3
+> - f(2) = 8 - 10 + 3
+> - f(2) = 1
+>
+> #### Finding f(-1)
+> - f(-1) = 2(-1)² - 5(-1) + 3
+> - f(-1) = 2(1) - 5(-1) + 3
+> - f(-1) = 2 + 5 + 3
+> - f(-1) = 10
+
+> **Practice Problem 2 Solutions**
+> 
+> For g(x) = |x - 3| + 4:
+> 
+> #### Finding g(3)
+> - g(3) = |3 - 3| + 4
+> - g(3) = |0| + 4
+> - g(3) = 0 + 4 = 4
+>
+> #### Finding g(5)
+> - g(5) = |5 - 3| + 4
+> - g(5) = |2| + 4
+> - g(5) = 2 + 4 = 6
+>
+> #### Finding g(0)
+> - g(0) = |0 - 3| + 4
+> - g(0) = |-3| + 4
+> - g(0) = 3 + 4 = 7
+
+> **Practice Problem 3 Solutions**
+> 
+> For C(n) = 50 + 8n:
+> 
+> #### Finding C(10)
+> - C(10) = 50 + 8(10)
+> - C(10) = 50 + 80 = $130
+> - This represents the cost to produce 10 t-shirts
+>
+> #### Finding C(25)
+> - C(25) = 50 + 8(25)
+> - C(25) = 50 + 200 = $250
+> - This represents the cost to produce 25 t-shirts
+>
+> #### Finding n when C(n) = $290
+> - 290 = 50 + 8n
+> - 240 = 8n
+> - n = 30
+> - So 30 t-shirts can be produced for $290
+
+> **Practice Problem 4 Solutions**
+> 
+> For h(x) = { 3x + 2 if x < 0
+>           { x² - 1  if 0 ≤ x < 3
+>           { 8        if x ≥ 3
+> 
+> #### Finding h(-2)
+> - Since -2 < 0, use h(x) = 3x + 2
+> - h(-2) = 3(-2) + 2
+> - h(-2) = -6 + 2 = -4
+>
+> #### Finding h(1)
+> - Since 0 ≤ 1 < 3, use h(x) = x² - 1
+> - h(1) = 1² - 1
+> - h(1) = 1 - 1 = 0
+>
+> #### Finding h(5)
+> - Since 5 ≥ 3, use h(x) = 8
+> - h(5) = 8
+
+> **Practice Problem 5 Solutions**
+> 
+> For h(t) = -4.9t² + 15t + 2:
+> 
+> #### Finding Initial Height
+> - Initial height is h(0) (when t = 0)
+> - h(0) = -4.9(0)² + 15(0) + 2
+> - h(0) = 0 + 0 + 2 = 2 meters
+>
+> #### Finding Height at t = 2 seconds
+> - h(2) = -4.9(2)² + 15(2) + 2
+> - h(2) = -4.9(4) + 30 + 2
+> - h(2) = -19.6 + 30 + 2 = 12.4 meters
+>
+> #### Finding When Ball Hits Ground
+> - Ball hits ground when h(t) = 0
+> - Solve: -4.9t² + 15t + 2 = 0
+> - Using quadratic formula: t = (-15 ± √(15² - 4(-4.9)(2))) / (2(-4.9))
+> - t = (-15 ± √(225 + 39.2)) / (-9.8)
+> - t = (-15 ± √264.2) / (-9.8)
+> - t = (-15 ± 16.25) / (-9.8)
+> - t = (1.25 or -31.25) / (-9.8)
+> - t ≈ -0.13 or t ≈ 3.2
+> - Since time can't be negative here, t ≈ 3.2 seconds
 
 ## Tips for Success
 

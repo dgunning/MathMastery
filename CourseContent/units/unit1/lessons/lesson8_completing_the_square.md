@@ -59,15 +59,27 @@ So x² + 6x + 9 is a perfect square trinomial because 6 = 2(3) and 9 = 3²."
 3. Add this value to create a perfect square trinomial: x² + bx + (b/2)²
 4. Rewrite as a squared binomial: (x + b/2)²
 
-**Example with clear steps:**
-```
-Complete the square for x² + 8x
+**Example**: Complete the square for the expression x² + 8x
 
-Step 1: Take the coefficient of x and divide by 2: 8/2 = 4
-Step 2: Square the result: 4² = 16
-Step 3: Add 16 to create the perfect square trinomial: x² + 8x + 16
-Step 4: Rewrite as a squared binomial: (x + 4)²
-```
+> **Solution Walkthrough**
+> 
+> #### Step 1: Find half of the coefficient of x
+> - The coefficient of x is 8
+> - Half of this coefficient is: 8 ÷ 2 = 4
+>
+> #### Step 2: Square the result
+> - The square of 4 is: 4² = 16
+>
+> #### Step 3: Add the squared value to create a perfect square trinomial
+> - Add 16 to the original expression: x² + 8x + 16
+> - This creates a perfect square trinomial
+>
+> #### Step 4: Write the expression as a squared binomial
+> - The perfect square trinomial x² + 8x + 16 can be written as (x + 4)²
+>
+> #### Step 5: Verify your answer
+> - Check by expanding: (x + 4)² = (x + 4)(x + 4) = x² + 4x + 4x + 16 = x² + 8x + 16
+> - The original expression x² + 8x becomes (x + 4)² - 16 when completed to a perfect square
 
 **Practice together:** "Let's complete the square for these expressions:
 1. x² - 10x
@@ -118,27 +130,35 @@ The vertex is (3, -1)
 3. Distribute a back through the squared binomial
 4. Combine like terms to get vertex form
 
-**Example with clear steps:**
-```
-Convert g(x) = 2x² - 12x + 13 to vertex form
+**Example**: Convert g(x) = 2x² - 12x + 13 to vertex form
 
-Step 1: Factor out the coefficient of x²
-g(x) = 2(x² - 6x) + 13
-
-Step 2: Complete the square inside the parentheses
-Coefficient of x is -6, so (-6/2) = -3
-Square it: (-3)² = 9
-Add and subtract 9 inside the parentheses
-g(x) = 2(x² - 6x + 9 - 9) + 13
-g(x) = 2(x² - 6x + 9) - 2(9) + 13
-g(x) = 2(x - 3)² - 18 + 13
-
-Step 3: Simplify
-g(x) = 2(x - 3)² - 5
-
-The function in vertex form is g(x) = 2(x - 3)² - 5
-The vertex is (3, -5)
-```
+> **Solution Walkthrough**
+> 
+> #### Step 1: Factor out the coefficient of x²
+> - Factor out 2 from the x² and x terms
+> - g(x) = 2(x² - 6x) + 13
+>
+> #### Step 2: Complete the square inside the parentheses
+> - Focus on the expression inside the parentheses: x² - 6x
+> - Find half the coefficient of x: -6 ÷ 2 = -3
+> - Square the result: (-3)² = 9
+> - Add and subtract 9 inside the parentheses (this doesn't change the value)
+> - g(x) = 2(x² - 6x + 9 - 9) + 13
+> - g(x) = 2(x² - 6x + 9) - 2(9) + 13
+>
+> #### Step 3: Rewrite the expression with a perfect square binomial
+> - The expression x² - 6x + 9 is a perfect square: (x - 3)²
+> - g(x) = 2(x - 3)² - 18 + 13
+>
+> #### Step 4: Simplify the constants
+> - Combine like terms: -18 + 13 = -5
+> - g(x) = 2(x - 3)² - 5
+>
+> #### Step 5: Identify the vertex
+> - The vertex form is g(x) = a(x - h)² + k where the vertex is (h, k)
+> - Comparing with g(x) = 2(x - 3)² - 5, we have h = 3 and k = -5
+> - The vertex is (3, -5)
+> - Since a = 2 > 0, the parabola opens upward and (3, -5) is a minimum point
 
 **Common mistake to avoid:** "Don't forget to multiply the constant term (the square of half the coefficient of x) by the coefficient a when you subtract it."
 
@@ -146,30 +166,38 @@ The vertex is (3, -5)
 
 **Simple explanation:** "Completing the square is a precise method to find the vertex of a quadratic function. Once we convert to vertex form f(x) = a(x - h)² + k, the vertex is at (h, k)."
 
-**Example with interpretations:**
-```
-Find the vertex of f(x) = -3x² + 12x - 8
+**Example**: Find the vertex of f(x) = -3x² + 12x - 8
 
-Step 1: Factor out -3
-f(x) = -3(x² - 4x) - 8
-
-Step 2: Complete the square inside the parentheses
-Coefficient of x is -4, so (-4/2) = -2
-Square it: (-2)² = 4
-Add and subtract 4 inside the parentheses
-f(x) = -3(x² - 4x + 4 - 4) - 8
-f(x) = -3(x² - 4x + 4) + 12 - 8
-f(x) = -3(x - 2)² + 4
-
-Step 3: Identify the vertex
-Since the vertex form is f(x) = a(x - h)² + k, we have h = 2 and k = 4
-The vertex is (2, 4)
-
-Step 4: Interpret the result
-Since a = -3 < 0, the parabola opens downward
-The vertex (2, 4) represents a maximum point
-The maximum value of the function is 4, occurring at x = 2
-```
+> **Solution Walkthrough**
+> 
+> #### Step 1: Factor out the leading coefficient
+> - Factor out -3 from the x² and x terms
+> - f(x) = -3(x² - 4x) - 8
+>
+> #### Step 2: Complete the square inside the parentheses
+> - Focus on the expression inside the parentheses: x² - 4x
+> - Find half the coefficient of x: -4 ÷ 2 = -2
+> - Square the result: (-2)² = 4
+> - Add and subtract 4 inside the parentheses (adding a value then subtracting it doesn't change the overall value)
+> - f(x) = -3(x² - 4x + 4 - 4) - 8
+> - f(x) = -3(x² - 4x + 4) + 12 - 8
+>
+> #### Step 3: Rewrite the expression with a perfect square binomial
+> - The expression x² - 4x + 4 is a perfect square: (x - 2)²
+> - f(x) = -3(x - 2)² + 12 - 8
+> - Simplify constants: 12 - 8 = 4
+> - f(x) = -3(x - 2)² + 4
+>
+> #### Step 4: Identify the vertex
+> - The vertex form is f(x) = a(x - h)² + k where the vertex is at (h, k)
+> - Comparing with f(x) = -3(x - 2)² + 4, we have h = 2 and k = 4
+> - The vertex is (2, 4)
+>
+> #### Step 5: Interpret the result
+> - Since a = -3 < 0, the parabola opens downward
+> - When a parabola opens downward, the vertex is a maximum point
+> - The maximum value of the function is 4, occurring at x = 2
+> - This means the highest point on this parabola is at (2, 4)
 
 **Practice activity:** "Find the vertex and determine if it's a maximum or minimum for:
 1. f(x) = 2x² + 8x + 7
@@ -189,31 +217,37 @@ The maximum value of the function is 4, occurring at x = 2
 6. Take the square root of both sides
 7. Solve for x
 
-**Example with clear steps:**
-```
-Solve x² - 6x + 8 = 0 by completing the square
+**Example**: Solve the quadratic equation x² - 6x + 8 = 0 by completing the square
 
-Step 1: Move the constant term to the right side
-x² - 6x = -8
-
-Step 2: Complete the square for x² - 6x
-Coefficient of x is -6, so (-6/2) = -3
-Square it: (-3)² = 9
-Add 9 to both sides
-x² - 6x + 9 = -8 + 9
-(x - 3)² = 1
-
-Step 3: Take the square root of both sides
-x - 3 = ±1
-
-Step 4: Solve for x
-x = 3 ± 1
-x = 4 or x = 2
-
-Check: 
-x = 4: (4)² - 6(4) + 8 = 16 - 24 + 8 = 0 ✓
-x = 2: (2)² - 6(2) + 8 = 4 - 12 + 8 = 0 ✓
-```
+> **Solution Walkthrough**
+> 
+> #### Step 1: Rearrange the equation to standard form
+> - The equation is already in standard form: x² - 6x + 8 = 0
+> - Move the constant term to the right side: x² - 6x = -8
+>
+> #### Step 2: Complete the square on the left side
+> - For the expression x² - 6x, find half the coefficient of x: -6 ÷ 2 = -3
+> - Square this value: (-3)² = 9
+> - Add 9 to both sides of the equation to maintain equality:
+> - x² - 6x + 9 = -8 + 9
+>
+> #### Step 3: Write as a perfect square
+> - The left side is now a perfect square trinomial: x² - 6x + 9 = (x - 3)²
+> - The equation becomes: (x - 3)² = 1
+>
+> #### Step 4: Apply the square root property
+> - Take the square root of both sides: x - 3 = ±1
+> - This gives us two possibilities: x - 3 = 1 or x - 3 = -1
+>
+> #### Step 5: Solve for x
+> - From x - 3 = 1: x = 4
+> - From x - 3 = -1: x = 2
+> - The solutions are x = 4 or x = 2
+>
+> #### Step 6: Verify the solutions
+> - Check x = 4: (4)² - 6(4) + 8 = 16 - 24 + 8 = 0 ✓
+> - Check x = 2: (2)² - 6(2) + 8 = 4 - 12 + 8 = 0 ✓
+> - Both values satisfy the original equation
 
 **Connection to quadratic formula:** "Completing the square is actually how the quadratic formula is derived. When we complete the square for the general form ax² + bx + c = 0, we end up with the quadratic formula."
 
@@ -221,34 +255,69 @@ x = 2: (2)² - 6(2) + 8 = 4 - 12 + 8 = 0 ✓
 
 **Simple explanation:** "Completing the square helps us solve various practical problems involving quadratic functions."
 
-**Example 1: Maximum height of a projectile**
-```
-A ball is thrown upward with an initial velocity of 40 ft/s from a height of 5 feet. The height h(t) after t seconds is given by h(t) = -16t² + 40t + 5. Find the maximum height.
+**Example 1: Maximum height of a projectile**: A ball is thrown upward with an initial velocity of 40 ft/s from a height of 5 feet. The height h(t) after t seconds is given by h(t) = -16t² + 40t + 5. Find the maximum height.
 
-Solution:
-h(t) = -16t² + 40t + 5
-h(t) = -16(t² - 2.5t) + 5
-h(t) = -16(t² - 2.5t + (1.25)² - (1.25)²) + 5
-h(t) = -16(t - 1.25)² + -16(-1.5625) + 5
-h(t) = -16(t - 1.25)² + 25 + 5
-h(t) = -16(t - 1.25)² + 30
+> **Solution Walkthrough**
+> 
+> #### Step 1: Set up the height function
+> - The given height function is h(t) = -16t² + 40t + 5
+> - Since a = -16 < 0, the parabola opens downward, indicating there is a maximum height
+>
+> #### Step 2: Factor out the coefficient of t²
+> - Factor out -16 from the t² and t terms: h(t) = -16(t² - 2.5t) + 5
+> - Note that -40/-16 = 2.5
+>
+> #### Step 3: Complete the square inside the parentheses
+> - Find half the coefficient of t: -2.5 ÷ 2 = -1.25
+> - Square this value: (-1.25)² = 1.5625
+> - Add and subtract this value inside the parentheses:
+> - h(t) = -16(t² - 2.5t + 1.5625 - 1.5625) + 5
+>
+> #### Step 4: Rewrite with a perfect square binomial
+> - h(t) = -16(t² - 2.5t + 1.5625) + 16(1.5625) + 5
+> - h(t) = -16(t - 1.25)² + 25 + 5
+> - h(t) = -16(t - 1.25)² + 30
+>
+> #### Step 5: Identify the maximum height
+> - The function is now in vertex form h(t) = -16(t - 1.25)² + 30
+> - The vertex is at (1.25, 30)
+> - This means the maximum height of 30 feet occurs at time t = 1.25 seconds
+>
+> #### Step 6: Interpret the result
+> - The ball reaches its peak height of 30 feet after 1.25 seconds
+> - After this time, the ball begins to fall back toward the ground
 
-The vertex form shows the maximum height is 30 feet, occurring at t = 1.25 seconds.
-```
+**Example 2: Minimum cost problem**: The cost of producing x items is C(x) = 2x² - 80x + 1000. Find the number of items that minimizes the cost.
 
-**Example 2: Minimum cost problem**
-```
-The cost of producing x items is C(x) = 2x² - 80x + 1000. Find the number of items that minimizes the cost.
-
-Solution:
-C(x) = 2x² - 80x + 1000
-C(x) = 2(x² - 40x) + 1000
-C(x) = 2(x² - 40x + 400 - 400) + 1000
-C(x) = 2(x - 20)² - 800 + 1000
-C(x) = 2(x - 20)² + 200
-
-The vertex form shows the minimum cost occurs at x = 20 items.
-```
+> **Solution Walkthrough**
+> 
+> #### Step 1: Identify the cost function
+> - We are given the cost function C(x) = 2x² - 80x + 1000
+> - Since a = 2 > 0, the parabola opens upward, indicating there is a minimum cost
+>
+> #### Step 2: Factor out the coefficient of x²
+> - Factor out 2 from the x² and x terms: C(x) = 2(x² - 40x) + 1000
+>
+> #### Step 3: Complete the square inside the parentheses
+> - Find half the coefficient of x: -40 ÷ 2 = -20
+> - Square this value: (-20)² = 400
+> - Add and subtract this value inside the parentheses:
+> - C(x) = 2(x² - 40x + 400 - 400) + 1000
+>
+> #### Step 4: Rewrite with a perfect square binomial
+> - C(x) = 2(x² - 40x + 400) - 2(400) + 1000
+> - C(x) = 2(x - 20)² - 800 + 1000
+> - C(x) = 2(x - 20)² + 200
+>
+> #### Step 5: Identify the minimum cost
+> - The function is now in vertex form C(x) = 2(x - 20)² + 200
+> - The vertex is at (20, 200)
+> - This means the minimum cost of $200 occurs when producing 20 items
+>
+> #### Step 6: Interpret the business application
+> - To minimize production costs, the company should produce exactly 20 items
+> - At this production level, the minimum cost will be $200
+> - Producing either more or fewer than 20 items will increase costs
 
 ## Common Misconceptions and How to Address Them
 

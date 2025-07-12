@@ -80,14 +80,30 @@
 4. The vertex is the point (x, y)
 
 **Example with clear steps:**
-```
-Find the vertex of f(x) = 2x² - 8x + 7
+**Find the vertex**: f(x) = 2x² - 8x + 7
 
-Step 1: Identify a = 2, b = -8, c = 7
-Step 2: x = -b/(2a) = -(-8)/(2×2) = 8/4 = 2
-Step 3: f(2) = 2(2)² - 8(2) + 7 = 2(4) - 16 + 7 = 8 - 16 + 7 = -1
-Step 4: The vertex is (2, -1)
-```
+> **Solution Walkthrough**
+> 
+> #### Step 1: Identify the coefficients of the quadratic function
+> - Looking at the standard form f(x) = ax² + bx + c
+> - a = 2 (coefficient of x²)
+> - b = -8 (coefficient of x)
+> - c = 7 (constant term)
+>
+> #### Step 2: Calculate the x-coordinate of the vertex
+> - The formula for the x-coordinate is x = -b/(2a)
+> - Substitute the values: x = -(-8)/(2×2)
+> - Simplify: x = 8/4 = 2
+>
+> #### Step 3: Calculate the y-coordinate of the vertex
+> - Substitute the x-coordinate into the original function
+> - f(2) = 2(2)² - 8(2) + 7
+> - f(2) = 2(4) - 16 + 7
+> - f(2) = 8 - 16 + 7 = -1
+>
+> #### Step 4: State the final answer
+> - The vertex of the parabola is the point (2, -1)
+> - Since a > 0, this is a minimum point
 
 **Practice problems:**
 1. Find the vertex of g(x) = -3x² + 12x - 5
@@ -106,25 +122,31 @@ Step 4: The vertex is (2, -1)
 4. Identify the vertex as (h, k)
 
 **Example with clear steps:**
-```
-Convert f(x) = 2x² - 12x + 13 to vertex form
+**Convert to vertex form**: f(x) = 2x² - 12x + 13
 
-Step 1: Factor out a = 2
-f(x) = 2(x² - 6x) + 13
-
-Step 2: Complete the square inside parentheses
-First, take half the coefficient of x: -6/2 = -3
-Square it: (-3)² = 9
-Add and subtract 9 inside the parentheses:
-f(x) = 2(x² - 6x + 9 - 9) + 13
-f(x) = 2(x² - 6x + 9) - 2(9) + 13
-f(x) = 2(x - 3)² - 18 + 13
-f(x) = 2(x - 3)² - 5
-
-Step 3: The function is now in the form a(x - h)² + k where a = 2, h = 3, k = -5
-
-Step 4: The vertex is (3, -5)
-```
+> **Solution Walkthrough**
+> 
+> #### Step 1: Factor out the leading coefficient
+> - Factor out a = 2 from the terms containing x
+> - f(x) = 2(x² - 6x) + 13
+>
+> #### Step 2: Complete the square inside the parentheses
+> - Take half the coefficient of x: -6/2 = -3
+> - Square this value: (-3)² = 9
+> - Add and subtract this value inside the parentheses
+> - f(x) = 2(x² - 6x + 9 - 9) + 13
+>
+> #### Step 3: Rearrange the terms
+> - Factor the perfect square trinomial: (x² - 6x + 9) = (x - 3)²
+> - Account for the extra term: f(x) = 2(x² - 6x + 9) - 2(9) + 13
+> - Simplify: f(x) = 2(x - 3)² - 18 + 13
+> - Further simplify: f(x) = 2(x - 3)² - 5
+>
+> #### Step 4: Identify the vertex
+> - The function is now in vertex form: f(x) = a(x - h)² + k
+> - Compare with our result: f(x) = 2(x - 3)² - 5
+> - This gives us a = 2, h = 3, k = -5
+> - Therefore, the vertex is (h, k) = (3, -5)
 
 **Interactive activity:** "Let's convert between standard form and vertex form for these functions:"
 1. f(x) = x² - 8x + 12
@@ -147,22 +169,59 @@ Step 4: The vertex is (3, -5)
 **Simple explanation:** "The y-coordinate of the vertex represents the minimum value of the function (if a > 0) or the maximum value (if a < 0)."
 
 **Real-world application:** "A company's profit function might be P(x) = -2x² + 120x - 500, where x is the number of products manufactured. To maximize profit:"
-```
-Step 1: Identify a = -2, b = 120, c = -500
-Step 2: x = -b/(2a) = -(120)/(2×(-2)) = -120/(-4) = 30
-Step 3: P(30) = -2(30)² + 120(30) - 500 = -2(900) + 3600 - 500 = -1800 + 3600 - 500 = 1300
-Step 4: Maximum profit is $1300 when 30 products are manufactured
-```
+**Optimization problem**: A company's profit function is P(x) = -2x² + 120x - 500, where x is the number of products manufactured. Find the maximum profit.
+
+> **Solution Walkthrough**
+> 
+> #### Step 1: Identify the coefficients of the quadratic function
+> - We have the profit function P(x) = -2x² + 120x - 500
+> - a = -2 (since a < 0, this function has a maximum value)
+> - b = 120
+> - c = -500
+>
+> #### Step 2: Calculate the x-coordinate where the maximum occurs
+> - The maximum occurs at x = -b/(2a)
+> - Substitute our values: x = -(120)/(2×(-2))
+> - Simplify: x = -120/(-4) = 30
+>
+> #### Step 3: Calculate the maximum profit
+> - Substitute x = 30 into the profit function
+> - P(30) = -2(30)² + 120(30) - 500
+> - P(30) = -2(900) + 3600 - 500
+> - P(30) = -1800 + 3600 - 500 = 1300
+>
+> #### Step 4: State the final answer
+> - The maximum profit is $1300
+> - This occurs when the company manufactures 30 products
 
 **Activity: "Optimization Challenge"**
 "You're designing a rectangular pen for your dog using 100 feet of fencing. The function that gives the area of the pen is A(x) = x(50 - x), where x is the width. What dimensions maximize the area?"
-```
-A(x) = x(50 - x) = 50x - x²
-This is a quadratic function with a = -1, b = 50
-The x-coordinate of the vertex is x = -b/(2a) = -50/(-2) = 25
-The maximum area is A(25) = 25(25) = 625 square feet
-The optimal dimensions are 25 feet × 25 feet
-```
+**Optimization Challenge**: You're designing a rectangular pen for your dog using 100 feet of fencing. The function that gives the area of the pen is A(x) = x(50 - x), where x is the width. What dimensions maximize the area?
+
+> **Solution Walkthrough**
+> 
+> #### Step 1: Understand the area function
+> - We have A(x) = x(50 - x) = 50x - x²
+> - This is a quadratic function in the form A(x) = -x² + 50x
+> - a = -1, b = 50, c = 0
+>
+> #### Step 2: Find the x-value that maximizes the area
+> - The maximum occurs at x = -b/(2a)
+> - Substitute: x = -50/(2×(-1))
+> - Simplify: x = -50/(-2) = 25 feet (width)
+>
+> #### Step 3: Calculate the corresponding length
+> - Since the perimeter is 100 feet, and perimeter = 2(length + width)
+> - 2(length + 25) = 100
+> - length + 25 = 50
+> - length = 25 feet
+>
+> #### Step 4: Calculate the maximum area
+> - Maximum area = A(25) = 25(50 - 25) = 25(25) = 625 square feet
+>
+> #### Step 5: State the final answer
+> - The optimal dimensions are 25 feet × 25 feet (a square)
+> - The maximum possible area is 625 square feet
 
 ### 7. The Vertex and the Axis of Symmetry
 
@@ -187,12 +246,29 @@ The optimal dimensions are 25 feet × 25 feet
 2. If the vertex is on the x-axis (y = 0), there is exactly one x-intercept at the vertex.
 3. If the vertex is below the x-axis (negative y) and a > 0, there are two x-intercepts."
 
-**Example:**
-"For f(x) = 2x² - 8x + 7 with vertex (2, -1):
-1. The vertex is below the x-axis (y = -1)
-2. Since a = 2 > 0, the parabola opens upward
-3. Therefore, there are two x-intercepts
-4. We can find them by solving 2x² - 8x + 7 = 0 using the quadratic formula or factoring"
+**Example**: Find the x-intercepts of f(x) = 2x² - 8x + 7
+
+> **Solution Walkthrough**
+> 
+> #### Step 1: Identify what we know about the function
+> - We have previously found the vertex to be at (2, -1)
+> - The leading coefficient is a = 2, which is positive
+> - Since a > 0, the parabola opens upward
+>
+> #### Step 2: Analyze the position of the vertex
+> - The vertex is below the x-axis (y-coordinate = -1)
+> - Since the parabola opens upward and its vertex is below the x-axis, it must cross the x-axis in two places
+> - Therefore, the function has two x-intercepts
+>
+> #### Step 3: Find the x-intercepts algebraically
+> - At the x-intercepts, y = 0, so we solve: 2x² - 8x + 7 = 0
+> - Using the quadratic formula: x = [-b ± √(b² - 4ac)]/(2a)
+> - x = [8 ± √(64 - 56)]/(4) = [8 ± √8]/4
+> - x = [8 ± 2√2]/4 = 2 ± √2/2
+>
+> #### Step 4: State the final answer
+> - The x-intercepts are approximately x ≈ 0.71 and x ≈ 3.29
+> - These points represent where the parabola crosses the x-axis
 
 ## Check for Understanding
 
