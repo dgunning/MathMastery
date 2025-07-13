@@ -3,78 +3,122 @@
 ## Part A: Basic Completing the Square
 
 1. Complete the square for each of the following expressions:
-   a) x² + 6x
-   b) x² - 8x
-   c) x² + 5x
-   d) x² - 3x
+   
+   𝗮. x² + 6x
+   
+   𝗯. x² - 8x
+   
+   𝗰. x² + 5x
+   
+   𝗱. x² - 3x
 
 2. Complete the square for each of the following expressions and simplify:
-   a) x² + 10x + 7
-   b) x² - 12x + 20
-   c) x² + 7x - 15
-   d) x² - 5x - 24
+   
+   𝗮. x² + 10x + 7
+   
+   𝗯. x² - 12x + 20
+   
+   𝗰. x² + 7x - 15
+   
+   𝗱. x² - 5x - 24
 
 3. Rewrite each quadratic expression in the form a(x - h)² + k:
-   a) 2x² + 12x + 10
-   b) 3x² - 18x + 15
-   c) -4x² + 24x - 20
-   d) 5x² + 30x + 50
+   
+   𝗮. 2x² + 12x + 10
+   
+   𝗯. 3x² - 18x + 15
+   
+   𝗰. -4x² + 24x - 20
+   
+   𝗱. 5x² + 30x + 50
 
 ## Part B: Finding the Vertex Form
 
 4. Convert each quadratic function to vertex form f(x) = a(x - h)² + k by completing the square:
-   a) f(x) = x² + 8x + 12
-   b) f(x) = x² - 6x + 5
-   c) f(x) = 2x² + 16x + 35
-   d) f(x) = -3x² + 12x - 8
+   
+   𝗮. f(x) = x² + 8x + 12
+   
+   𝗯. f(x) = x² - 6x + 5
+   
+   𝗰. f(x) = 2x² + 16x + 35
+   
+   𝗱. f(x) = -3x² + 12x - 8
 
 5. For each function in question 4, identify:
-   a) The vertex (h, k)
-   b) The axis of symmetry
-   c) Whether the parabola opens upward or downward
-   d) The minimum or maximum value of the function
+   
+   𝗮. The vertex (h, k)
+   
+   𝗯. The axis of symmetry
+   
+   𝗰. Whether the parabola opens upward or downward
+   
+   𝗱. The minimum or maximum value of the function
 
 6. Convert each quadratic function to vertex form and identify the vertex:
-   a) f(x) = x² + x - 6
-   b) f(x) = 2x² - 4x + 5
-   c) f(x) = -x² + 6x - 8
-   d) f(x) = 3x² + 3x - 2
+   
+   𝗮. f(x) = x² + x - 6
+   
+   𝗯. f(x) = 2x² - 4x + 5
+   
+   𝗰. f(x) = -x² + 6x - 8
+   
+   𝗱. f(x) = 3x² + 3x - 2
 
 ## Part C: Solving Quadratic Equations by Completing the Square
 
 7. Solve each equation by completing the square:
-   a) x² + 6x + 8 = 0
-   b) x² - 10x + 24 = 0
-   c) x² + 5x - 14 = 0
-   d) x² - 7x - 18 = 0
+   
+   𝗮. x² + 6x + 8 = 0
+   
+   𝗯. x² - 10x + 24 = 0
+   
+   𝗰. x² + 5x - 14 = 0
+   
+   𝗱. x² - 7x - 18 = 0
 
 8. Solve each equation by completing the square:
-   a) 2x² + 12x + 10 = 0
-   b) 3x² - 6x - 24 = 0
-   c) -4x² + 8x + 12 = 0
-   d) 5x² + 20x + 15 = 0
+   
+   𝗮. 2x² + 12x + 10 = 0
+   
+   𝗯. 3x² - 6x - 24 = 0
+   
+   𝗰. -4x² + 8x + 12 = 0
+   
+   𝗱. 5x² + 20x + 15 = 0
 
 9. Solve each equation by completing the square:
-   a) x² + 4x = 12
-   b) x² - 6x = -5
-   c) 2x² + 8x = 16
-   d) 3x² - 12x = -9
+   
+   𝗮. x² + 4x = 12
+   
+   𝗯. x² - 6x = -5
+   
+   𝗰. 2x² + 8x = 16
+   
+   𝗱. 3x² - 12x = -9
 
 ## Part D: Applications
 
 10. A rectangular garden has a length that is 3 meters more than its width. If the area of the garden is 70 square meters, find its dimensions by completing the square.
 
 11. A ball is thrown upward from a height of 2 meters with an initial velocity of 20 meters per second. The height h (in meters) of the ball after t seconds is given by h(t) = -4.9t² + 20t + 2.
-    a) Rewrite the function in vertex form by completing the square.
-    b) What is the maximum height reached by the ball?
-    c) At what time does the ball reach its maximum height?
-    d) When does the ball hit the ground?
+    
+    𝗮. Rewrite the function in vertex form by completing the square.
+    
+    𝗯. What is the maximum height reached by the ball?
+    
+    𝗰. At what time does the ball reach its maximum height?
+    
+    𝗱. When does the ball hit the ground?
 
 12. The profit P (in dollars) for a company producing x items is given by P(x) = -0.5x² + 100x - 1000.
-    a) Rewrite the profit function in vertex form by completing the square.
-    b) How many items should be produced to maximize the profit?
-    c) What is the maximum profit?
-    d) What is the break-even point (where profit equals zero)?
+    
+    𝗮. Rewrite the profit function in vertex form by completing the square.
+    
+    𝗯. How many items should be produced to maximize the profit?
+    
+    𝗰. What is the maximum profit?
+    
+    𝗱. What is the break-even point (where profit equals zero)?
 
 ## Part E: Challenge Problems
 

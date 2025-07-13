@@ -3,62 +3,98 @@
 ## Part A: Solving Quadratic Equations by Factoring
 
 1. Solve each quadratic equation by factoring:
-   a) x² - 9 = 0
-   b) x² - 5x + 6 = 0
-   c) x² + 7x + 12 = 0
-   d) x² - 8x + 15 = 0
+   
+   𝗮. x² - 9 = 0
+   
+   𝗯. x² - 5x + 6 = 0
+   
+   𝗰. x² + 7x + 12 = 0
+   
+   𝗱. x² - 8x + 15 = 0
 
 2. Solve each quadratic equation by factoring:
-   a) 2x² - 5x - 3 = 0
-   b) 3x² + 10x - 8 = 0
-   c) 4x² - 9 = 0
-   d) 6x² + x - 2 = 0
+   
+   𝗮. 2x² - 5x - 3 = 0
+   
+   𝗯. 3x² + 10x - 8 = 0
+   
+   𝗰. 4x² - 9 = 0
+   
+   𝗱. 6x² + x - 2 = 0
 
 3. Solve each quadratic equation by factoring:
-   a) x² = 16
-   b) x² + 6x = 16
-   c) x² - 2x = 15
-   d) 2x² = 18 - 8x
+   
+   𝗮. x² = 16
+   
+   𝗯. x² + 6x = 16
+   
+   𝗰. x² - 2x = 15
+   
+   𝗱. 2x² = 18 - 8x
 
 ## Part B: Solving Quadratic Equations Using the Quadratic Formula
 
 4. Solve each quadratic equation using the quadratic formula:
-   a) x² - 6x + 8 = 0
-   b) x² + 4x - 21 = 0
-   c) x² - 3x - 10 = 0
-   d) x² + 5x + 6 = 0
+   
+   𝗮. x² - 6x + 8 = 0
+   
+   𝗯. x² + 4x - 21 = 0
+   
+   𝗰. x² - 3x - 10 = 0
+   
+   𝗱. x² + 5x + 6 = 0
 
 5. Solve each quadratic equation using the quadratic formula:
-   a) 2x² - 7x + 3 = 0
-   b) 3x² + 5x - 2 = 0
-   c) 4x² - 4x + 1 = 0
-   d) 5x² + 3x - 1 = 0
+   
+   𝗮. 2x² - 7x + 3 = 0
+   
+   𝗯. 3x² + 5x - 2 = 0
+   
+   𝗰. 4x² - 4x + 1 = 0
+   
+   𝗱. 5x² + 3x - 1 = 0
 
 6. Solve each quadratic equation using the quadratic formula:
-   a) x² - 6x + 10 = 0
-   b) x² + 2x + 5 = 0
-   c) 2x² + x + 3 = 0
-   d) 3x² - 2x + 4 = 0
+   
+   𝗮. x² - 6x + 10 = 0
+   
+   𝗯. x² + 2x + 5 = 0
+   
+   𝗰. 2x² + x + 3 = 0
+   
+   𝗱. 3x² - 2x + 4 = 0
 
 ## Part C: Choosing the Appropriate Method
 
 7. Solve each quadratic equation using the most efficient method:
-   a) x² - 4x - 5 = 0
-   b) x² - 10x + 25 = 0
-   c) 2x² + 7x - 4 = 0
-   d) 3x² - 12 = 0
+   
+   𝗮. x² - 4x - 5 = 0
+   
+   𝗯. x² - 10x + 25 = 0
+   
+   𝗰. 2x² + 7x - 4 = 0
+   
+   𝗱. 3x² - 12 = 0
 
 8. Solve each quadratic equation using the most efficient method:
-   a) x² + 8x + 16 = 0
-   b) x² - 9 = 0
-   c) 2x² - 5x - 12 = 0
-   d) 3x² - 2x - 8 = 0
+   
+   𝗮. x² + 8x + 16 = 0
+   
+   𝗯. x² - 9 = 0
+   
+   𝗰. 2x² - 5x - 12 = 0
+   
+   𝗱. 3x² - 2x - 8 = 0
 
 9. Solve each quadratic equation using the most efficient method:
-   a) x² - 6x + 9 = 0
-   b) x² + x - 6 = 0
-   c) 2x² + 5x = 3
-   d) 4x² = 25
+   
+   𝗮. x² - 6x + 9 = 0
+   
+   𝗯. x² + x - 6 = 0
+   
+   𝗰. 2x² + 5x = 3
+   
+   𝗱. 4x² = 25
 
 ## Part D: Applications
 
@@ -82,54 +118,57 @@
 
 ### Part A: Solving Quadratic Equations by Factoring
 
-1. a) x² - 9 = 0
+1. 
+   𝗮. x² - 9 = 0
       (x + 3)(x - 3) = 0
       x = -3 or x = 3
    
-   b) x² - 5x + 6 = 0
+   𝗯. x² - 5x + 6 = 0
       (x - 2)(x - 3) = 0
       x = 2 or x = 3
    
-   c) x² + 7x + 12 = 0
+   𝗰. x² + 7x + 12 = 0
       (x + 3)(x + 4) = 0
       x = -3 or x = -4
    
-   d) x² - 8x + 15 = 0
+   𝗱. x² - 8x + 15 = 0
       (x - 3)(x - 5) = 0
       x = 3 or x = 5
 
-2. a) 2x² - 5x - 3 = 0
+2. 
+   𝗮. 2x² - 5x - 3 = 0
       (2x + 1)(x - 3) = 0
       x = -1/2 or x = 3
    
-   b) 3x² + 10x - 8 = 0
+   𝗯. 3x² + 10x - 8 = 0
       (3x - 2)(x + 4) = 0
       x = 2/3 or x = -4
    
-   c) 4x² - 9 = 0
+   𝗰. 4x² - 9 = 0
       (2x + 3)(2x - 3) = 0
       x = -3/2 or x = 3/2
    
-   d) 6x² + x - 2 = 0
+   𝗱. 6x² + x - 2 = 0
       (3x - 1)(2x + 2) = 0
       x = 1/3 or x = -1
 
-3. a) x² = 16
+3. 
+   𝗮. x² = 16
       x² - 16 = 0
       (x + 4)(x - 4) = 0
       x = -4 or x = 4
    
-   b) x² + 6x = 16
+   𝗯. x² + 6x = 16
       x² + 6x - 16 = 0
       (x + 8)(x - 2) = 0
       x = -8 or x = 2
    
-   c) x² - 2x = 15
+   𝗰. x² - 2x = 15
       x² - 2x - 15 = 0
       (x - 5)(x + 3) = 0
       x = 5 or x = -3
    
-   d) 2x² = 18 - 8x
+   𝗱. 2x² = 18 - 8x
       2x² + 8x - 18 = 0
       2(x² + 4x - 9) = 0
       2(x + 6)(x - 3/2) = 0
@@ -137,123 +176,129 @@
 
 ### Part B: Solving Quadratic Equations Using the Quadratic Formula
 
-4. a) x² - 6x + 8 = 0
+4. 
+   𝗮. x² - 6x + 8 = 0
       a = 1, b = -6, c = 8
       x = (6 ± √(36 - 32))/2 = (6 ± √4)/2 = (6 ± 2)/2
       x = 4 or x = 2
    
-   b) x² + 4x - 21 = 0
+   𝗯. x² + 4x - 21 = 0
       a = 1, b = 4, c = -21
       x = (-4 ± √(16 + 84))/2 = (-4 ± √100)/2 = (-4 ± 10)/2
       x = 3 or x = -7
    
-   c) x² - 3x - 10 = 0
+   𝗰. x² - 3x - 10 = 0
       a = 1, b = -3, c = -10
       x = (3 ± √(9 + 40))/2 = (3 ± √49)/2 = (3 ± 7)/2
       x = 5 or x = -2
    
-   d) x² + 5x + 6 = 0
+   𝗱. x² + 5x + 6 = 0
       a = 1, b = 5, c = 6
       x = (-5 ± √(25 - 24))/2 = (-5 ± √1)/2 = (-5 ± 1)/2
       x = -2 or x = -3
 
-5. a) 2x² - 7x + 3 = 0
+5. 
+   𝗮. 2x² - 7x + 3 = 0
       a = 2, b = -7, c = 3
       x = (7 ± √(49 - 24))/4 = (7 ± √25)/4 = (7 ± 5)/4
       x = 3 or x = 1/2
    
-   b) 3x² + 5x - 2 = 0
+   𝗯. 3x² + 5x - 2 = 0
       a = 3, b = 5, c = -2
       x = (-5 ± √(25 + 24))/6 = (-5 ± √49)/6 = (-5 ± 7)/6
       x = 1/3 or x = -2
    
-   c) 4x² - 4x + 1 = 0
+   𝗰. 4x² - 4x + 1 = 0
       a = 4, b = -4, c = 1
       x = (4 ± √(16 - 16))/8 = (4 ± 0)/8 = 1/2
       x = 1/2 (double root)
    
-   d) 5x² + 3x - 1 = 0
+   𝗱. 5x² + 3x - 1 = 0
       a = 5, b = 3, c = -1
       x = (-3 ± √(9 + 20))/10 = (-3 ± √29)/10
       x = (-3 + √29)/10 or x = (-3 - √29)/10
 
-6. a) x² - 6x + 10 = 0
+6. 
+   𝗮. x² - 6x + 10 = 0
       a = 1, b = -6, c = 10
       x = (6 ± √(36 - 40))/2 = (6 ± √(-4))/2
       Since the discriminant is negative, there are no real solutions.
       Complex solutions: x = 3 ± i
    
-   b) x² + 2x + 5 = 0
+   𝗯. x² + 2x + 5 = 0
       a = 1, b = 2, c = 5
       x = (-2 ± √(4 - 20))/2 = (-2 ± √(-16))/2
       Since the discriminant is negative, there are no real solutions.
       Complex solutions: x = -1 ± 2i
    
-   c) 2x² + x + 3 = 0
+   𝗰. 2x² + x + 3 = 0
       a = 2, b = 1, c = 3
       x = (-1 ± √(1 - 24))/4 = (-1 ± √(-23))/4
       Since the discriminant is negative, there are no real solutions.
-      Complex solutions: x = (-1 ± √23i)/4
+      Complex solutions: x = -1/4 ± (√23/4)i
    
-   d) 3x² - 2x + 4 = 0
+   𝗱. 3x² - 2x + 4 = 0
       a = 3, b = -2, c = 4
       x = (2 ± √(4 - 48))/6 = (2 ± √(-44))/6
       Since the discriminant is negative, there are no real solutions.
-      Complex solutions: x = (1 ± √11i)/3
+      Complex solutions: x = 1/3 ± (√11/3)i
 
 ### Part C: Choosing the Appropriate Method
 
-7. a) x² - 4x - 5 = 0
+7. 
+   𝗮. x² - 4x - 5 = 0
       Using factoring: (x - 5)(x + 1) = 0
       x = 5 or x = -1
    
-   b) x² - 10x + 25 = 0
+   𝗯. x² - 10x + 25 = 0
       This is a perfect square: (x - 5)² = 0
       x = 5 (double root)
    
-   c) 2x² + 7x - 4 = 0
+   𝗰. 2x² + 7x - 4 = 0
       Using factoring: (2x - 1)(x + 4) = 0
       x = 1/2 or x = -4
    
-   d) 3x² - 12 = 0
+   𝗱. 3x² - 12 = 0
       3x² = 12
       x² = 4
       x = ±2
 
-8. a) x² + 8x + 16 = 0
+8. 
+   𝗮. x² + 8x + 16 = 0
       This is a perfect square: (x + 4)² = 0
       x = -4 (double root)
    
-   b) x² - 9 = 0
+   𝗯. x² - 9 = 0
       This is a difference of squares: (x + 3)(x - 3) = 0
       x = -3 or x = 3
    
-   c) 2x² - 5x - 12 = 0
+   𝗰. 2x² - 5x - 12 = 0
       Using factoring: (2x + 3)(x - 4) = 0
       x = -3/2 or x = 4
    
-   d) 3x² - 2x - 8 = 0
+   𝗱. 3x² - 2x - 8 = 0
       Using the quadratic formula:
       a = 3, b = -2, c = -8
       x = (2 ± √(4 + 96))/6 = (2 ± √100)/6 = (2 ± 10)/6
       x = 2 or x = -4/3
 
-9. a) x² - 6x + 9 = 0
+9. 
+   𝗮. x² - 6x + 9 = 0
       This is a perfect square: (x - 3)² = 0
       x = 3 (double root)
    
-   b) x² + x - 6 = 0
+   𝗯. x² + x - 6 = 0
       Using factoring: (x + 3)(x - 2) = 0
       x = -3 or x = 2
    
-   c) 2x² + 5x = 3
+   𝗰. 2x² + 5x = 3
       2x² + 5x - 3 = 0
       Using the quadratic formula:
       a = 2, b = 5, c = -3
       x = (-5 ± √(25 + 24))/4 = (-5 ± √49)/4 = (-5 ± 7)/4
       x = 1/2 or x = -3
    
-   d) 4x² = 25
+   𝗱. 4x² = 25
       4x² - 25 = 0
       (2x + 5)(2x - 5) = 0
       x = -5/2 or x = 5/2

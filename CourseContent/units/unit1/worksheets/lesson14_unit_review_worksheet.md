@@ -3,28 +3,42 @@
 ## Part A: Factoring Review
 
 1. Factor completely:
-   a) 12x² - 27x
-   b) x² - 9y²
-   c) 2x³ + 16x
-   d) x³ + 27
+   
+   𝗮. 12x² - 27x
+   
+   𝗯. x² - 9y²
+   
+   𝗰. 2x³ + 16x
+   
+   𝗱. x³ + 27
 
 2. Factor by grouping:
-   a) xy + 2x + 3y + 6
-   b) 3a² - 6ab + ab - 2b²
+   
+   𝗮. xy + 2x + 3y + 6
+   
+   𝗯. 3a² - 6ab + ab - 2b²
 
 ## Part B: Functions, Domain, and Range
 
 3. Find the domain and range of each function:
-   a) f(x) = 3x - 5
-   b) g(x) = x² - 4
-   c) h(x) = √(x - 2)
-   d) j(x) = 2/(x+3)
+   
+   𝗮. f(x) = 3x - 5
+   
+   𝗯. g(x) = x² - 4
+   
+   𝗰. h(x) = √(x - 2)
+   
+   𝗱. j(x) = 2/(x+3)
 
 4. Given f(x) = 2x² - 3x + 1, find:
-   a) f(0)
-   b) f(-1)
-   c) f(a+h) - f(a)
-   d) f(x+2) - f(x)
+   
+   𝗮. f(0)
+   
+   𝗯. f(-1)
+   
+   𝗰. f(a+h) - f(a)
+   
+   𝗱. f(x+2) - f(x)
 
 ## Part C: Quadratic Functions and Their Properties
 
@@ -35,70 +49,96 @@
    iv. Find the y-intercept
    v. Find the x-intercepts (if they exist)
    
-   a) f(x) = x² - 6x + 8
-   b) g(x) = -2x² + 8x - 5
+   𝗮. f(x) = x² - 6x + 8
+   
+   𝗯. g(x) = -2x² + 8x - 5
 
 6. Convert each quadratic function to vertex form:
-   a) f(x) = x² + 10x + 21
-   b) g(x) = 3x² - 12x + 7
+   
+   𝗮. f(x) = x² + 10x + 21
+   
+   𝗯. g(x) = 3x² - 12x + 7
 
 7. Find the maximum or minimum value of each function:
-   a) f(x) = -x² + 4x - 3
-   b) g(x) = 2x² - 8x + 9
+   
+   𝗮. f(x) = -x² + 4x - 3
+   
+   𝗯. g(x) = 2x² - 8x + 9
 
 ## Part D: Completing the Square
 
 8. Complete the square to solve each equation:
-   a) x² + 6x + 5 = 0
-   b) 2x² - 12x + 10 = 0
+   
+   𝗮. x² + 6x + 5 = 0
+   
+   𝗯. 2x² - 12x + 10 = 0
 
 9. Use completing the square to convert each equation to the form (x - h)² + (y - k)² = r²:
-   a) x² + y² - 6x + 4y + 9 = 0
-   b) x² + y² + 8x - 2y + 1 = 0
+   
+   𝗮. x² + y² - 6x + 4y + 9 = 0
+   
+   𝗯. x² + y² + 8x - 2y + 1 = 0
 
 ## Part E: Working with Radicals
 
 10. Simplify each radical expression:
-    a) √48
-    b) √18 · √8
-    c) 5/√12
-    d) 2√3/(3 - √3)
+    
+    𝗮. √48
+    
+    𝗯. √18 · √8
+    
+    𝗰. 5/√12
+    
+    𝗱. 2√3/(3 - √3)
 
 11. Solve each equation involving radicals:
-    a) √(2x + 3) = 4
-    b) √(x + 1) + √(x - 1) = 4
+    
+    𝗮. √(2x + 3) = 4
+    
+    𝗯. √(x + 1) + √(x - 1) = 4
 
 ## Part F: Solving Quadratic Equations
 
 12. Solve each quadratic equation by factoring:
-    a) x² - 7x + 12 = 0
-    b) 2x² + 5x - 3 = 0
+    
+    𝗮. x² - 7x + 12 = 0
+    
+    𝗯. 2x² + 5x - 3 = 0
 
 13. Solve each quadratic equation using the quadratic formula:
-    a) 3x² - 5x + 1 = 0
-    b) 2x² + 4x + 3 = 0
+    
+    𝗮. 3x² - 5x + 1 = 0
+    
+    𝗯. 2x² + 4x + 3 = 0
 
 14. For each quadratic equation, calculate the discriminant and determine the nature of the roots:
-    a) x² - 6x + 9 = 0
-    b) 2x² - 3x + 2 = 0
-    c) 4x² - 4x + 1 = 0
+    
+    𝗮. x² - 6x + 9 = 0
+    
+    𝗯. 2x² - 3x + 2 = 0
+    
+    𝗰. 4x² - 4x + 1 = 0
 
 ## Part G: Determining Quadratic Equations from Roots
 
 15. Write a quadratic equation in standard form with the given roots:
-    a) 3 and -5
-    b) 2 + √3 and 2 - √3
-    c) 1/2 and -3/4
+    
+    𝗮. 3 and -5
+    
+    𝗯. 2 + √3 and 2 - √3
+    
+    𝗰. 1/2 and -3/4
 
 16. The quadratic equation ax² + bx + c = 0 has roots r and s. If r + s = -3 and r · s = 2, find the values of b/a and c/a.
 
 ## Part H: Linear-Quadratic Systems
 
 17. Solve each system of equations:
-    a) y = x + 2
+    
+    𝗮. y = x + 2
        y = x² - 2
     
-    b) x² + y² = 25
+    𝗯. x² + y² = 25
        x - y = 1
 
 18. A rectangular field has a perimeter of 34 meters and an area of 60 square meters. Find its dimensions.
@@ -106,14 +146,20 @@
 ## Part I: Applications
 
 19. A ball is thrown upward from a height of 5 feet with an initial velocity of 40 feet per second. The height h(t) of the ball (in feet) after t seconds is given by h(t) = -16t² + 40t + 5.
-    a) What is the maximum height reached by the ball?
-    b) When does the ball hit the ground?
-    c) At what times is the ball at a height of 20 feet?
+    
+    𝗮. What is the maximum height reached by the ball?
+    
+    𝗯. When does the ball hit the ground?
+    
+    𝗰. At what times is the ball at a height of 20 feet?
 
 20. A company finds that the profit P(x) (in dollars) from selling x units of a product is given by P(x) = -0.1x² + 60x - 500.
-    a) How many units should be sold to maximize profit?
-    b) What is the maximum profit?
-    c) What is the break-even point (where profit equals zero)?
+    
+    𝗮. How many units should be sold to maximize profit?
+    
+    𝗯. What is the maximum profit?
+    
+    𝗰. What is the break-even point (where profit equals zero)?
 
 ## Part J: Challenge Problems
 
